@@ -193,7 +193,7 @@ Thus the solution for the real force is a sum of two terms. The term proportiona
 
 Figure $2.4$: The elastic and absorptive amplitudes, plotted versus $\omega_{d}$. The absorptive amplitude is the dotted line.
 
-**The real part of** $\mathcal{A},$**,** $A=\operatorname{Re} \mathcal{A})**, is called the elastic amplitude and the imaginary part of** \(\mathcal{A}$**,** $B=\operatorname{Im} \mathcal{A}$**, is called the absorptive amplitude.** The reason for these names will become apparent below, when we consider the work done by the driving force.
+**The real part of** $\mathcal{A}$, $A=\operatorname{Re} \mathcal{A}$, **is called the elastic amplitude and the imaginary part of** $\mathcal{A}$, $B=\operatorname{Im} \mathcal{A}$, **is called the absorptive amplitude.** The reason for these names will become apparent below, when we consider the work done by the driving force.
 
 ## 2.3: Resonance
 
@@ -222,7 +222,7 @@ $$
 P_{\text {average }}=\frac{1}{2} F_{0} \omega_{d} B .
 $$
 
-This is why $B$ is called the absorptive amplitude. It measures how fast energy is absorbed by the system. The absorbed power, $P_{\text {average }$, reaches a maximum on resonance, at $\omega_{0} = \omega_{d}$. This is a diagnostic that is often used to find resonances in experimental situations. Note that the dependence of $B$ on $\omega_{d}$ looks qualitatively similar to that of $P_{\text {average }$, which is shown in Figure $2.5$ for $\Gamma = \(\omega_{0} / 2$. However, they differ by a factor of $\omega_{d}$. In particular, the maximum of $B$ occurs slightly below resonance.
+This is why $B$ is called the absorptive amplitude. It measures how fast energy is absorbed by the system. The absorbed power, $P_{\text{average}}$, reaches a maximum on resonance, at $\omega_{0} = \omega_{d}$. This is a diagnostic that is often used to find resonances in experimental situations. Note that the dependence of $B$ on $\omega_{d}$ looks qualitatively similar to that of $P_{\text{average}}$, which is shown in Figure $2.5$ for $\Gamma = \omega_{0} / 2$. However, they differ by a factor of $\omega_{d}$. In particular, the maximum of $B$ occurs slightly below resonance.
 
 ![Figure](../images/lt-34042-clipboard_e8ca031846509c308364060eef18b0ac5.png)
 
@@ -266,9 +266,11 @@ The lifetimes of these particles, some as short as $10^{-24}$ seconds, are far t
 
 We can also write (2.25) as 
 $$
-x(t)=R \cos \left(\omega_{d} t-\theta\right)\)
-
-for \[R=\sqrt{A^{2}+B^{2}}, \quad \theta=\arg (A+i B) .
+x(t)=R \cos \left(\omega_{d} t-\theta\right)
+$$
+for
+$$
+R=\sqrt{A^{2}+B^{2}}, \quad \theta=\arg (A+i B) .
 $$
 
 The phase angle, $\theta$, measures the **phase lag** between the external force and the system’s response. The actual time lag is $\theta / \omega_{d}$. The displacement reaches its maximum a time $\theta / \omega_{d}$ after the force reaches its maximum.

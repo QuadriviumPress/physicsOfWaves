@@ -312,21 +312,17 @@ Figure $4.3$: A system of six coupled hacksaw blade oscillators. The arrows indi
 
 disk. If the displacements from the symmetrical equilibrium positions are small, the system is approximately linear. Despite the apparent complexity of this system, we can write down the normal modes and the corresponding angular frequencies with almost no work! The trick is to make clever use of the symmetry of this system.
 
-This system looks exactly the same if we rotate it by $60^{\circ}$ about its center. We should, therefore, take pains to analyze it in a manifestly symmetrical way. Let us label the masses 1 through 6 starting any place and going around counterclockwise. Let $x_{j}$ be the counterclockwise displacement of the $j$th block from its equilibrium position. As usual, we will arrange these coordinates in a vector:<sup>3 </sup>$X=\left(\begin{array}{l}
-
+This system looks exactly the same if we rotate it by $60^{\circ}$ about its center. We should, therefore, take pains to analyze it in a manifestly symmetrical way. Let us label the masses 1 through 6 starting any place and going around counterclockwise. Let $x_{j}$ be the counterclockwise displacement of the $j$th block from its equilibrium position. As usual, we will arrange these coordinates in a vector:<sup>3</sup>
+$$
+X=\left(\begin{array}{c}
 x_{1} \\
-
 x_{2} \\
-
 x_{3} \\
-
 x_{4} \\
-
 x_{5} \\
-
 x_{6}
-
-\end{array}\right) .\]
+\end{array}\right) .
+$$
 
 The symmetry operation of rotation is implemented by the cyclic substitution 
 $$
@@ -338,7 +334,7 @@ $$
 X \rightarrow S X ,
 $$
 
-where the symmetry matrix, \(S$, is 
+where the symmetry matrix, $S$, is 
 $$
 S=\left(\begin{array}{llllll}
 
@@ -552,6 +548,6 @@ You should now be able to:
 
 1. Prove (4.56).
 
-2. Prove that if $A$ and $A^{\prime}$ are normal modes corresponding to **different** angular frequencies, $\omega$ and $\omega^{\prime}$ respectively, where $\omega^{2}$ \neq \omega^{\prime 2}\), then $b A+c A^{\prime}$ is not a normal mode unless $b$ or $c$ is zero. **Hint:** You will need to use the fact that both $A$ and $A^{\prime}$ are nonzero vectors.
+2. Prove that if $A$ and $A^{\prime}$ are normal modes corresponding to **different** angular frequencies, $\omega$ and $\omega^{\prime}$ respectively, where $\omega^{2} \neq \omega^{\prime 2}$, then $b A+c A^{\prime}$ is not a normal mode unless $b$ or $c$ is zero. **Hint:** You will need to use the fact that both $A$ and $A^{\prime}$ are nonzero vectors.
 
 **4.4.** Show that (4.43) is the most general symmetric $6 \times 6$ matrix satisfying (4.44).

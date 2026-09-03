@@ -39,13 +39,16 @@ $$
 
 For $Z \gg s$, we can expand $\Delta \ell$ in (13.2) in a Taylor series, 
 $$
-\Delta \ell \approx \frac{s X}{\sqrt{X^{2}+Z^{2}}}.\)
+\Delta \ell \approx \frac{s X}{\sqrt{X^{2}+Z^{2}}}.
+$$
 
 ![Figure](../images/lt-32772-clipboard_ed9620034248b782bd992fc4be25e1ae1.png)
 
 Figure  13.2: Path lengths.
 
-Therefore if the angular wave number of the light is k, the **phase difference**between the two paths is \[\frac{k s X}{\sqrt{X^{2}+Z^{2}}}.
+Therefore if the angular wave number of the light is k, the **phase difference** between the two paths is
+$$
+\frac{k s X}{\sqrt{X^{2}+Z^{2}}}.
 $$
 
 We get an intensity maximum every time the phase is a multiple of $2 \pi$, when 
@@ -862,7 +865,7 @@ $$
 
 There is a maximum value of $n$, above which no propagating wave is produced (because it corresponds to $\sin \theta>1$ and thus imaginary $k_{z}$).
 
-Note also the dependence of (13.94) on wavelength. The larger the wavelength of the light, the larger the angles in the pattern from the diffraction grating. This, of course, is why the diffraction grating is useful. It can separate light of different frequencies. The different colors of the rainbow are spread out along a line, for each value of $n$. This is illustrated in the Figure $13.18$, for three frequencies, blue light with wavelength 4300 $\AA$, green light with wavelength 5200 $\AA$ and red light with wavelength 6300 $\AA$, incident on a diffraction grating with 10,000 lines per inch. We have shown (13.95) for $n$ = −3 to 3 and labeled the colors for the $n = 1$ secondary maximum. As you see, in a realistic grating, the angles of diffraction can be large, and it is a very bad idea to use a small angle approximation.
+Note also the dependence of (13.94) on wavelength. The larger the wavelength of the light, the larger the angles in the pattern from the diffraction grating. This, of course, is why the diffraction grating is useful. It can separate light of different frequencies. The different colors of the rainbow are spread out along a line, for each value of $n$. This is illustrated in the Figure $13.18$, for three frequencies, blue light with wavelength 4300 $\text{Å}$, green light with wavelength 5200 $\text{Å}$ and red light with wavelength 6300 $\text{Å}$, incident on a diffraction grating with 10,000 lines per inch. We have shown (13.95) for $n$ = −3 to 3 and labeled the colors for the $n = 1$ secondary maximum. As you see, in a realistic grating, the angles of diffraction can be large, and it is a very bad idea to use a small angle approximation.
 
 13.6.1 Twisting the Grating
 
@@ -923,8 +926,10 @@ $$
 Now the diffracted waves make nontrivial angles from the perpendicular both in $x$ and in $y$ 
 $$
 \sin \theta_{y}=\frac{k_{y}}{\sqrt{k_{y}^{2}+k_{z}^{2}}}=\frac{k_{y}}{\sqrt{k^{2}-k_{x}^{2}}}=\frac{\sin \theta_{\mathrm{in}}}{\sqrt{1-n^{2} \lambda^{2} / a^{2}}}
-
-and \[\sin \theta_{x}=\frac{k_{x}}{\sqrt{k_{x}^{2}+k_{z}^{2}}}=\frac{k_{x}}{\sqrt{k^{2}-k_{y}^{2}}}=\frac{n \lambda}{a \cos \theta_{\mathrm{in}}}.
+$$
+and
+$$
+\sin \theta_{x}=\frac{k_{x}}{\sqrt{k_{x}^{2}+k_{z}^{2}}}=\frac{k_{x}}{\sqrt{k^{2}-k_{y}^{2}}}=\frac{n \lambda}{a \cos \theta_{\mathrm{in}}}.
 $$
 
 Again, as in (13.95), what we see if we project the pattern onto a perpendicular screen at fixed $z$ are the tangents, 
@@ -1417,7 +1422,10 @@ $$
 1+2 \operatorname{Re} \int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i\left(k_{x} x+k_{y} y\right)}+\mathcal{O}\left(C^{2}\right)
 $$
 
-We will drop the terms of order $C^{2}$, assuming that $C$ is small, although we will be able to see later that they will not actually not make any difference even if $C$ is large. If we now make a positive slide from the plate and shine through it a laser beam with the same frequency, $\omega$, the wave “gets through” where the light intensity on the plate was large and is absorbed where the intensity was small. Thus we have a forced oscillation problem of exactly the sort that we discussed above, with (13.129) playing the role of $f(x, y)$. The solution for $z > 0$ (from (13.19)-(13.24)) is e^{-i \omega t}\left(e^{i k z}+\int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i \vec{k} \cdot \vec{r}}+\text { c.c. }\right)\]
+We will drop the terms of order $C^{2}$, assuming that $C$ is small, although we will be able to see later that they will not actually not make any difference even if $C$ is large. If we now make a positive slide from the plate and shine through it a laser beam with the same frequency, $\omega$, the wave “gets through” where the light intensity on the plate was large and is absorbed where the intensity was small. Thus we have a forced oscillation problem of exactly the sort that we discussed above, with (13.129) playing the role of $f(x, y)$. The solution for $z > 0$ (from (13.19)-(13.24)) is
+$$
+e^{-i \omega t}\left(e^{i k z}+\int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i \vec{k} \cdot \vec{r}}+\text{c.c.}\right)
+$$
 
 where c.c. is the complex conjugate wave obtained by taking the complex conjugate of the signal and changing the sign of the $z$ dependence to get a wave traveling in the $+z$ direction. The important thing to note about the complex conjugate wave is that it represents a beam traveling in a different direction from either the signal or the reference beam, because the complex conjugation has changed the sign of $k_{x}$ and $k_{y}$.
 

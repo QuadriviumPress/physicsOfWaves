@@ -84,13 +84,13 @@ $$
 If, for example, the block is displaced by 0.01 m (1 cm) from its equilibrium position and released from rest at time, t = 0, the position at any later time t is given (in meters) by
 
 $$
-x(t) = 0.01 • cost(10t)
+x(t) = 0.01 \cdot \cos(10t)
 $$
 
 The velocity (in meters per second) is
 
 $$
-x'(t) = -0.1 • sin(10t)
+x'(t) = -0.1 \cdot \sin(10t)
 $$
 
 The motion is periodic, in the sense that the system oscillates — it repeats the same motion over and over again indefinitely. After a time
@@ -102,7 +102,7 @@ $$
 the system returns exactly to where it was at t = 0, with the block instantaneously at rest with displacement 0.01 meter. The time, τ (Greek letter tau) is called the “period” of the oscillation. However, the solution, (1.1.6), is more than just periodic. It is “simple harmonic” motion, which means that only a single frequency appears in the motion. The angular frequency, ω, is the inverse of the time required for the phase of the wave to change by one radian. The “frequency”, usually denoted by the Greek letter, $ν$ (nu), is the inverse of the time required for the phase to change by one complete cycle, or $2π$ radians, and thus get back to its original state. The frequency is measured in hertz, or cycles/second. Thus the angular frequency is **larger** than the frequency by a factor of $2π$,
 
 $$
-ω(in radians/second) = 2π (radians/cycle) • ν (cycles/second)
+\omega\text{ (in radians/second)} = 2\pi\text{ (radians/cycle)} \cdot \nu\text{ (cycles/second)}
 $$
 
 The frequency, $ν$, is the inverse of the period, τ , of (1.1.12),
@@ -378,7 +378,7 @@ Note that $Re (z) = (z + z^*)/2$ and $Im (z) = (z − z^*)/2i.$
 **The absolute value,** $|z|$, of $z$, is the length of the vector $(a, b)$:
 
 $$
-|z| = √{a^2 + b^2} = √{z^* z}.
+|z| = \sqrt{a^2 + b^2} = \sqrt{z^* z}.
 $$
 
 The absolute value $|z|$ is always a real, non-negative number.
@@ -388,11 +388,10 @@ Figure 1.5: A vector with positive real part in the complex plane.
 **The argument or phase, arg$(z)$,** of a nonzero complex number $z$, is the angle, in radians, of the vector $(a, b)$ counterclockwise from the $x$ axis:
 
 $$
-arg(z) = { arctan(b/a) for a ≥ 0,
-$$
-
-$$
-{ arctan(b/a) + π for a < 0.
+\arg(z) = \begin{cases}
+\arctan(b/a) & \text{for } a \geq 0, \\
+\arctan(b/a) + \pi & \text{for } a < 0.
+\end{cases}
 $$
 
 Like any angle, $arg(z)$ can be redefined by adding a multiple of $2π$ radians or 360<sup>◦</sup> (see figure 1.5 and 1.6).
@@ -563,7 +562,7 @@ $$
 z = x + iy = R e^{iθ} where R = |z| , and θ = arg(z).
 $$
 
-In the complex plane, (1.65) expresses the fact that a two-dimensional vector can be written √ either in Cartesian coordinates, $(x, y)$, or in polar coordinates, $(R, θ)$. For example, $√3+i = 2e^{iπ/6}; 1 + i = √2e^{iπ/4}; −8i = 8e^{3iπ/2} = 8e^{-iπ/2}$ Figure 1.7 shows the complex number $1 + i = √2e^{iπ/4}.$
+In the complex plane, (1.65) expresses the fact that a two-dimensional vector can be written either in Cartesian coordinates, $(x, y)$, or in polar coordinates, $(R, θ)$. For example, $\sqrt{3}+i = 2e^{i\pi/6}$; $1 + i = \sqrt{2}e^{i\pi/4}$; $-8i = 8e^{3i\pi/2} = 8e^{-i\pi/2}$. Figure 1.7 shows the complex number $1 + i = \sqrt{2}e^{i\pi/4}$.
 
 The relation, (1.65), gives another useful way of thinking about multiplication of complex numbers. If
 

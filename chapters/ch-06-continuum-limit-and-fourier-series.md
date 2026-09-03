@@ -283,7 +283,7 @@ and $\operatorname{frac}(x)$ denotes the fractional part, i.e. $\operatorname{fr
 
 ![Figure](../images/lt-33593-clipboard_e52244c12e9dcbd84e235cb6b710b7511.png)
 
-Figure \( 6.8$: The $h^{0}$ term in $f(t)$ for $h = 1 / 2$ and $w = 1 / 4$.
+Figure 6.8: The $h^{0}$ term in $f(t)$ for $h = 1 / 2$ and $w = 1 / 4$.
 
 If we add in the $h^{1}$ term we get the picture in Figure $6.9$.
 

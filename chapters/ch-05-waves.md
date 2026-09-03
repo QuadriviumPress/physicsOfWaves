@@ -15,7 +15,7 @@ label: ch-05-waves
 
 Figure $5.1$: A finite system of coupled pendulums.
 
-The typical system of coupled oscillators that supports waves is one like the system of $N$ identical coupled pendulums shown in Figure $5.1$. This system is a generalization of the system of two coupled pendulums that we studied in chapters 3 and 4. Suppose that each pendulum bob has mass $m$, each pendulum has length $\ell$, each spring has spring constant $\kappa$ and the equilibrium separation between bobs is $a$. Suppose further that there is no friction and that the pendulums are constrained to oscillate only in the direction in which the springs are stretched. We are interested in the free oscillation of this system, with no external force. Such an oscillation, when the motion is parallel to the direction in which the system is stretched in space is called a “longitudinal oscillation”. Call the longitudinal displacement of the $j$th bob from equilibrium (\psi_{j}\). We can organize the displacements into a vector, $\Psi$ (for reasons that will become clear below, it would be confusing to use $X$, so we choose a different letter, the Greek letter psi, which looks like $\psi$ in lower case and $\Psi$ when capitalized): 
+The typical system of coupled oscillators that supports waves is one like the system of $N$ identical coupled pendulums shown in Figure $5.1$. This system is a generalization of the system of two coupled pendulums that we studied in chapters 3 and 4. Suppose that each pendulum bob has mass $m$, each pendulum has length $\ell$, each spring has spring constant $\kappa$ and the equilibrium separation between bobs is $a$. Suppose further that there is no friction and that the pendulums are constrained to oscillate only in the direction in which the springs are stretched. We are interested in the free oscillation of this system, with no external force. Such an oscillation, when the motion is parallel to the direction in which the system is stretched in space is called a “longitudinal oscillation”. Call the longitudinal displacement of the $j$th bob from equilibrium $\psi_{j}$. We can organize the displacements into a vector, $\Psi$ (for reasons that will become clear below, it would be confusing to use $X$, so we choose a different letter, the Greek letter psi, which looks like $\psi$ in lower case and $\Psi$ when capitalized): 
 $$
 \Psi=\left(\begin{array}{c}
 
@@ -153,12 +153,12 @@ $$
 \end{array}\right) .
 $$
 
-This system is “space translation invariant” because it looks the same if it is moved to the left a distance $a$. This moves block $j+1$ to where block $j$ used to be, thus if there is a mode with components $A_{j}$, there must be another mode with the same frequency, represented by a vector, $A^{\prime} = SA|), with components 
+This system is “space translation invariant” because it looks the same if it is moved to the left a distance $a$. This moves block $j+1$ to where block $j$ used to be, thus if there is a mode with components $A_{j}$, there must be another mode with the same frequency, represented by a vector, $A^{\prime} = SA$, with components 
 $$
 A_{j}^{\prime}=A_{j+1} .
 $$
 
-The symmetry matrix, \(S$, is an infinite matrix with 1s along the next-to-diagonal. These are analogous to the 1s along the next-to-diagonal in (4.40). Now, however, the transformation never closes on itself. There is no analog of the 1 in the lower left-hand corner of (4.40), because the infinite matrix has no corner. We want to find the eigenvalues and eigenvectors of the matrix $S$, satisfying 
+The symmetry matrix, $S$, is an infinite matrix with 1s along the next-to-diagonal. These are analogous to the 1s along the next-to-diagonal in (4.40). Now, however, the transformation never closes on itself. There is no analog of the 1 in the lower left-hand corner of (4.40), because the infinite matrix has no corner. We want to find the eigenvalues and eigenvectors of the matrix $S$, satisfying 
 $$
 A^{\prime}=S A=\beta A
 $$
@@ -170,7 +170,7 @@ $$
 
 where $\beta$ is some nonzero constant.[^5-1-1]
 
-Equation (5.11) can be solved as follows: Choose $A_{0} = 1$. Then $A_{1} = \beta$, $A_{2} = \beta^{2}, etc., so that \(A_{j} = (\beta)^{j}$ for all nonnegative $j$. We can also rewrite (5.11) as $A_{j-1}=\beta^{-1} A_{j}$, so that $A_{-1} = \beta_{-1$, $A_{-2} = \beta_{-2}$, etc. Thus the solution is 
+Equation (5.11) can be solved as follows: Choose $A_{0} = 1$. Then $A_{1} = \beta$, $A_{2} = \beta^{2}$, etc., so that $A_{j} = (\beta)^{j}$ for all nonnegative $j$. We can also rewrite (5.11) as $A_{j-1}=\beta^{-1} A_{j}$, so that $A_{-1} = \beta^{-1}$, $A_{-2} = \beta^{-2}$, etc. Thus the solution is 
 $$
 A_{j}=(\beta)^{j}
 $$
@@ -690,7 +690,7 @@ $$
 Q_{j}(t)=q e^{i j k a} e^{-i \omega t}
 $$
 
-for some constant charge, $q$. Note that we could just as well take the time dependence to be $\cos \omega t$, $\sin \omega t$, or $e^{i \omega t$. It does not matter for the argument below. What matters is that when we differentiate $Q_{j}(t)$ twice with respect to time, we get $-\omega^{2} Q_{j}(t)$. The current through the $j$th inductor is 
+for some constant charge, $q$. Note that we could just as well take the time dependence to be $\cos \omega t$, $\sin \omega t$, or $e^{i \omega t}$. It does not matter for the argument below. What matters is that when we differentiate $Q_{j}(t)$ twice with respect to time, we get $-\omega^{2} Q_{j}(t)$. The current through the $j$th inductor is 
 $$
 I_{j}=\frac{d}{d t} Q_{j}(t)=-i \omega q e^{i j k a} e^{-i \omega t} .
 $$

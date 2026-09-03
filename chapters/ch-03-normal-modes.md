@@ -327,14 +327,14 @@ $$
 A A^{-1}=A^{-1} A=I ,
 $$
 
-where $I$ is the identity matrix discussed in (3.26) and (3.27). If we can find such a matrix, then the $N$ simultaneous linear equations, (3.29), have a unique solution that we can write in a very compact form. Multiply both sides of (3.29) by $A^{-1}$. On the left-hand side, we can use (3.30) and (3.27) to get rid of the $A^{-1}A\\) and write the solution as follows: 
+where $I$ is the identity matrix discussed in (3.26) and (3.27). If we can find such a matrix, then the $N$ simultaneous linear equations, (3.29), have a unique solution that we can write in a very compact form. Multiply both sides of (3.29) by $A^{-1}$. On the left-hand side, we can use (3.30) and (3.27) to get rid of the $A^{-1}A$ and write the solution as follows: 
 $$
 X=A^{-1} F .
 $$
 
 ### Inverse and Determinant
 
-We can compute \(A^{-1}$ in terms of the “determinant” of $A$. The determinant of the matrix $A$ is a sum of products of the matrix elements of $A$ with the following properties:
+We can compute $A^{-1}$ in terms of the “determinant” of $A$. The determinant of the matrix $A$ is a sum of products of the matrix elements of $A$ with the following properties:
 
 - There are $N!$ terms in the sum;
 
@@ -371,7 +371,7 @@ $$
 
 where $\tilde{A}$ is the **cofactor** matrix defined by its matrix elements as follows: 
 $$
-(\AA)_{j k}=\operatorname{det} A(j k)
+(\tilde{A})_{j k}=\operatorname{det} A(j k)
 $$
 
 with 
@@ -779,9 +779,12 @@ $$
 
 where $A$ is some constant $n$-vector and the angular frequency, $\omega$, is still just a number. Now if $t \rightarrow t + a$, 
 $$
-Z(t) \rightarrow Z(t+a)=e^{=i \omega a} Z(t) .\)
+Z(t) \rightarrow Z(t+a)=e^{-i \omega a} Z(t) .
+$$
 
-While the irreducible form, (3.66), comes just from time translation invariance, we must still look at the equations of motion to determine the vector, A and the angular frequency, \omega. Inserting (3.66) into (3.63), doing the differentiation and canceling the exponential factors from both sides, we find that (3.66) is a solution if \[\omega^{2} A=M^{-1} K A .
+While the irreducible form, (3.66), comes just from time translation invariance, we must still look at the equations of motion to determine the vector, $A$ and the angular frequency, $\omega$. Inserting (3.66) into (3.63), doing the differentiation and canceling the exponential factors from both sides, we find that (3.66) is a solution if
+$$
+\omega^{2} A=M^{-1} K A .
 $$
 
 This matrix equation is an eigenvalue equation of the form that we discussed in (3.51)-(3.57). $\omega^{2}$ is the eigenvalue of the matrix $M^{-1}K$ and $A$ is the corresponding eigenvector. Let us see what it means physically.
@@ -814,7 +817,7 @@ The point is worth repeating. Time translation invariance and linearity imply th
 
 If such a solution is to satisfy the equations of motion, then the acceleration must also be proportional to $A$, so that the individual displacements don’t get out of synch. But that is what (3.68) is telling us. $-M^{-1}K$ is the matrix that, acting on the displacement, gives the acceleration. The eigenvalue equation (3.68) means that the acceleration is proportional to $A$ again. The constant of proportionality, $\omega^{2}$, is the return force per unit displacement per unit mass for the particular displacement specified by $A$.
 
-We have already discussed the mathematical structure of the eigenvalue equation in (3.51)-(3.57). We will do it again, for emphasis, in the case of physical interest, (3.68). It should be clear that not every value of $A$ and $\omega^{2}$ gives a solution of (3.68). We will solve for the allowed values by first finding the possible values of $\oemga^{2}$ and then finding the corresponding values of $A$. To find the eigenvalues, note that (3.68) can be rewritten as 
+We have already discussed the mathematical structure of the eigenvalue equation in (3.51)-(3.57). We will do it again, for emphasis, in the case of physical interest, (3.68). It should be clear that not every value of $A$ and $\omega^{2}$ gives a solution of (3.68). We will solve for the allowed values by first finding the possible values of $\omega^{2}$ and then finding the corresponding values of $A$. To find the eigenvalues, note that (3.68) can be rewritten as 
 $$
 \left[M^{-1} K-\omega^{2} I\right] A=0 ,
 $$
@@ -1442,8 +1445,11 @@ $$
 =\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}-i \gamma \omega\right) \cdot\left(\frac{g}{\ell}-\omega^{2}-i \gamma \omega\right) .
 
 \end{gathered}
+$$
 
-Applying (3.34), we find \[\begin{gathered}
+Applying (3.34), we find
+$$
+\begin{gathered}
 
 {\left[M^{-1} K-\omega^{2}-i \Gamma \omega\right]^{-1}} \\
 
@@ -1482,9 +1488,12 @@ $$
 
 \end{array}\right)
 
-\end{gathered}\)
+\end{gathered}
+$$
 
-which is just (3.137), as promised. Now substituting into (3.133), we find \[\begin{gathered}
+which is just (3.137), as promised. Now substituting into (3.133), we find
+$$
+\begin{gathered}
 
 W=\frac{1}{2} \frac{1}{\left(\frac{g}{\ell}-\omega^{2}-i \gamma \omega\right)}\left(\begin{array}{l}
 

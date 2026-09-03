@@ -695,7 +695,7 @@ $$
 \psi(x, t)=\psi_{\tau}(x-v t) \text { for } x \geq 0
 $$
 
-where $\psi_{\tau}(x+v t)\] is the transmitted wave, traveling in the \(+x$ direction, and $\psi_{R}(x+v t)$ is the reflected wave, traveling in the $-x$ direction. To get the reflected and transmitted waves, we will use superposition and take $\psi_{in}$ apart into harmonic components. We can then use to determine the scattering of each of the components, and then can put the pieces back together to get the solution. Thus we start by Fourier transforming $\psi_{in}$: 
+where $\psi_{\tau}(x+v t)$ is the transmitted wave, traveling in the $+x$ direction, and $\psi_{R}(x+v t)$ is the reflected wave, traveling in the $-x$ direction. To get the reflected and transmitted waves, we will use superposition and take $\psi_{in}$ apart into harmonic components. We can then use to determine the scattering of each of the components, and then can put the pieces back together to get the solution. Thus we start by Fourier transforming $\psi_{in}$: 
 $$
 \psi_{\text {in }}(x, t)=\int d \omega e^{-i \omega(t-x / v)} C_{\text {in }}(\omega) .
 $$
@@ -824,7 +824,7 @@ __________________
 
 [^10-4-4]: The apparent singularity is similar to one that occurs in the approach to critical damping, discussed in (2.12).
 
-## 10.5: Is \(c\) the Speed of Light?
+## 10.5: Is $c$ the Speed of Light?
 
 We have seen that an electromagnetic wave in the $z$ direction satisfying Maxwell’s equations in free space has the dispersion relation (8.47), so that light, at least in vacuum, travels at the speed of light. But is the theory right? How do we test the dispersion relation? In fact, the most sensitive tests of Maxwell’s equations do not involve traveling waves. They come from observations of magnetic fields that extend over astrophysical distances (like the galaxy!). However, there is an interesting, if not very sensitive, way of looking for corrections to (8.47) that involves the speed of light directly. Before discussing this, let us digress briefly to talk in more detail about photons, the particles of light that we described briefly in chapter 8.
 

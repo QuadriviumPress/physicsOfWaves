@@ -419,7 +419,7 @@ $$
 
 &\text { The mass of the electron } m_{e} \approx 9.11 \times 10^{-31} \mathrm{~kg}\\
 
-&\text { Typical atomic distance } \quad a \approx 10^{-10} \mathrm{~m}=1 \AA\\
+&\text { Typical atomic distance } \quad a \approx 10^{-10} \mathrm{~m}=1\,\text{Å}\\
 
 &\text { The speed of light } \quad c=299,792,458 \mathrm{~m} / \mathrm{s}
 
@@ -433,7 +433,7 @@ $$
 
 and 
 $$
-\lambda_{\alpha} \approx \frac{2 \pi c}{\omega_{\alpha}} \approx 2 \pi c \sqrt{\frac{4 \pi \epsilon_{0} a^{3} m_{e}}{e^{2}}} \approx 10^{-7} \mathrm{~m}=1000 \AA .
+\lambda_{\alpha} \approx \frac{2 \pi c}{\omega_{\alpha}} \approx 2 \pi c \sqrt{\frac{4 \pi \epsilon_{0} a^{3} m_{e}}{e^{2}}} \approx 10^{-7} \mathrm{~m}=1000\,\text{Å}.
 $$
 
 This is a wavelength in the ultraviolet region of the electromagnetic spectrum, shorter than that of visible light. That means that for visible light, $\omega<\omega_{\alpha}$, and thus the displacement, (11.57), increases as $\omega$ increases for visible light. The distortion of the electronic structure of the material caused by a varying electric field increases as the frequency increases in the visible spectrum. Thus the dielectric constant of the material increases with frequency. Thus blue light is deflected more.
@@ -834,7 +834,7 @@ $$
 n<\frac{\omega \ell}{\pi v} .
 $$
 
-For example, for $\omega \leq \pi v / \ell$, there are no traveling waves. For $\pi v / \ell<\omega \leq 2 \pi v / \ell), there is only one, corresponding to \(n = 1$, etc.
+For example, for $\omega \leq \pi v / \ell$, there are no traveling waves. For $\pi v / \ell<\omega \leq 2 \pi v / \ell$, there is only one, corresponding to $n = 1$, etc.
 
 The modes satisfying (11.104) have a simple physical interpretation. They can be thought of as the plane waves, (11.96), of the infinite system, bouncing back and forth between the fixed edges, $y = 0$ and $y = \ell$. The requirement, (11.98), on the allowed values of $k_{y}$ arises because for other values of $k_{y}$, the reflected waves get out of phase, giving destructive interference. You might expect a zig-zag wave of this kind to propagate in the $x$ direction with a speed less than the phase velocity, $v$, of the waves in the infinite system by a factor of 
 $$
@@ -975,11 +975,14 @@ $$
 
 \psi_{x}(x, y, t)=\frac{\partial}{\partial x} \chi(x, y, t)=\pm i e^{\pm i k x-i \omega t} \cosh k y . \\
 
-\psi_{y}(x, y, l)=\frac{\partial}{\partial y} \chi(x, y, l)=e^{\pm i k x-i \omega t} \sinh k y .
+\psi_{y}(x, y, t)=\frac{\partial}{\partial y} \chi(x, y, t)=e^{\pm i k x-i \omega t} \sinh k y .
 
 \end{gathered}
+$$
 
-Before going further, note that we could extend these considerations by adding a z coordinate. Then (11.120) would become \[\chi(x, y, t) \propto e^{\left(\pm i k_{x} x \pm i k_{z} z\right)-i \omega t} \cosh k y
+Before going further, note that we could extend these considerations by adding a z coordinate. Then (11.120) would become
+$$
+\chi(x, y, t) \propto e^{\left(\pm i k_{x} x \pm i k_{z} z\right)-i \omega t} \cosh k y
 $$
 
 where 
@@ -1220,7 +1223,7 @@ $$
 \delta \approx h / f
 $$
 
-where $f$ is length. This is approximately true for a piece of glass with surfaces that are parts of spheres. In Figure $11.27$ is a diagram showing how this works for a lens which is flat on one side and a partial sphere with radius $r_{1}$ on the other. In the diagram, |(\theta_{1}\) is the angle of the “effective prism” seen by the part of a beam at distance $h$ from the axis. It should be clear from the figure that if $\theta_{1}$ is small, it is proportional to $h$. 
+where $f$ is length. This is approximately true for a piece of glass with surfaces that are parts of spheres. In Figure $11.27$ is a diagram showing how this works for a lens which is flat on one side and a partial sphere with radius $r_{1}$ on the other. In the diagram, $\theta_{1}$ is the angle of the “effective prism” seen by the part of a beam at distance $h$ from the axis. It should be clear from the figure that if $\theta_{1}$ is small, it is proportional to $h$. 
 $$
 \theta_{1} \approx \sin \theta_{1}=\frac{h}{r_{1}}
 $$
@@ -1652,7 +1655,7 @@ The general features of the solution, (11.174), are easy to understand. The wave
 
 ____________________
 
-<sup>8</sup>If you have seen spherical coordinates, you may remember that you cannot compute the Laplacian, $\vec{\nabla} \cdot \vec{\nabla}}$, simply as $\frac{\partial^{2}}{\partial r^{2}}$. You don’t need to remember the details here because we compute it from scratch for the function, $\chi(|\vec{r}|, t)$.
+<sup>8</sup>If you have seen spherical coordinates, you may remember that you cannot compute the Laplacian, $\vec{\nabla} \cdot \vec{\nabla}$, simply as $\frac{\partial^{2}}{\partial r^{2}}$. You don’t need to remember the details here because we compute it from scratch for the function, $\chi(|\vec{r}|, t)$.
 
 ## 11.9: Chapter Checklist
 
@@ -1995,8 +1998,11 @@ E_{x}(\vec{r}, t)=E e^{i(k z-\omega t)}, & E_{y}(\vec{r}, t)=E_{z}(\vec{r}, t)=0
 B_{y}(\vec{r}, t)=B e^{i(k z-\omega t)}, & B_{x}(\vec{r}, t)=B_{z}(\vec{r}, t)=0 .
 
 \end{array}
+$$
 
-1. Show from the relevant Maxwell’s equations, \[\begin{gathered}
+1. Show from the relevant Maxwell’s equations,
+$$
+\begin{gathered}
 
     \frac{\partial}{\partial z} E_{x}-\frac{\partial}{\partial x} E_{z}=-\frac{\partial B_{y}}{\partial t} \\
 

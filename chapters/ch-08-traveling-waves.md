@@ -738,7 +738,7 @@ $$
 \cos ^{2} \frac{k a}{2}=\frac{\omega_{h}^{2}-\omega^{2}}{\omega_{c}^{2}} .
 $$
 
-The two frequencies, $\omega_{\ell}$ and $\omega_{h}$, are called low and high frequency cut-offs. The system of coupled pendulums supports traveling waves only for frequency $\omega$ between the high and low frequency cut-offs. It is only in this region that the dispersion relation can be satisfied for real $\omega$ and $k$. For $\omega<\omega_{\ell}$ or |(\omega > \omega_{h}\), the system oscillates, but there is nothing quite like a traveling wave. You can see this in program 8-6 by changing the frequency up and down with the arrow keys.
+The two frequencies, $\omega_{\ell}$ and $\omega_{h}$, are called low and high frequency cut-offs. The system of coupled pendulums supports traveling waves only for frequency $\omega$ between the high and low frequency cut-offs. It is only in this region that the dispersion relation can be satisfied for real $\omega$ and $k$. For $\omega<\omega_{\ell}$ or $\omega > \omega_{h}$, the system oscillates, but there is nothing quite like a traveling wave. You can see this in program 8-6 by changing the frequency up and down with the arrow keys.
 
 For any $\omega$, we can always solve the dispersion relation. However, in some regions of frequency, the result will be complex, as in (8.85). We expect $k_{i} = 0$ in the allowed region (8.96). The solution of (8.92) for $k_{r}$ and $k_{i}$ as functions of $\omega$ are shown in the graphs in Figure $8.12$. Here, $k_{r}$ and $k_{i}$ are plotted against $\omega$ for the dispersion relation, (8.92), with $\omega_{\ell}=5 \omega_{0}$ and $\omega_{h}=7 \omega_{0} . k_{i}$. $k_{i}$ is the dotted line. Note the very rapid dependence of ki near the high and low frequency cut-offs.
 
@@ -764,7 +764,7 @@ The physics of this oscillation below the low frequency cut-off is particularly 
 
 The low frequency cut-off is not peculiar to the discrete system. It occurs any time there is a restoring force for $k = 0$ in the infinite system. Later, in chapter 11, we will see that a similar phenomena can occur in two- and three-dimensional systems even when there is no restoring force at $k = 0$.
 
-The high frequency cut-off, on the other hand, depends on the finite separation between blocks. As $\omega$ increases, in the allowed region, (8.96), $\sin \frac{k a}{2}$ increases, $k$ increases, and therefore $\cos \frac{k a}{2}$ decreases. At the high frequency cut-off, $\omega=\omega_{h}), \(\sin \frac{k a}{2}=1$ and $\cos \frac{k a}{2}= 0$. But 
+The high frequency cut-off, on the other hand, depends on the finite separation between blocks. As $\omega$ increases, in the allowed region, (8.96), $\sin \frac{k a}{2}$ increases, $k$ increases, and therefore $\cos \frac{k a}{2}$ decreases. At the high frequency cut-off, $\omega=\omega_{h}$, $\sin \frac{k a}{2}=1$ and $\cos \frac{k a}{2}= 0$. But 
 $$
 \sin \frac{k a}{2}=1 \Rightarrow k=\frac{\pi}{a}
 $$
