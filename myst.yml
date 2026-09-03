@@ -1,0 +1,55 @@
+version: 1
+project:
+  id: physics-of-waves
+  title: The Physics of Waves
+  short_title: Physics of Waves
+  description: >-
+    A web-native MyST edition of Howard Georgi's open textbook on
+    vibrations and waves.
+  authors:
+    - name: Howard Georgi
+      affiliations:
+        - institution: Harvard University
+  license:
+    content: CC-BY-NC-SA-4.0
+  open_access: true
+  github: QuadriviumPress/physicsOfWaves
+  keywords:
+    - waves
+    - vibrations
+    - oscillations
+    - acoustics
+    - Fourier analysis
+  numbering:
+    heading_2: false
+    heading_3: false
+    equation: false
+  toc:
+    - file: index.md
+    - file: front/preface.md
+    - file: chapters/ch-01-harmonic-oscillation.md
+    - file: chapters/ch-02-forced-oscillation-and-resonance.md
+    - file: chapters/ch-03-normal-modes.md
+    - file: chapters/ch-04-symmetries.md
+    - file: chapters/ch-05-waves.md
+    - file: chapters/ch-06-continuum-limit-and-fourier-series.md
+    - file: chapters/ch-07-longitudinal-oscillations-and-sound.md
+    - file: chapters/ch-08-traveling-waves.md
+    - file: chapters/ch-09-the-boundary-at-infinity.md
+    - file: chapters/ch-10-signals-and-fourier-analysis.md
+    - file: chapters/ch-11-two-and-three-dimensions.md
+    - file: chapters/ch-12-polarization.md
+    - file: chapters/ch-13-interference-and-diffraction.md
+    - file: chapters/ch-14-shocks-and-wakes.md
+    - title: Closing
+      children:
+        - file: back/glossary.md
+site:
+  template: book-theme
+  title: The Physics of Waves
+  options:
+    favicon: images/favicon.svg
+  actions:
+    - title: LibreTexts edition
+      url: https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)
+  nav: []

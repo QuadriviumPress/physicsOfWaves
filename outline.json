@@ -1,0 +1,697 @@
+{
+  "book": {
+    "title": "The Physics of Waves",
+    "authors": [
+      "Howard Georgi"
+    ],
+    "license": "CC-BY-NC-SA-4.0",
+    "source_url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)",
+    "libretexts_url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)"
+  },
+  "front": [
+    {
+      "title": "TitlePage",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/00%3A_Front_Matter/01%3A_TitlePage",
+      "cache": "00__Front_Matter__01__TitlePage.html",
+      "slug": "titlepage"
+    },
+    {
+      "title": "InfoPage",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/00%3A_Front_Matter/02%3A_InfoPage",
+      "cache": "00__Front_Matter__02__InfoPage.html",
+      "slug": "infopage"
+    },
+    {
+      "title": "Table of Contents",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/00%3A_Front_Matter/03%3A_Table_of_Contents",
+      "cache": "00__Front_Matter__03__Table_of_Contents.html",
+      "slug": "table-of-contents"
+    },
+    {
+      "title": "Licensing",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/00%3A_Front_Matter/04%3A_Licensing",
+      "cache": "00__Front_Matter__04__Licensing.html",
+      "slug": "licensing"
+    },
+    {
+      "title": "Preface",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/00%3A_Front_Matter/04%3A_Preface",
+      "cache": "00__Front_Matter__04__Preface.html",
+      "slug": "preface"
+    }
+  ],
+  "chapters": [
+    {
+      "kind": "chapter",
+      "number": 1,
+      "title": "Harmonic Oscillation",
+      "slug": "ch-01-harmonic-oscillation",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation",
+      "cache": "01__Harmonic_Oscillation.html",
+      "sections": [
+        {
+          "title": "1.1: The Harmonic Oscillator",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.01%3A_The_Harmonic_Oscillator",
+          "cache": "01__Harmonic_Oscillation__1.01__The_Harmonic_Oscillator.html",
+          "slug": "01-1-the-harmonic-oscillator"
+        },
+        {
+          "title": "1.2: Small Oscillations and Linearity",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.02%3A_1.2_Small_Oscillations_and_Linearity",
+          "cache": "01__Harmonic_Oscillation__1.02__1.2_Small_Oscillations_and_Linearity.html",
+          "slug": "01-2-small-oscillations-and-linearity"
+        },
+        {
+          "title": "1.3: Time Translation Invariance",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.03%3A_Time_Translation_Invariance",
+          "cache": "01__Harmonic_Oscillation__1.03__Time_Translation_Invariance.html",
+          "slug": "01-3-time-translation-invariance"
+        },
+        {
+          "title": "1.4: Complex Numbers",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.04%3A_Complex_Numbers",
+          "cache": "01__Harmonic_Oscillation__1.04__Complex_Numbers.html",
+          "slug": "01-4-complex-numbers"
+        },
+        {
+          "title": "1.5: Exponential Solutions",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.05%3A_Exponential_Solutions",
+          "cache": "01__Harmonic_Oscillation__1.05__Exponential_Solutions.html",
+          "slug": "01-5-exponential-solutions"
+        },
+        {
+          "title": "1.6: LC Circuits",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.06%3A_LC_Circuits",
+          "cache": "01__Harmonic_Oscillation__1.06__LC_Circuits.html",
+          "slug": "01-6-lc-circuits"
+        },
+        {
+          "title": "1.7: Units - Displacement and energy",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.07%3A_1.7_Units_-_Displacement_and_energy",
+          "cache": "01__Harmonic_Oscillation__1.07__1.7_Units_-_Displacement_and_energy.html",
+          "slug": "01-7-units-displacement-and-energy"
+        },
+        {
+          "title": "1.8: A Simple Nonlinear Oscillator",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.08%3A_A_Simple_Nonlinear_Oscillator",
+          "cache": "01__Harmonic_Oscillation__1.08__A_Simple_Nonlinear_Oscillator.html",
+          "slug": "01-8-a-simple-nonlinear-oscillator"
+        },
+        {
+          "title": "1.9: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.09%3A_Chapter_Checklist",
+          "cache": "01__Harmonic_Oscillation__1.09__Chapter_Checklist.html",
+          "slug": "01-9-chapter-checklist"
+        },
+        {
+          "title": "1.10: Problem",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.10%3A_Problem",
+          "cache": "01__Harmonic_Oscillation__1.10__Problem.html",
+          "slug": "01-10-problem"
+        },
+        {
+          "title": "1.11: Problems",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/01%3A_Harmonic_Oscillation/1.11%3A_Problems",
+          "cache": "01__Harmonic_Oscillation__1.11__Problems.html",
+          "slug": "01-11-problems"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 2,
+      "title": "Forced Oscillation and Resonance",
+      "slug": "ch-02-forced-oscillation-and-resonance",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/02%3A_Forced_Oscillation_and_Resonance",
+      "cache": "02__Forced_Oscillation_and_Resonance.html",
+      "sections": [
+        {
+          "title": "2.1: Damped Oscillators",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/02%3A_Forced_Oscillation_and_Resonance/2.01%3A_New_Page",
+          "cache": "02__Forced_Oscillation_and_Resonance__2.01__New_Page.html",
+          "slug": "02-1-damped-oscillators"
+        },
+        {
+          "title": "2.2: Forced Oscillations",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/02%3A_Forced_Oscillation_and_Resonance/2.02%3A_New_Page",
+          "cache": "02__Forced_Oscillation_and_Resonance__2.02__New_Page.html",
+          "slug": "02-2-forced-oscillations"
+        },
+        {
+          "title": "2.3: Resonance",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/02%3A_Forced_Oscillation_and_Resonance/2.03%3A_New_Page",
+          "cache": "02__Forced_Oscillation_and_Resonance__2.03__New_Page.html",
+          "slug": "02-3-resonance"
+        },
+        {
+          "title": "2.4: An Example",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/02%3A_Forced_Oscillation_and_Resonance/2.04%3A_New_Page",
+          "cache": "02__Forced_Oscillation_and_Resonance__2.04__New_Page.html",
+          "slug": "02-4-an-example"
+        },
+        {
+          "title": "2.5: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/02%3A_Forced_Oscillation_and_Resonance/2.05%3A_New_Page",
+          "cache": "02__Forced_Oscillation_and_Resonance__2.05__New_Page.html",
+          "slug": "02-5-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 3,
+      "title": "Normal Modes",
+      "slug": "ch-03-normal-modes",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/03%3A_Normal_Modes",
+      "cache": "03__Normal_Modes.html",
+      "sections": [
+        {
+          "title": "3.1: More than One Degree of Freedom",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/03%3A_Normal_Modes/3.01%3A_New_Page",
+          "cache": "03__Normal_Modes__3.01__New_Page.html",
+          "slug": "03-1-more-than-one-degree-of-freedom"
+        },
+        {
+          "title": "3.2: Matrices",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/03%3A_Normal_Modes/3.02%3A_New_Page",
+          "cache": "03__Normal_Modes__3.02__New_Page.html",
+          "slug": "03-2-matrices"
+        },
+        {
+          "title": "3.3: Normal Modes",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/03%3A_Normal_Modes/3.03%3A_New_Page",
+          "cache": "03__Normal_Modes__3.03__New_Page.html",
+          "slug": "03-3-normal-modes"
+        },
+        {
+          "title": "3.4: * Normal Coordinates and Initial Values",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/03%3A_Normal_Modes/3.04%3A_New_Page",
+          "cache": "03__Normal_Modes__3.04__New_Page.html",
+          "slug": "03-4-normal-coordinates-and-initial-values"
+        },
+        {
+          "title": "3.5: * Forced Oscillations and Resonance",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/03%3A_Normal_Modes/3.05%3A_New_Page",
+          "cache": "03__Normal_Modes__3.05__New_Page.html",
+          "slug": "03-5-forced-oscillations-and-resonance"
+        },
+        {
+          "title": "3.6: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/03%3A_Normal_Modes/3.06%3A_New_Page",
+          "cache": "03__Normal_Modes__3.06__New_Page.html",
+          "slug": "03-6-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 4,
+      "title": "Symmetries",
+      "slug": "ch-04-symmetries",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/04%3A_Symmetries",
+      "cache": "04__Symmetries.html",
+      "sections": [
+        {
+          "title": "4.1: Symmetries",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/04%3A_Symmetries/4.01%3A_New_Page",
+          "cache": "04__Symmetries__4.01__New_Page.html",
+          "slug": "04-1-symmetries"
+        },
+        {
+          "title": "4.2: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/04%3A_Symmetries/4.02%3A_New_Page",
+          "cache": "04__Symmetries__4.02__New_Page.html",
+          "slug": "04-2-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 5,
+      "title": "Waves",
+      "slug": "ch-05-waves",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves",
+      "cache": "05__Waves.html",
+      "sections": [
+        {
+          "title": "5.1: Space Translation Invariance",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves/5.01%3A_New_Page",
+          "cache": "05__Waves__5.01__New_Page.html",
+          "slug": "05-1-space-translation-invariance"
+        },
+        {
+          "title": "5.2: k and Dispersion Relations",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves/5.02%3A_New_Page",
+          "cache": "05__Waves__5.02__New_Page.html",
+          "slug": "05-2-k-and-dispersion-relations"
+        },
+        {
+          "title": "5.3: Waves",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves/5.03%3A_New_Page",
+          "cache": "05__Waves__5.03__New_Page.html",
+          "slug": "05-3-waves"
+        },
+        {
+          "title": "5.4: Free Ends",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves/5.04%3A_New_Page",
+          "cache": "05__Waves__5.04__New_Page.html",
+          "slug": "05-4-free-ends"
+        },
+        {
+          "title": "5.5: Forced Oscillations and Boundary Conditions",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves/5.05%3A_New_Page",
+          "cache": "05__Waves__5.05__New_Page.html",
+          "slug": "05-5-forced-oscillations-and-boundary-conditions"
+        },
+        {
+          "title": "5.6: Coupled LC Circuits",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves/5.6%3A_Coupled_LC_Circuits",
+          "cache": "05__Waves__5.6__Coupled_LC_Circuits.html",
+          "slug": "05-6-coupled-lc-circuits"
+        },
+        {
+          "title": "5.7: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/05%3A_Waves/5.7%3A_Chapter_Checklist",
+          "cache": "05__Waves__5.7__Chapter_Checklist.html",
+          "slug": "05-7-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 6,
+      "title": "Continuum Limit and Fourier Series",
+      "slug": "ch-06-continuum-limit-and-fourier-series",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/06%3A_Continuum_Limit_and_Fourier_Series",
+      "cache": "06__Continuum_Limit_and_Fourier_Series.html",
+      "sections": [
+        {
+          "title": "6.1: The Continuum Limit",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/06%3A_Continuum_Limit_and_Fourier_Series/6.01%3A_The_Continuum_Limit",
+          "cache": "06__Continuum_Limit_and_Fourier_Series__6.01__The_Continuum_Limit.html",
+          "slug": "06-1-the-continuum-limit"
+        },
+        {
+          "title": "6.2: Fourier Series",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/06%3A_Continuum_Limit_and_Fourier_Series/6.02%3A_New_Page",
+          "cache": "06__Continuum_Limit_and_Fourier_Series__6.02__New_Page.html",
+          "slug": "06-2-fourier-series"
+        },
+        {
+          "title": "6.3: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/06%3A_Continuum_Limit_and_Fourier_Series/6.03%3A_New_Page",
+          "cache": "06__Continuum_Limit_and_Fourier_Series__6.03__New_Page.html",
+          "slug": "06-3-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 7,
+      "title": "Longitudinal Oscillations and Sound",
+      "slug": "ch-07-longitudinal-oscillations-and-sound",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/07%3A_Longitudinal_Oscillations_and_Sound",
+      "cache": "07__Longitudinal_Oscillations_and_Sound.html",
+      "sections": [
+        {
+          "title": "7.1: Longitudinal Modes in a Massive Spring",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/07%3A_Longitudinal_Oscillations_and_Sound/7.01%3A_Longitudinal_Modes_in_a_Massive_Spring",
+          "cache": "07__Longitudinal_Oscillations_and_Sound__7.01__Longitudinal_Modes_in_a_Massive_Spring.html",
+          "slug": "07-1-longitudinal-modes-in-a-massive-spring"
+        },
+        {
+          "title": "7.2: A Mass on a Light Spring",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/07%3A_Longitudinal_Oscillations_and_Sound/7.02%3A_A_Mass_on_a_Light_Spring",
+          "cache": "07__Longitudinal_Oscillations_and_Sound__7.02__A_Mass_on_a_Light_Spring.html",
+          "slug": "07-2-a-mass-on-a-light-spring"
+        },
+        {
+          "title": "7.3: The Speed of Sound",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/07%3A_Longitudinal_Oscillations_and_Sound/7.03%3A_The_Speed_of_Sound",
+          "cache": "07__Longitudinal_Oscillations_and_Sound__7.03__The_Speed_of_Sound.html",
+          "slug": "07-3-the-speed-of-sound"
+        },
+        {
+          "title": "7.4: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/07%3A_Longitudinal_Oscillations_and_Sound/7.04%3A_Chapter_Checklist",
+          "cache": "07__Longitudinal_Oscillations_and_Sound__7.04__Chapter_Checklist.html",
+          "slug": "07-4-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 8,
+      "title": "Traveling Waves",
+      "slug": "ch-08-traveling-waves",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves",
+      "cache": "08__Traveling_Waves.html",
+      "sections": [
+        {
+          "title": "8.1: Standing and Traveling Waves",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves/8.01%3A_Standing_and_Traveling_Waves",
+          "cache": "08__Traveling_Waves__8.01__Standing_and_Traveling_Waves.html",
+          "slug": "08-1-standing-and-traveling-waves"
+        },
+        {
+          "title": "8.2: Force, Power and Impedance",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves/8.02%3A_Force_Power_and_Impedance",
+          "cache": "08__Traveling_Waves__8.02__Force_Power_and_Impedance.html",
+          "slug": "08-2-force-power-and-impedance"
+        },
+        {
+          "title": "8.3: Light",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves/8.03%3A_Light",
+          "cache": "08__Traveling_Waves__8.03__Light.html",
+          "slug": "08-3-light"
+        },
+        {
+          "title": "8.4: Transmission Lines",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves/8.04%3A_Transmission_Lines",
+          "cache": "08__Traveling_Waves__8.04__Transmission_Lines.html",
+          "slug": "08-4-transmission-lines"
+        },
+        {
+          "title": "8.5: Damping",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves/8.05%3A_Damping",
+          "cache": "08__Traveling_Waves__8.05__Damping.html",
+          "slug": "08-5-damping"
+        },
+        {
+          "title": "8.6: High and Low Frequency Cut-Offs",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves/8.06%3A_High_and_Low_Frequency_Cut-Offs",
+          "cache": "08__Traveling_Waves__8.06__High_and_Low_Frequency_Cut-Offs.html",
+          "slug": "08-6-high-and-low-frequency-cut-offs"
+        },
+        {
+          "title": "8.7: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/08%3A_Traveling_Waves/8.07%3A_Chapter_Checklist",
+          "cache": "08__Traveling_Waves__8.07__Chapter_Checklist.html",
+          "slug": "08-7-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 9,
+      "title": "The Boundary at Infinity",
+      "slug": "ch-09-the-boundary-at-infinity",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/09%3A_The_Boundary_at_Infinity",
+      "cache": "09__The_Boundary_at_Infinity.html",
+      "sections": [
+        {
+          "title": "9.1: Reflection and Transmission",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/09%3A_The_Boundary_at_Infinity/9.01%3A_Reflection_and_Transmission",
+          "cache": "09__The_Boundary_at_Infinity__9.01__Reflection_and_Transmission.html",
+          "slug": "09-1-reflection-and-transmission"
+        },
+        {
+          "title": "9.2: Index of Refraction",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/09%3A_The_Boundary_at_Infinity/9.02%3A_Index_of_Refraction",
+          "cache": "09__The_Boundary_at_Infinity__9.02__Index_of_Refraction.html",
+          "slug": "09-2-index-of-refraction"
+        },
+        {
+          "title": "9.3: Transfer Matrices",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/09%3A_The_Boundary_at_Infinity/9.03%3A__Transfer_Matrices",
+          "cache": "09__The_Boundary_at_Infinity__9.03___Transfer_Matrices.html",
+          "slug": "09-3-transfer-matrices"
+        },
+        {
+          "title": "9.4: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/09%3A_The_Boundary_at_Infinity/9.04%3A_Chapter_Checklist",
+          "cache": "09__The_Boundary_at_Infinity__9.04__Chapter_Checklist.html",
+          "slug": "09-4-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 10,
+      "title": "Signals and Fourier Analysis",
+      "slug": "ch-10-signals-and-fourier-analysis",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/10%3A_Signals_and_Fourier_Analysis",
+      "cache": "10__Signals_and_Fourier_Analysis.html",
+      "sections": [
+        {
+          "title": "10.1: Signals in Forced Oscillation",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/10%3A_Signals_and_Fourier_Analysis/10.01%3A_Signals_in_Forced_Oscillation",
+          "cache": "10__Signals_and_Fourier_Analysis__10.01__Signals_in_Forced_Oscillation.html",
+          "slug": "10-1-signals-in-forced-oscillation"
+        },
+        {
+          "title": "10.2: Dispersive Media and Group Velocity",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/10%3A_Signals_and_Fourier_Analysis/10.02%3A_Dispersive_Media_and_Group_Velocity",
+          "cache": "10__Signals_and_Fourier_Analysis__10.02__Dispersive_Media_and_Group_Velocity.html",
+          "slug": "10-2-dispersive-media-and-group-velocity"
+        },
+        {
+          "title": "10.3: Bandwidth, Fidelity, and Uncertainty",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/10%3A_Signals_and_Fourier_Analysis/10.03%3A_Bandwidth_Fidelity_and_Uncertainty",
+          "cache": "10__Signals_and_Fourier_Analysis__10.03__Bandwidth_Fidelity_and_Uncertainty.html",
+          "slug": "10-3-bandwidth-fidelity-and-uncertainty"
+        },
+        {
+          "title": "10.4: Scattering of Wave Packets",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/10%3A_Signals_and_Fourier_Analysis/10.04%3A_Scattering_of_Wave_Packets",
+          "cache": "10__Signals_and_Fourier_Analysis__10.04__Scattering_of_Wave_Packets.html",
+          "slug": "10-4-scattering-of-wave-packets"
+        },
+        {
+          "title": "10.5: Is \\(c\\) the Speed of Light?",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/10%3A_Signals_and_Fourier_Analysis/10.05%3A_Is_(c)_the_Speed_of_Light",
+          "cache": "10__Signals_and_Fourier_Analysis__10.05__Is__c__the_Speed_of_Light.html",
+          "slug": "10-5-is-c-the-speed-of-light"
+        },
+        {
+          "title": "10.6: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/10%3A_Signals_and_Fourier_Analysis/10.06%3A_Chapter_Checklist",
+          "cache": "10__Signals_and_Fourier_Analysis__10.06__Chapter_Checklist.html",
+          "slug": "10-6-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 11,
+      "title": "Two and Three Dimensions",
+      "slug": "ch-11-two-and-three-dimensions",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions",
+      "cache": "11__Two_and_Three_Dimensions.html",
+      "sections": [
+        {
+          "title": "11.1: The k Vector",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.01%3A_The_k_Vector",
+          "cache": "11__Two_and_Three_Dimensions__11.01__The_k_Vector.html",
+          "slug": "11-1-the-k-vector"
+        },
+        {
+          "title": "11.2: Plane Boundaries",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.02%3A_Plane_Boundaries",
+          "cache": "11__Two_and_Three_Dimensions__11.02__Plane_Boundaries.html",
+          "slug": "11-2-plane-boundaries"
+        },
+        {
+          "title": "11.3: Chladni Plates",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.03%3A_Chladni_Plates",
+          "cache": "11__Two_and_Three_Dimensions__11.03__Chladni_Plates.html",
+          "slug": "11-3-chladni-plates"
+        },
+        {
+          "title": "11.4: Waveguides",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.04%3A_Waveguides",
+          "cache": "11__Two_and_Three_Dimensions__11.04__Waveguides.html",
+          "slug": "11-4-waveguides"
+        },
+        {
+          "title": "11.5: Water",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.05%3A_Water",
+          "cache": "11__Two_and_Three_Dimensions__11.05__Water.html",
+          "slug": "11-5-water"
+        },
+        {
+          "title": "11.6: Lenses and Geometrical Optics",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.06%3A_Lenses_and_Geometrical_Optics",
+          "cache": "11__Two_and_Three_Dimensions__11.06__Lenses_and_Geometrical_Optics.html",
+          "slug": "11-6-lenses-and-geometrical-optics"
+        },
+        {
+          "title": "11.7: Rainbows",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.07%3A_Rainbows",
+          "cache": "11__Two_and_Three_Dimensions__11.07__Rainbows.html",
+          "slug": "11-7-rainbows"
+        },
+        {
+          "title": "11.8: Spherical Waves",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.08%3A_Spherical_Waves",
+          "cache": "11__Two_and_Three_Dimensions__11.08__Spherical_Waves.html",
+          "slug": "11-8-spherical-waves"
+        },
+        {
+          "title": "11.9: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/11%3A_Two_and_Three_Dimensions/11.09%3A_Chapter_Checklist",
+          "cache": "11__Two_and_Three_Dimensions__11.09__Chapter_Checklist.html",
+          "slug": "11-9-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 12,
+      "title": "Polarization",
+      "slug": "ch-12-polarization",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/12%3A_Polarization",
+      "cache": "12__Polarization.html",
+      "sections": [
+        {
+          "title": "12.1: The String in Three Dimensions",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/12%3A_Polarization/12.01%3A_The_String_in_Three_Dimensions",
+          "cache": "12__Polarization__12.01__The_String_in_Three_Dimensions.html",
+          "slug": "12-1-the-string-in-three-dimensions"
+        },
+        {
+          "title": "12.2: Electromagnetic Waves",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/12%3A_Polarization/12.02%3A_Electromagnetic_Waves",
+          "cache": "12__Polarization__12.02__Electromagnetic_Waves.html",
+          "slug": "12-2-electromagnetic-waves"
+        },
+        {
+          "title": "12.3: Wave Plates and Polarizers",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/12%3A_Polarization/12.03%3A_Wave_Plates_and_Polarizers",
+          "cache": "12__Polarization__12.03__Wave_Plates_and_Polarizers.html",
+          "slug": "12-3-wave-plates-and-polarizers"
+        },
+        {
+          "title": "12.4: Boundary between Dielectrics",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/12%3A_Polarization/12.04%3A_Boundary_between_Dielectrics",
+          "cache": "12__Polarization__12.04__Boundary_between_Dielectrics.html",
+          "slug": "12-4-boundary-between-dielectrics"
+        },
+        {
+          "title": "12.5: Radiation",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/12%3A_Polarization/12.05%3A_Radiation",
+          "cache": "12__Polarization__12.05__Radiation.html",
+          "slug": "12-5-radiation"
+        },
+        {
+          "title": "12.6: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/12%3A_Polarization/12.06%3A_Chapter_Checklist",
+          "cache": "12__Polarization__12.06__Chapter_Checklist.html",
+          "slug": "12-6-chapter-checklist"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 13,
+      "title": "Interference and Diffraction",
+      "slug": "ch-13-interference-and-diffraction",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction",
+      "cache": "13__Interference_and_Diffraction.html",
+      "sections": [
+        {
+          "title": "13.1: Interference",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.01%3A_Interference",
+          "cache": "13__Interference_and_Diffraction__13.01__Interference.html",
+          "slug": "13-1-interference"
+        },
+        {
+          "title": "13.2: Beams",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.02%3A_Beams",
+          "cache": "13__Interference_and_Diffraction__13.02__Beams.html",
+          "slug": "13-2-beams"
+        },
+        {
+          "title": "13.3: Small and Large z",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.03%3A_Small_and_Large_z",
+          "cache": "13__Interference_and_Diffraction__13.03__Small_and_Large_z.html",
+          "slug": "13-3-small-and-large-z"
+        },
+        {
+          "title": "13.4: Examples",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.04%3A_Examples",
+          "cache": "13__Interference_and_Diffraction__13.04__Examples.html",
+          "slug": "13-4-examples"
+        },
+        {
+          "title": "13.5: Convolution",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.05%3A_Convolution",
+          "cache": "13__Interference_and_Diffraction__13.05__Convolution.html",
+          "slug": "13-5-convolution"
+        },
+        {
+          "title": "13.6: Periodic f(x, y)",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.06%3A_Periodic_f(x_y)",
+          "cache": "13__Interference_and_Diffraction__13.06__Periodic_f_x_y_.html",
+          "slug": "13-6-periodic-fx-y"
+        },
+        {
+          "title": "13.7: X-ray Diffraction",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.07%3A_X-ray_Diffraction",
+          "cache": "13__Interference_and_Diffraction__13.07__X-ray_Diffraction.html",
+          "slug": "13-7-x-ray-diffraction"
+        },
+        {
+          "title": "13.8: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.08%3A_Chapter_Checklist",
+          "cache": "13__Interference_and_Diffraction__13.08__Chapter_Checklist.html",
+          "slug": "13-8-chapter-checklist"
+        },
+        {
+          "title": "13.9: Fringes and Zone Plates",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.09%3A_Fringes_and_Zone_Plates",
+          "cache": "13__Interference_and_Diffraction__13.09__Fringes_and_Zone_Plates.html",
+          "slug": "13-9-fringes-and-zone-plates"
+        },
+        {
+          "title": "13.10: 13-8- Holography",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/13%3A_Interference_and_Diffraction/13.10%3A_13-8-_Holography",
+          "cache": "13__Interference_and_Diffraction__13.10__13-8-_Holography.html",
+          "slug": "13-10-13-8-holography"
+        }
+      ]
+    },
+    {
+      "kind": "chapter",
+      "number": 14,
+      "title": "Shocks and Wakes",
+      "slug": "ch-14-shocks-and-wakes",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/14%3A_Shocks_and_Wakes",
+      "cache": "14__Shocks_and_Wakes.html",
+      "sections": [
+        {
+          "title": "14.1: Boat Wakes",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/14%3A_Shocks_and_Wakes/14.01%3A_Boat_Wakes",
+          "cache": "14__Shocks_and_Wakes__14.01__Boat_Wakes.html",
+          "slug": "14-1-boat-wakes"
+        },
+        {
+          "title": "14.2: Chapter Checklist",
+          "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/14%3A_Shocks_and_Wakes/14.02%3A_Chapter_Checklist",
+          "cache": "14__Shocks_and_Wakes__14.02__Chapter_Checklist.html",
+          "slug": "14-2-chapter-checklist"
+        }
+      ]
+    }
+  ],
+  "back": [
+    {
+      "title": "Index",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/zz%3A_Back_Matter/10%3A_Index",
+      "cache": "zz__Back_Matter__10__Index.html",
+      "slug": "index"
+    },
+    {
+      "title": "Glossary",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/zz%3A_Back_Matter/20%3A_Glossary",
+      "cache": "zz__Back_Matter__20__Glossary.html",
+      "slug": "glossary"
+    },
+    {
+      "title": "Detailed Licensing",
+      "url": "https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)/zz%3A_Back_Matter/30%3A_Detailed_Licensing",
+      "cache": "zz__Back_Matter__30__Detailed_Licensing.html",
+      "slug": "detailed-licensing"
+    }
+  ]
+}
