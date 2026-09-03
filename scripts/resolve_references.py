@@ -101,6 +101,9 @@ def rename_ch14_labels(text: str) -> str:
 def anchor_for(label: str, chapter: str | None) -> str:
     """Filename-safe MyST identifier for a LibreTexts label."""
     body = re.sub(r"^eq:\s*", "", label.strip())
+    # Already converted by fix_crossrefs.py — leave alone.
+    if re.fullmatch(r"eq-\d+(?:-\d+[a-z]?)*", body):
+        return body
     slug = re.sub(r"[^0-9a-zA-Z]+", "-", body).strip("-").lower()
     if not slug:
         slug = "eq"
@@ -341,6 +344,9 @@ def rewrite_figure_refs(text: str, labels: set[str]) -> tuple[str, list[str]]:
     unresolved: list[str] = []
 
     def repl(m: re.Match) -> str:
+        # Already linked.
+        if m.start() > 0 and text[m.start() - 1] == "[":
+            return m.group(0)
         num = (m.group(1) or m.group(2)).rstrip(".")
         label = "fig-" + num.replace(".", "-")
         if label not in labels:
