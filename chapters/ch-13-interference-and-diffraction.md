@@ -444,7 +444,7 @@ $$
 
 which implies 
 $$
-Cθ(kx, ky) = C(kx − k sin θ, ky). \tag{13.59} \label{eq-13-59}
+Cθ(kx, ky) = C(kx − k \sin θ, ky). \tag{13.59} \label{eq-13-59}
 $$
 
 This is entirely reasonable. If the maximum of $C(k_{x}, k_{y})$ occurs at $k_{x} \approx 0$, the maximum of $C_{\theta}(k_{x}, k_{y})$ occurs at $k_{x}=k \sin \theta$. Thus the diffraction pattern appears where a line through the opening in the direction of the incoming plane wave crosses the screen, just as we would expect from a skew beam.

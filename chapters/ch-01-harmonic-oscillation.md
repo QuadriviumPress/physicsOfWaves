@@ -44,7 +44,7 @@ $$
 An equation of this form, involving not only the function x(t), but also its derivatives is called a “differential equation.” The differential equation, (1.1.3), is the “equation of motion” for the system of [figure 1.1](#fig-1-1). Because the system has only one degree of freedom, there is only one equation of motion. In general, there must be one equation of motion for each independent coordinate required to specify the configuration of the system. The most general solution to the differential equation of motion, (1.1.3), is a sum of a constant times cos ωt plus a constant times sin ωt,
 
 $$
-x(t) = a cos(ωt) + b sin (ωt) \tag{1.4} \label{eq-1-4}
+x(t) = a \cos(ωt) + b \sin (ωt) \tag{1.4} \label{eq-1-4}
 $$
 
 where
@@ -58,7 +58,7 @@ is a constant with units of $T^{-1}$ called the “angular frequency.” The ang
 Because the equation involves a second time derivative but no higher derivatives, the most general solution involves two constants. This is just what we expect from the physics, because we can get a different solution for each value of the position and velocity of the block at the starting time. Generally, we will think about determining the solution in terms of the position and velocity of the block when we first get the motion started, at a time that we conventionally take to be t=0 For this reason, the process of determining the solution in terms of the position and velocity at a given time is called the “initial value problem.” The values of position and velocity at t = 0 are called initial conditions. For example, we can write the **most general solution**, (1.1.4), in terms of x(0) and x'(0), the displacement and velocity of the block at time t = 0. Setting t = 0 in (1.1.4) gives a = x(0). Differentiating and then setting t = 0 gives $b = ω x'(0)$. Thus
 
 $$
-x(t) = x(0)cosωt +\frac{1}{w}x'(0)sinωt \tag{1.6} \label{eq-1-6}
+x(t) = x(0)\cosωt +\frac{1}{w}x'(0)\sinωt \tag{1.6} \label{eq-1-6}
 $$
 
 For example, suppose that the block has a mass of 1 kilogram and that the spring is 0.5 meters $long^2$ with a spring constant K of 100 newtons per meter. To get a sense of what this spring constant means, consider hanging the spring vertically (see problem (1.1.1)). The gravitational force on the block is
@@ -153,7 +153,7 @@ $$
 
 The sum $x_{12}(t)$ is called a “linear combination” of the two solutions, $x_1(t)$ and $x_2(t)$. In the case of “free” motion, which means motion with no external force, if $x_1(t)$ and $x_2(t)$ are solutions, then the sum, $A x_1(t) + B x_2(t)$ is also a solution.
 
-The most general solution to any of these equations involves two constants that must be fixed by the initial conditions, for example, the initial position and velocity of the particle, as in $x(t) = x(0)cos(ωt) + \frac{1}{ω}x'(0)sin(ωt)$. It follows from (6) that we can always write the most general solution for any external force, f(t), as a sum of the “general solution” to the homogeneous equation, (2), and any “particular” solution to (1).
+The most general solution to any of these equations involves two constants that must be fixed by the initial conditions, for example, the initial position and velocity of the particle, as in $x(t) = x(0)\cos(ωt) + \frac{1}{ω}x'(0)\sin(ωt)$. It follows from (6) that we can always write the most general solution for any external force, f(t), as a sum of the “general solution” to the homogeneous equation, (2), and any “particular” solution to (1).
 
 No system is exactly linear. “Linearity” is never exactly “true.” Nevertheless, the idea of linearity is extremely important, because it is a useful approximation in a very large number of systems, for a very good physical reason. In almost any system in which the properties are smooth functions of the positions of the parts, the small displacements from equilibrium produce approximately linear restoring forces. The difference between something that is “true” and something that is a useful approximation is the essential difference between physics and mathematics. **In the real world, the questions are much too interesting to have answers that are exact. If you can understand the answer in a well-defined approximation, you have learned something important.**
 
@@ -279,10 +279,10 @@ The physical reason for [1.33](#eq-1-33) is that we can change the initial setti
 
 Most physical systems that you can think of are time translation invariant in the absence of an external force. To get an oscillator without time translation invariance, you would have to do something rather bizarre, such as somehow making the spring constant depend on time.
 
-For the free motion of the harmonic oscillator, although the equation of motion is certainly time translation invariant, the manifestation of time translation invariance on the solution, [1.6](#eq-1-6) is not as simple as it could be. The two parts of the solution, one proportional to $cos (ωt)$ and the other to $sin (ωt)$, get mixed up when the clock is reset. For example,
+For the free motion of the harmonic oscillator, although the equation of motion is certainly time translation invariant, the manifestation of time translation invariance on the solution, [1.6](#eq-1-6) is not as simple as it could be. The two parts of the solution, one proportional to $\cos (ωt)$ and the other to $\sin (ωt)$, get mixed up when the clock is reset. For example,
 
 $$
-cos[ω(t + a)] = (cos ωa) (cos ωt) − (sin ωa) (sin ωt). \tag{1.34} \label{eq-1-34}
+\cos[ω(t + a)] = (\cos ωa) (\cos ωt) − (\sin ωa) (\sin ωt). \tag{1.34} \label{eq-1-34}
 $$
 
 It will be very useful to find another way of writing the solution that behaves more simply under resetting of the clocks. To do this, we will have to work with complex numbers.
@@ -290,13 +290,13 @@ It will be very useful to find another way of writing the solution that behaves 
 To motivate the introduction of complex numbers, we will begin by exhibiting the relation between simple harmonic motion and uniform circular motion. Consider uniform circular motion in the x-y plane around a circle centered at the origin, $x = y = 0$, with radius R and with clockwise velocity $v = Rω$. The x and y coordinates of the motion are
 
 $$
-x(t) = R cos(ωt − φ), y(t) = −R sin(ωt − φ), \tag{1.35} \label{eq-1-35}
+x(t) = R \cos(ωt − φ), y(t) = −R \sin(ωt − φ), \tag{1.35} \label{eq-1-35}
 $$
 
 where $φ$ is the counterclockwise angle in radians of the position at $t = 0$ from the positive x axis. The $x(t)$ in [1.36](#eq-1-36) is identical to the $x(t)$ in [1.6](#eq-1-6) with
 
 $$
-x(0) = R cos φ , x'(0) = ωR sin φ . \tag{1.36} \label{eq-1-36}
+x(0) = R \cos φ , x'(0) = ωR \sin φ . \tag{1.36} \label{eq-1-36}
 $$
 
 Simple harmonic motion is equivalent to **one component** of uniform circular motion. This relation is illustrated in [figure 1.4](#fig-1-4) and in program 1-1 on the programs disk. As the point moves around the circle at constant velocity, $Rω$, the $x$ coordinate executes simple harmonic motion with angular velocity $ω$. If we wish, we can choose the two constants required to fix the solution of [1.3](#eq-1-3) to be $R$ and $φ$, instead of $x(0)$ and $x'(0)$. In this language, the action of resetting of the clock is more transparent. Resetting the clock changes the value of $φ$ without changing anything else.
@@ -321,10 +321,10 @@ It turns out that for systems whose equations of motion are linear and time tran
 
 *<sup>3</sup>The word “irreducible” is borrowed from the theory of group representations. In the language of group theory, the irreducible solution is an “irreducible representation of the translation group.” It just means “as simple as possible.”*
 
-have the property, [1.38](#eq-1-38). However, for simple harmonic motion, this requires complex numbers. You can see this by noting that changing the clock setting by $π/ω$ just changes the sign of the solution with angular frequency $ω$, because both the $cos$ and $sin$ terms change sign:
+have the property, [1.38](#eq-1-38). However, for simple harmonic motion, this requires complex numbers. You can see this by noting that changing the clock setting by $π/ω$ just changes the sign of the solution with angular frequency $ω$, because both the $\cos$ and $\sin$ terms change sign:
 
 $$
-cos(ωt + π) = − cos ωt, sin(ωt + π) = − sin ωt. \tag{1.38} \label{eq-1-38}
+\cos(ωt + π) = − \cos ωt, \sin(ωt + π) = − \sin ωt. \tag{1.38} \label{eq-1-38}
 $$
 
 But then from [1.38](#eq-1-38) and [1.39](#eq-1-39), we can write
@@ -467,31 +467,31 @@ Note that the complex conjugate of any sum, product, etc, of complex numbers can
 Consider a complex number $z = a + ib$ with absolute value 1. Because $|z| = 1$ implies $a^2 + b^2 = 1$, we can write $a$ and $b$ as the cosine and sine of an angle $θ$.
 
 $$
-z = cos θ + isin θ for |z| = 1 . \tag{1.55} \label{eq-1-55}
+z = \cos θ + i\sin θ for |z| = 1 . \tag{1.55} \label{eq-1-55}
 $$
 
 Because
 
 $$
-tan θ = \frac{sin θ}{cos θ} = \frac{b}{a} \tag{1.56} \label{eq-1-56}
+\tan θ = \frac{\sin θ}{\cos θ} = \frac{b}{a} \tag{1.56} \label{eq-1-56}
 $$
 
 the angle $θ$ is the argument of $z$:
 
 $$
-arg(cos θ + isin θ) = θ . \tag{1.57} \label{eq-1-57}
+arg(\cos θ + i\sin θ) = θ . \tag{1.57} \label{eq-1-57}
 $$
 
 Let us think about $z$ as a function of $θ$ and consider the calculus. The derivative with respect to $θ$ is:
 
 $$
-\frac{∂}{∂θ} (cos θ + isin θ) = − sin θ + i cos θ = i(cos θ + isin θ) \tag{1.58} \label{eq-1-58}
+\frac{∂}{∂θ} (\cos θ + i\sin θ) = − \sin θ + i \cos θ = i(\cos θ + i\sin θ) \tag{1.58} \label{eq-1-58}
 $$
 
 A function that goes into itself up to a constant under differentiation is an exponential. In particular, if we had a function of $θ$, $f(θ)$, that satisfied $\frac{∂}{∂θ} f(θ) = kf(θ)$ for real $k$, we would conclude that $f(θ) = e^{kθ}.$ Thus if we want the calculus to work in the same way for complex numbers as for real numbers, we must conclude that
 
 $$
-e^{iθ} = cos θ + isin θ. \tag{1.59} \label{eq-1-59}
+e^{iθ} = \cos θ + i\sin θ. \tag{1.59} \label{eq-1-59}
 $$
 
 We can check this relation by noting that the Taylor series expansions of the two sides are equal. The Taylor expansion of the exponential, cos, and sin functions are:
@@ -501,11 +501,11 @@ e^x = 1 + x + \frac{x^2}{2} + \frac{x^3}{3!} + \frac{x^4}{4!} + … \tag{1.60} \
 $$
 
 $$
-cos(x) = 1 - \frac{x^2}{2} + \frac{x^4}{4!} + … \tag{1.61} \label{eq-1-61}
+\cos(x) = 1 - \frac{x^2}{2} + \frac{x^4}{4!} + … \tag{1.61} \label{eq-1-61}
 $$
 
 $$
-sin(x) = x - \frac{x^3}{3!} + … \tag{1.62} \label{eq-1-62}
+\sin(x) = x - \frac{x^3}{3!} + … \tag{1.62} \label{eq-1-62}
 $$
 
 Thus the Taylor expansion of the left side of [1.57](#eq-1-57) is
@@ -525,41 +525,41 @@ The powers of $i$ in [1.59](#eq-1-59) work in just the right way to reproduce th
 Furthermore, the multiplication law works properly:
 
 $$
-e^{iθ}e^{iθ'} = (cos θ + isin θ)(cos θ' + isin θ' ) \tag{1.65} \label{eq-1-65}
+e^{iθ}e^{iθ'} = (\cos θ + i\sin θ)(\cos θ' + i\sin θ' ) \tag{1.65} \label{eq-1-65}
 $$
 
 $$
-= (cos θ cos θ' − sin θ sin θ' ) + i(sin θ cos θ' + cos θ sin θ' ) \tag{1.66} \label{eq-1-66}
+= (\cos θ \cos θ' − \sin θ \sin θ' ) + i(\sin θ \cos θ' + \cos θ \sin θ' ) \tag{1.66} \label{eq-1-66}
 $$
 
 $$
-= cos(θ + θ' ) + isin(θ + θ' ) = e^{i(θ + θ')} . \tag{1.67} \label{eq-1-67}
+= \cos(θ + θ' ) + i\sin(θ + θ' ) = e^{i(θ + θ')} . \tag{1.67} \label{eq-1-67}
 $$
 
 Thus [1.57](#eq-1-57) makes sense in all respects. This connection between complex exponentials and trigonometric functions is called Euler’s Identity. It is extremely useful. For one thing, the logic can be reversed and the trigonometric functions can be “defined” algebraically in terms of complex exponentials:
 
 $$
-cosθ = \frac{e^{iθ} + e^{-iθ}}{2} \tag{1.68} \label{eq-1-68}
+\cosθ = \frac{e^{iθ} + e^{-iθ}}{2} \tag{1.68} \label{eq-1-68}
 $$
 
 $$
-sinθ = \frac{e^{iθ} - e^{-iθ}}{2i} = -i \frac{e^{iθ} - e^{-iθ}}{2} \tag{1.69} \label{eq-1-69}
+\sinθ = \frac{e^{iθ} - e^{-iθ}}{2i} = -i \frac{e^{iθ} - e^{-iθ}}{2} \tag{1.69} \label{eq-1-69}
 $$
 
 Using [1.62](#eq-1-62), trigonometric identities can be derived very simply. For example:
 
 $$
-cos 3θ = Re (e^{3iθ}) = Re ((e^{iθ})^3) = cos^3 θ − 3 cos θ sin^2 θ . \tag{1.70} \label{eq-1-70}
+\cos 3θ = Re (e^{3iθ}) = Re ((e^{iθ})^3) = \cos^3 θ − 3 \cos θ \sin^2 θ . \tag{1.70} \label{eq-1-70}
 $$
 
 Another example that will be useful to us later is:
 
 $$
-cos(θ + θ') + cos(θ - θ') = (e^{i(θ+θ')} + e^{−i(θ+θ')} + e^{i(θ-θ')} + e^{−i(θ-θ')}) / 2 \tag{1.71} \label{eq-1-71}
+\cos(θ + θ') + \cos(θ - θ') = (e^{i(θ+θ')} + e^{−i(θ+θ')} + e^{i(θ-θ')} + e^{−i(θ-θ')}) / 2 \tag{1.71} \label{eq-1-71}
 $$
 
 $$
-= (e^{iθ} + e^{-iθ})(e^{iθ'} + e^{-iθ'}) / 2 = 2 cosθ cosθ'. \tag{1.72} \label{eq-1-72}
+= (e^{iθ} + e^{-iθ})(e^{iθ'} + e^{-iθ'}) / 2 = 2 \cosθ \cosθ'. \tag{1.72} \label{eq-1-72}
 $$
 
 Every nonzero complex number can be written as the product of a positive real number (its absolute value) and a complex number with absolute value 1. Thus
@@ -584,7 +584,7 @@ $$
 
 In words, to multiply two complex numbers, you multiply the absolute values and add the arguments. You should now go back and play with program 1-2 with this relation in mind.
 
-Equation [1.57](#eq-1-57) yields a number of relations that may seem surprising until you get used to them. For example: $e^{iπ} = −1; e^{iπ/2} = i; e^{2iπ} = 1.$ These have an interpretation in the complex plane where $e^{iθ}$ is the unit vector $(cos θ,sin θ),$
+Equation [1.57](#eq-1-57) yields a number of relations that may seem surprising until you get used to them. For example: $e^{iπ} = −1; e^{iπ/2} = i; e^{2iπ} = 1.$ These have an interpretation in the complex plane where $e^{iθ}$ is the unit vector $(\cos θ,\sin θ),$
 
 ## 1.5: Exponential Solutions
 
@@ -796,17 +796,17 @@ It is only in this last step, where we actually compute H, that the details of [
 Now, as above, from these two solutions, we can construct two real solutions by taking the real and imaginary parts of $z(t) = e^{±iωt}$
 
 $$
-x_1(t) = Re (z(t)) = cos ωt \tag{1.104} \label{eq-1-104}
+x_1(t) = Re (z(t)) = \cos ωt \tag{1.104} \label{eq-1-104}
 $$
  , 
 $$
-x_2(t) = Im (z(t)) = ± sin ωt \tag{1.105} \label{eq-1-105}
+x_2(t) = Im (z(t)) = ± \sin ωt \tag{1.105} \label{eq-1-105}
 $$
 
 Time translations mix up these two real solutions. That is why the irreducible complex exponential solutions are easier to work with. The quantity ω is the angular frequency that we saw in [1.5](#eq-1-5) in the solution of the equation of motion for the harmonic oscillator. Any linear combination of such solutions can be written in terms of an “amplitude” and a “phase” as follows: For real c and d
 
 $$
-c cos(w) + dsin(wt) = c(e^{iwt} +e^{-iwt})/2 - id((e^{iwt} +e^{-iwt})/2 \tag{1.106} \label{eq-1-106}
+c \cos(w) + d\sin(wt) = c(e^{iwt} +e^{-iwt})/2 - id((e^{iwt} +e^{-iwt})/2 \tag{1.106} \label{eq-1-106}
 $$
 
 $$
@@ -814,7 +814,7 @@ $$
 $$
 
 $$
-=Re (A e^{−i(ωt−θ)} ) = A cos(ωt − θ) \tag{1.108} \label{eq-1-108}
+=Re (A e^{−i(ωt−θ)} ) = A \cos(ωt − θ) \tag{1.108} \label{eq-1-108}
 $$
 
 where A is a positive real number called the amplitude,
@@ -954,7 +954,7 @@ $$
 If there are no external forces acting on the system, the total energy must be constant. You can see from [1.113](#eq-1-113) that the energy can be constant for an oscillating solution only if the angular frequency, ω, is $/sqrt{\frac{K}{M}}$. Suppose, for example, that the generalized displacement of the system has the form
 
 $$
-X(t) = Asin(wt) \tag{1.123} \label{eq-1-123}
+X(t) = A\sin(wt) \tag{1.123} \label{eq-1-123}
 $$
 
 where A is an amplitude with the units of X . Then the generalized velocity, is
@@ -972,7 +972,7 @@ $$
 Then, the total energy, from [1.109](#eq-1-109) and [1.110](#eq-1-110) is
 
 $$
-\frac{1}{2}Mw^2A^2cos^2(wt) + \frac{1}{2}KA^2sin^2(wt) = \frac{1}{2}KA^2
+\frac{1}{2}Mw^2A^2\cos^2(wt) + \frac{1}{2}KA^2\sin^2(wt) = \frac{1}{2}KA^2
 $$
 
 ### Torsion Pendulum
@@ -1092,25 +1092,25 @@ You should now be able to:
 
 b. Do the same for sin 5θ.
 
-c. Use complex exponentials to find an expression for $sin(θ_1 + θ_2 + θ_3)$ in terms of the sines and cosines of the individual angles.
+c. Use complex exponentials to find an expression for $\sin(θ_1 + θ_2 + θ_3)$ in terms of the sines and cosines of the individual angles.
 
 d. Do you remember the “half angle formula,”
 
 $$
-cos^2\frac{θ}{2}=\frac{1}{2}(1+cosθ)?
+\cos^2\frac{θ}{2}=\frac{1}{2}(1+\cosθ)?
 $$
 
 Use complex exponentials to prove the "fifth angle formula,"
 
 $$
-cos^5\frac{θ}{5}=\frac{10}{16}cos\frac{θ}{5}+\frac{5}{16}cos\frac{3θ}{5}+\frac{1}{16}cosθ
+\cos^5\frac{θ}{5}=\frac{10}{16}\cos\frac{θ}{5}+\frac{5}{16}\cos\frac{3θ}{5}+\frac{1}{16}\cosθ
 $$
 .
 
 e. Use complex exponentials to prove the identity
 
 $$
-sin6x=sinx(32cos^5x - 23cos^3x + 6cosx)
+\sin6x=sinx(32\cos^5x - 23\cos^3x + 6cosx)
 $$
 
 1.3a Write $i+\sqrt{3}$ in the form $Re^{iθ}$. Write θ as a rational number times π
@@ -1155,25 +1155,25 @@ Find the positions at which the particle is in stable equilibrium. Find the angu
 
 b. Do the same for sin 5θ.
 
-c. Use complex exponentials to find an expression for $sin(θ_1 + θ_2 + θ_3)$ in terms of the sines and cosines of the individual angles.
+c. Use complex exponentials to find an expression for $\sin(θ_1 + θ_2 + θ_3)$ in terms of the sines and cosines of the individual angles.
 
 d. Do you remember the “half angle formula,”
 
 $$
-cos^2\frac{θ}{2}=\frac{1}{2}(1+cosθ)?
+\cos^2\frac{θ}{2}=\frac{1}{2}(1+\cosθ)?
 $$
 
 Use complex exponentials to prove the "fifth angle formula,"
 
 $$
-cos^5\frac{θ}{5}=\frac{10}{16}cos\frac{θ}{5}+\frac{5}{16}cos\frac{3θ}{5}+\frac{1}{16}cosθ
+\cos^5\frac{θ}{5}=\frac{10}{16}\cos\frac{θ}{5}+\frac{5}{16}\cos\frac{3θ}{5}+\frac{1}{16}\cosθ
 $$
 .
 
 e. Use complex exponentials to prove the identity
 
 $$
-sin6x=sinx(32cos^5x - 23cos^3x + 6cosx)
+\sin6x=sinx(32\cos^5x - 23\cos^3x + 6cosx)
 $$
 
 1.3a Write $i+\sqrt{3}$ in the form $Re^{iθ}$. Write θ as a rational number times π

@@ -60,6 +60,12 @@ def clean_math(tex: str) -> str:
     # Blank lines inside $$…$$ break CommonMark/MyST math fencing, so KaTeX
     # never sees the equation and raw $$ / \begin{array} leak into the HTML.
     tex = re.sub(r"\n\s*\n+", "\n", tex)
+    # Bare sin/cos/tan render as italic variables; use operator macros.
+    # Also split single-letter coefficients (isin → i\sin) without touching arcsin.
+    tex = re.sub(r"(?<![\\a-zA-Z])(sin|cos|tan)(?![a-zA-Z])", r"\\\1", tex)
+    tex = re.sub(
+        r"(?<=(?<![a-zA-Z\\])[A-Za-z])(sin|cos|tan)(?![a-zA-Z])", r"\\\1", tex
+    )
     # LibreTexts often uses \[4pt] spacing in align — keep as-is (valid amsmath)
     return tex.strip()
 
