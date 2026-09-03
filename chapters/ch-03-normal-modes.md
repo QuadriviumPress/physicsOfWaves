@@ -194,7 +194,7 @@ A_{11} & A_{12} & \cdots & A_{1 M} \\
 A_{21} & A_{22} & \cdots & A_{2 M} \\
 \vdots & \vdots & \ddots & \vdots \\
 A_{N 1} & A_{N 2} & \cdots & A_{N M}
-\end{array} \tag{3.20} \label{eq-3-20}\right) .
+\end{array}\right) . \tag{3.20} \label{eq-3-20}
 $$
 
 Call the $M \times L$ matrix $B$ with matrix elements $B_{kl}$ for $1 \leq k \leq M$ and $1 \leq l \leq L$: 
@@ -204,7 +204,7 @@ B_{11} & B_{12} & \cdots & B_{1 L} \\
 B_{21} & B_{22} & \cdots & B_{2 L} \\
 \vdots & \vdots & \ddots & \vdots \\
 B_{M 1} & B_{M 2} & \cdots & B_{M L}
-\end{array} \tag{3.21} \label{eq-3-21}\right) .
+\end{array}\right) . \tag{3.21} \label{eq-3-21}
 $$
 
 Call the $N \times L$ matrix $C$ with matrix elements $C_{jl}$ for $1 \leq j \leq N$ and $1 \leq l \leq L$. 
@@ -214,7 +214,7 @@ C_{11} & C_{12} & \cdots & C_{1 L} \\
 C_{21} & C_{22} & \cdots & C_{2 L} \\
 \vdots & \vdots & \ddots & \vdots \\
 C_{N 1} & C_{N 2} & \cdots & C_{N L}
-\end{array} \tag{3.22} \label{eq-3-22}\right) .
+\end{array}\right) . \tag{3.22} \label{eq-3-22}
 $$
 
 Then the matrix $C$ is defined to be the product matrix $A B$ if 
@@ -236,7 +236,7 @@ B_{11} & \cdots & B_{1 \ell} & \cdots & B_{1 L} \\
 B_{k 1} & \cdots & B_{k \ell} & \cdots & B_{k L} \\
 \vdots & \ddots & \vdots & \ddots & \vdots \\
 B_{M 1} & \cdots & B_{M \ell} & \cdots & B_{M L}
-\end{array} \tag{3.24} \label{eq-3-24}\right)
+\end{array}\right) \tag{3.24} \label{eq-3-24}
 $$
 
 $$
@@ -246,7 +246,7 @@ C_{11} & \cdots & C_{1 \ell} & \cdots & C_{1 L} \\
 C_{j 1} & \cdots & C_{j \ell} & \cdots & C_{j L} \\
 \vdots & \ddots & \vdots & \ddots & \vdots \\
 C_{N 1} & \cdots & C_{N \ell} & \cdots & C_{N L}
-\end{array} \tag{3.25} \label{eq-3-25}\right) .
+\end{array}\right) . \tag{3.25} \label{eq-3-25}
 $$
 
 For example, 
@@ -262,7 +262,7 @@ $$
 2 & 3 & 13 \\
 0 & 1 & 3 \\
 2 & -1 & 1
-\end{array} \tag{3.26} \label{eq-3-26}\right) .
+\end{array}\right) . \tag{3.26} \label{eq-3-26}
 $$
 
 It is easy to check that the matrix product defined in this way is associative, $(AB)C = A(BC)$. However, in general, it is not commutative, $A B \neq B A$. In fact, if the matrices are not square, the product in the opposite order may not even make any sense! The matrix product $AB$ only makes sense if the number of columns of $A$ is the same as the number of rows of $B$. Beware!
@@ -273,7 +273,7 @@ I=\left(\begin{array}{lll}
 1 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
-\end{array} \tag{3.27} \label{eq-3-27}\right) .
+\end{array}\right) . \tag{3.27} \label{eq-3-27}
 $$
 
 The $N \times N$ identity matrix satisfies 
@@ -369,7 +369,7 @@ A_{11} & \cdots & A_{1 j} & \cdots & A_{1 N} \\
 \hline A_{k 1} & \cdots & A_{k j} & \cdots & A_{k N} \\
 \hline \vdots & \ddots & \vdots & \ddots & \vdots \\
 A_{N 1} & \cdots & A_{N j} & \cdots & A_{N N}
-\end{array} \tag{3.38} \label{eq-3-38}\right) ,
+\end{array}\right) , \tag{3.38} \label{eq-3-38}
 $$
 
 $$
@@ -379,7 +379,7 @@ A_{11} & \cdots & 0 & \cdots & A_{1 N} \\
 \hline 0 & \cdots & 1 & \cdots & 0 \\
 \hline \vdots & \ddots & \vdots & \ddots & \vdots \\
 A_{N 1} & \cdots & 0 & \cdots & A_{N N}
-\end{array} \tag{3.39} \label{eq-3-39}\right) .
+\end{array}\right) . \tag{3.39} \label{eq-3-39}
 $$
 
 Note the sneaky interchange of $j \leftrightarrow k$ in this definition, compared to [3.23](#eq-3-23).
@@ -389,7 +389,7 @@ $$
 A=\left(\begin{array}{ll}
 4 & 3 \\
 5 & 2
-\end{array} \tag{3.40} \label{eq-3-40}\right)
+\end{array}\right) \tag{3.40} \label{eq-3-40}
 $$
 
 then 
@@ -418,7 +418,7 @@ $$
 \bar{A}=\left(\begin{array}{cc}
 2 & -3 \\
 -5 & 4
-\end{array} \tag{3.42} \label{eq-3-42}\right)
+\end{array}\right) \tag{3.42} \label{eq-3-42}
 $$
 
 and since $\operatorname{det} A=4 \cdot 2-5 \cdot 3=-7$, 
@@ -426,7 +426,7 @@ $$
 A^{-1}=\left(\begin{array}{cc}
 -2 / 7 & 3 / 7 \\
 5 / 7 & -4 / 7
-\end{array} \tag{3.43} \label{eq-3-43}\right) .
+\end{array}\right) . \tag{3.43} \label{eq-3-43}
 $$
 
 $A^{-1}$ satisfies $A A^{-1}=A^{-1} A=I$ where $I$ is the identity matrix: 
@@ -434,7 +434,7 @@ $$
 I=\left(\begin{array}{ll}
 1 & 0 \\
 0 & 1
-\end{array} \tag{3.44} \label{eq-3-44}\right) .
+\end{array}\right) . \tag{3.44} \label{eq-3-44}
 $$
 
 In terms of the submatrices, $A(jk)$, we can define the determinant inductively, as promised above. In fact, the reason that [3.30](#eq-3-30) works is that the determinant can be written as 
@@ -447,7 +447,7 @@ $$
 \sum_{k=1}^{N} A_{j k} \operatorname{det} A\left(k j^{\prime}\right)=\left\{\begin{array}{c}
 \operatorname{det} A \text { for } j=j^{\prime} \\
 0 \text { for } j \neq j^{\prime}
-\end{array} \tag{3.46} \label{eq-3-46}\right.
+\end{array}\right. \tag{3.46} \label{eq-3-46}
 $$
 
 The determinants of the submatrices, $\operatorname{det} A(k \mathrm{l})$, in [3.43](#eq-3-43) can, in turn, be computed by the same procedure. The result is a definition of the determinant that refers to itself. However, eventually, the process terminates because the matrices keep getting smaller and the determinant can always be computed in this way. The only problem with this procedure is that it is very tedious for a large matrix. For an $n \times n$ matrix, you end up computing $n!$ terms and adding them up. For large $n$, this is impractical. One of the nice features of the techniques that we will discuss in the coming chapters is that we will be able to avoid such calculations.
@@ -490,7 +490,7 @@ A=\left(\begin{array}{cccc}
     \vdots & \vdots & \ddots & \vdots \\
     \vdots & \vdots & \ddots & \vdots \\
     A_{N 1} & A_{N 2} & \cdots & A_{N M}
-    \end{array} \tag{3.51} \label{eq-3-51}\right)
+    \end{array}\right) \tag{3.51} \label{eq-3-51}
 $$
 
     then 
@@ -500,7 +500,7 @@ A^{T}=\left(\begin{array}{ccccc}
     A_{12} & A_{22} & \cdots & \cdots & A_{N 2} \\
     \vdots & \vdots & \ddots & \ddots & \vdots \\
     A_{1 M} & A_{2 M} & \cdots & \cdots & A_{N M}
-    \end{array} \tag{3.52} \label{eq-3-52}\right) .
+    \end{array}\right) . \tag{3.52} \label{eq-3-52}
 $$
 
     Note that if $N \neq M$, the shape of the matrix is changed by transposition. Only for square matrices does the transpose give you back a matrix of the same kind. A square matrix that is equal to its transpose is called a “symmetric” matrix.
@@ -519,7 +519,7 @@ $$
 R=\left(\begin{array}{ll}
 2 & 0 \\
 0 & 1
-\end{array} \tag{3.54} \label{eq-3-54}\right) .
+\end{array}\right) . \tag{3.54} \label{eq-3-54}
 $$
 
 Then the eigenvalues are just the diagonal elements, 2 and 1, and the eigenvectors are vectors in the coordinate directions, 
@@ -536,7 +536,7 @@ R\left(\begin{array}{l}
 \end{array}\right)=1\left(\begin{array}{l}
 0 \\
 1
-\end{array} \tag{3.55} \label{eq-3-55}\right) .
+\end{array}\right) . \tag{3.55} \label{eq-3-55}
 $$
 
 A less obvious example is 
@@ -544,7 +544,7 @@ $$
 R=\left(\begin{array}{ll}
 2 & 1 \\
 1 & 2
-\end{array} \tag{3.56} \label{eq-3-56}\right) .
+\end{array}\right) . \tag{3.56} \label{eq-3-56}
 $$
 
 This time the eigenvalues are 3 and 1, and the eigenvectors are as shown below: 
@@ -561,7 +561,7 @@ R\left(\begin{array}{l}
 \end{array}\right)=1\left(\begin{array}{c}
 1 \\
 -1
-\end{array} \tag{3.57} \label{eq-3-57}\right) .
+\end{array}\right) . \tag{3.57} \label{eq-3-57}
 $$
 
 It may seem odd that in the eigenvalue equation, both the eigenvalue **and** the eigenvector are unknowns. The reason that it works is that for most values of $h$, the equation, [3.51](#eq-3-51), has no solution. To see this, we write [3.51](#eq-3-51) as a set of homogeneous linear equations for the components of the eigenvector, $c$, 
@@ -585,7 +585,7 @@ x_{1} \\
 x_{2} \\
 \vdots \\
 x_{n}
-\end{array} \tag{3.60} \label{eq-3-60}\right) .
+\end{array}\right) . \tag{3.60} \label{eq-3-60}
 $$
 
 Define the “$K$ matrix”, an $n \times n$ matrix that has the coefficient $K_{jk}$ in its $j$th row and $k$th column: 
@@ -595,7 +595,7 @@ K_{11} & K_{12} & \cdots & K_{1 n} \\
 K_{21} & K_{22} & \cdots & K_{2 n} \\
 \vdots & \vdots & \ddots & \vdots \\
 K_{n 1} & K_{n 2} & \cdots & K_{n n}
-\end{array} \tag{3.117} \label{eq-3-117}\right) .
+\end{array}\right) . \tag{3.117} \label{eq-3-117}
 $$
 
 $K_{jk}$ is said to be the “$jk$ matrix element” of the $K$ matrix. Because of equation [3.19](#eq-3-19), the matrix $K$ is symmetric, $K = K^{T}$.
@@ -607,7 +607,7 @@ m_{1} & 0 & \cdots & 0 \\
 0 & m_{2} & \cdots & 0 \\
 \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & \cdots & m_{n}
-\end{array} \tag{3.61} \label{eq-3-61}\right) .
+\end{array}\right) . \tag{3.61} \label{eq-3-61}
 $$
 
 $M$ is called the “mass matrix.”
@@ -675,7 +675,7 @@ A=\left(\begin{array}{c}
 a_{1} \\
 a_{2} \\
 \vdots
-\end{array} \tag{3.71} \label{eq-3-71}\right) .
+\end{array}\right) . \tag{3.71} \label{eq-3-71}
 $$
 
 $$
@@ -759,7 +759,7 @@ $$
 K=\left(\begin{array}{cc}
 m g / \ell+\kappa & -\kappa \\
 -\kappa & m g / \ell+\kappa
-\end{array} \tag{3.78} \label{eq-3-78}\right) .
+\end{array}\right) . \tag{3.78} \label{eq-3-78}
 $$
 
 The $M$ matrix is 
@@ -767,7 +767,7 @@ $$
 M=\left(\begin{array}{cc}
 m & 0 \\
 0 & m
-\end{array} \tag{3.79} \label{eq-3-79}\right) .
+\end{array}\right) . \tag{3.79} \label{eq-3-79}
 $$
 
 Thus from [3.78](#eq-3-78) and [3.79](#eq-3-79), 
@@ -775,7 +775,7 @@ $$
 M^{-1} K=\left(\begin{array}{cc}
 g / \ell+\kappa / m & -\kappa / m \\
 -\kappa / m & g / \ell+\kappa / m
-\end{array} \tag{3.80} \label{eq-3-80}\right) .
+\end{array}\right) . \tag{3.80} \label{eq-3-80}
 $$
 
 The matrix $M^{-1}K − \omega^{2}I$ is 
@@ -783,7 +783,7 @@ $$
 M^{-1} K-\omega^{2} I=\left(\begin{array}{cc}
 g / \ell+\kappa / m-\omega^{2} & -\kappa / m \\
 -\kappa / m & g / \ell+\kappa / m-\omega^{2}
-\end{array} \tag{3.81} \label{eq-3-81}\right) .
+\end{array}\right) . \tag{3.81} \label{eq-3-81}
 $$
 
 To find the eigenvalues of $M^{-1}K$, we form the determinant 
@@ -809,7 +809,7 @@ $$
 A^{1}=\left(\begin{array}{l}
 a_{1}^{1} \\
 a_{2}^{1}
-\end{array} \tag{3.84} \label{eq-3-84}\right) ,
+\end{array}\right) , \tag{3.84} \label{eq-3-84}
 $$
 
 satisfies the matrix equation 
@@ -822,7 +822,7 @@ $$
 M^{-1} K-\omega_{1}^{2} I=\left(\begin{array}{cc}
 \kappa / m & -\kappa / m \\
 -\kappa / m & \kappa / m
-\end{array} \tag{3.86} \label{eq-3-86}\right) .
+\end{array}\right) . \tag{3.86} \label{eq-3-86}
 $$
 
 Thus [3.85](#eq-3-85) becomes 
@@ -848,7 +848,7 @@ $$
 A^{1}=\left(\begin{array}{l}
 1 \\
 1
-\end{array} \tag{3.88} \label{eq-3-88}\right) .
+\end{array}\right) . \tag{3.88} \label{eq-3-88}
 $$
 
 This gives [3.10](#eq-3-10). The displacement in this normal mode is shown in [Figure 3.6](#fig-3-6).
@@ -865,7 +865,7 @@ $$
 A^{2}=\left(\begin{array}{l}
 a_{1}^{2} \\
 a_{2}^{2}
-\end{array} \tag{3.89} \label{eq-3-89}\right) ,
+\end{array}\right) , \tag{3.89} \label{eq-3-89}
 $$
 
 satisfies the matrix equation (where the identity matrix multiplying $\omega_{2}^{2}$ is understood)<sup>3 </sup>
@@ -878,7 +878,7 @@ $$
 M^{-1} K-\omega_{2}^{2}=\left(\begin{array}{cc}
 -\kappa / m & -\kappa / m \\
 -\kappa / m & -\kappa / m
-\end{array} \tag{3.91} \label{eq-3-91}\right) .
+\end{array}\right) . \tag{3.91} \label{eq-3-91}
 $$
 
 Thus [3.90](#eq-3-90) becomes 
@@ -904,7 +904,7 @@ $$
 A^{2}=\left(\begin{array}{c}
 1 \\
 -1
-\end{array} \tag{3.93} \label{eq-3-93}\right) .
+\end{array}\right) . \tag{3.93} \label{eq-3-93}
 $$
 
 This gives [3.11](#eq-3-11). The displacement in this normal mode is shown in [Figure 3.7](#fig-3-7).
@@ -925,7 +925,7 @@ $$
 M^{-1} K=\left(\begin{array}{ll}
 K_{11} / m_{1} & K_{12} / m_{1} \\
 K_{12} / m_{2} & K_{22} / m_{2}
-\end{array} \tag{3.94} \label{eq-3-94}\right) ,
+\end{array}\right) , \tag{3.94} \label{eq-3-94}
 $$
 
 where we have used $K_{21} = K_{12}$. Then [3.73](#eq-3-73) becomes 
@@ -1218,7 +1218,7 @@ F(t)=\left(\begin{array}{l}
 \end{array}\right) f_{0} \cos \omega t=\operatorname{Re}\left[\left(\begin{array}{l}
 2 \\
 1
-\end{array} \tag{3.141} \label{eq-3-141}\right) f_{0} e^{-i \omega t}\right] .
+\end{array}\right) f_{0} e^{-i \omega t}\right] . \tag{3.141} \label{eq-3-141}
 $$
 
 Thus 
@@ -1226,7 +1226,7 @@ $$
 M^{-1} F_{0}=\left(\begin{array}{l}
 2 \\
 1
-\end{array} \tag{3.142} \label{eq-3-142}\right) \frac{f_{0}}{m} .
+\end{array}\right) \frac{f_{0}}{m} . \tag{3.142} \label{eq-3-142}
 $$
 
 Now to use [3.133](#eq-3-133), we need only invert the matrix 
@@ -1234,7 +1234,7 @@ $$
 \left[M^{-1} K-\omega^{2}-i \Gamma \omega\right]=\left(\begin{array}{cc}
 \frac{g}{\ell}+\frac{\kappa}{m}-\omega^{2}-i \gamma \omega & -\frac{\kappa}{m} \\
 -\frac{\kappa}{m} & \frac{g}{\ell}+\frac{\kappa}{m}-\omega^{2}-i \gamma \omega
-\end{array} \tag{3.143} \label{eq-3-143}\right) .
+\end{array}\right) . \tag{3.143} \label{eq-3-143}
 $$
 
 This is simple enough to do by hand. We will do that first, and then compare the result with [3.137](#eq-3-137). The determinant is 
@@ -1303,7 +1303,7 @@ $$
 X(t)=\operatorname{Re}\left(W e^{-i \omega t}\right)=\left(\begin{array}{l}
 \alpha_{1} \cos \omega t+\beta_{1} \sin \omega t \\
 \alpha_{2} \cos \omega t+\beta_{2} \sin \omega t
-\end{array} \tag{3.148} \label{eq-3-148}\right)
+\end{array}\right) \tag{3.148} \label{eq-3-148}
 $$
 
 where 

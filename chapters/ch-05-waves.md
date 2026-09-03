@@ -45,7 +45,7 @@ $$
 \psi_{3} \\
 \vdots \\
 \psi_{N}
-\end{array} \tag{5.1} \label{eq-5-1}\right) .
+\end{array}\right) . \tag{5.1} \label{eq-5-1}
 $$
 
 Then the equations of motion (for small longitudinal oscillations) are 
@@ -61,7 +61,7 @@ m & 0 & 0 & \cdots & 0 \\
 0 & 0 & m & \cdots & 0 \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & 0 & \cdots & m
-\end{array} \tag{5.3} \label{eq-5-3}\right) ,
+\end{array}\right) , \tag{5.3} \label{eq-5-3}
 $$
 
 and $K$ has diagonal elements $(m g / \ell+2 \kappa)$, next-to-diagonal elements $-\kappa$, and zeroes elsewhere, 
@@ -72,7 +72,7 @@ m g / \ell+2 \kappa & -\kappa & 0 & \cdots & 0 \\
 0 & -\kappa & m g / \ell+2 \kappa & \cdots & 0 \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & 0 & \cdots & m g / \ell+2 \kappa
-\end{array} \tag{5.4} \label{eq-5-4}\right) .
+\end{array}\right) . \tag{5.4} \label{eq-5-4}
 $$
 
 The $- \kappa$ in the next-to-diagonal elements has exactly the same origin as the $- \kappa$ in the $2 \times 2 \text { } K$ matrix in [3.78](#eq-3-78). It describes the coupling of two neighboring blocks by the spring. The $(m g / \ell+2 \kappa)$ on the diagonal is analogous to the $(m g / \ell+ \kappa)$ on the diagonal of [3.78](#eq-3-78). The difference in the factor of 2 in the coefficient of $\kappa$ arises because there are two springs, one on each side, that contribute to the restoring force on each block in the system shown in [Figure 5.1](#fig-5-1), while there was only one in the system shown in [Figure 3.1](#fig-3-1). Thus $M^{- 1}K$ has the form 
@@ -83,7 +83,7 @@ $$
 0 & -C & 2 B & \cdots & 0 \\
 \vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & 0 & \cdots & 2 B
-\end{array} \tag{5.5} \label{eq-5-5}\right)
+\end{array}\right) \tag{5.5} \label{eq-5-5}
 $$
 
 where 
@@ -122,7 +122,7 @@ A_{3} \\
 A_{N} \\
 A_{N+1} \\
 \vdots
-\end{array} \tag{5.7} \label{eq-5-7}\right) .
+\end{array}\right) . \tag{5.7} \label{eq-5-7}
 $$
 
 Likewise, the $M^{- 1}K$ matrix for the system is an infinite matrix, not easily written down, but any piece of it (along the diagonal) looks like the interior of [5.5](#eq-5-5): 
@@ -134,7 +134,7 @@ $$
 \cdots & 0 & -C & 2 B & -C & \cdots \\
 \cdots & 0 & 0 & -C & 2 B & \cdots \\
 \ddots & \vdots & \vdots & \vdots & \vdots & \ddots
-\end{array} \tag{5.8} \label{eq-5-8}\right) .
+\end{array}\right) . \tag{5.8} \label{eq-5-8}
 $$
 
 This system is “space translation invariant” because it looks the same if it is moved to the left a distance $a$. This moves block $j+1$ to where block $j$ used to be, thus if there is a mode with components $A_{j}$, there must be another mode with the same frequency, represented by a vector, $A^{\prime} = SA$, with components 
@@ -395,9 +395,13 @@ $n = 1$.
 :::
 **![Figure](../images/lt-33672-clipboard_eba3d2a91f801e073aa5a72f0ddc7b73f.png)**
 
-(fig-5-8)=
+:::{figure} ../images/book-fig-5-8.png
+:label: fig-5-8
+:enumerator: 5.8
+:alt: n = 2.
 
-*$n = 2$.*
+$n = 2$.
+:::
 
 :::{figure} ../images/lt-33673-clipboard_eeda10063182715e49699e2aa5f2d5d09.png
 :label: fig-5-9

@@ -93,7 +93,7 @@ $$
 \int_{0}^{\ell} d x \sin \frac{n \pi x}{\ell} \sin \frac{n^{\prime} \pi x}{\ell}=\left\{\begin{array}{c}
 \ell / 2 \text { if } n=n^{\prime} \\
 0 \text { if } n \neq n^{\prime}
-\end{array} \tag{6.9} \label{eq-6-9}\right.
+\end{array}\right. \tag{6.9} \label{eq-6-9}
 $$
 
 This is just the method of normal coordinates adapted to the continuous situation.
@@ -161,7 +161,7 @@ $$
 \psi(x)=\left\{\begin{array}{cc}
 x & \text { for } x \leq w, \\
 \frac{w(1-x)}{1-w} & \text { for } x>w .
-\end{array} \tag{6.18} \label{eq-6-18}\right.
+\end{array}\right. \tag{6.18} \label{eq-6-18}
 $$
 
 For definiteness, we will take $w = 0.75$, so the function $\psi(x)$ has the form shown in [Figure 6.2](#fig-6-2).
@@ -291,6 +291,14 @@ Do the integrals in [6.20](#eq-6-20). **Hint:** Use integration by parts and wat
 
 Find the normal modes of the string with two free ends, shown in [Figure 6.7](#fig-6-7).
 
+:::{figure} ../images/book-fig-6-7.png
+:label: fig-6-7
+:enumerator: 6.7
+:alt: A continuous string with both ends free to oscillate in the transverse direction.
+
+A continuous string with both ends free to oscillate in the transverse direction.
+:::
+
 ::::
 
 ::::{exercise} Fun with Fourier Series and Fractals
@@ -302,10 +310,6 @@ $$
 f(t)=\sum_{j=0}^{\infty} h^{j} g\left(\operatorname{frac}\left(2^{j} t\right)\right) .
 $$
 
-(fig-6-7)=
-
-*A continuous string with both ends free to oscillate in the transverse direction.*
-
 where 
 $$
 g(t)=\left\{\begin{array}{c}
@@ -315,7 +319,8 @@ g(t)=\left\{\begin{array}{c}
 \end{array}\right.
 $$
 
-and $\operatorname{frac}(x)$ denotes the fractional part, i.e. $\operatorname{frac}[4.39](#eq-4-39)=0.39$. $f(t)$ thus depends on the two parameters $h$ and $w$, where $0 < h < 1$ and $0 < w < 1 / 2$. For example, for $h = 1 / 2$ and $w = 1 / 4$, the $h^{0}$ term is shown in [Figure 6.8](#fig-6-8).
+and $\operatorname{frac}(x)$ denotes the fractional part, i.e. $\operatorname{frac}(4.39)=0.39$. $f(t)$ thus depends on the two parameters $h$ and $w$, where $0 < h < 1$ and $0 < w < 1 / 2$. For example, for $h = 1 / 2$ and $w = 1 / 4$, the $h^{0}$ term is shown in [Figure 6.8](#fig-6-8).
+
 
 :::{figure} ../images/lt-33593-clipboard_e52244c12e9dcbd84e235cb6b710b7511.png
 :label: fig-6-8

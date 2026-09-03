@@ -950,7 +950,7 @@ $$
 \frac{\partial R_{x}}{\partial x} & \frac{\partial R_{x}}{\partial y} & \frac{\partial R_{x}}{\partial z} \\
 \frac{\partial R_{y}}{\partial x} & \frac{\partial R_{y}}{\partial y} & \frac{\partial R_{y}}{\partial z} \\
 \frac{\partial R_{z}}{\partial x} & \frac{\partial R_{z}}{\partial y} & \frac{\partial R_{z}}{\partial z}
-\end{array} \tag{11.111} \label{eq-11-111}\right)=1 .
+\end{array}\right)=1 . \tag{11.111} \label{eq-11-111}
 $$
 
 Because $\epsilon$ is small, we can expand [11.111](#eq-11-111) to lowest order in $\epsilon$, 
@@ -1056,23 +1056,35 @@ $$
 
 the boundary condition at $x = X$ is satisfied as well.
 
-(fig-11-22)=
+:::{figure} ../images/book-fig-11-22.png
+:label: fig-11-22
+:enumerator: 11.22
+:alt: The motion of an incompressible fluid in a wave.
 
-*The motion of an incompressible fluid in a wave.*
+The motion of an incompressible fluid in a wave.
+:::
 
 Now we know the mathematics of the displacement of the dry water. Before we go on to discuss the dispersion relation, let us pause to consider what this actually looks like. Imagine that we put a regular rectangular grid of points in the water in equilibrium. Then in [Figure 11.22](#fig-11-22), we show what the grid looks like in the mode, [11.125](#eq-11-125) with $n = 1$.
 
 Each of the little rectangles in [11.22](#eq-11-22) was a square in equilibrium position (when $\psi=0$). Note the way incompressibility works. When the water is squeezed in one direction, it is stretched in the other. You can see this in motion in program 11-3.
 
-(fig-11-23)=
+:::{figure} ../images/book-fig-11-23.png
+:label: fig-11-23
+:enumerator: 11.23
+:alt: The surface of a water wave, with horizontal displacement suppressed.
 
-*The surface of a water wave, with horizontal displacement suppressed.*
+The surface of a water wave, with horizontal displacement suppressed.
+:::
 
 Having stared at this, we can now forget about it for a while, and concentrate just on the surface. That is what matters for the dispersion relation. For ease of presentation in the diagrams below, we will exaggerate the displacement in the vertical $y$ direction and forget about the displacement of the surface in the x direction (which won’t matter anyway). Then the wave looks like the picture in [Figure 11.23](#fig-11-23). We will use energy arguments to get the dispersion relation. There are three contributions to the total energy of the standing wave, [11.125](#eq-11-125) — gravitational potential energy, energy stored in surface tension, and kinetic energy. Let us consider them in turn.
 
-(fig-11-24)=
+:::{figure} ../images/book-fig-11-24.png
+:label: fig-11-24
+:enumerator: 11.24
+:alt: Water is removed from the rectangle in X − x and raised to the rectangle at x.
 
-*Water is removed from the rectangle in $X$ − $x$ and raised to the rectangle at $x$.*
+Water is removed from the rectangle in $X$ − $x$ and raised to the rectangle at $x$.
+:::
 
 #### Gravitational Potential
 
@@ -1189,9 +1201,13 @@ $$
 
 The cross-over wavelength is actually a familiar distance. There is a much more familiar process that involves a similar competition between gravity and surface tension. Consider a water drop on a low friction surface, such as a teflon frying pan. A very tiny drop is nearly spherical. But as the size of the drop increases, it begins to flatten out. Then when the drop increases above a critical size, the height of the drop does not increase. It spreads out with a fixed height, $h$, as shown in cross-section in [Figure 11.25](#fig-11-25).
 
-(fig-11-25)=
+:::{figure} ../images/book-fig-11-25.png
+:label: fig-11-25
+:enumerator: 11.25
+:alt: The cross-section of a water droplet on a frictionless surface.
 
-*The cross-section of a water droplet on a frictionless surface.*
+The cross-section of a water droplet on a frictionless surface.
+:::
 
 As with the dispersion relation, we can understand what is going on by considering the energy. The total energy of the drop is a sum of the gravitational potential energy and the energy due to surface tension. 
 $$
@@ -1314,9 +1330,13 @@ A lens of this kind focuses parallel rays of light, as shown in [Figure 11.30](#
 
 ![Figure](../images/lt-33311-clipboard_e1c78d59e075e1a0061ad979fdb78e882.png)
 :::
-(fig-11-32)=
+:::{figure} ../images/book-fig-11-32.png
+:label: fig-11-32
+:enumerator: 11.32
+:alt: sides of the lens is proportional to the height. Thus the in this case, because the slopes on one side are the same, the difference in slopes on the other side is proportional to the difference in height, and that means that they all come together at the same x.
 
-*sides of the lens is proportional to the height. Thus the in this case, because the slopes on one side are the same, the difference in slopes on the other side is proportional to the difference in height, and that means that they all come together at the same $x$.*
+sides of the lens is proportional to the height. Thus the in this case, because the slopes on one side are the same, the difference in slopes on the other side is proportional to the difference in height, and that means that they all come together at the same $x$.
+:::
 
 Another way to see that this focusing must work is illustrated in $Figures \text { } 11.33$ and $11.34$. Note that if the parallel rays are coming in at an angle $\delta_{i}$, the ray a distance $h_{i}=\delta f$ above the center of the lens is bent to the horizontal, as shown in [Figure 11.33](#fig-11-33) with the solid line. Then for the rays on either side of that ray (shown as dashed lines), because the dependence of the bending on the height in the lens is linear, the total angular bend, $\delta_{i}+\delta_{o}$ is $f$ multiplied by the total distance from the center, $h_{i}+h_{o}$, but then $h_{o}=\delta_{o} f$, which is the condition for focusing. This is illustrated in [Figure 11.34](#fig-11-34).
 
@@ -1327,9 +1347,13 @@ Another way to see that this focusing must work is illustrated in $Figures \text
 
 ![Figure](../images/lt-33313-clipboard_e81d076109f07fbae018e8375ae74ac2d.png)
 :::
-(fig-11-34)=
+:::{figure} ../images/book-fig-11-34.png
+:label: fig-11-34
+:enumerator: 11.34
+:alt: For a bundle of parallel rays at any angle, you can determine where they hit the focal plane by tracing any ray, the easiest being the one through the center of the lens, which is not bent at all, as shown in [Figure 11.35](#fig-11-35). The parallel rays (a part of a plane wave — we know this is impossible, but we are ignoring diffraction) can be thought of as coming from a point source at infinity. If there is a point source closer to the lens, it focuses farther away. Now play with the animation LENS.EXE.
 
-*For a bundle of parallel rays at any angle, you can determine where they hit the focal plane by tracing any ray, the easiest being the one through the center of the lens, which is not bent at all, as shown in [Figure 11.35](#fig-11-35). The parallel rays (a part of a plane wave — we know this is impossible, but we are ignoring diffraction) can be thought of as coming from a point source at infinity. If there is a point source closer to the lens, it focuses farther away. Now play with the animation LENS.EXE.*
+For a bundle of parallel rays at any angle, you can determine where they hit the focal plane by tracing any ray, the easiest being the one through the center of the lens, which is not bent at all, as shown in [Figure 11.35](#fig-11-35). The parallel rays (a part of a plane wave — we know this is impossible, but we are ignoring diffraction) can be thought of as coming from a point source at infinity. If there is a point source closer to the lens, it focuses farther away. Now play with the animation LENS.EXE.
+:::
 
 :::{figure} ../images/lt-33314-clipboard_e777501e06303f18e5ab9445dead9c06c.png
 :label: fig-11-35
@@ -1349,9 +1373,13 @@ $$
 
 ![Figure](../images/lt-33316-clipboard_e7b7f44b5ee3948bd7aec2f6b3d1be8bb.png)
 :::
-(fig-11-37)=
+:::{figure} ../images/book-fig-11-37.png
+:label: fig-11-37
+:enumerator: 11.37
+:alt: which for small angles is equivalent to
 
-*which for small angles is equivalent to*
+which for small angles is equivalent to
+:::
 
 $$
 \frac{h}{d_{1}}+\frac{h}{d_{2}}=\frac{h}{f} \tag{11.152} \label{eq-11-152}

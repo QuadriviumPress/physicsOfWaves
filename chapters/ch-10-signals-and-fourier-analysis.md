@@ -85,7 +85,7 @@ $$
 f(t)=\left\{\begin{array}{cc}
 1-|t| & \text { for }|t| \leq 1 \\
 0 & \text { for }|t|>1
-\end{array} \tag{10.8} \label{eq-10-8}\right.
+\end{array}\right. \tag{10.8} \label{eq-10-8}
 $$
 
 the shape of the string at a sequence of times is shown in [Figure 10.2](#fig-10-2) and animated in program 10-1.
@@ -360,7 +360,7 @@ $$
 \frac{1}{2 \pi T} \int_{-\pi T}^{\pi T} d t e^{i m t / T} e^{-i n t / T}=\left\{\begin{array}{l}
 1 \text { for } m=n , \\
 0 \text { for } m \neq n .
-\end{array} \tag{10.47} \label{eq-10-47}\right.
+\end{array}\right. \tag{10.47} \label{eq-10-47}
 $$
 
 Now suppose that $f(t)$ goes to 0 for large $|t|$ (note that this is consistent with the periodic boundary condition [10.42](#eq-10-42)) fast enough so that the integral in [10.46](#eq-10-46) is well defined as $T \rightarrow \infty$ for all $m$. Then because of the factor of $1/T$ in [10.47](#eq-10-47), the $c_{n}$ all go to zero like $1/T$. Thus we should multiply $c_{n}$ by $T$ to get something finite in the limit. Comparing [10.45](#eq-10-45) with [10.9](#eq-10-9), we see that we should take $\omega$ to be $n/T$.
@@ -573,7 +573,7 @@ $$
 \omega^{2}=\left\{\begin{array}{l}
 v_{I}^{2} k^{2}=\frac{T}{\rho_{I}} k^{2}=\quad \text { in region } I \\
 v_{I I}^{2} k^{2}=\frac{T}{\rho_{I I}} k^{2} \quad \text { in region } I I
-\end{array} \tag{10.75} \label{eq-10-75}\right.
+\end{array}\right. \tag{10.75} \label{eq-10-75}
 $$
 
 where $v_{I}$ and $v_{II}$ are the phase velocities in the two regions.
@@ -757,7 +757,7 @@ $$
 \theta(t)=\left\{\begin{array}{l}
 1 \text { for } t \geq 0 , \\
 0 \text { for } t<0 .
-\end{array} \tag{10.103} \label{eq-10-103}\right.
+\end{array}\right. \tag{10.103} \label{eq-10-103}
 $$
 
 These formulas are not very transparent or informative, but we can put them into a computer and look at the result. We will plot the result in the limit $2 \Omega \rightarrow \Gamma$. The results, [10.102](#eq-10-102) and [10.103](#eq-10-103) look singular in this limit, but actually, the limit exists and is perfectly smooth.[^10-4-4] In $Figures \text { } 10.7 \text {-} 10.12$, we show $\psi(x, t)$ for $\Gamma=v=1$ in arbitrary units, for$t$ values from $-2$

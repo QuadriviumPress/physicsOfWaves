@@ -40,6 +40,7 @@ def check_references(errors: list[str]) -> None:
         text = path.read_text(encoding="utf-8")
         targets.update(re.findall(r"\\label\{([^}]+)\}", text))
         targets.update(re.findall(r"^:label: (\S+)$", text, re.M))
+        targets.update(re.findall(r"^label: (\S+)$", text, re.M))
         targets.update(re.findall(r"^\((\S+)\)=$", text, re.M))
         links += [
             (path.name, m)
@@ -115,6 +116,85 @@ def check_structure(errors: list[str]) -> None:
             )
 
 
+def check_equation_cites(errors: list[str]) -> None:
+    """Prose ``[N.M](#eq-…)`` must match the target label, and a
+    'Putting A, B and C together' cluster must name the three preceding tags.
+    """
+    link_re = re.compile(r"\[(\d+\.\d+)\]\(#(eq-[\w-]+)\)")
+    putting_re = re.compile(
+        r"Putting\s+"
+        r"\[(\d+\.\d+)\]\(#eq-[\w-]+\)"
+        r",\s*\[(\d+\.\d+)\]\(#eq-[\w-]+\)"
+        r"\s+and\s+\[(\d+\.\d+)\]\(#eq-[\w-]+\)"
+        r"\s+together",
+        re.I,
+    )
+    math_re = re.compile(r"(?<!\$)\$\$(?!\$)(.+?)(?<!\$)\$\$(?!\$)", re.S)
+    tag_re = re.compile(r"\\tag\{(\d+\.\d+)\}")
+    inner_envs = (
+        "array",
+        "matrix",
+        "pmatrix",
+        "bmatrix",
+        "vmatrix",
+        "Vmatrix",
+        "cases",
+    )
+
+    def tags_inside_inner_env(body: str) -> int:
+        n = 0
+        for env in inner_envs:
+            for m in re.finditer(rf"\\begin\{{{env}\}}", body):
+                rest = body[m.end() :]
+                end = re.search(rf"\\end\{{{env}\}}", rest)
+                if end and r"\tag{" in rest[: end.start()]:
+                    n += 1
+        return n
+
+    for path in content_files():
+        text = path.read_text(encoding="utf-8")
+        for num, label in link_re.findall(text):
+            want = "eq-" + num.replace(".", "-")
+            if label != want:
+                errors.append(
+                    f"{path.name}: cite [{num}] points at #{label}, "
+                    f"expected #{want}"
+                )
+        inner = sum(tags_inside_inner_env(b) for b in math_re.findall(text))
+        if inner:
+            errors.append(
+                f"{path.name}: {inner} × \\tag inside array/matrix/cases"
+            )
+
+        last_tags: list[str] = []
+        pos = 0
+        for m in math_re.finditer(text):
+            prose = text[pos : m.start()]
+            pm = putting_re.search(prose)
+            if pm and len(last_tags) >= 3:
+                cited = [pm.group(1), pm.group(2), pm.group(3)]
+                prev = last_tags[-3:]
+                if cited != prev:
+                    errors.append(
+                        f"{path.name}: 'Putting {', '.join(cited)} together' "
+                        f"but the three preceding tags are {', '.join(prev)}"
+                    )
+            tm = tag_re.search(m.group(1))
+            if tm:
+                last_tags.append(tm.group(1))
+            pos = m.end()
+        prose = text[pos:]
+        pm = putting_re.search(prose)
+        if pm and len(last_tags) >= 3:
+            cited = [pm.group(1), pm.group(2), pm.group(3)]
+            prev = last_tags[-3:]
+            if cited != prev:
+                errors.append(
+                    f"{path.name}: 'Putting {', '.join(cited)} together' "
+                    f"but the three preceding tags are {', '.join(prev)}"
+                )
+
+
 def check_images(errors: list[str]) -> None:
     for path in content_files():
         text = path.read_text(encoding="utf-8")
@@ -131,6 +211,7 @@ def main() -> int:
     check_duplicate_labels(errors)
     check_footnotes(errors)
     check_images(errors)
+    check_equation_cites(errors)
 
     if errors:
         print("VERIFY FAILED")

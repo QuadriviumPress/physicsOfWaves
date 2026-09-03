@@ -160,7 +160,7 @@ $$
 f(x, y)=\left\{\begin{array}{l}
 1 \text { inside the opening } \\
 0 \text { outside the opening }
-\end{array} \tag{13.16} \label{eq-13-16}\right.
+\end{array}\right. \tag{13.16} \label{eq-13-16}
 $$
 
 In fact, it will be useful to think about the more general problem, because the the function, [13.16](#eq-13-16), is discontinuous. As we will see later, this leads to more complicated diffraction phenomena than we see with a smooth function. In particular, we will assume that $f(x, y)$ is signifigantly different from zero only for small x and y and goes to zero for large $x$ and $y$. Then we can talk about the position of the “opening” that produces the beam, near $x = y = 0$.
@@ -489,7 +489,7 @@ $$
 f(x, y)=\left\{\begin{array}{l}
 1 \text { for }-a \leq x \leq a \\
 0 \text { for }|x|>a
-\end{array} \tag{13.60} \label{eq-13-60}\right.
+\end{array}\right. \tag{13.60} \label{eq-13-60}
 $$
 
 independent of $y$. This is really a two-dimensional problem, because we can keep $k_{y} = 0$ and ignore it (except for a factor of $2\pi$, that we won’t worry about) by dropping the $k_{y}$ integral from [13.19](#eq-13-19). [13.24](#eq-13-24) 
@@ -609,7 +609,7 @@ $$
 f(x, y)-\left\{\begin{array}{l}
 1 \text { for }-a_{x} \leq x \leq a_{x} \text { and }-a_{y} \leq y \leq a_{y}, \\
 0 \text { otherwise }.
-\end{array} \tag{13.70} \label{eq-13-70}\right.
+\end{array}\right. \tag{13.70} \label{eq-13-70}
 $$
 
 This is the product of a single slit pattern in $x$ with a single slit pattern in $y$. The Fourier transform is the product of the one-dimensional Fourier transforms 
@@ -635,7 +635,7 @@ $$
 f_{a}(x)=\left\{\begin{array}{l}
 \frac{1}{2 a} \text { for }-a \leq x \leq a, \\
 0 \text { for }|x|>a.
-\end{array} \tag{13.73} \label{eq-13-73}\right.
+\end{array}\right. \tag{13.73} \label{eq-13-73}
 $$
 
 The limit of $f_{a}$ as $a \rightarrow 0$ doesn’t really exist as a function. It is zero everywhere except $x = 0$. But it goes to $\infty$ very fast at $x = 0$, so that 
@@ -812,7 +812,7 @@ f(x, y)=\left\{\begin{array}{l}
 1 \text { for }-a \leq x \leq a \\
 1 \text { for }-a \leq x-b \leq a \\
 0 \text { otherwise }
-\end{array} \tag{13.97} \label{eq-13-97}\right.
+\end{array}\right. \tag{13.97} \label{eq-13-97}
 $$
 
 for $b > 2a$. A piece of the pattern is shown in [Figure 13.15](#fig-13-15) for $b = 3.5a$.
@@ -834,7 +834,7 @@ $$
 f_{1}(x, y)=\left\{\begin{array}{l}
 1 \text { for }-a \leq x \leq a \\
 0 \text { otherwise }
-\end{array} \tag{13.99} \label{eq-13-99}\right.
+\end{array}\right. \tag{13.99} \label{eq-13-99}
 $$
 
 and 
@@ -1120,7 +1120,7 @@ where $g(\vec{r})$ is a periodic function, like $f(\vec{r})$ in [13.106](#eq-13-
 $$
 e^{i \vec{k} \cdot \vec{r}-i \omega t} g(\vec{r})=\sum_{\begin{array}{c}
 \text { diffracted } \atop \text { waves }, \alpha
-\end{array} \tag{13.123} \label{eq-13-123}} C_{\alpha} e^{i \vec{k}_{\alpha} \cdot \vec{r}-i \omega t} .
+\end{array}} C_{\alpha} e^{i \vec{k}_{\alpha} \cdot \vec{r}-i \omega t} . \tag{13.123} \label{eq-13-123}
 $$
 
 But we also know from the discussion above that the Fourier transform of $g$ is nonzero only for values of $\vec{k}$ of the form [13.107](#eq-13-107). Thus [13.114](#eq-13-114) takes the form 

@@ -316,7 +316,7 @@ $$
 x(t) = R \cos(ωt − φ), y(t) = −R \sin(ωt − φ), \tag{1.35} \label{eq-1-35}
 $$
 
-where $φ$ is the counterclockwise angle in radians of the position at $t = 0$ from the positive x axis. The $x(t)$ in [1.36](#eq-1-36) is identical to the $x(t)$ in [1.6](#eq-1-6) with
+where $φ$ is the counterclockwise angle in radians of the position at $t = 0$ from the positive x axis. The $x(t)$ in [1.35](#eq-1-35) is identical to the $x(t)$ in [1.6](#eq-1-6) with
 
 $$
 x(0) = R \cos φ , x'(0) = ωR \sin φ . \tag{1.36} \label{eq-1-36}
@@ -324,9 +324,13 @@ $$
 
 Simple harmonic motion is equivalent to **one component** of uniform circular motion. This relation is illustrated in [figure 1.4](#fig-1-4) and in program 1-1 on the programs disk. As the point moves around the circle at constant velocity, $Rω$, the $x$ coordinate executes simple harmonic motion with angular velocity $ω$. If we wish, we can choose the two constants required to fix the solution of [1.3](#eq-1-3) to be $R$ and $φ$, instead of $x(0)$ and $x'(0)$. In this language, the action of resetting of the clock is more transparent. Resetting the clock changes the value of $φ$ without changing anything else.
 
-(fig-1-4)=
+:::{figure} ../images/book-fig-1-4.png
+:label: fig-1-4
+:enumerator: 1.4
+:alt: The relation between uniform circular motion and simple harmonic motion.
 
-*The relation between uniform circular motion and simple harmonic motion.*
+The relation between uniform circular motion and simple harmonic motion.
+:::
 
 **But we would like even more.** The key idea is that linearity allows us considerable freedom. We can add solutions of the equations of motion together and multiply them by constants, and the result is still a solution. We would like to use this freedom to choose solutions that behave as simply as possible under time translations.
 
@@ -336,7 +340,7 @@ $$
 z(t + a) = h(a) z(t). \tag{1.37} \label{eq-1-37}
 $$
 
-That is, we would like find a solution that reproduces itself up to an overall constant, $h(a)$ when we reset our clocks by $a$. Because we are always free to multiply a solution of a homogeneous linear equation of motion by a constant, the change from $z(t)$ to $h(a) z(t)$ doesn’t amount to much. We will call a solution satisfying [1.38](#eq-1-38) an “irreducible<sup>3</sup> solution” with respect to time translations, because its behavior under time translations (resettings of the clock) is as simple as it can possibly be.
+That is, we would like find a solution that reproduces itself up to an overall constant, $h(a)$ when we reset our clocks by $a$. Because we are always free to multiply a solution of a homogeneous linear equation of motion by a constant, the change from $z(t)$ to $h(a) z(t)$ doesn’t amount to much. We will call a solution satisfying [1.37](#eq-1-37) an “irreducible<sup>3</sup> solution” with respect to time translations, because its behavior under time translations (resettings of the clock) is as simple as it can possibly be.
 
 It turns out that for systems whose equations of motion are linear and time translation invariant, as we will see in more detail below, we can always find irreducible solutions that
 
@@ -344,7 +348,7 @@ It turns out that for systems whose equations of motion are linear and time tran
 
 *<sup>3</sup>The word “irreducible” is borrowed from the theory of group representations. In the language of group theory, the irreducible solution is an “irreducible representation of the translation group.” It just means “as simple as possible.”*
 
-have the property, [1.38](#eq-1-38). However, for simple harmonic motion, this requires complex numbers. You can see this by noting that changing the clock setting by $π/ω$ just changes the sign of the solution with angular frequency $ω$, because both the $\cos$ and $\sin$ terms change sign:
+have the property, [1.37](#eq-1-37). However, for simple harmonic motion, this requires complex numbers. You can see this by noting that changing the clock setting by $π/ω$ just changes the sign of the solution with angular frequency $ω$, because both the $\cos$ and $\sin$ terms change sign:
 
 $$
 \cos(ωt + π) = − \cos ωt, \sin(ωt + π) = − \sin ωt. \tag{1.38} \label{eq-1-38}
@@ -408,9 +412,13 @@ $$
 
 The absolute value $|z|$ is always a real, non-negative number.
 
-(fig-1-5)=
+:::{figure} ../images/book-fig-1-5.png
+:label: fig-1-5
+:enumerator: 1.5
+:alt: A vector with positive real part in the complex plane.
 
-*A vector with positive real part in the complex plane.*
+A vector with positive real part in the complex plane.
+:::
 
 **The argument or phase, arg$(z)$,** of a nonzero complex number $z$, is the angle, in radians, of the vector $(a, b)$ counterclockwise from the $x$ axis:
 
@@ -423,9 +431,13 @@ $$
 
 Like any angle, $arg(z)$ can be redefined by adding a multiple of $2π$ radians or 360<sup>◦</sup> (see [figure 1.5](#fig-1-5) and 1.6).
 
-(fig-1-6)=
+:::{figure} ../images/book-fig-1-6.png
+:label: fig-1-6
+:enumerator: 1.6
+:alt: A vector with negative real part in the complex plane.
 
-*A vector with negative real part in the complex plane.*
+A vector with negative real part in the complex plane.
+:::
 
 ### Arithmetic
 
@@ -593,6 +605,14 @@ $$
 
 In the complex plane, [1.65](#eq-1-65) expresses the fact that a two-dimensional vector can be written either in Cartesian coordinates, $(x, y)$, or in polar coordinates, $(R, θ)$. For example, $\sqrt{3}+i = 2e^{i\pi/6}$; $1 + i = \sqrt{2}e^{i\pi/4}$; $-8i = 8e^{3i\pi/2} = 8e^{-i\pi/2}$. [Figure 1.7](#fig-1-7) shows the complex number $1 + i = \sqrt{2}e^{i\pi/4}$.
 
+:::{figure} ../images/book-fig-1-7.png
+:label: fig-1-7
+:enumerator: 1.7
+:alt: The complex number 1 + i = \sqrt{2}e^{i\pi/4}.
+
+The complex number $1 + i = \sqrt{2}e^{i\pi/4}$.
+:::
+
 The relation, [1.65](#eq-1-65), gives another useful way of thinking about multiplication of complex numbers. If
 
 $$
@@ -611,11 +631,15 @@ Equation [1.57](#eq-1-57) yields a number of relations that may seem surprising 
 
 ## 1.5: Exponential Solutions
 
-We are now ready to translate the conditions of linearity and time translation invariance into mathematics. What we will see is that the two properties of linearity and time translation invariance lead automatically to irreducible solutions satisfying [1.38](#eq-1-38), and furthermore that
+We are now ready to translate the conditions of linearity and time translation invariance into mathematics. What we will see is that the two properties of linearity and time translation invariance lead automatically to irreducible solutions satisfying [1.37](#eq-1-37), and furthermore that
 
-(fig-1-8)=
+:::{figure} ../images/book-fig-1-8.png
+:label: fig-1-8
+:enumerator: 1.8
+:alt: Some special complex exponential in the complex plane.
 
-*Some special complex exponential in the complex plane.*
+Some special complex exponential in the complex plane.
+:::
 
 these irreducible solutions are just exponential. We do not need to use any other details about the equation of motion to get this result. Therefore our arguments will apply to much more complicated situations, in which there is damping or more degrees of freedom or both. **So long as the system has time translation invariance and linearity, the solutions will be sums of irreducible exponential solutions.**
 
@@ -767,23 +791,19 @@ $$
 z(t + a) = z(t) z(a). \tag{1.96} \label{eq-1-96}
 $$
 
-Consider what happens for very small **$t =**ϵ**<< 1$**. Performing a Taylor expansion, we can write
+Consider what happens for very small $t = \epsilon \ll 1$. Performing a Taylor expansion, we can write
 
-**
 $$
-z(**ϵ**) = 1 + H**ϵ**+ O(**ϵ**^2) \tag{1.97} \label{eq-1-97}
+z(\epsilon) = 1 + H\epsilon + O(\epsilon^2) \tag{1.97} \label{eq-1-97}
 $$
-**
 
-where H = z'(0) from [1.84](#eq-1-84) and [1.87](#eq-1-87). Using [1.88](#eq-1-88), we can show that
+where $H = z'(0)$ from [1.84](#eq-1-84) and [1.87](#eq-1-87). Using [1.88](#eq-1-88), we can show that
 
-**
 $$
-z(N**ϵ**) = [z(**ϵ**)]^N. \tag{1.98} \label{eq-1-98}
+z(N\epsilon) = [z(\epsilon)]^N. \tag{1.98} \label{eq-1-98}
 $$
-**
 
-**Then for any $t$ we can write (taking t = N?)**
+Then for any $t$ we can write (taking $t = N\epsilon$)
 
 $$
 z(t) = \displaystyle \lim_{N \to \infty}[z(t/N)]^N = \displaystyle \lim_{N\to \infty}[1+H(t/N)]^N = e^{(Ht)} \tag{1.99} \label{eq-1-99}
@@ -804,17 +824,17 @@ $$
 MH^2 + K = 0 \tag{1.101} \label{eq-1-101}
 $$
 
-Now, finally, we can see the relevance of complex numbers to the above discussion of time translation invariance. For positive M and K, the equation [1.93](#eq-1-93) has no solutions at all if we restrict H to be real. We cannot find any real irreducible solutions. But there are always two solutions for H in the complex numbers. In this case, the solution is
+Now, finally, we can see the relevance of complex numbers to the above discussion of time translation invariance. For positive M and K, the equation [1.101](#eq-1-101) has no solutions at all if we restrict H to be real. We cannot find any real irreducible solutions. But there are always two solutions for H in the complex numbers. In this case, the solution is
 
 $$
-H=±iw \tag{1.102} \label{eq-1-102}
+H=\pm i\omega \tag{1.102} \label{eq-1-102}
 $$
  where 
 $$
-w=sqrt{\frac{K}{M}} \tag{1.103} \label{eq-1-103}
+\omega=\sqrt{\frac{K}{M}} \tag{1.103} \label{eq-1-103}
 $$
 
-It is only in this last step, where we actually compute H, that the details of [1.69](#eq-1-69) enter. Until [1.93](#eq-1-93), everything followed simply from the general principles, [1.71](#eq-1-71).
+It is only in this last step, where we actually compute H, that the details of [1.69](#eq-1-69) enter. Until [1.101](#eq-1-101), everything followed simply from the general principles, [1.71](#eq-1-71).
 
 Now, as above, from these two solutions, we can construct two real solutions by taking the real and imaginary parts of $z(t) = e^{±iωt}$
 
@@ -829,21 +849,21 @@ $$
 Time translations mix up these two real solutions. That is why the irreducible complex exponential solutions are easier to work with. The quantity ω is the angular frequency that we saw in [1.5](#eq-1-5) in the solution of the equation of motion for the harmonic oscillator. Any linear combination of such solutions can be written in terms of an “amplitude” and a “phase” as follows: For real c and d
 
 $$
-c \cos(w) + d\sin(wt) = c(e^{iwt} +e^{-iwt})/2 - id((e^{iwt} +e^{-iwt})/2 \tag{1.106} \label{eq-1-106}
+c \cos(\omega t) + d\sin(\omega t) = \operatorname{Re}\bigl((c+id)e^{-i\omega t}\bigr) \tag{1.106} \label{eq-1-106}
 $$
 
 $$
-=Re ((c+id)(e^{=iwt}) = Re (Ae^{iθ}e^{-iwt}) \tag{1.107} \label{eq-1-107}
+=\operatorname{Re}\bigl(A e^{i\theta}e^{-i\omega t}\bigr) \tag{1.107} \label{eq-1-107}
 $$
 
 $$
-=Re (A e^{−i(ωt−θ)} ) = A \cos(ωt − θ) \tag{1.108} \label{eq-1-108}
+=\operatorname{Re}\bigl(A e^{-i(\omega t-\theta)}\bigr) = A \cos(\omega t - \theta) \tag{1.108} \label{eq-1-108}
 $$
 
 where A is a positive real number called the amplitude,
 
 $$
-A=sqrt{c^2+d^2} \tag{1.109} \label{eq-1-109}
+A=\sqrt{c^2+d^2} \tag{1.109} \label{eq-1-109}
 $$
 
 and θ is an angle called the phase,
@@ -851,12 +871,12 @@ and θ is an angle called the phase,
 These relations are another example of the equivalence of Cartesian coordinates and polar coordinates, discussed after [1.65](#eq-1-65). The pair, c and d, are the Cartesian coordinates in the complex plane of the complex number, c + id. The amplitude, A, and phase, θ, are the polar coordinate representation of the same complex [1.96](#eq-1-96) shows that c and d are also the coefficients of cos ωt and sin ωt in the real part of the product of this complex number with −iωt e . This relation is illustrated in [figure 1.9](#fig-1-9) (note the relation to [figure 1.4](#fig-1-4)). As z moves clockwise with constant angular velocity, ω, around the circle, |z| = A, in the complex plane, the real part of z undergoes simple harmonic motion, A cos(ωt − θ). Now that you know about complex numbers and complex exponentials, you should go back to the relation between simple harmonic motion and uniform circular motion illustrated in [figure 1.4](#fig-1-4) and in supplementary program 1-1. The uniform circular motion can interpreted as a motion in the complex plane of the
 
 $$
-z(t) = e^{-iwt} \tag{1.110} \label{eq-1-110}
+z(t) = e^{-i\omega t} \tag{1.110} \label{eq-1-110}
 $$
 
 As t changes, z(t) moves with constant clockwise velocity around the unit circle in the complex plane. This is the clockwise motion shown in program 1-1. The real part, cos ωt, executes simple harmonic motion.
 
-Note that we could have just as easily taken our complex solution to be $e^{+iwt}$. This would correspond to counterclockwise motion in the complex plane, but the real part, which is all that matters physically, would be unchanged. It is **conventional** in physics to go to complex solutions proportional to $e^{−iωt}$. This is purely a convention. There is no physics in it. However, it is sufficiently universal in the physics literature that we will try to do it consistently here.
+Note that we could have just as easily taken our complex solution to be $e^{+i\omega t}$. This would correspond to counterclockwise motion in the complex plane, but the real part, which is all that matters physically, would be unchanged. It is **conventional** in physics to go to complex solutions proportional to $e^{-i\omega t}$. This is purely a convention. There is no physics in it. However, it is sufficiently universal in the physics literature that we will try to do it consistently here.
 
 :::{figure} ../images/lt-24242-screen_shot_2021-04-27_at_11.53.30_pm.png
 :label: fig-1-9
@@ -870,7 +890,7 @@ Note that we could have just as easily taken our complex solution to be $e^{+iwt
 One of the most important examples of an oscillating system is an LC circuit. You probably studied these in your course on electricity and magnetism. Like a Hooke’s law spring, this system is linear, because the relations between charge, current, voltage, and the like for ideal inductors, capacitors and resistors are linear. Here we want to make explicit the analogy between a particular LC circuit and a system of a mass on a spring. The LC circuit with a resistance less inductor with an inductance L and a capacitor of capacitance C is shown in [figure 1.10](#fig-1-10). We might not ordinarily think of this as a circuit at all, because there is no battery or other source of electrical power. However, we could imagine, for example, that the capacitor was charged initially when the circuit was put together. Then current would flow when the circuit was completed. In fact, in the absence of resistance, the current would continue to oscillate forever. We shall see that this circuit is analogous to the combination of springs and a mass shown in [figure 1.11](#fig-1-11). The oscillation frequency of the mechanical system is
 
 $$
-w=\sqrt{\frac{K}{M}} \tag{1.111} \label{eq-1-111}
+\omega=\sqrt{\frac{K}{M}} \tag{1.111} \label{eq-1-111}
 $$
 
 :::{figure} ../images/lt-24243-screen_shot_2021-04-27_at_11.55.19_pm.png
@@ -880,20 +900,29 @@ $$
 
 :::
 
-We can describe the configuration of the mechanical system of [figure 1.10](#fig-1-10) in terms of x, the displacement of the block to the right. We can describe the configuration of the LC circuit of [figure 1.10](#fig-1-10) in terms of Q, the charge that has been “displaced” through the inductor from the equilibrium situation with the capacitor uncharged. In this case, the charge displaced through the inductor goes entirely onto the capacitor because there is nowhere else for it to go, as shown in [figure 1.12](#fig-1-12). The current through the inductor is the time derivative of the charge that has gone through,
-
-$$
-I=\frac{dQ}{dt} \tag{1.112} \label{eq-1-112}
-$$
-
-To see how the LC circuit works, we can examine the voltages at various points in the system, as shown in [figure 1.13](#fig-1-13). For an inductor, the voltage drop across it is the rate of:::{figure} ../images/lt-24244-screen_shot_2021-04-27_at_11.56.15_pm.png
+:::{figure} ../images/lt-24244-screen_shot_2021-04-27_at_11.56.15_pm.png
 :label: fig-1-11
 :enumerator: 1.11
 :alt: Figure
 
 :::
 
-change of current through it, or
+We can describe the configuration of the mechanical system of [figure 1.11](#fig-1-11) in terms of x, the displacement of the block to the right. We can describe the configuration of the LC circuit of [figure 1.10](#fig-1-10) in terms of Q, the charge that has been “displaced” through the inductor from the equilibrium situation with the capacitor uncharged. In this case, the charge displaced through the inductor goes entirely onto the capacitor because there is nowhere else for it to go, as shown in [figure 1.12](#fig-1-12). The current through the inductor is the time derivative of the charge that has gone through,
+
+$$
+I=\frac{dQ}{dt} \tag{1.112} \label{eq-1-112}
+$$
+
+To see how the LC circuit works, we can examine the voltages at various points in the system, as shown in [figure 1.13](#fig-1-13). For an inductor, the voltage drop across it is the rate of change of current through it, or
+
+:::{figure} ../images/book-fig-1-13.png
+:label: fig-1-13
+:enumerator: 1.13
+:alt: Voltages at various points in the LC circuit.
+
+Voltages at various points in the LC circuit.
+:::
+
 
 $$
 -L\frac{dI}{dt}=V \tag{1.113} \label{eq-1-113}
@@ -905,7 +934,7 @@ $$
 V=\frac{Q}{C} \tag{1.114} \label{eq-1-114}
 $$
 
-Putting [1.101](#eq-1-101), [1.102](#eq-1-102) and [1.103](#eq-1-103) together gives
+Putting [1.112](#eq-1-112), [1.113](#eq-1-113) and [1.114](#eq-1-114) together gives
 
 $$
 L\frac{dI}{dt}=L\frac{d^2Q}{dt^2} = -\frac{1}{C}Q \tag{1.115} \label{eq-1-115}
@@ -920,10 +949,10 @@ The correspondence between the two systems is the following:
 
 :::
 
-When we make the substitutions in [1.105](#eq-1-105), the equation of motion, [1.3](#eq-1-3), of the mass on a spring goes into [1.104](#eq-1-104). Thus, knowing the solution, [1.6](#eq-1-6), for the mass on a spring, we can immediately conclude that the displaced charge in this LC circuit oscillates with frequency
+When we make the substitutions in [figure 1.12](#fig-1-12), the equation of motion, [1.3](#eq-1-3), of the mass on a spring goes into [1.115](#eq-1-115). Thus, knowing the solution, [1.6](#eq-1-6), for the mass on a spring, we can immediately conclude that the displaced charge in this LC circuit oscillates with frequency
 
 $$
-w=\frac{1}{LC} \tag{1.116} \label{eq-1-116}
+\omega=\frac{1}{\sqrt{LC}} \tag{1.116} \label{eq-1-116}
 $$
 
 ## 1.7: Units - Displacement and energy
@@ -948,7 +977,7 @@ $$
 \frac{1}{2}KX^2 \tag{1.119} \label{eq-1-119}
 $$
 
-is the “potential” energy of the system, stored in the generalized spring. It makes good physical sense to grant the energy a special status in these problems because in the absence of friction and external forces, the total energy, the sum of the kinetic energy in [1.109](#eq-1-109) and the potential energy in [1.110](#eq-1-110), is constant. In the oscillation, the energy is alternately stored in kinetic energy and potential energy. When the system is in its equilibrium configuration, but moving with its maximum velocity, the energy is all kinetic. When the system instantaneously comes to rest at its maximum displacement, all the energy is potential energy. In fact, it is sometimes easier to identify M and K by calculating the kinetic and potential energies than by finding the equation of motion directly. We will use this trick in chapter 11 to discuss water waves. For example, in an LC circuit in SI units, we took our generalized coordinate to be a charge, $Q$, in Coulombs. Energy is measured in Joules or Volts×Coulombs. The generalized spring constant has units of
+is the “potential” energy of the system, stored in the generalized spring. It makes good physical sense to grant the energy a special status in these problems because in the absence of friction and external forces, the total energy, the sum of the kinetic energy in [1.118](#eq-1-118) and the potential energy in [1.119](#eq-1-119), is constant. In the oscillation, the energy is alternately stored in kinetic energy and potential energy. When the system is in its equilibrium configuration, but moving with its maximum velocity, the energy is all kinetic. When the system instantaneously comes to rest at its maximum displacement, all the energy is potential energy. In fact, it is sometimes easier to identify M and K by calculating the kinetic and potential energies than by finding the equation of motion directly. We will use this trick in chapter 11 to discuss water waves. For example, in an LC circuit in SI units, we took our generalized coordinate to be a charge, $Q$, in Coulombs. Energy is measured in Joules or Volts×Coulombs. The generalized spring constant has units of
 
 $$
 \dfrac{\text{Joules}}{\text{Coulombs}^2} = \dfrac{\text{Volts}}{\text{Coulombs}} \tag{1.120} \label{eq-1-120}
@@ -960,38 +989,38 @@ $$
 \dfrac{\text{Joules} \times \text{seconds}^2}{\text{Coulombs}^2} = \dfrac{\text{Volts} \times \text{seconds}^2}{\text{Amperes}} \tag{1.121} \label{eq-1-121}
 $$
 
-which is a unit of inductance (Henrys). This is what we used in our correspondence between the LC circuit and the mechanical oscillator, [1.105](#eq-1-105). We can also add a generalized force to the right-hand side of [1.107](#eq-1-107). The generalized force has units of energy over generalized displacement. This is right because when the equation of motion is multiplied by the displacement, [1.109](#eq-1-109) and [1.110](#eq-1-110) imply that each of the terms has units of energy. Thus for example, in the LC circuit example, the generalized force is a voltage.
+which is a unit of inductance (Henrys). This is what we used in our correspondence between the LC circuit and the mechanical oscillator, [figure 1.12](#fig-1-12). We can also add a generalized force to the right-hand side of [1.117](#eq-1-117). The generalized force has units of energy over generalized displacement. This is right because when the equation of motion is multiplied by the displacement, [1.118](#eq-1-118) and [1.119](#eq-1-119) imply that each of the terms has units of energy. Thus for example, in the LC circuit example, the generalized force is a voltage.
 
 ### Constant Energy
 
-The total energy is the sum of kinetic plus potential energy from [1.109](#eq-1-109) and [1.110](#eq-1-110),
+The total energy is the sum of kinetic plus potential energy from [1.118](#eq-1-118) and [1.119](#eq-1-119),
 
 $$
 E=\frac{1}{2}M(\frac{dX}{dt})^2 +\frac{1}{2}KX^2 \tag{1.122} \label{eq-1-122}
 $$
 
-If there are no external forces acting on the system, the total energy must be constant. You can see from [1.113](#eq-1-113) that the energy can be constant for an oscillating solution only if the angular frequency, ω, is $/sqrt{\frac{K}{M}}$. Suppose, for example, that the generalized displacement of the system has the form
+If there are no external forces acting on the system, the total energy must be constant. You can see from [1.122](#eq-1-122) that the energy can be constant for an oscillating solution only if the angular frequency, $\omega$, is $\sqrt{K/M}$. Suppose, for example, that the generalized displacement of the system has the form
 
 $$
-X(t) = A\sin(wt) \tag{1.123} \label{eq-1-123}
+X(t) = A\sin(\omega t) \tag{1.123} \label{eq-1-123}
 $$
 
 where A is an amplitude with the units of X . Then the generalized velocity, is
 
 $$
-\frac{d}{dt}X(t) = Awcos(wt) \tag{1.124} \label{eq-1-124}
+\frac{d}{dt}X(t) = A\omega\cos(\omega t) \tag{1.124} \label{eq-1-124}
 $$
 
 To make the energy constant, we must have
 
 $$
-K=w^2M
+K=\omega^2 M
 $$
 
-Then, the total energy, from [1.109](#eq-1-109) and [1.110](#eq-1-110) is
+Then, the total energy, from [1.118](#eq-1-118) and [1.119](#eq-1-119) is
 
 $$
-\frac{1}{2}Mw^2A^2\cos^2(wt) + \frac{1}{2}KA^2\sin^2(wt) = \frac{1}{2}KA^2
+\frac{1}{2}M\omega^2 A^2\cos^2(\omega t) + \frac{1}{2}KA^2\sin^2(\omega t) = \frac{1}{2}KA^2
 $$
 
 ### Torsion Pendulum
@@ -1011,10 +1040,10 @@ $$
 I\frac{d^2θ}{dt^2} = −αθ
 $$
 
-where I is the moment of inertia of the dumbbell about its center and −αθ is the restoring force. Thus the generalized mass is the moment of inertia, I, with units of length squared times mass and the generalized spring constant is the constant α, with units of torque. As expected, from [1.109](#eq-1-109) and [1.110](#eq-1-110), the kinetic energy and potential energy are (respectively)
+where I is the moment of inertia of the dumbbell about its center and −αθ is the restoring force. Thus the generalized mass is the moment of inertia, I, with units of length squared times mass and the generalized spring constant is the constant α, with units of torque. As expected, from [1.118](#eq-1-118) and [1.119](#eq-1-119), the kinetic energy and potential energy are (respectively)
 
 $$
-\frac{1}{2}(\frac{dθ}{dt})^2 and \frac{1}{2}αθ^2
+\frac{1}{2} I \left(\frac{d\theta}{dt}\right)^2 \quad\text{and}\quad \frac{1}{2}\alpha\theta^2
 $$
 
 ## 1.8: A Simple Nonlinear Oscillator
@@ -1022,13 +1051,13 @@ $$
 To illustrate some of the differences between linear and nonlinear oscillators, we will give one very simple example of a nonlinear oscillator. Consider the following nonlinear equation of motion:
 
 $$
-m \frac{d^{2}}{d t^{2}} x=\left\{\begin{array}{l}-F_{0} \text { for } x>0 \\ F_{0} \text { for } x<0 \\ 0 \text { for } x=0\end{array}\right.
+m \frac{d^{2}}{d t^{2}} x=\left\{\begin{array}{l}-F_{0} \text { for } x>0 \\ F_{0} \text { for } x<0 \\ 0 \text { for } x=0\end{array}\right. \tag{1.125} \label{eq-1-125}
 $$
 
-This describes a particle with mass, $m$, that is subject to a force to the left, $−F_0$, when the particle is to the right of the origin ($x(t) > 0$), a force to the right, $F_0$, when the particle is to the left of the origin ($x(t) < 0$), and no force when the particle is sitting right on the origin. The potential energy for this system grows linearly on both sides of x = 0. It cannot be differentiated at $x = 0$, because the derivative is not continuous there. Thus, we cannot expand the potential energy (or the force) in a Taylor series around the point $x = 0$, and the arguments of [1.21](#eq-1-21)-[1.24](#eq-1-24) do not apply. It is easy to find a solution of [1.120](#eq-1-120). Suppose that at time, $t = 0$, the particle is at the origin but moving with positive velocity, $v$. The particle immediately moves to the right of the origin and decelerates with constant acceleration, $\frac{−F_0}{m}$, so that
+This describes a particle with mass, $m$, that is subject to a force to the left, $−F_0$, when the particle is to the right of the origin ($x(t) > 0$), a force to the right, $F_0$, when the particle is to the left of the origin ($x(t) < 0$), and no force when the particle is sitting right on the origin. The potential energy for this system grows linearly on both sides of x = 0. It cannot be differentiated at $x = 0$, because the derivative is not continuous there. Thus, we cannot expand the potential energy (or the force) in a Taylor series around the point $x = 0$, and the arguments of [1.21](#eq-1-21)-[1.24](#eq-1-24) do not apply. It is easy to find a solution of [1.125](#eq-1-125). Suppose that at time, $t = 0$, the particle is at the origin but moving with positive velocity, $v$. The particle immediately moves to the right of the origin and decelerates with constant acceleration, $\frac{−F_0}{m}$, so that
 
 $$
-x(t) = vt - \frac{F_o}{2m}t^2
+x(t) = vt - \frac{F_0}{2m}t^2 \tag{1.126} \label{eq-1-126}
 $$
 
 for $t ≤ τ$.
@@ -1036,22 +1065,22 @@ for $t ≤ τ$.
 where
 
 $$
-τ=\frac{2mv}{F_o}
+\tau=\frac{2mv}{F_0} \tag{1.127} \label{eq-1-127}
 $$
 
 is the time required for the particle to turn around and get back to the origin. At time, $t = τ$, the particle moves to the left of the origin. At this point it is moving with velocity, $−v$, the process is repeated for negative $x$ and positive acceleration $\frac{F_0}{m}$ Then the solution continues in the form
 
 $$
-x(t) = −v(t − τ ) + \frac{F_o}{2m}(t − τ )^2 for τ ≤ t ≤ 2τ
+x(t) = -v(t - \tau) + \frac{F_0}{2m}(t - \tau)^2 \quad\text{for }\tau \leq t \leq 2\tau \tag{1.128} \label{eq-1-128}
 $$
 
-Then the whole process repeats. The motion of the particle, shown in [figure 1.15](#fig-1-15), looks superficially like harmonic oscillation, but the curve is a sequence of parabolas pasted together, instead of a sine wave. The equation of motion, [1.120](#eq-1-120), is time translation invariant. Clearly, we can start the particle at the origin with velocity, v, at any time, t0. The solution then looks like that shown in [figure 1.15](#fig-1-15) but translated in time by $t_0$. The solution has the form
+Then the whole process repeats. The motion of the particle, shown in [figure 1.15](#fig-1-15), looks superficially like harmonic oscillation, but the curve is a sequence of parabolas pasted together, instead of a sine wave. The equation of motion, [1.125](#eq-1-125), is time translation invariant. Clearly, we can start the particle at the origin with velocity, v, at any time, t0. The solution then looks like that shown in [figure 1.15](#fig-1-15) but translated in time by $t_0$. The solution has the form
 
 $$
-x_{t0}(t) = x(t-t_o)
+x_{t_0}(t) = x(t-t_0) \tag{1.129} \label{eq-1-129}
 $$
 
-where $x(t)$ is the function described by [1.121](#eq-1-121), [1.123](#eq-1-123), etc. This shown in [figure 1.16](#fig-1-16) for $t = t_0 = \frac{3τ}{4}$. The dotted curve corresponds to $t_0 = 0$
+where $x(t)$ is the function described by [1.126](#eq-1-126), [1.128](#eq-1-128), etc. This shown in [figure 1.16](#fig-1-16) for $t = t_0 = \frac{3τ}{4}$. The dotted curve corresponds to $t_0 = 0$
 
 :::{figure} ../images/lt-24248-screen_shot_2021-04-28_at_12.18.41_am.png
 :label: fig-1-15
@@ -1060,7 +1089,7 @@ where $x(t)$ is the function described by [1.121](#eq-1-121), [1.123](#eq-1-123)
 
 :::
 
-Like the harmonic oscillator, this system oscillates regularly and indefinitely. However, in this case, the period of the oscillation, the time it takes to repeat, 2τ , depends on the amplitude of the oscillation, or equivalently, on the initial velocity, v. The period is proportional to v, from [1.122](#eq-1-122). The motion of the particle started from the origin at $t = t_0$, for an initial velocity v/2 is shown in [figure 1.17](#fig-1-17). The dotted curve corresponds to an initial velocity, v. While the nonlinear equation of motion, [1.120](#eq-1-120), is time translation invariant, the symmetry is much less useful because the system lacks linearity. From our point of view, the important thing about linearity (apart from the fact that it is a good approximation in so many important physical systems), is that it allows us to choose a convenient basis for the solutions to the equation of motion. We choose them to behave simply under time translations.
+Like the harmonic oscillator, this system oscillates regularly and indefinitely. However, in this case, the period of the oscillation, the time it takes to repeat, 2τ , depends on the amplitude of the oscillation, or equivalently, on the initial velocity, v. The period is proportional to $v$, from [1.127](#eq-1-127). The motion of the particle started from the origin at $t = t_0$, for an initial velocity v/2 is shown in [figure 1.17](#fig-1-17). The dotted curve corresponds to an initial velocity, v. While the nonlinear equation of motion, [1.125](#eq-1-125), is time translation invariant, the symmetry is much less useful because the system lacks linearity. From our point of view, the important thing about linearity (apart from the fact that it is a good approximation in so many important physical systems), is that it allows us to choose a convenient basis for the solutions to the equation of motion. We choose them to behave simply under time translations.
 
 :::{figure} ../images/lt-24249-screen_shot_2021-04-28_at_12.19.36_am.png
 :label: fig-1-16
@@ -1069,13 +1098,15 @@ Like the harmonic oscillator, this system oscillates regularly and indefinitely.
 
 :::
 
-Then, because of linearity, we can build up any solution as a linear combination of the basis solutions. In a situation like [1.120](#eq-1-120), we do not have this option.
+:::{figure} ../images/book-fig-1-17.png
+:label: fig-1-17
+:enumerator: 1.17
+:alt: Motion of the nonlinear oscillator for initial velocity v/2, with the v solution shown dotted.
 
-(fig-1-13)=
+Motion of the nonlinear oscillator for initial velocity $v/2$, with the $v$ solution shown dotted.
+:::
 
-(fig-1-17)=
-
-(fig-1-7)=
+Then, because of linearity, we can build up any solution as a linear combination of the basis solutions. In a situation like [1.125](#eq-1-125), we do not have this option.
 
 ::::{admonition} Chapter Checklist
 :class: checklist

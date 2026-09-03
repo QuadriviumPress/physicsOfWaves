@@ -46,7 +46,7 @@ $$
 X(t)=\left(\begin{array}{l}
 x_{1}(t) \\
 x_{2}(t)
-\end{array} \tag{4.2} \label{eq-4-2}\right)
+\end{array}\right) \tag{4.2} \label{eq-4-2}
 $$
 
 is a solution to the equations of motion for the system, then the reflected vector, 
@@ -54,7 +54,7 @@ $$
 \tilde{X}(t) \equiv\left(\begin{array}{l}
 -x_{2}(t) \\
 -x_{1}(t)
-\end{array} \tag{4.3} \label{eq-4-3}\right) ,
+\end{array}\right) , \tag{4.3} \label{eq-4-3}
 $$
 
 must also be a solution, because the reflected system is actually identical to the original. While this must be so from the physics, it is useful to understand how the math works. To see mathematically that [4.3](#eq-4-3) is a solution, define the symmetry matrix, $S$, 
@@ -62,7 +62,7 @@ $$
 S \equiv\left(\begin{array}{cc}
 0 & -1 \\
 -1 & 0
-\end{array} \tag{4.4} \label{eq-4-4}\right) ,
+\end{array}\right) , \tag{4.4} \label{eq-4-4}
 $$
 
 so that $\tilde{X}(t)$ is related to $X(t)$ by matrix multiplication: 
@@ -73,7 +73,7 @@ $$
 \end{array}\right)\left(\begin{array}{l}
 x_{1}(t) \\
 x_{2}(t)
-\end{array} \tag{4.5} \label{eq-4-5}\right)=S X(t) .
+\end{array}\right)=S X(t) . \tag{4.5} \label{eq-4-5}
 $$
 
 The mathematical statement of the symmetry is the following condition on the $M$ and $K$ matrices:<sup>1 </sup>
@@ -145,7 +145,7 @@ $$
 S A^{1}=\left(\begin{array}{cc}
 0 & -1 \\
 -1 & 0
-\end{array} \tag{4.18} \label{eq-4-18}\right) A^{1}=-A^{1} ,
+\end{array}\right) A^{1}=-A^{1} , \tag{4.18} \label{eq-4-18}
 $$
 
 and similarly 
@@ -153,7 +153,7 @@ $$
 S A^{2}=\left(\begin{array}{cc}
 0 & -1 \\
 -1 & 0
-\end{array} \tag{4.19} \label{eq-4-19}\right) A^{2}=A^{2} .
+\end{array}\right) A^{2}=A^{2} . \tag{4.19} \label{eq-4-19}
 $$
 
 Furthermore, we can run the argument backwards. If $A$ is an eigenvector of the symmetry matrix $S$, and if all the eigenvalues of $S$ are different, then because of the symmetry, [4.13](#eq-4-13), $A$ is a normal mode. To see this, consider the vector $M^{-1}KA$ and act on it with the matrix $S$. Using [4.14](#eq-4-14), we see that if 
@@ -222,7 +222,7 @@ $$
 X(0)=\left(\begin{array}{l}
 d \\
 0
-\end{array} \tag{4.29} \label{eq-4-29}\right)=A^{1} b_{1}+A^{2} b_{2} ,
+\end{array}\right)=A^{1} b_{1}+A^{2} b_{2} , \tag{4.29} \label{eq-4-29}
 $$
 
 or 
@@ -239,7 +239,7 @@ $$
 \dot{X}(0)=\left(\begin{array}{l}
 0 \\
 0
-\end{array} \tag{4.31} \label{eq-4-31}\right)=\omega_{1} A^{1} c_{1}+\omega_{2} A^{2} c_{2} ,
+\end{array}\right)=\omega_{1} A^{1} c_{1}+\omega_{2} A^{2} c_{2} , \tag{4.31} \label{eq-4-31}
 $$
 
 or 
@@ -302,7 +302,7 @@ x_{3} \\
 x_{4} \\
 x_{5} \\
 x_{6}
-\end{array} \tag{4.36} \label{eq-4-36}\right) .
+\end{array}\right) . \tag{4.36} \label{eq-4-36}
 $$
 
 The symmetry operation of rotation is implemented by the cyclic substitution 
@@ -324,7 +324,7 @@ S=\left(\begin{array}{llllll}
 0 & 0 & 0 & 0 & 1 & 0 \\
 0 & 0 & 0 & 0 & 0 & 1 \\
 1 & 0 & 0 & 0 & 0 & 0
-\end{array} \tag{4.39} \label{eq-4-39}\right) .
+\end{array}\right) . \tag{4.39} \label{eq-4-39}
 $$
 
 Note that the 1s along the next-to-diagonal of the matrix, $S$, in [4.40](#eq-4-40) implement the substitutions 
@@ -346,7 +346,7 @@ E & -B & -C & -D & -C & -B \\
 -D & -C & -B & E & -B & -C \\
 -C & -D & -C & -B & E & -B \\
 -B & -C & -D & -C & -B & E
-\end{array} \tag{4.42} \label{eq-4-42}\right) .
+\end{array}\right) . \tag{4.42} \label{eq-4-42}
 $$
 
 Notice that all the diagonal elements are the same $(E)$, as they must be because of the symmetry. The $j$th diagonal element of the $K$ matrix is minus the force per unit displacement on the $j$th mass due to its displacement. Because of the symmetry, each of the masses behaves in exactly the same way when it is displaced with all the other masses held fixed. Thus all the diagonal matrix elements of the $K$ matrix, $K_{jj}$, are equal. Likewise, the symmetry ensures that the effect of the displacement of each block, $j$, on its neighbor, $j \pm 1$ ($j+1 \rightarrow 1$ if $j = 6$, $j - 1 \rightarrow 6$ if $j = 1$ — see [4.42](#eq-4-42)), is exactly the same. Thus the matrix elements along the next-to-diagonal ($B$) are all the same, along with the $B$s in the corners. And so on! The $K$ matrix then satisfies [4.7](#eq-4-7), 
@@ -392,7 +392,7 @@ A_{3}^{k} \\
 A_{4}^{k} \\
 A_{5}^{k} \\
 A_{6}^{k}
-\end{array} \tag{4.48} \label{eq-4-48}\right) .
+\end{array}\right) . \tag{4.48} \label{eq-4-48}
 $$
 
 If we take $A_{1}^{k}=1$ we can solve for all the other components, 
@@ -416,7 +416,7 @@ e^{4 i k \pi / 6} \\
 e^{6 i k \pi / 6} \\
 e^{8 i k \pi / 6} \\
 e^{10 i k \pi / 6}
-\end{array} \tag{4.50} \label{eq-4-50}\right) .
+\end{array}\right) . \tag{4.50} \label{eq-4-50}
 $$
 
 Now to determine the angular frequencies corresponding to the normal modes, we have to evaluate 

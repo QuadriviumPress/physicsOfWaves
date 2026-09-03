@@ -45,7 +45,7 @@ $$
 Z=\left(\begin{array}{l}
 \psi_{1} \\
 \psi_{2}
-\end{array} \tag{12.3} \label{eq-12-3}\right) ,
+\end{array}\right) , \tag{12.3} \label{eq-12-3}
 $$
 
 which gives a complete description of the motion of the string.
@@ -57,7 +57,7 @@ which gives a complete description of the motion of the string.
 :enumerator: 12.11
 :alt: Figure
 
-:::12-1
+:::
 
 “Polarization” refers to the nature of the motion of a point on the string (or other transverse oscillation). This motion is animated in program 12-1. You may want to read the discussion below with this program running.
 
@@ -66,14 +66,14 @@ $$
 u_{1}=\left(\begin{array}{l}
 1 \\
 0
-\end{array} \tag{12.4} \label{eq-12-4}\right)
+\end{array}\right) \tag{12.4} \label{eq-12-4}
 $$
 
 $$
 u_{2}=\left(\begin{array}{l}
 0 \\
 1
-\end{array} \tag{12.5} \label{eq-12-5}\right)
+\end{array}\right) \tag{12.5} \label{eq-12-5}
 $$
 
 represent strings oscillating in the $x$-$z$ plane and the $y$-$z$ plane respectively. A string oscillating in a plane an angle $\theta$ from the positive $x$ axis (towards the positive $y$ axis) is represented by 
@@ -81,7 +81,7 @@ $$
 u_{\theta}=\left(\begin{array}{l}
 \cos \theta \\
 \sin \theta
-\end{array} \tag{12.6} \label{eq-12-6}\right) .
+\end{array}\right) \tag{12.6} \label{eq-12-6} .
 $$
 
 This is shown in the $x$-$y$ plane in [Figure 12.1](#fig-12-1). The polarization vectors [12.4](#eq-12-4)-[12.6](#eq-12-6) can be multiplied by a phase factor, $e^{i \phi}$, without affecting the polarization state in any important way. This just corresponds to an overall resetting of the clock.
@@ -98,7 +98,7 @@ $$
 \left(\begin{array}{l}
 1 \\
 i
-\end{array} \tag{12.7} \label{eq-12-7}\right)
+\end{array}\right) \tag{12.7} \label{eq-12-7}
 $$
 
 or 
@@ -106,7 +106,7 @@ $$
 \left(\begin{array}{c}
 1 \\
 -i
-\end{array} \tag{12.8} \label{eq-12-8}\right) .
+\end{array}\right) . \tag{12.8} \label{eq-12-8}
 $$
 
 In [12.7](#eq-12-7), the $y$ component lags behind the $x$ component by $\pi / 2\left(=\phi_{2}\right)$. Thus, at any fixed point in space, the field rotates from $x$ to $y$, or in the counterclockwise direction viewed from the positive $z$ axis (with the wave coming at you), as shown in [Figure 12.2](#fig-12-2). This is called “left-circular polarization” because the string resembles a left-handed screw. Likewise, 
@@ -114,7 +114,7 @@ $$
 \left(\begin{array}{c}
 1 \\
 -i
-\end{array} \tag{12.9} \label{eq-12-9}\right) .
+\end{array}\right) . \tag{12.9} \label{eq-12-9}
 $$
 
 represents clockwise rotation of the string. This is called “right-circular polarization.”
@@ -131,7 +131,7 @@ $$
 \left(\begin{array}{c}
 A \\
 i B
-\end{array} \tag{12.10} \label{eq-12-10}\right)
+\end{array}\right) \tag{12.10} \label{eq-12-10}
 $$
 
 with $A > B > 0$ represents elliptical polarization. A point on the string traces out an ellipse with semi-major axis $A$ along the 1 axis and semi-minor axis $B$ along the 2 axis, with counterclockwise rotation, as shown in [Figure 12.3](#fig-12-3)
@@ -158,7 +158,7 @@ $$
 \end{array}\right)=e^{i \phi}\left(\begin{array}{c}
 A \cos \theta-i B \sin \theta \\
 A \sin \theta+i B \cos \theta
-\end{array} \tag{12.11} \label{eq-12-11}\right)
+\end{array}\right) \tag{12.11} \label{eq-12-11}
 $$
 
 with $A \geq|B|$ and $0 \leq \theta<\pi$ and $\phi$ is real phase (which is not very relevant relevant to the physics but can be there to make the math look uglier). This represents elliptical polarization with semi-major axis $A$ at an angle $\theta$ with the 1 axis, as in 
@@ -166,7 +166,7 @@ $$
 u_{\theta}=\left(\begin{array}{c}
 \cos \theta \\
 \sin \theta
-\end{array} \tag{12.12} \label{eq-12-12}\right) .
+\end{array}\right) . \tag{12.12} \label{eq-12-12}
 $$
 
 and semi-minor axis $B$ as shown in [Figure 12.4](#fig-12-4). If $B$ is positive (negative), the rotation is counterclockwise (clockwise). The physically interesting parameters $A$, $B$ and $\theta$ can be found from $\psi_{1}$ and $\psi_{2}$ as follows: 
@@ -346,7 +346,7 @@ $$
 R_{\theta}=\left(\begin{array}{cc}
 \cos \theta & -\sin \theta \\
 \sin \theta & \cos \theta
-\end{array} \tag{12.38} \label{eq-12-38}\right) .
+\end{array}\right) . \tag{12.38} \label{eq-12-38}
 $$
 
 For example, $R_{\theta}$ acting on $u_{1}$, [12.4](#eq-12-4), gives $u_{\theta}$, [12.6](#eq-12-6): 
@@ -357,7 +357,7 @@ R_{\theta}\left(\begin{array}{l}
 \end{array}\right)=\left(\begin{array}{l}
 \cos \theta \\
 \sin \theta
-\end{array} \tag{12.39} \label{eq-12-39}\right) .
+\end{array}\right) . \tag{12.39} \label{eq-12-39}
 $$
 
 But on the left- and right-circularly polarized states, 
@@ -374,7 +374,7 @@ i
 \end{array}\right)=e^{i \theta}\left(\begin{array}{c}
 1 \\
 -i
-\end{array} \tag{12.40} \label{eq-12-40}\right) .
+\end{array}\right) . \tag{12.40} \label{eq-12-40}
 $$
 
 This is related to the fact that the circularly polarized states carry the maximum angular momentum possible, which in turn is related to the quantum mechanical property of the spin of the photon.
@@ -436,7 +436,7 @@ $$
 k=\left\{\begin{array}{l}
 \frac{n_{x}}{c} \omega \text { for polarization in the } x \text { direction } \\
 \frac{n_{y}}{c} \omega \text { for polarization in the } y \text { direction }
-\end{array} \tag{12.44} \label{eq-12-44}\right.
+\end{array}\right. \tag{12.44} \label{eq-12-44}
 $$
 
 In particular, the phase **difference**, between $x$ and $y$ polarized light in going through the plate is 
@@ -458,7 +458,7 @@ $$
 Z=\left(\begin{array}{l}
 1 / \sqrt{2} \\
 1 / \sqrt{2}
-\end{array} \tag{12.46} \label{eq-12-46}\right)
+\end{array}\right) \tag{12.46} \label{eq-12-46}
 $$
 
 and the second polarizer absorbs it.
@@ -468,7 +468,7 @@ $$
 Z=\left(\begin{array}{c}
 1 / \sqrt{2} \\
 e^{-i \Delta \phi} / \sqrt{2}
-\end{array} \tag{12.47} \label{eq-12-47}\right) .
+\end{array}\right) . \tag{12.47} \label{eq-12-47}
 $$
 
 For frequencies such that $e^{-i \Delta \phi}$ is −1, the light is polarized in the −$45^{\circ}$ direction, and gets $e^{-i \Delta \phi}$ through the second polarizer without further attenuation. But for frequencies such that e is 1, the light is still absorbed by the second polarizer. Intermediate frequencies are partially absorbed.
@@ -482,7 +482,7 @@ $$
 P_{\theta}=\left(\begin{array}{cc}
 \cos ^{2} \theta & \cos \theta \sin \theta \\
 \cos \theta \sin \theta & \sin ^{2} \theta
-\end{array} \tag{12.48} \label{eq-12-48}\right) .
+\end{array}\right) . \tag{12.48} \label{eq-12-48}
 $$
 
 The object $P_{\theta}$ is called a **“projection operator,”** because it projects the vector onto the direction parallel to $u_{\theta}$. It satisfies 
@@ -498,7 +498,7 @@ P_{0}=\left(\begin{array}{ll}
 \end{array}\right), \quad P_{\pi / 2}=\left(\begin{array}{ll}
 0 & 0 \\
 0 & 1
-\end{array} \tag{12.50} \label{eq-12-50}\right) ,
+\end{array}\right) , \tag{12.50} \label{eq-12-50}
 $$
 
 represent polarizers along the 1 and 2 axes respectively.
@@ -508,7 +508,7 @@ $$
 Q_{0}=\left(\begin{array}{ll}
 1 & 0 \\
 0 & i
-\end{array} \tag{12.51} \label{eq-12-51}\right) .
+\end{array}\right) . \tag{12.51} \label{eq-12-51}
 $$
 
 Notice that we can write 
@@ -553,7 +553,7 @@ Q_{0} P_{\pi / 4}=\left(\begin{array}{cc}
 \end{array}\right)=\left(\begin{array}{cc}
 1 / 2 & 1 / 2 \\
 i / 2 & i / 2
-\end{array} \tag{12.56} \label{eq-12-56}\right) .
+\end{array}\right) . \tag{12.56} \label{eq-12-56}
 $$
 
 When this acts on an arbitrary vector you get circularly polarization unless the vector is annihilated by $P_{\pi / 4}$. 
@@ -564,7 +564,7 @@ Q_{0} P_{\pi / 4}\left(\begin{array}{l}
 \end{array}\right)=\frac{\psi_{1}+\psi_{2}}{2}\left(\begin{array}{l}
 1 \\
 i
-\end{array} \tag{12.57} \label{eq-12-57}\right) .
+\end{array}\right) . \tag{12.57} \label{eq-12-57}
 $$
 
 In the opposite order, $P_{\pi / 4} Q_{0}$ is an analyzer for circularly polarized light. It annihilates counterclockwise light and converts clockwise polarized light to light linearly polarized in the $\pi / 4$ direction.
@@ -602,7 +602,7 @@ P_{\pm}\left(\begin{array}{c}
 \end{array}\right), \quad P_{\pm}\left(\begin{array}{c}
 1 \\
 \mp i
-\end{array} \tag{12.59} \label{eq-12-59}\right)=0 .
+\end{array}\right)=0 . \tag{12.59} \label{eq-12-59}
 $$
 
 You can check that the matrices are 
@@ -610,7 +610,7 @@ $$
 P_{\pm}=\frac{1}{2}\left(\begin{array}{cc}
 1 & \mp i \\
 \pm i & 1
-\end{array} \tag{12.60} \label{eq-12-60}\right) .
+\end{array}\right) . \tag{12.60} \label{eq-12-60}
 $$
 
 Then [12.52](#eq-12-52) becomes 
@@ -624,7 +624,7 @@ i & 1
 \end{array}\right)=\left(\begin{array}{cc}
 \cos \theta & -\sin \theta \\
 \sin \theta & \cos \theta
-\end{array} \tag{12.61} \label{eq-12-61}\right) .
+\end{array}\right) . \tag{12.61} \label{eq-12-61}
 $$
 
 This is just the rotation matrix $R_{\theta}$, of [12.34](#eq-12-34)! $R_{\theta}$ rotates both components of any light by an angle $\theta$.

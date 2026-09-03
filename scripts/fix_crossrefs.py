@@ -354,7 +354,9 @@ def _attach_tag(body: str, num: str, label: str) -> str:
                 "gathered",
             }:
                 return body[: prev.start()] + tag + "\n" + body[prev.start() :]
-        return body[: last.end()] + tag + body[last.end() :]
+        # After \end{array} there may still be \right) and more math.
+        # KaTeX requires \tag outside the inner env and after \right.
+        return body.rstrip() + tag + "\n"
 
     # aligned / gather / etc.: tag before \end{…}
     return body[: last.start()] + tag + "\n" + body[last.start() :]

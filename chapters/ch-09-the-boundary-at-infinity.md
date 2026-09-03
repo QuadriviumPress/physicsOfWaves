@@ -538,7 +538,7 @@ R_{I}
 \end{array}\right)=d(\ell)\left(\begin{array}{l}
 T_{I I} \\
 R_{I I}
-\end{array} \tag{9.70} \label{eq-9-70}\right)
+\end{array}\right) \tag{9.70} \label{eq-9-70}
 $$
 
 where the matrix $d(\ell)$ 
@@ -546,7 +546,7 @@ $$
 d(\ell)=\frac{1}{2}\left(\begin{array}{cc}
 (2-i \epsilon) & -i \epsilon e^{-2 i k \ell} \\
 i \epsilon e^{2 i k \ell} & (2+i \epsilon)
-\end{array} \tag{9.71} \label{eq-9-71}\right) .
+\end{array}\right) . \tag{9.71} \label{eq-9-71}
 $$
 
 The matrix, $d(\ell)$, is a “transfer matrix.” It allows us to get from the amplitudes in one region to those in the next by just doing a matrix multiplication. We can use this to solve the two mass problem without any further calculation except a matrix multiplication. Comparing the general result, [9.70](#eq-9-70), with the two mass problem, [Figure 9.5](#fig-9-5), we see immediately that 
@@ -557,7 +557,7 @@ R
 \end{array}\right)=d(0)\left(\begin{array}{l}
 T_{I} \\
 R_{I}
-\end{array} \tag{9.72} \label{eq-9-72}\right) ,
+\end{array}\right) , \tag{9.72} \label{eq-9-72}
 $$
 
 and 
@@ -568,7 +568,7 @@ R_{I}
 \end{array}\right)=d(L)\left(\begin{array}{l}
 \tau \\
 0
-\end{array} \tag{9.73} \label{eq-9-73}\right) .
+\end{array}\right) . \tag{9.73} \label{eq-9-73}
 $$
 
 Thus 
@@ -579,7 +579,7 @@ R
 \end{array}\right)=d(0) d(L)\left(\begin{array}{l}
 \tau \\
 0
-\end{array} \tag{9.74} \label{eq-9-74}\right) .
+\end{array}\right) . \tag{9.74} \label{eq-9-74}
 $$
 
 Doing the matrix multiplication, 
@@ -653,7 +653,7 @@ R_{I}
 \end{array}\right)=d\left(k_{1}, k_{2}, \ell\right)\left(\begin{array}{c}
 T_{I I} \\
 R_{I I}
-\end{array} \tag{9.82} \label{eq-9-82}\right) ,
+\end{array}\right) , \tag{9.82} \label{eq-9-82}
 $$
 
 where 
@@ -661,7 +661,7 @@ $$
 d\left(k_{1}, k_{2}, \ell\right)=\frac{1}{2}\left(\begin{array}{cc}
 \left(1+\frac{k_{2}}{k_{1}}\right) e^{i k_{2} \ell-i k_{1} \ell} & \left(1-\frac{k_{2}}{k_{1}}\right) e^{-i k_{2} \ell-i k_{1} \ell} \\
 \left(1-\frac{k_{2}}{k_{1}}\right) e^{i k_{2} \ell+i k_{1} \ell} & \left(1+\frac{k_{2}}{k_{1}}\right) e^{-i k_{2} \ell+i k_{1} \ell}
-\end{array} \tag{9.83} \label{eq-9-83}\right) .
+\end{array}\right) . \tag{9.83} \label{eq-9-83}
 $$
 
 [9.82](#eq-9-82) is a very general result because $k_{1}$, $k_{2}$ and $\ell$ can be anything. Note that the relation is symmetrical: 
@@ -672,7 +672,7 @@ R_{I I}
 \end{array}\right)=d\left(k_{2}, k_{1}, \ell\right)\left(\begin{array}{c}
 T_{I} \\
 R_{I}
-\end{array} \tag{9.84} \label{eq-9-84}\right) .
+\end{array}\right) . \tag{9.84} \label{eq-9-84}
 $$
 
 In matrix language, that implies that 
@@ -690,7 +690,7 @@ $$
 b(k, \ell)=\left(\begin{array}{cc}
 e^{i k \ell} & 0 \\
 0 & e^{-i k \ell}
-\end{array} \tag{9.87} \label{eq-9-87}\right) ,
+\end{array}\right) , \tag{9.87} \label{eq-9-87}
 $$
 
 and 
@@ -698,16 +698,20 @@ $$
 \tau\left(k_{1}, k_{2}\right)=d\left(k_{1}, k_{2}, 0\right)=\frac{1}{2}\left(\begin{array}{ll}
 \left(1+\frac{k_{2}}{k_{1}}\right) & \left(1-\frac{k_{2}}{k_{1}}\right) \\
 \left(1-\frac{k_{2}}{k_{1}}\right) & \left(1+\frac{k_{2}}{k_{1}}\right)
-\end{array} \tag{9.88} \label{eq-9-88}\right) .
+\end{array}\right) . \tag{9.88} \label{eq-9-88}
 $$
 
 You will see the utility of this in the computer problem, (9.6).
 
 ### Reflection from a Thin Film
 
-(fig-9-9)=
+:::{figure} ../images/book-fig-9-9.png
+:label: fig-9-9
+:enumerator: 9.9
+:alt: Reflection from a thin film.
 
-*Reflection from a thin film.*
+Reflection from a thin film.
+:::
 
 Consider the situation shown in [Figure 9.9](#fig-9-9). where the wave numbers are $k_{1}$ for $x \leq 0$, $k_{2}$ for $0 \leq x \leq L$ and $k_{3}$ for $x \geq L$. As usual, translation invariance plus the boundary condition at infinity (that the incoming wave in $I$ has amplitude, $A$, and that there is only an outgoing wave in $III$) implies 
 $$
@@ -727,7 +731,7 @@ R
 \end{array}\right)=d\left(k_{1}, k_{2}, 0\right)\left(\begin{array}{l}
 T_{I I} \\
 R_{I I}
-\end{array} \tag{9.90} \label{eq-9-90}\right)
+\end{array}\right) \tag{9.90} \label{eq-9-90}
 $$
 
 and 
@@ -738,7 +742,7 @@ R_{I I}
 \end{array}\right)=d\left(k_{2}, k_{3}, L\right)\left(\begin{array}{l}
 \tau \\
 0
-\end{array} \tag{9.91} \label{eq-9-91}\right)
+\end{array}\right) \tag{9.91} \label{eq-9-91}
 $$
 
 and therefore 
@@ -802,9 +806,13 @@ Here we see the phenomenon of **resonant transmission**. The wave does not get r
 
 The reflection in [9.98](#eq-9-98) varies rapidly with $k_{2}$, as shown [Figure 9.10](#fig-9-10), where we plot the intensity of the reflected wave versus $k_{2}$ for fixed ratio $k_{1} / k_{2} = 3$. It is this rapid variation of the intensity of reflected light as a function of wavelength that is responsible for the familiar color patterns on thin films like soap bubbles and oil slicks.
 
-(fig-9-10)=
+:::{figure} ../images/book-fig-9-10.png
+:label: fig-9-10
+:enumerator: 9.10
+:alt: Graph of |R|^{2} versus k_{2} for k_{1} / k_{2} = 3.
 
-*Graph of $|R|^{2}$ versus $k_{2}$ for $k_{1} / k_{2} = 3$.*
+Graph of $|R|^{2}$ versus $k_{2}$ for $k_{1} / k_{2} = 3$.
+:::
 
 ### Nonreflective Coating
 
