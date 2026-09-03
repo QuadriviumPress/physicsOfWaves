@@ -345,7 +345,7 @@ $$
 S K=K S \tag{4.43} \label{eq-4-43}
 $$
 
-which, as we saw in [4.13](#eq-4-13)-[4.12](#eq-4-12), is the mathematical statement of the symmetry. Indeed, we can go backwards and work out the most general symmetric matrix consistent with [4.44](#eq-4-44) and check that it must have the form, [4.43](#eq-4-43). You will do this in problem (4.4).
+which, as we saw in [4.13](#eq-4-13)-[4.12](#eq-4-12), is the mathematical statement of the symmetry. Indeed, we can go backwards and work out the most general symmetric matrix consistent with [4.44](#eq-4-44) and check that it must have the form, [4.43](#eq-4-43). You will do this in [problem 4.4](#prb-4-4).
 
 Because of the symmetry, we know that if a vector $A$ is a normal mode, then the vector $SA$ is also a normal mode with the same frequency. This is physically obvious. If the system oscillates with all its parts in step in a certain way, it can also oscillate with the parts rotated by $60^{\circ}$, but otherwise moving in the same way, and the frequency will be the same. This suggests that we look for normal modes that behave simply under the symmetry transformation $S$. In particular, if we find the eigenvectors of $S$ and discover that the eigenvalues of $S$ are all different, then we know that all the eigenvectors are normal modes, from [4.22](#eq-4-22). In the previous example, we found modes that went into themselves multiplied by $\pm 1$ under the symmetry. In general, however, we should not expect the eigenvalues to be real because the modes can involve complex exponentials. In this case, we must look for modes that correspond to complex eigenvalues of $S$,<sup>4 </sup>
 $$
@@ -442,7 +442,7 @@ We note that (4.55) is another example of a very important principle of [3.117](
 
 If $A$ and $A^{\prime}$ are normal modes of a system **with the same angular frequency,** $\omega$**,** then any linear combination, $b A+c A^{\prime}$, is (4.56) also a normal mode with the same angular frequency.
 
-Normal modes with the same frequency can be linearly combined to give new normal modes (see problem 4.3). On the other hand, a linear combination of two normal modes with **different** frequencies gives nothing very simple.
+Normal modes with the same frequency can be linearly combined to give new normal modes (see [problem 4.3](#prb-4-3)). On the other hand, a linear combination of two normal modes with **different** frequencies gives nothing very simple.
 
 The techniques used here could have been used for any number of masses in a similar symmetrical arrangement. With $N$ masses and symmetry under rotation of $2 \pi / N$ radians, the $N$th roots of 1 would replace the 6th roots of one in our example. Symmetry arguments can also be used to determine the normal modes in more interesting situations, for example when the masses are at the corners of a cube. But that case is more complicated than the one we have analyzed because the order of the symmetry transformations matters — the transformations do not commute with one another. You may want to look at it again after you have studied some group theory.
 
@@ -464,18 +464,40 @@ You should now be able to:
 
 ### Problems
 
-**4.1.** Show explicitly that [4.7](#eq-4-7) is true for the $K$ matrix, [4.43](#eq-4-43), of system of [Figure 4.3](#fig-4-3) by finding $SK$ and $KS$.
+::::{exercise}
+:label: prb-4-1
+:enumerator: 4.1
 
-**4.2.** Consider a system of six identical masses that are free to slide without friction on a circular ring of radius $R$ and each of which is connected to both its nearest neighbors by identical springs, shown below in equilibrium:
+Show explicitly that [4.7](#eq-4-7) is true for the $K$ matrix, [4.43](#eq-4-43), of system of [Figure 4.3](#fig-4-3) by finding $SK$ and $KS$.
+
+::::
+
+::::{exercise}
+:label: prb-4-2
+:enumerator: 4.2
+
+Consider a system of six identical masses that are free to slide without friction on a circular ring of radius $R$ and each of which is connected to both its nearest neighbors by identical springs, shown below in equilibrium:
 
 1. Analyze the possible motions of this system in the region in which it is linear (note that this is not quite just small oscillations). To do this, define appropriate displacement variables (so that you can use a symmetry argument), find the form of the $K$ matrix and then follow the analysis in [4.37](#eq-4-37)-(4.55). If you have done this properly, you should find that one of the modes has zero frequency. Explain the physical significance of this mode. **Hint:** Do not attempt to find the form of the $K$ matrix directly from the spring constants of the spring and the geometry. This is a mess. Instead, figure out what it has to look like on the basis of symmetry arguments. You may want to look at appendix c.
 
 2. If at $t = 0$, the masses are evenly distributed around the circle, but every other mass is moving with (counterclockwise) velocity $v$ while the remaining masses are at rest, find and describe in words the subsequent motion of the system.
 
-**4.3.**
+::::
+
+::::{exercise}
+:label: prb-4-3
+:enumerator: 4.3
 
 1. Prove (4.56).
 
 2. Prove that if $A$ and $A^{\prime}$ are normal modes corresponding to **different** angular frequencies, $\omega$ and $\omega^{\prime}$ respectively, where $\omega^{2} \neq \omega^{\prime 2}$, then $b A+c A^{\prime}$ is not a normal mode unless $b$ or $c$ is zero. **Hint:** You will need to use the fact that both $A$ and $A^{\prime}$ are nonzero vectors.
 
-**4.4.** Show that [4.43](#eq-4-43) is the most general symmetric $6 \times 6$ matrix satisfying [4.44](#eq-4-44).
+::::
+
+::::{exercise}
+:label: prb-4-4
+:enumerator: 4.4
+
+Show that [4.43](#eq-4-43) is the most general symmetric $6 \times 6$ matrix satisfying [4.44](#eq-4-44).
+
+::::

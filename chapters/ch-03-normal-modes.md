@@ -1355,9 +1355,14 @@ You should now be able to:
 
 11. * Explicitly solve forced oscillation problems with or without damping for systems with three or fewer degrees of freedom.
 
-Problems
+### Problems
 
-**3.1.** The 3 component column vector $A$, the 3 component row vector $B$ and the $3 \times 3$ matrix $C$ are defined as follows: 
+::::{exercise}
+:label: prb-3-1
+:enumerator: 3.1
+
+The 3 component column vector $A$, the 3 component row vector $B$ and the $3 \times 3$ matrix $C$ are defined as follows:
+
 $$
 A=\left(\begin{array}{l}
 0 \\
@@ -1377,11 +1382,23 @@ $$
 B A, \quad B C, \quad A B.
 $$
 
-**3.2.** Consider the vertical oscillation of the system of springs and masses shown below with the spring constants $K_{A} = 78$, $K_{B} = 15$ and $K_{C} = 6$ (all dynes/cm). Find the normal modes, normal coordinates and associated angular frequencies. If the 1 g. block is displaced up 1 cm from its equilibrium position with the 3 g block held at its equilibrium position and both blocks released from rest, describe the subsequent motion of both blocks.
+::::
+
+::::{exercise}
+:label: prb-3-2
+:enumerator: 3.2
+
+Consider the vertical oscillation of the system of springs and masses shown below with the spring constants $K_{A} = 78$, $K_{B} = 15$ and $K_{C} = 6$ (all dynes/cm). Find the normal modes, normal coordinates and associated angular frequencies. If the 1 g. block is displaced up 1 cm from its equilibrium position with the 3 g block held at its equilibrium position and both blocks released from rest, describe the subsequent motion of both blocks.
 
 ![Figure](../images/lt-33798-clipboard_e6a80531bd98c6f7636a4d0c0ec06d3d0.png)
 
-**3.3.** Consider the system of springs and masses shown below:
+::::
+
+::::{exercise}
+:label: prb-3-3
+:enumerator: 3.3
+
+Consider the system of springs and masses shown below:
 
 with the spring constants in newtons/meter given above the springs and with $m_{1} = 100$ kg, $m_{2} = 9$ kg and $m_{3} = 81$ kg.
 
@@ -1427,7 +1444,14 @@ $$
     \end{array}\right)
 $$
 
-**3.4*.** A system of four masses connected by springs is described by a mass matrix, 
+::::
+
+::::{exercise}
+:label: prb-3-4
+:enumerator: 3.4*
+
+A system of four masses connected by springs is described by a mass matrix,
+
 $$
 M=\left(\begin{array}{llll}
 1 & 0 & 0 & 0 \\
@@ -1498,7 +1522,13 @@ $$
 
 4. Find the normal coordinates corresponding to each of the normal modes of the system.
 
-**3.5.** Consider the longitudinal oscillations of the system shown below:
+::::
+
+::::{exercise}
+:label: prb-3-5
+:enumerator: 3.5
+
+Consider the longitudinal oscillations of the system shown below:
 
 ![Figure](../images/lt-33799-clipboard_e88b7707e932f7cf9e1dadfe99a4bae66.png)
 
@@ -1525,7 +1555,13 @@ $$
 
     Find the corresponding angular frequencies, $\omega_{1}$ and $\omega_{2}$.
 
-**3.6.** Consider the longitudinal oscillations of the system shown below:
+::::
+
+::::{exercise}
+:label: prb-3-6
+:enumerator: 3.6
+
+Consider the longitudinal oscillations of the system shown below:
 
 ![Figure](../images/lt-33800-clipboard_ef91153cedb48c386a991350e46555567.png)
 
@@ -1560,7 +1596,14 @@ $$
 
 2. Find $K_{1}$, $K_{2}$ and $K_{3}$.
 
-**3.7*.** In the system of problem (3.5), suppose we immerse the system in a damping fluid so that 
+::::
+
+::::{exercise}
+:label: prb-3-7
+:enumerator: 3.7*
+
+In the system of [problem 3.5](#prb-3-5), suppose we immerse the system in a damping fluid so that
+
 $$
 \Gamma=\left(\begin{array}{ll}
 \gamma & 0 \\
@@ -1577,3 +1620,5 @@ F(t)=f \cos \omega t=\left(\begin{array}{l}
 $$
 
 Find and graph the average power lost to the frictional force as a function of $\omega$ from $\omega = 0$ to $10 s^{-1}$.
+
+::::

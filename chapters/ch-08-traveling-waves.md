@@ -842,7 +842,12 @@ You should now be able to:
 
 ### Problems
 
-**8.1.** An infinite string with tension $T$ and linear mass density $\rho$ is stretched along the $x$ axis. A force is applied in the $y$ direction at $x = 0$ so as to cause the string at $x = 0$ to oscillate in the $y$ direction with displacement 
+::::{exercise}
+:label: prb-8-1
+:enumerator: 8.1
+
+An infinite string with tension $T$ and linear mass density $\rho$ is stretched along the $x$ axis. A force is applied in the $y$ direction at $x = 0$ so as to cause the string at $x = 0$ to oscillate in the $y$ direction with displacement
+
 $$
 A(t)=D \cos \omega t .
 $$
@@ -853,9 +858,21 @@ This produces two traveling waves moving away from $x = 0$ in the $\pm x$ direct
 
 2. Find the average power supplied by the force.
 
-**8.2.** For air at standard temperature and pressure, the pressure is $1.01 \times 10^{6} \mathrm{dyne} / \mathrm{cm}^{2}$, the density is $1.29 \times 10^{3} \mathrm{gr} / \mathrm{cm}^{3}$. Use these to find the displacement amplitude for sound waves with a frequency of $440 \mathrm {cycles} / \mathrm{sec}$ (Hertz) carrying a power per unit area of $10^{-3} \mathrm {watts} / \mathrm{cm}^{2}$.
+::::
 
-**8.3.** Consider the following circuit:
+::::{exercise}
+:label: prb-8-2
+:enumerator: 8.2
+
+For air at standard temperature and pressure, the pressure is $1.01 \times 10^{6} \mathrm{dyne} / \mathrm{cm}^{2}$, the density is $1.29 \times 10^{3} \mathrm{gr} / \mathrm{cm}^{3}$. Use these to find the displacement amplitude for sound waves with a frequency of $440 \mathrm {cycles} / \mathrm{sec}$ (Hertz) carrying a power per unit area of $10^{-3} \mathrm {watts} / \mathrm{cm}^{2}$.
+
+::::
+
+::::{exercise}
+:label: prb-8-3
+:enumerator: 8.3
+
+Consider the following circuit:
 
 ![Figure](../images/lt-33561-clipboard_e7c9c7a9af8d669f4527052eac1d89bd9.png)
 
@@ -876,7 +893,7 @@ $$
 V_{j}(t)=A_{j} \cos \omega t+B_{j} \sin \omega t .
 $$
 
-2. Find $A_{1}$ and $B_{1}$ and $\left|A_{1}+i B_{1}\right|$ and graph each of them versus $\omega$ from $\omega = 0$ to $2 / \sqrt{L C}$. Never mind simplifying complicated expressions, so long as you can graph them. How many of the resonances can you identify in each of the graphs? **Hint:** Use the trigonometric identity of problem (1.2e), 
+2. Find $A_{1}$ and $B_{1}$ and $\left|A_{1}+i B_{1}\right|$ and graph each of them versus $\omega$ from $\omega = 0$ to $2 / \sqrt{L C}$. Never mind simplifying complicated expressions, so long as you can graph them. How many of the resonances can you identify in each of the graphs? **Hint:** Use the trigonometric identity of [problem 1.2e](#prb-1-2), 
 $$
 \sin 6 x=\sin x\left(32 \cos ^{5} x-32 \cos ^{3} x+6 \cos x\right)
 $$
@@ -888,3 +905,5 @@ $$
 ___________________
 
 [^8-7-6]: This hint dates from the days before Mathematica was generally available. You may choose to to the problem differently, and that is OK as long as you explain clearly what you are doing and understand it!
+
+::::

@@ -501,12 +501,33 @@ class HtmlToMyst:
             return ""
 
         # Four colons so nested figures (which use three) still close cleanly.
+        if kind in ("exercise", "problem"):
+            return self._exercise_box(title, body)
         head = f"::::{{admonition}} {title}" if title else "::::{note}"
         lines = [head]
         if title:
             lines.append(f":class: {kind}")
         lines.append("")
         lines.append(body)
+        lines.append("::::")
+        return "\n".join(lines)
+
+    def _exercise_box(self, title: str, body: str) -> str:
+        """LibreTexts box-exercise → MyST ``{exercise}`` admonition."""
+        enumerator = ""
+        m = re.search(r"(\d+(?:\.[0-9A-Za-z]+)+)\s*$", title)
+        if m:
+            enumerator = m.group(1)
+            title = title[: m.start()].strip(" :")
+        title = re.sub(r"^(Exercise|Problem)\s*", "", title, flags=re.I).strip()
+        lines = ["::::{exercise}" + (f" {title}" if title else "")]
+        if enumerator:
+            lines.append(f":label: prb-{enumerator.replace('.', '-')}")
+            lines.append(f":enumerator: {enumerator}")
+        lines.append("")
+        if body:
+            lines.append(body)
+            lines.append("")
         lines.append("::::")
         return "\n".join(lines)
 

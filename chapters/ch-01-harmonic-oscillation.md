@@ -61,7 +61,7 @@ $$
 x(t) = x(0)\cosωt +\frac{1}{w}x'(0)\sinωt \tag{1.6} \label{eq-1-6}
 $$
 
-For example, suppose that the block has a mass of 1 kilogram and that the spring is 0.5 meters $long^2$ with a spring constant K of 100 newtons per meter. To get a sense of what this spring constant means, consider hanging the spring vertically (see problem (1.1.1)). The gravitational force on the block is
+For example, suppose that the block has a mass of 1 kilogram and that the spring is 0.5 meters $long^2$ with a spring constant K of 100 newtons per meter. To get a sense of what this spring constant means, consider hanging the spring vertically (see [problem 1.1](#prb-1-1)). The gravitational force on the block is
 
 $^2$(The length of the spring plays no role in the equations below, but we include it to allow you to build a mental picture of the physical system)
 
@@ -1086,72 +1086,22 @@ You should now be able to:
 
 ## 1.10: Problem
 
-1.1. For the mass and spring discussed [1.1](#eq-1-1)-[1.8](#eq-1-8), suppose that the system is hung vertically in the earth’s gravitational field, with the top of the spring held fixed. Show that the frequency for vertical oscillations is given by [1.5](#eq-1-5). Explain why gravity has no effect on the angular frequency.
-
-1.2a. Find an expression for cos 7θ in terms of cos θ and sin θ by using complex exponentials and the binomial expansion.
-
-b. Do the same for sin 5θ.
-
-c. Use complex exponentials to find an expression for $\sin(θ_1 + θ_2 + θ_3)$ in terms of the sines and cosines of the individual angles.
-
-d. Do you remember the “half angle formula,”
-
-$$
-\cos^2\frac{θ}{2}=\frac{1}{2}(1+\cosθ)?
-$$
-
-Use complex exponentials to prove the "fifth angle formula,"
-
-$$
-\cos^5\frac{θ}{5}=\frac{10}{16}\cos\frac{θ}{5}+\frac{5}{16}\cos\frac{3θ}{5}+\frac{1}{16}\cosθ
-$$
-.
-
-e. Use complex exponentials to prove the identity
-
-$$
-\sin6x=sinx(32\cos^5x - 23\cos^3x + 6cosx)
-$$
-
-1.3a Write $i+\sqrt{3}$ in the form $Re^{iθ}$. Write θ as a rational number times π
-
-Do the same for $i-\sqrt{3}$
-
-c. Show that the two square roots of $Re^{iθ} are ±\sqrt{Re^{\frac{iθ}{2}}}$. Hint: This is easy! Don’t work too hard.
-
-d. Use the result of c. to find the square roots of 2i and $2 +2i\sqrt{3}$.
-
-1.4. Find all six solutions to the equation $z^6 = 1$ and write each in the form A + iB and plot them in the complex plane. Hint: write $z = Re^{iθ}$ for R real and positive, and find R and θ.
-
-1.5. Find three independent solutions to the differential equation
-
-$$
-\frac{d^3}{dt^3}f(t)+f(t) = 0
-$$
-
-You should use complex exponentials to derive the solutions, but express the results in real form.
-
-1.6. A block of mass M slides without friction between two springs of spring constant K and 2K, as shown. The block is constrained to move only left and right on the paper, so the system has only one degree of freedom.
-
-![Figure](../images/lt-24250-screen_shot_2021-04-28_at_12.31.01_am.png)
-
-Calculate the oscillation angular frequency. If the velocity of the block when it is at its equilibrium position is v, calculate the amplitude of the oscillation.
-
-1.7. A particle of mass m moves on the x axis with potential energy
-
-$$
-V(x)=\frac{E_o}{a^4}(x^4+4ax^3-8a^2x^2)
-$$
-
-Find the positions at which the particle is in stable equilibrium. Find the angular frequency of small oscillations about each equilibrium position. What do you mean by small oscillations? Be quantitative and give a separate answer for each point of stable equilibrium.
-
-1.8. For the torsion pendulum of [figure 1.14](#fig-1-14), suppose that the pendulum consists of two 0.01 kg masses on a light rod of total length 0.1 m. If the generalized spring constant, α, is $5 × 10^{−7}$ N m. Find the angular frequency of the oscillator.
 
 ## 1.11: Problems
 
-1.1. For the mass and spring discussed [1.1](#eq-1-1)-[1.8](#eq-1-8), suppose that the system is hung vertically in the earth’s gravitational field, with the top of the spring held fixed. Show that the frequency for vertical oscillations is given by [1.5](#eq-1-5). Explain why gravity has no effect on the angular frequency.
+::::{exercise}
+:label: prb-1-1
+:enumerator: 1.1
 
-1.2a. Find an expression for cos 7θ in terms of cos θ and sin θ by using complex exponentials and the binomial expansion.
+For the mass and spring discussed [1.1](#eq-1-1)-[1.8](#eq-1-8), suppose that the system is hung vertically in the earth’s gravitational field, with the top of the spring held fixed. Show that the frequency for vertical oscillations is given by [1.5](#eq-1-5). Explain why gravity has no effect on the angular frequency.
+
+::::
+
+::::{exercise}
+:label: prb-1-2
+:enumerator: 1.2
+
+a. Find an expression for cos 7θ in terms of cos θ and sin θ by using complex exponentials and the binomial expansion.
 
 b. Do the same for sin 5θ.
 
@@ -1176,7 +1126,13 @@ $$
 \sin6x=sinx(32\cos^5x - 23\cos^3x + 6cosx)
 $$
 
-1.3a Write $i+\sqrt{3}$ in the form $Re^{iθ}$. Write θ as a rational number times π
+::::
+
+::::{exercise}
+:label: prb-1-3
+:enumerator: 1.3
+
+a. Write $i+\sqrt{3}$ in the form $Re^{iθ}$. Write θ as a rational number times π
 
 Do the same for $i-\sqrt{3}$
 
@@ -1184,9 +1140,21 @@ c. Show that the two square roots of $Re^{iθ} are ±\sqrt{Re^{\frac{iθ}{2}}}$.
 
 d. Use the result of c. to find the square roots of 2i and $2 +2i\sqrt{3}$.
 
-1.4. Find all six solutions to the equation $z^6 = 1$ and write each in the form A + iB and plot them in the complex plane. Hint: write $z = Re^{iθ}$ for R real and positive, and find R and θ.
+::::
 
-1.5. Find three independent solutions to the differential equation
+::::{exercise}
+:label: prb-1-4
+:enumerator: 1.4
+
+Find all six solutions to the equation $z^6 = 1$ and write each in the form A + iB and plot them in the complex plane. Hint: write $z = Re^{iθ}$ for R real and positive, and find R and θ.
+
+::::
+
+::::{exercise}
+:label: prb-1-5
+:enumerator: 1.5
+
+Find three independent solutions to the differential equation
 
 $$
 \frac{d^3}{dt^3}f(t)+f(t) = 0
@@ -1194,13 +1162,25 @@ $$
 
 You should use complex exponentials to derive the solutions, but express the results in real form.
 
-1.6. A block of mass M slides without friction between two springs of spring constant K and 2K, as shown. The block is constrained to move only left and right on the paper, so the system has only one degree of freedom.
+::::
+
+::::{exercise}
+:label: prb-1-6
+:enumerator: 1.6
+
+A block of mass M slides without friction between two springs of spring constant K and 2K, as shown. The block is constrained to move only left and right on the paper, so the system has only one degree of freedom.
 
 ![Figure](../images/lt-24250-screen_shot_2021-04-28_at_12.31.01_am.png)
 
 Calculate the oscillation angular frequency. If the velocity of the block when it is at its equilibrium position is v, calculate the amplitude of the oscillation.
 
-1.7. A particle of mass m moves on the x axis with potential energy
+::::
+
+::::{exercise}
+:label: prb-1-7
+:enumerator: 1.7
+
+A particle of mass m moves on the x axis with potential energy
 
 $$
 V(x)=\frac{E_o}{a^4}(x^4+4ax^3-8a^2x^2)
@@ -1208,4 +1188,12 @@ $$
 
 Find the positions at which the particle is in stable equilibrium. Find the angular frequency of small oscillations about each equilibrium position. What do you mean by small oscillations? Be quantitative and give a separate answer for each point of stable equilibrium.
 
-1.8. For the torsion pendulum of [figure 1.14](#fig-1-14), suppose that the pendulum consists of two 0.01 kg masses on a light rod of total length 0.1 m. If the generalized spring constant, α, is $5 × 10^{−7}$ N m. Find the angular frequency of the oscillator.
+::::
+
+::::{exercise}
+:label: prb-1-8
+:enumerator: 1.8
+
+For the torsion pendulum of [figure 1.14](#fig-1-14), suppose that the pendulum consists of two 0.01 kg masses on a light rod of total length 0.1 m. If the generalized spring constant, α, is $5 × 10^{−7}$ N m. Find the angular frequency of the oscillator.
+
+::::

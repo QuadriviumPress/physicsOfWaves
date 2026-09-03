@@ -850,7 +850,11 @@ You should now be able to:
 
 ### Problems
 
-**5.1.** Consider the small longitudinal oscillations of the system shown below:
+::::{exercise}
+:label: prb-5-1
+:enumerator: 5.1
+
+Consider the small longitudinal oscillations of the system shown below:
 
 ![Figure](../images/lt-33698-clipboard_e9a25279507dab24a62d972e41a14895a.png)
 
@@ -884,13 +888,23 @@ $$
 B=\frac{g}{2 \ell}+\frac{\kappa}{m}, \quad C=\frac{\kappa}{m} .
 $$
 
-**5.2.**
+::::
+
+::::{exercise}
+:label: prb-5-2
+:enumerator: 5.2
 
 ![Figure](../images/lt-33699-clipboard_e89d3d32a981332605cb08261f797964b.png)
 
 In the system shown above, all the blocks have mass m and they are constrained to move only horizontally. The long springs with six loops have spring constant $K$. The shorter springs, with three loops, have spring constant $2K$. The shortest springs, with two loops, have spring constant $3K$. As you will see in chapter 7, this is what we expect if the springs are all made out of the same material (see [Figure 7.1](#fig-7-1)). Find the normal modes of the system and the corresponding frequencies. Make sure that you justify any assumptions you make about the normal modes. **Hint:** Try to find an infinite system with space translation invariance that contains this in such a way that you can put in the physics of the walls as a boundary condition. **Another Hint:** This works simply only if the three loop springs have exactly twice the spring constant of the long springs. Your answer should explain why.
 
-**5.3.** In the beaded string shown below, the interval between neighboring beads is $a$, and the distance from the end beads to the walls is $a / 2$. All the beads have mass $m$ and are constrained to move only vertically, in the plane of the paper.
+::::
+
+::::{exercise}
+:label: prb-5-3
+:enumerator: 5.3
+
+In the beaded string shown below, the interval between neighboring beads is $a$, and the distance from the end beads to the walls is $a / 2$. All the beads have mass $m$ and are constrained to move only vertically, in the plane of the paper.
 
 ![Figure](../images/lt-33700-clipboard_e9205720537722eafbf7b8c55cf5dc9b1.png)
 
@@ -900,7 +914,13 @@ Show that the physics of the left-hand wall can be incorporated by going to an i
 
 2. Find the normal modes and the corresponding frequencies.
 
-**5.4.** Consider the following circuit:
+::::
+
+::::{exercise}
+:label: prb-5-4
+:enumerator: 5.4
+
+Consider the following circuit:
 
 ![Figure](../images/lt-33701-clipboard_e0dd5eab05e0daecf6285648e663eac6e.png)
 
@@ -917,3 +937,5 @@ V_{j}(t)=A_{j} \cos \omega t+B_{j} \sin \omega t .
 $$
 
 Find $A_{j}$ and $B_{j}$.
+
+::::

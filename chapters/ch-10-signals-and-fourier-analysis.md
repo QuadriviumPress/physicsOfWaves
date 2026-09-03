@@ -939,20 +939,43 @@ You should now be able to:
 
 ### Problems
 
-**10.1.** Is it possible for a medium that supports electromagnetic waves to have the dispersion relation $\omega^{2}=c^{2} k^{2}-\omega_{0}^{2}$ for real $\omega_{0}$?
+::::{exercise}
+:label: prb-10-1
+:enumerator: 10.1
+
+Is it possible for a medium that supports electromagnetic waves to have the dispersion relation $\omega^{2}=c^{2} k^{2}-\omega_{0}^{2}$ for real $\omega_{0}$?
 
 Why or why not?
 
-**10.2.** A beaded string has neighboring beads separated by $a$. If the maximum possible group velocity for waves on the string is $v$, find $T / m$.
+::::
 
-**10.3.** In the next chapter, we will derive the dispersion relation for waves in water (or at least an idealized picture of water). If the water is deep, the dispersion relation is 
+::::{exercise}
+:label: prb-10-2
+:enumerator: 10.2
+
+A beaded string has neighboring beads separated by $a$. If the maximum possible group velocity for waves on the string is $v$, find $T / m$.
+
+::::
+
+::::{exercise}
+:label: prb-10-3
+:enumerator: 10.3
+
+In the next chapter, we will derive the dispersion relation for waves in water (or at least an idealized picture of water). If the water is deep, the dispersion relation is
+
 $$
 \omega^{2}=g k+\frac{T k^{3}}{\rho}
 $$
 
 where $g$ is the acceleration of gravity, 980 in cgs units, $T$ is the surface tension, 72, and $\rho$ is density, 1.0. Find the group velocity and phase velocity as a function of wavelength. When are they equal?
 
-**10.4.** Consider the longitudinal oscillations of the system of blocks and **massless** springs shown below:
+::::
+
+::::{exercise}
+:label: prb-10-4
+:enumerator: 10.4
+
+Consider the longitudinal oscillations of the system of blocks and **massless** springs shown below:
 
 ![Figure](../images/lt-33411-clipboard_ead5c5ac485aa6049bc2d1b35bc75d12b.png)
 
@@ -972,3 +995,5 @@ $$
 4. Find the time average of the power supplied by the force on the ring in the limit $\omega \rightarrow 2 \sqrt{K / m}$.
 
 5. Explain the relation between the answers to parts c. and d. You may be able to do this part even if you have gotten confused in the algebra. Think about the physics and try to understand what must be going on.
+
+::::

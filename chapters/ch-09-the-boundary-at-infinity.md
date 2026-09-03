@@ -842,9 +842,11 @@ You should now be able to:
 
 5. *Use transfer matrices to simplify the analysis of scattering from more than one boundary.
 
-Problems
+### Problems
 
-**9.1.**
+::::{exercise}
+:label: prb-9-1
+:enumerator: 9.1
 
 ![Figure](../images/lt-33458-clipboard_e78a19b2e812c452c6105e1a8143131e2.png)
 
@@ -862,13 +864,23 @@ $$
 
 for $x \geq 0$. What is the relation between $\omega$ and $k^{\prime}$? Find the appropriate boundary conditions that allow you to relate $\psi(x,t)$ in the two regions and solve for $R$ (do not bother to simplify the complex number). Check your result by taking the limit of $a$, $m$ and $M$ going to zero with $m / a$ and $M / a$ fixed and comparing with an appropriate continuous system.
 
-**9.2.** An infinite line of coupled pendulums supports traveling waves, but it has no standing wave normal modes in which the displacement of the pendulums goes to zero at infinity. Consider, however, the system shown below:
+::::
+
+::::{exercise}
+:label: prb-9-2
+:enumerator: 9.2
+
+An infinite line of coupled pendulums supports traveling waves, but it has no standing wave normal modes in which the displacement of the pendulums goes to zero at infinity. Consider, however, the system shown below:
 
 ![Figure](../images/lt-33459-clipboard_ee2555a7419869d9b2a24716da8863a50.png)
 
 Here block 0 is free to slide longitudinally with no gravitational restoring force, only the coupling due to the springs. If the blocks have mass $M$, the springs’ spring constant $K$, the separation between neighboring blocks is $a$, and the pendulums have length $\ell$, find the frequency of the standing wave normal mode of the system in which the displacements are $A e^{-\kappa x}$ for $x \geq 0$ and $A e^{\kappa x}$ for $x \leq 0$. **Hint:** Consider the subsystem, $-a \leq x \leq a$, as part of an infinite system with appropriate boundary conditions. Then you can get the answer directly from the dispersion relation.
 
-**9.3.**
+::::
+
+::::{exercise}
+:label: prb-9-3
+:enumerator: 9.3
 
 **![Figure](../images/lt-33460-clipboard_e8aff25ffcf7d8aa4a18726b0f9bdb5d9.png)**
 
@@ -886,7 +898,13 @@ $$
 
 2. Write down the two boundary conditions at x = 0 and find R and τ .
 
-**9.4.** Consider traveling waves in an infinite system, part of which is shown below, for longitudinal (horizontal) motion of the blocks.
+::::
+
+::::{exercise}
+:label: prb-9-4
+:enumerator: 9.4
+
+Consider traveling waves in an infinite system, part of which is shown below, for longitudinal (horizontal) motion of the blocks.
 
 ![Figure](../images/lt-33461-clipboard_ef0aa9eb4f49091ef54bcb6e3c6ae3627.png)
 
@@ -909,13 +927,25 @@ $$
 
 2. Find $R$ and $T$.
 
-**9.5.** Consider a semi-infinite system of two kinds of massive string with different densities, shown below:
+::::
+
+::::{exercise}
+:label: prb-9-5
+:enumerator: 9.5
+
+Consider a semi-infinite system of two kinds of massive string with different densities, shown below:
 
 ![Figure](../images/lt-33462-clipboard_e9cf3167dc38e890edb89592840ba4823.png)
 
 The density of the string in region $I$ is $\rho$ and in region $II$ is $\rho^{\prime}$. The tension in both strings is $T$. Suppose that the end at $x = −L$ is oscillated in the transverse direction with displacement $\chi \sin \omega t$. This produces an outgoing wave (moving to the right) in region $II$ with no incoming wave. Suppose that $\omega=\frac{\pi}{2 L} \sqrt{\frac{T}{\rho}}$. Find the displacement at the point $x = 0$ as a function of time.
 
-**9.6.** If you are doing a reflection and transmission problem involving several different regions, and thus requiring several boundary conditions, the transfer matrix is very helpful. You saw this in the analysis of scattering from a thin film.
+::::
+
+::::{exercise}
+:label: prb-9-6
+:enumerator: 9.6
+
+If you are doing a reflection and transmission problem involving several different regions, and thus requiring several boundary conditions, the transfer matrix is very helpful. You saw this in the analysis of scattering from a thin film.
 
 Your computer assignment is to extend this analysis to incorporate $2 \pi$ such boundary conditions where n is some large integer. In particular, consider a continuous string with wave number $k_{2}$ for $L \leq x \leq 2 L, 3 L \leq x \leq 4 L$, $\cdots$, and $(2 n-1) L \leq x \leq 2 n L$, and $k_{1}$ elsewhere.
 
@@ -931,3 +961,5 @@ Take $k_{1} = k$ and $k_{2} = 2k$. Compute the amplitude for transmission of an 
 If possible, you should present the results in the form of a graph of the absolute value of the transmission coefficient versus $kL$, for $0 \leq L \leq \pi / 2 k$. As you go to higher $n$, something interesting happens. The transmission coefficient drops nearly to zero in a region of $L$ values. Even if you cannot produce a graph, you should be able to find the range of $L$ for which the transmission goes to zero as $n$ gets large.
 
 **Hint:** For $n = 3$, the result should look like the graph in [Figure 9.11](#fig-9-11).
+
+::::

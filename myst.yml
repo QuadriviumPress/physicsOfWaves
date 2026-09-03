@@ -24,6 +24,9 @@ project:
     heading_2: false
     heading_3: false
     equation: false
+    exercise:
+      enabled: true
+      template: Problem %s
   toc:
     - file: index.md
     - file: front/preface.md

@@ -1724,7 +1724,11 @@ You should now be able to:
 
 ### Problems
 
-**11.1.** Consider the free transverse oscillations of the two-dimensional beaded string shown in [Figure 11.59](#fig-11-59). All the horizontal strings have tension $T_{h}$, all the vertical strings have tension $T_{v}$, all the solid circles are beads with mass $m$. The square frame is fixed in the $z = 0$ plane.
+::::{exercise}
+:label: prb-11-1
+:enumerator: 11.1
+
+Consider the free transverse oscillations of the two-dimensional beaded string shown in [Figure 11.59](#fig-11-59). All the horizontal strings have tension $T_{h}$, all the vertical strings have tension $T_{v}$, all the solid circles are beads with mass $m$. The square frame is fixed in the $z = 0$ plane.
 
 1. Find the normal modes and their corresponding frequencies.
 
@@ -1745,7 +1749,14 @@ A two-dimensional beaded string.
 :::
 Do the rest and **get the order right**. You should be able to do this even if you got confused by the details of part a.
 
-**11.2.** Consider the forced transverse oscillations of the two-dimensional beaded string shown in [Figure 11.60](#fig-11-60). All the strings have tension $T$, all the solid circles are beads with mass $m$. The frame is held fixed in the $z = 0$ plane. The open circles are moved up and down out of the plane of the paper with the same transverse displacement, 
+::::
+
+::::{exercise}
+:label: prb-11-2
+:enumerator: 11.2
+
+Consider the forced transverse oscillations of the two-dimensional beaded string shown in [Figure 11.60](#fig-11-60). All the strings have tension $T$, all the solid circles are beads with mass $m$. The frame is held fixed in the $z = 0$ plane. The open circles are moved up and down out of the plane of the paper with the same transverse displacement,
+
 $$
 z_{1}(t)=z_{2}(t)=z_{3}(t)=d \cos \omega t
 $$
@@ -1771,7 +1782,13 @@ for all relevant $j$ and $k$. All displacements will be proportional to $d \cos 
 
 ![Figure](../images/lt-33380-clipboard_e9b0c4c9170288604b75eefcd5ba0f76c.png)
 
-**11.3.** Consider the forced transverse oscillations of the semi-infinite two-dimensional beaded string shown in [Figure 11.61](#fig-11-61). All the strings have tension $T$, all the solid circles are beads with mass $m$. The equilibrium separations of the blocks are all $a$. The frame at $y = 0$ and $y = 4a$ is held fixed in the $z = 0$ plane. The open circles at $x = 0$ are moved up and
+::::
+
+::::{exercise}
+:label: prb-11-3
+:enumerator: 11.3
+
+Consider the forced transverse oscillations of the semi-infinite two-dimensional beaded string shown in [Figure 11.61](#fig-11-61). All the strings have tension $T$, all the solid circles are beads with mass $m$. The equilibrium separations of the blocks are all $a$. The frame at $y = 0$ and $y = 4a$ is held fixed in the $z = 0$ plane. The open circles at $x = 0$ are moved up and
 
 :::{figure} ../images/lt-33381-clipboard_e61c105316a05286a3d66b66fffdc84f0.png
 :label: fig-11-61
@@ -1802,7 +1819,14 @@ $$
 \omega^{2}=\frac{T}{a m}\left(6+\sqrt{2}+\epsilon^{2}\right) .
 $$
 
-**11.4.** A flexible membrane with surface tension $\tau_{S}$ and surface mass density $\rho_{S}$ is stretched so that its equilibrium position is the $z = 0$ plane. Attached to the surface of the membrane at $x = 0$ is a string with tension $\tau_{L}$ and linear mass density $\rho_{L}$. Consider a traveling wave on the membrane with transverse displacement 
+::::
+
+::::{exercise}
+:label: prb-11-4
+:enumerator: 11.4
+
+A flexible membrane with surface tension $\tau_{S}$ and surface mass density $\rho_{S}$ is stretched so that its equilibrium position is the $z = 0$ plane. Attached to the surface of the membrane at $x = 0$ is a string with tension $\tau_{L}$ and linear mass density $\rho_{L}$. Consider a traveling wave on the membrane with transverse displacement
+
 $$
 \psi(x, y, t)=\psi_{-}(x, y, t)=A e^{-i \omega t+i k_{x} x+i k_{y} y}+R A e^{-i \omega t-i k_{x} x+i k_{y} y}
 $$
@@ -1826,7 +1850,13 @@ $$
 
 Explain the physical significance of the term above, proportional to $\tau_{S}$. What is pulling on what? Why does it have the form shown above?
 
-**11.5.** Consider the transverse oscillations of an infinite flexible membrane stretched in the $z = 0$ plane with surface tension $T_{s}$ and surface mass density $D_{s}$. Along the $z = 0$, $x = 0$ line, a string with linear mass density $D_{L}$ but no tension of its own is attached to the membrane.
+::::
+
+::::{exercise}
+:label: prb-11-5
+:enumerator: 11.5
+
+Consider the transverse oscillations of an infinite flexible membrane stretched in the $z = 0$ plane with surface tension $T_{s}$ and surface mass density $D_{s}$. Along the $z = 0$, $x = 0$ line, a string with linear mass density $D_{L}$ but no tension of its own is attached to the membrane.
 
 Consider a wave of the form: 
 $$
@@ -1844,7 +1874,14 @@ Find $R$ and $T$.
 
 Hint: Consider $F = ma$ for an infinitesimal piece of the weighted string, remembering that it has no tension of its own.
 
-**11.6.** Two semi-infinite flexible membranes are stretched in the $z = 0$ plane. The first has surface tension $1 \text { dyne/cm }$ and mass density $169 \mathrm{gr} / \mathrm{cm}^{2}$. It is fixed along the $z = 0$, $y = 0$ axis and the $z = 0$, $y = a$ axis and extends from $x = 0$ to $\infty$ in the $+ x$ direction. The second has the same surface tension but mass density $180 \mathrm{gr} / \mathrm{cm}^{2}$. It is also fixed along the $z = 0$, $y = 0$ axis and the $z = 0$, $y = a$ axis and extends from $x = 0$ to $- \infty$ in the $− x$ direction. The two membranes are joined together with massless tape at $x = 0$. Consider the transverse oscillations of this system of the following form: 
+::::
+
+::::{exercise}
+:label: prb-11-6
+:enumerator: 11.6
+
+Two semi-infinite flexible membranes are stretched in the $z = 0$ plane. The first has surface tension $1 \text { dyne/cm }$ and mass density $169 \mathrm{gr} / \mathrm{cm}^{2}$. It is fixed along the $z = 0$, $y = 0$ axis and the $z = 0$, $y = a$ axis and extends from $x = 0$ to $\infty$ in the $+ x$ direction. The second has the same surface tension but mass density $180 \mathrm{gr} / \mathrm{cm}^{2}$. It is also fixed along the $z = 0$, $y = 0$ axis and the $z = 0$, $y = a$ axis and extends from $x = 0$ to $- \infty$ in the $− x$ direction. The two membranes are joined together with massless tape at $x = 0$. Consider the transverse oscillations of this system of the following form:
+
 $$
 \begin{aligned}
 \psi(x, y, t)=A \sin \left(k_{y} y\right)\left(e^{-i\left(\omega t-k_{x} x\right)}+R e^{-i\left(\omega t+k_{x} x\right)}\right) & & \text { for } x \leq 0 \\
@@ -1865,7 +1902,15 @@ Find $R$ and $T$.
 
 A forced oscillation problem in an elastic membrane.
 :::
-**11.7.** A uniform membrane is stretched in the $z = 0$ plane, as shown in [Figure 11.62](#fig-11-62). It is attached to fixed rods along $y = 0$, $z = 0$ and $y = a$, $z = 0$ from $x = 0$ to $\infty$. $\psi(x, y, t)$ is the $z$ displacement of the point on the membrane with equilibrium position $(x, y, 0)$. For small oscillations, $\psi$ satisfies the two-dimensional wave equation, 
+
+::::
+
+::::{exercise}
+:label: prb-11-7
+:enumerator: 11.7
+
+A uniform membrane is stretched in the $z = 0$ plane, as shown in [Figure 11.62](#fig-11-62). It is attached to fixed rods along $y = 0$, $z = 0$ and $y = a$, $z = 0$ from $x = 0$ to $\infty$. $\psi(x, y, t)$ is the $z$ displacement of the point on the membrane with equilibrium position $(x, y, 0)$. For small oscillations, $\psi$ satisfies the two-dimensional wave equation,
+
 $$
 v^{2}\left(\frac{\partial^{2}}{\partial x^{2}}+\frac{\partial^{2}}{\partial y^{2}}\right) \psi=\frac{\partial^{2}}{\partial t^{2}} \psi .
 $$
@@ -1884,7 +1929,14 @@ The boundary condition at $\infty$ is such that there is no wave traveling in th
 
 Explain the following statement: For $\omega<2 v k_{0}$, the system acts like a one-dimensional wave carrier with the dispersion relation $\omega^{2}=v^{2} k^{2}+\omega_{0}^{2}$. What is $\omega_{0}$?
 
-**11.8.** Consider a rigid spherical shell of inner radius $L$ filled with gas in which the speed of sound is $v$. In this sphere there are **standing wave** normal modes of many kinds. We will be interested in those in which the pressure depends only on the distance, $r$, from the center of the sphere. Suppose that $\psi(\vec{r}, t)=\chi(r, t)$ is the difference between the pressure of the gas in such a mode and the equilibrium pressure. We know from [11.173](#eq-11-173) that $\xi(r, t) \equiv r \chi(r, t)$ satisfies the one-dimensional wave equation: 
+::::
+
+::::{exercise}
+:label: prb-11-8
+:enumerator: 11.8
+
+Consider a rigid spherical shell of inner radius $L$ filled with gas in which the speed of sound is $v$. In this sphere there are **standing wave** normal modes of many kinds. We will be interested in those in which the pressure depends only on the distance, $r$, from the center of the sphere. Suppose that $\psi(\vec{r}, t)=\chi(r, t)$ is the difference between the pressure of the gas in such a mode and the equilibrium pressure. We know from [11.173](#eq-11-173) that $\xi(r, t) \equiv r \chi(r, t)$ satisfies the one-dimensional wave equation:
+
 $$
 \frac{\partial^{2}}{\partial t^{2}} \xi(r, t)=v^{2} \frac{\partial^{2}}{\partial r^{2}} \xi(r, t) .
 $$
@@ -1906,7 +1958,15 @@ Write down the mathematical statement of the boundary condition at $r = L$, the 
 
 Amplitude of pressure oscillation versus $r$.
 :::
-**11.9.** Consider a boundary between two semi-infinite membranes stretched in the $x$-$y$ plane. The membrane for $x < 0$ has surface tension $\tau_{s}$ and surface mass density $\rho_{s}$. The membrane for $x > 0$ has the same surface tension $\tau_{s}$ but a different surface mass density $\rho_{s}^{\prime}$. Along the boundary there is a device (I don’t know exactly how it works) that produces a vertical frictional force, proportional to minus the vertical velocity of the membrane at the boundary. In other words, if $\psi(x, y, t)$ is the $z$ displacement of the membrane as a function of $(x, y)$, then the force (in the $z$ direction) on a small chunk of the boundary stretching from the point $(0, y)$ to $(0, y + dy)$ is 
+
+::::
+
+::::{exercise}
+:label: prb-11-9
+:enumerator: 11.9
+
+Consider a boundary between two semi-infinite membranes stretched in the $x$-$y$ plane. The membrane for $x < 0$ has surface tension $\tau_{s}$ and surface mass density $\rho_{s}$. The membrane for $x > 0$ has the same surface tension $\tau_{s}$ but a different surface mass density $\rho_{s}^{\prime}$. Along the boundary there is a device (I don’t know exactly how it works) that produces a vertical frictional force, proportional to minus the vertical velocity of the membrane at the boundary. In other words, if $\psi(x, y, t)$ is the $z$ displacement of the membrane as a function of $(x, y)$, then the force (in the $z$ direction) on a small chunk of the boundary stretching from the point $(0, y)$ to $(0, y + dy)$ is
+
 $$
 d F=-d y \gamma \frac{\partial}{\partial t} \psi(0, y, t) .
 $$
@@ -1939,7 +1999,13 @@ Find $\theta^{\prime}$.
 
 Find $\gamma$. You should find $\gamma \rightarrow 0$ for $\rho_{s} \rightarrow \rho_{s}^{\prime}$. Explain why.
 
-**11.10** ![Figure](../images/lt-33385-clipboard_ec0d1b6ffcc323bfc43290cc4713b326c.png)**11-4.**Instead of an open ocean, consider a system with a bottom at $y = 0$ and a fixed top at $y = 2L$, half full of water and half full of paint-thinner, another nearly incompressible fluid which is lighter than water and floats in the top half without mixing with the water.
+::::
+
+::::{exercise}
+:label: prb-11-10
+:enumerator: 11.10
+
+![Figure](../images/lt-33385-clipboard_ec0d1b6ffcc323bfc43290cc4713b326c.png)**11-4.**Instead of an open ocean, consider a system with a bottom at $y = 0$ and a fixed top at $y = 2L$, half full of water and half full of paint-thinner, another nearly incompressible fluid which is lighter than water and floats in the top half without mixing with the water.
 
 Show that waves in this system have the form of [11.122](#eq-11-122) for $y \leq L$ (in the water) and 
 $$
@@ -1968,7 +2034,14 @@ $$
 
 where $\rho_{P}$ is the density of the paint-thinner, $\rho_{W}$ is the density of the water, and $\tau_{S}$ is the surface tension of the boundary between the water and the paint-thinner. **Hint:** You use an energy argument analogous to [11.127](#eq-11-127)-[11.137](#eq-11-137), and just discuss how the various contributions change when you go from [11.137](#eq-11-137) to [11.176](#eq-11-176).
 
-**11.11.** Consider the reflection of sound waves from a massless, infinitely flexible membrane that separates two gases with the same equilibrium pressure, $p_{0}$, but different densities. The membrane is in the $x = 0$ plane. The gas in region 1, for $x < 0$ has equilibrium density $\rho_{1}$, ratio of specific heat at constant pressure to specific heat at constant volume $\gamma_{1}$, and sound speed $\sqrt{\gamma_{1} p_{0} / \rho_{1}}$ while the gas in region 2, for $x > 0$ has density $\rho_{2}$, specific heat ratio $\gamma_{2}$ and sound speed $\sqrt{\gamma_{2} p_{0} / \rho_{2}}$. A pressure wave in the system has the following form: 
+::::
+
+::::{exercise}
+:label: prb-11-11
+:enumerator: 11.11
+
+Consider the reflection of sound waves from a massless, infinitely flexible membrane that separates two gases with the same equilibrium pressure, $p_{0}$, but different densities. The membrane is in the $x = 0$ plane. The gas in region 1, for $x < 0$ has equilibrium density $\rho_{1}$, ratio of specific heat at constant pressure to specific heat at constant volume $\gamma_{1}$, and sound speed $\sqrt{\gamma_{1} p_{0} / \rho_{1}}$ while the gas in region 2, for $x > 0$ has density $\rho_{2}$, specific heat ratio $\gamma_{2}$ and sound speed $\sqrt{\gamma_{2} p_{0} / \rho_{2}}$. A pressure wave in the system has the following form:
+
 $$
 P(r, t) / \delta p=A e^{i \vec{k}_{1} \cdot \vec{r}-i \omega t}+R A e^{i \vec{k}_{R} \cdot \vec{r}-i \omega t}
 $$
@@ -2024,7 +2097,14 @@ Find the other boundary condition. **Hint:** Assume that the amplitude $\delta p
 
 Find $R$ and $T$.
 
-**11.12.** Consider a universe filled with material that has a nonzero conductivity, $\sigma$. That is, in this material, there is a current proportional to the electric field (Ohm’s law), 
+::::
+
+::::{exercise}
+:label: prb-11-12
+:enumerator: 11.12
+
+Consider a universe filled with material that has a nonzero conductivity, $\sigma$. That is, in this material, there is a current proportional to the electric field (Ohm’s law),
+
 $$
 \vec{J}(\vec{r}, t)=\sigma \vec{E}(\vec{r}, t) .
 $$
@@ -2064,7 +2144,14 @@ A spherical sound damper.
 :::
 1. Assume that $\omega$ is real and positive and that the real part of $k$ is positive. Find the sign of the imaginary part of $k$, and interpret your result physically. That is, explain why the sign had to come out the way it did.
 
-**11.13.** Consider a spherical sound wave coming in from far away and being completely absorbed by a spherical sound damper at a radius $r = \ell$, as shown in [Figure 11.65](#fig-11-65). The pressure in is this system is described by the real part of the complex traveling wave below, depending only on the radius and time: 
+::::
+
+::::{exercise}
+:label: prb-11-13
+:enumerator: 11.13
+
+Consider a spherical sound wave coming in from far away and being completely absorbed by a spherical sound damper at a radius $r = \ell$, as shown in [Figure 11.65](#fig-11-65). The pressure in is this system is described by the real part of the complex traveling wave below, depending only on the radius and time:
+
 $$
 p(r, t)-p_{0}=\frac{\epsilon}{r} e^{-i(k r+\omega t)}
 $$
@@ -2111,7 +2198,13 @@ $$
 
 in which you can drop terms proportional to $1 / r_{b}$ compared to $k$ or $k^{\prime}$.
 
-**11.14.** One of the problems with glass lenses is that the index of refraction of glass depends on frequency. Thus, according to the lens maker’s formula, the focal length of a glass lens will depend of frequency, and that is not good, because if one color is focused sharply, the others will be fuzzy. This is called “chromatic aberration.” Fortunately, different kinds of glass have different behavior in this respect, and this makes it possible to eliminate chromatic aberration. Suppose that you make a lens that looks like this by gluing together lenses made of two different types of glass.
+::::
+
+::::{exercise}
+:label: prb-11-14
+:enumerator: 11.14
+
+One of the problems with glass lenses is that the index of refraction of glass depends on frequency. Thus, according to the lens maker’s formula, the focal length of a glass lens will depend of frequency, and that is not good, because if one color is focused sharply, the others will be fuzzy. This is called “chromatic aberration.” Fortunately, different kinds of glass have different behavior in this respect, and this makes it possible to eliminate chromatic aberration. Suppose that you make a lens that looks like this by gluing together lenses made of two different types of glass.
 
 ![Figure](../images/lt-33389-clipboard_e876c92ef47c0e36dd5b37c565854149d.png)
 
@@ -2122,7 +2215,13 @@ $$
 
 What relation must be satisfied if the compound lens is to have a focal length that is independent of $\lambda$?
 
-**11.15.** You can also make a telescope with one converging lens (the objective) and one diverging lens (the eyepiece).
+::::
+
+::::{exercise}
+:label: prb-11-15
+:enumerator: 11.15
+
+You can also make a telescope with one converging lens (the objective) and one diverging lens (the eyepiece).
 
 ![Figure](../images/lt-33390-clipboard_e1cfea58535d1f350dc263b78e4702ce4.png)
 
@@ -2134,4 +2233,12 @@ The focal length of the convex lens is $f_{1}$ and the focal length of the conca
 
 3. The image in this case is right-side-up. Draw a careful diagram to explain why.
 
-**11.16.** The appearance of the rainbows depends dramatically on the index of refraction of water. Describe in detail what the rainbows look like if $n$ were decreased by 0.03 for each frequency of light? Discuss the first and second rainbows and Alexander’s dark band.
+::::
+
+::::{exercise}
+:label: prb-11-16
+:enumerator: 11.16
+
+The appearance of the rainbows depends dramatically on the index of refraction of water. Describe in detail what the rainbows look like if $n$ were decreased by 0.03 for each frequency of light? Discuss the first and second rainbows and Alexander’s dark band.
+
+::::

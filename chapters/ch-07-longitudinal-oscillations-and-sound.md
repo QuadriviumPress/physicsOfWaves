@@ -55,7 +55,7 @@ $$
 x+\psi(x, t), \tag{7.5} \label{eq-7-5}
 $$
 
-where $\psi$ is the displacement. You will need this to do problem (7.1).
+where $\psi$ is the displacement. You will need this to do [problem 7.1](#prb-7-1).
 
 ### Fixed Ends
 
@@ -428,7 +428,7 @@ $$
 \nu \approx 118 \text { hertz } \tag{7.58} \label{eq-7-58}
 $$
 
-or roughly a $B b$ below low $C$. This is just about right (see problem 7.5).
+or roughly a $B b$ below low $C$. This is just about right (see [problem 7.5](#prb-7-5)).
 
 ### Corrections to Helmholtz
 
@@ -464,7 +464,7 @@ $$
 \frac{\omega V_{0}}{A v} \tan \frac{\omega \ell}{v}=1 . \tag{7.64} \label{eq-7-64}
 $$
 
-You will explore the consequences of this in problem 7.5.
+You will explore the consequences of this in [problem 7.5](#prb-7-5).
 
 This analysis does not distinguish between the area of the top and bottom of the neck. Perhaps the area at the bottom is more appropriate. What matters is the area at the bottom that determines the force per unit area where the wave in the neck matches onto the body.
 
@@ -490,9 +490,19 @@ You should now be able to:
 
 ### Problems
 
-**7.1.** Derive [7.45](#eq-7-45) directly by considering the volume of the chunk of air in the tube between $z$ and $z + dz$, and using [7.38](#eq-7-38).
+::::{exercise}
+:label: prb-7-1
+:enumerator: 7.1
 
-**7.2.** Use an analogy with [7.16](#eq-7-16)-[7.31](#eq-7-31) to find (approximately!) the normal modes and corresponding frequencies of the system shown in [Figure 6.1](#fig-6-1), but with a massive ring of mass m sliding on the frictionless rod.
+Derive [7.45](#eq-7-45) directly by considering the volume of the chunk of air in the tube between $z$ and $z + dz$, and using [7.38](#eq-7-38).
+
+::::
+
+::::{exercise}
+:label: prb-7-2
+:enumerator: 7.2
+
+Use an analogy with [7.16](#eq-7-16)-[7.31](#eq-7-31) to find (approximately!) the normal modes and corresponding frequencies of the system shown in [Figure 6.1](#fig-6-1), but with a massive ring of mass m sliding on the frictionless rod.
 
 :::{figure} ../images/lt-33571-clipboard_e9a1fc198b3613ae1fa6933b7070bb280.png
 :label: fig-7-7
@@ -501,25 +511,46 @@ You should now be able to:
 
 A hanging spring.
 :::
-**7.3.**A massive continuous spring with mass $m$, length $L$ and spring constant $K$ hanging vertically. The system is shown **at rest in its equilibrium configuration** in [Figure 7.7](#fig-7-7). The spring constant is large, satisfying $K L \gg m g$, so gravity plays no important role here except to keep the spring vertical. Now suppose that the supporting hanger is driven up and down so that the top of the spring moves vertically with displacement $\epsilon \cos \omega t$, as shown in [Figure 7.8](#fig-7-8). Find the $z$ position of the bottom of the spring as a function of time. Ignore damping.
+
+::::
+
+::::{exercise}
+:label: prb-7-3
+:enumerator: 7.3
+
+A massive continuous spring with mass $m$, length $L$ and spring constant $K$ hanging vertically. The system is shown **at rest in its equilibrium configuration** in [Figure 7.7](#fig-7-7). The spring constant is large, satisfying $K L \gg m g$, so gravity plays no important role here except to keep the spring vertical. Now suppose that the supporting hanger is driven up and down so that the top of the spring moves vertically with displacement $\epsilon \cos \omega t$, as shown in [Figure 7.8](#fig-7-8). Find the $z$ position of the bottom of the spring as a function of time. Ignore damping.
 
 :::{figure} ../images/lt-33572-clipboard_e760593775f6c83eff19e99c667b975f1.png
 :label: fig-7-8
 :enumerator: 7.8
-:alt: Problem 7.3.
+:alt: [Problem 7.3](#prb-7-3).
 
-Problem 7.3.
+[Problem 7.3](#prb-7-3).
 :::
-**7.4.** A system analogous to that in problem 7.3 is a tube of air with a piston at the top and the bottom open, as shown in Figure $7.9$: If the cross sectional area of the tube is $A$, what is the analog in this system of the spring constant, $K$, in problem 7.3? Make sure that your answer has units of force per unit distance.
+
+::::
+
+::::{exercise}
+:label: prb-7-4
+:enumerator: 7.4
+
+A system analogous to that in [problem 7.3](#prb-7-3) is a tube of air with a piston at the top and the bottom open, as shown in Figure $7.9$: If the cross sectional area of the tube is $A$, what is the analog in this system of the spring constant, $K$, in [problem 7.3](#prb-7-3)? Make sure that your answer has units of force per unit distance.
 
 :::{figure} ../images/lt-33573-clipboard_ee0e8e0cf9f3b87ea5cea0a9f4cc417bb.png
 :label: fig-7-9
 :enumerator: 7.9
-:alt: Problem 7.4.
+:alt: [Problem 7.4](#prb-7-4).
 
-Problem 7.4.
+[Problem 7.4](#prb-7-4).
 :::
-**7.5.** **PERSONAL EXPERIMENT —**Show that when $\omega \ell / v$ is small, [7.64](#eq-7-64) reduces to the Helmholtz approximation, [7.57](#eq-7-57), while for $V_{0} \approx 0$, when the bottle is all neck, it reduces to the result for the modes of a uniform tube with one open and one closed end, [7.50](#eq-7-50).
+
+::::
+
+::::{exercise} PERSONAL EXPERIMENT
+:label: prb-7-5
+:enumerator: 7.5
+
+Show that when $\omega \ell / v$ is small, [7.64](#eq-7-64) reduces to the Helmholtz approximation, [7.57](#eq-7-57), while for $V_{0} \approx 0$, when the bottle is all neck, it reduces to the result for the modes of a uniform tube with one open and one closed end, [7.50](#eq-7-50).
 
 **Do the experiment!** Find a selection of at least four bottles, at least one of which has a very long neck. Measure the frequency of the lowest mode of each, and describe how you did it. For each bottle, tabulate the following (in cgs units):
 
@@ -544,3 +575,5 @@ Problem 7.4.
 10. $\left(\omega V_{0} / A v\right) \tan (\omega \ell / v)$ (=1 in the approximation [7.64](#eq-7-64))
 
 See whether you can see the end effect, [7.59](#eq-7-59), or distinguish the area of the top of the neck from the bottom — that is, see which works better in [7.57](#eq-7-57). Comment, as quantitatively as you can, on the errors in your experiment, and on the relative merits of the approximate expressions that you have tested.
+
+::::

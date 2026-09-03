@@ -163,7 +163,7 @@ $$
 z(t)-\mathcal{A} e^{-i \omega_{d} t} \tag{2.19} \label{eq-2-19}
 $$
 
-The steady state solution, [2.19](#eq-2-19), is a particular solution, not the most general solution to [2.16](#eq-2-16). As discussed in chapter 1, the most general solution of [2.16](#eq-2-16) is obtained by adding to the particular solution the most general solution for the free motion of the same oscillator (solutions of [2.3](#eq-2-3)). In general we will have to include these more general contributions to satisfy the initial conditions. However, as we have seen above, all of these solutions die away exponentially with time. They are what are called “transient” solutions. It is only the steady state solution that survives for a long time in the presence of damping. Unlike the solutions to the free equation of motion, the steady state solution has nothing to do with the initial values of the displacement and velocity. It is determined entirely by the driving force, [2.17](#eq-2-17). You will explore the transient solutions in problem (2.4).
+The steady state solution, [2.19](#eq-2-19), is a particular solution, not the most general solution to [2.16](#eq-2-16). As discussed in chapter 1, the most general solution of [2.16](#eq-2-16) is obtained by adding to the particular solution the most general solution for the free motion of the same oscillator (solutions of [2.3](#eq-2-3)). In general we will have to include these more general contributions to satisfy the initial conditions. However, as we have seen above, all of these solutions die away exponentially with time. They are what are called “transient” solutions. It is only the steady state solution that survives for a long time in the presence of damping. Unlike the solutions to the free equation of motion, the steady state solution has nothing to do with the initial values of the displacement and velocity. It is determined entirely by the driving force, [2.17](#eq-2-17). You will explore the transient solutions in [problem 2.4](#prb-2-4).
 
 Putting [2.19](#eq-2-19) and [2.17](#eq-2-17) into [2.16](#eq-2-16) and cancelling a factor of $e^{-i \omega_{d} t}$ from each side of the resulting equation, we get 
 $$
@@ -177,7 +177,7 @@ $$
 
 **Notice that we got the solution just using algebra. This is the advantage of starting with the irreducible solution, [2.19](#eq-2-19).**
 
-The amplitude, [2.21](#eq-2-21), of the displacement is proportional to the amplitude of the driving force. This is just what we expect from linearity (see problem (2.2)). But the coefficient of proportionality is complex. To see what it looks like explicitly, multiply the numerator and denominator of the right-hand side of [2.21](#eq-2-21) by $\omega_{0}^{2}+i \Gamma \omega_{d}-\omega_{d}^{2}$, to get the complex numbers into the numerator 
+The amplitude, [2.21](#eq-2-21), of the displacement is proportional to the amplitude of the driving force. This is just what we expect from linearity (see [problem 2.2](#prb-2-2)). But the coefficient of proportionality is complex. To see what it looks like explicitly, multiply the numerator and denominator of the right-hand side of [2.21](#eq-2-21) by $\omega_{0}^{2}+i \Gamma \omega_{d}-\omega_{d}^{2}$, to get the complex numbers into the numerator 
 $$
 \mathcal{A}=\frac{\left(\omega_{0}^{2}+i \Gamma \omega_{d}-\omega_{d}^{2}\right) F_{0} / m}{\left(\omega_{0}^{2}-\omega_{d}^{2}\right)^{2}+\Gamma^{2} \omega_{d}^{2}} . \tag{2.22} \label{eq-2-22}
 $$
@@ -405,11 +405,28 @@ You should now be able to:
 
 ### Problems
 
-**2.1.** Prove that an overdamped oscillator can cross its equilibrium position at most once.
+::::{exercise}
+:label: prb-2-1
+:enumerator: 2.1
 
-**2.2.** Prove, just using linearity, without using the explicit solution, that the steady state solution to [2.16](#eq-2-16) must be proportional to $F_{0}$.
+Prove that an overdamped oscillator can cross its equilibrium position at most once.
 
-**2.3.** For the system with equation of motion [2.14](#eq-2-14), suppose that the driving force has the form 
+::::
+
+::::{exercise}
+:label: prb-2-2
+:enumerator: 2.2
+
+Prove, just using linearity, without using the explicit solution, that the steady state solution to [2.16](#eq-2-16) must be proportional to $F_{0}$.
+
+::::
+
+::::{exercise}
+:label: prb-2-3
+:enumerator: 2.3
+
+For the system with equation of motion [2.14](#eq-2-14), suppose that the driving force has the form
+
 $$
 f_{0} \cos \omega_{0} t \cos \delta t
 $$
@@ -429,7 +446,14 @@ $$
 \cos \omega_{0} t \cos \delta t=\frac{1}{2} \operatorname{Re}\left(e^{-i\left(\omega_{0}+\delta\right) t}+e^{-i\left(\omega_{0}-\delta\right) t}\right) .
 $$
 
-**2.4.** For the system shown in [Figure 2.9](#fig-2-9), suppose that the displacement of the end of the wire vanishes for $t < 0$, and has the form 
+::::
+
+::::{exercise}
+:label: prb-2-4
+:enumerator: 2.4
+
+For the system shown in [Figure 2.9](#fig-2-9), suppose that the displacement of the end of the wire vanishes for $t < 0$, and has the form
+
 $$
 d_{0} \sin \omega_{d} t \quad \text { for } \quad t \geq 0 .
 $$
@@ -438,4 +462,12 @@ $$
 
 2. Find the solution when $\Gamma \rightarrow 0$ and simplify the result. Even if you got confused by the complex numbers in **a.**, you should be able to find the solution in this limit. When there is no damping, the “transient” solutions do not die away with time!
 
-**2.5.** For the $LC$ circuit shown in [Figure 1.10](#fig-1-10), suppose that the inductor has nonzero resistance, $R$. Write down the equation of motion for this system and find the relation between friction term, $m \Gamma$, in the damped harmonic oscillator and the resistance, $R$, that completes the correspondence of [1.105](#eq-1-105). Suppose that the capacitors have capacitance, $C \approx 0.00667 \mu F$, the inductor has inductance, $L \approx 150 \mu H$ and the resistance, $R \approx 15 \Omega$. Solve the equation of motion and evaluate the constants that appear in your solution in units of seconds.
+::::
+
+::::{exercise}
+:label: prb-2-5
+:enumerator: 2.5
+
+For the $LC$ circuit shown in [Figure 1.10](#fig-1-10), suppose that the inductor has nonzero resistance, $R$. Write down the equation of motion for this system and find the relation between friction term, $m \Gamma$, in the damped harmonic oscillator and the resistance, $R$, that completes the correspondence of [1.105](#eq-1-105). Suppose that the capacitors have capacitance, $C \approx 0.00667 \mu F$, the inductor has inductance, $L \approx 150 \mu H$ and the resistance, $R \approx 15 \Omega$. Solve the equation of motion and evaluate the constants that appear in your solution in units of seconds.
+
+::::

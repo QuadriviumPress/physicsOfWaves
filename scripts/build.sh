@@ -7,5 +7,6 @@ if [ ! -f outline.json ] || [ "${FORCE_CRAWL:-}" = "1" ]; then
 fi
 python3 scripts/build_book.py
 python3 scripts/fix_crossrefs.py
+python3 scripts/wrap_problems.py
 # resolve_references.py targets LibreTexts \\ref{N.M} labels; this book uses
 # hard-coded numbers fixed by fix_crossrefs.py instead.

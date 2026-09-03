@@ -1209,7 +1209,12 @@ You should now be able to:
 
 ### Problems
 
-**13.1.** Consider the transverse oscillations of a semi-infinite, flexible membrane with surface tension $T_{S}$ and surface mass density $\rho_{S}$. The membrane is stretched in the $z$ = 0 plane from $y = −\infty$ to $\infty$ and from $x = 0$ to $\infty$. The membrane is held fixed along the half lines, $x=z=0$, $a \leq y \leq \infty$ and $x = z = 0$, $-\infty \leq y \leq-a$. For $y$ between $a$ and $-a$, the membrane is driven with frequency $\omega$ so that the end at $x = 0$ moves with transverse displacement 
+::::{exercise}
+:label: prb-13-1
+:enumerator: 13.1
+
+Consider the transverse oscillations of a semi-infinite, flexible membrane with surface tension $T_{S}$ and surface mass density $\rho_{S}$. The membrane is stretched in the $z$ = 0 plane from $y = −\infty$ to $\infty$ and from $x = 0$ to $\infty$. The membrane is held fixed along the half lines, $x=z=0$, $a \leq y \leq \infty$ and $x = z = 0$, $-\infty \leq y \leq-a$. For $y$ between $a$ and $-a$, the membrane is driven with frequency $\omega$ so that the end at $x = 0$ moves with transverse displacement
+
 $$
 \psi(0, y, t)=f(y) e^{-i \omega t}
 $$
@@ -1237,7 +1242,14 @@ Find the function $k(k_{y})$.
 
 If the intensity of the wave at $x = L$, $y = 0$ for large $L$ is $I_{0}$, find the intensity for $x = L$ and any value of $y$. **Hint:** Assume that you are in the far field region, and account for all the relevant factors contributing to the ratio of the intensity to $I_{0}$.
 
-**13.2.** Consider an opaque barrier in the $x$-$y$ plane at $z = 0$, with a single slit along the $x$ axis of width $2a$, but with regions on either side of the slit each with width $2a$ which are partially transparent, designed to reduce the intensity by a factor of 2. When this barrier is illuminated by a plane wave in the $z$ direction, the amplitude of the oscillating field at $z = 0$ is 
+::::
+
+::::{exercise}
+:label: prb-13-2
+:enumerator: 13.2
+
+Consider an opaque barrier in the $x$-$y$ plane at $z = 0$, with a single slit along the $x$ axis of width $2a$, but with regions on either side of the slit each with width $2a$ which are partially transparent, designed to reduce the intensity by a factor of 2. When this barrier is illuminated by a plane wave in the $z$ direction, the amplitude of the oscillating field at $z = 0$ is
+
 $$
 f(x, y) e^{-i \omega t}
 $$
@@ -1276,7 +1288,13 @@ $$
 
 which looks nothing like the pattern above. Explain the difference.
 
-**13.3.** Consider an opaque barrier in the $x$-$y$ plane at $z = 0$, with identical holes centered at $(x, y)=\left(n_{x} a, n_{y} a\right)$ for all integers $n_{x}$ and $n_{y}$. Suppose that the barrier is illuminated from $z<0$ by a plane wave traveling in the z direction with wavelength $\lambda=a \sqrt{3} / 2 \text { . }$.
+::::
+
+::::{exercise}
+:label: prb-13-3
+:enumerator: 13.3
+
+Consider an opaque barrier in the $x$-$y$ plane at $z = 0$, with identical holes centered at $(x, y)=\left(n_{x} a, n_{y} a\right)$ for all integers $n_{x}$ and $n_{y}$. Suppose that the barrier is illuminated from $z<0$ by a plane wave traveling in the z direction with wavelength $\lambda=a \sqrt{3} / 2 \text { . }$.
 
 For $z > 0$, the wave has the form 
 $$
@@ -1305,11 +1323,30 @@ Find $\xi_{x}$ and $\xi_{y}$.
 
 Again for large $z$, only a finite number of terms in the sum are important. Which ones — that is, what values of $m_{x}$ and $m_{y}$?
 
-**13.4.** Describe the diffraction pattern that results when a transmission diffraction grating with line separation distance $S$ is illuminated by a plane wave of monochromatic light with wavelength $L$ that is traveling in a direction perpendicular to the grating lines and at an angle $\theta$ to the perpendicular from the surface of the grating.
+::::
 
-**13.5.** An opaque screen with four narrow slits at $x=\pm 0.6 \mathrm{~mm}$ and $x=\pm 0.4 \mathrm{~mm}$ is blocking a beam of coherent light with wavelength $4 \times 10^{-5} \mathrm{~cm}$. Describe the diffraction pattern that appears on a screen 5 meters away.
+::::{exercise}
+:label: prb-13-4
+:enumerator: 13.4
 
-**13.6.** A semi-infinite flexible membrane is stretched in the $z = 0$ plane for $x \geq 0$ with surface tension $T_{s}$ and surface mass density $\rho_{s}$. The membrane is clamped down at $z = 0$ along the two semi-infinite lines, $z = 0$, $x = 0$, $y \geq a$ and $z = 0$, $x = 0$, $y \leq-a$. For $-a \leq y \leq a$ and $x = 0$, the membrane is forced to oscillate with an amplitude of the form 
+Describe the diffraction pattern that results when a transmission diffraction grating with line separation distance $S$ is illuminated by a plane wave of monochromatic light with wavelength $L$ that is traveling in a direction perpendicular to the grating lines and at an angle $\theta$ to the perpendicular from the surface of the grating.
+
+::::
+
+::::{exercise}
+:label: prb-13-5
+:enumerator: 13.5
+
+An opaque screen with four narrow slits at $x=\pm 0.6 \mathrm{~mm}$ and $x=\pm 0.4 \mathrm{~mm}$ is blocking a beam of coherent light with wavelength $4 \times 10^{-5} \mathrm{~cm}$. Describe the diffraction pattern that appears on a screen 5 meters away.
+
+::::
+
+::::{exercise}
+:label: prb-13-6
+:enumerator: 13.6
+
+A semi-infinite flexible membrane is stretched in the $z = 0$ plane for $x \geq 0$ with surface tension $T_{s}$ and surface mass density $\rho_{s}$. The membrane is clamped down at $z = 0$ along the two semi-infinite lines, $z = 0$, $x = 0$, $y \geq a$ and $z = 0$, $x = 0$, $y \leq-a$. For $-a \leq y \leq a$ and $x = 0$, the membrane is forced to oscillate with an amplitude of the form
+
 $$
 z=B e^{i \omega t} \cos \frac{\pi y}{2 a}.
 $$
@@ -1320,9 +1357,21 @@ Find the intensity of the disturbance on the membrane produced by this forced os
 
 **Hint:** This is similar to a single slit diffraction problem. Note that even though the disturbance is a cosine, you will have to do a Fourier integral (although not a difficult one) to do part b, because the disturbance is confined to $-a \leq y \leq a$ at $x = 0$.
 
-**13.7.** Suppose that a diffraction grating with line separation $d$ is etched onto the top of a thick piece of glass with index of refraction $n$. If light of frequency $\omega$ is incident on the top, coming in at an angle $\theta$ from the perpendicular to the face and perpendicular to the grating lines, find the angles of the components of the wave in the glass.
+::::
 
-**13.8.** Shown in [Figure 13.39](#fig-13-39) are 4 diffraction patterns such as might be produced by shining laser light (nearly a plane wave) through a slit or slits, and projecting the pattern onto a photographic plate far away. The patterns are each produced by about 500 individual photons striking the plate with a probability density proportional to the intensity of the diffracted wave.
+::::{exercise}
+:label: prb-13-7
+:enumerator: 13.7
+
+Suppose that a diffraction grating with line separation $d$ is etched onto the top of a thick piece of glass with index of refraction $n$. If light of frequency $\omega$ is incident on the top, coming in at an angle $\theta$ from the perpendicular to the face and perpendicular to the grating lines, find the angles of the components of the wave in the glass.
+
+::::
+
+::::{exercise}
+:label: prb-13-8
+:enumerator: 13.8
+
+Shown in [Figure 13.39](#fig-13-39) are 4 diffraction patterns such as might be produced by shining laser light (nearly a plane wave) through a slit or slits, and projecting the pattern onto a photographic plate far away. The patterns are each produced by about 500 individual photons striking the plate with a probability density proportional to the intensity of the diffracted wave.
 
 :::{figure} ../images/lt-32813-clipboard_e6bf523ffc58b0de6d759c12ab7c322d9.png
 :label: fig-13-39
@@ -1344,6 +1393,8 @@ The four objects that produced these patterns were, in a random order,
 1. Which is which?
 
 2. How do you know?
+
+::::
 
 ## 13.9: Fringes and Zone Plates
 

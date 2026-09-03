@@ -1091,7 +1091,11 @@ You should now be able to:
 
 ### Problems
 
-**12.1***A pane of glass with index of refraction $n = 2$ sits in the $x$-$y$ plane, from $z = 0$ to $z = \ell$. A plane wave with wave number $k$ (outside the glass) comes at the pane at an angle $\theta$ from the perpendicular in the $x$-$y$ plane, with $k_{z}=k \cos \theta$ and $k_{x}=k \sin \theta$.
+::::{exercise}
+:label: prb-12-1
+:enumerator: 12.1*
+
+A pane of glass with index of refraction $n = 2$ sits in the $x$-$y$ plane, from $z = 0$ to $z = \ell$. A plane wave with wave number $k$ (outside the glass) comes at the pane at an angle $\theta$ from the perpendicular in the $x$-$y$ plane, with $k_{z}=k \cos \theta$ and $k_{x}=k \sin \theta$.
 
 For each of the two polarization states (in the $y$ direction, and in the $x$-$z$ plane), some fraction of the intensity is reflected as a function of $\theta$ and $k$. In this problem, we will use the method of transfer matrices, discussed in Chapter 9 to find it. We will work out the case of polarization perpendicular to the $x$-$z$ scattering plane in detail. Then your job will be to repeat the calculation for polarization in the $x$-$z$ plane. To do it, we must generalize the analysis of [12.62](#eq-12-62)-[12.63](#eq-12-63) and [12.70](#eq-12-70)-[12.71](#eq-12-71) to a situation with arbitrary incoming and outgoing waves on both sides and to a boundary at arbitrary $z$ (rather than $y$ for this problem). For the perpendicular polarization state, the boundary conditions look like: 
 $$
@@ -1157,7 +1161,14 @@ $$
 
 Now, do the same analysis for the polarization in the $x$-$z$ plane. Find $\left|R_{\|}\right|^{2}$. What happens at Brewster’s angle?
 
-**12.2.** Consider a boundary at $x = 0$ between two regions of empty space. On the boundary surface at $x = 0$, there is a thin layer of stuff with surface conductivity $\sigma$. That means that an electric field, $\vec{E}$, with a component parallel to the surface (in the $y$-$z$ plane) produces a surface current density in the boundary layer: 
+::::
+
+::::{exercise}
+:label: prb-12-2
+:enumerator: 12.2
+
+Consider a boundary at $x = 0$ between two regions of empty space. On the boundary surface at $x = 0$, there is a thin layer of stuff with surface conductivity $\sigma$. That means that an electric field, $\vec{E}$, with a component parallel to the surface (in the $y$-$z$ plane) produces a surface current density in the boundary layer:
+
 $$
 \overrightarrow{\mathcal{J}}(y, z)=\left(0, \sigma E_{y}(0, y, z), \sigma E_{z}(0, y, z)\right) .
 $$
@@ -1180,9 +1191,22 @@ Check your result for $R$ by explaining the limit $\sigma \rightarrow \infty$, a
 
 **Hint:** Use Maxwell’s equations to find $\vec{B}$ and then look at the discontinuity of the magnetic field across the surface current.
 
-**12.3.**Suppose that on the planes $z = 0$ and $z = a$ for $x \geq 0$, there are two flat semi-infinite conducting planes. Suppose, further, that the oscillation of the system is forced by some device that produces an electric field in the $x = 0$ plane for $0 \leq z \leq a$ with the following properties: $\vec{E}$ points in the $y$ direction but its $y$-component is independent of $y$ and equal to $E_{0} \sin (3 \pi z / a) \cos (\omega t)$, where $\omega>3 \pi c / a$ and $c$ is the speed of light in vacuum. If this produces a traveling wave in the $+x$ direction, find the form of the electric field everywhere between the plates. If this traveling wave is used as a carrier wave for amplitude modulated signals, with what speed does the signal travel?
+::::
 
-**12.4.** Consider the standing electromagnetic waves in a cubical evacuated box with **perfectly conducting** sides at $x = 0$, $x = L$, $y = 0$, $y = L$, $z = 0$ and $z = L$. There exist modes in which the electric and magnetic fields vanish outside the box, and inside take the following form: 
+::::{exercise}
+:label: prb-12-3
+:enumerator: 12.3
+
+Suppose that on the planes $z = 0$ and $z = a$ for $x \geq 0$, there are two flat semi-infinite conducting planes. Suppose, further, that the oscillation of the system is forced by some device that produces an electric field in the $x = 0$ plane for $0 \leq z \leq a$ with the following properties: $\vec{E}$ points in the $y$ direction but its $y$-component is independent of $y$ and equal to $E_{0} \sin (3 \pi z / a) \cos (\omega t)$, where $\omega>3 \pi c / a$ and $c$ is the speed of light in vacuum. If this produces a traveling wave in the $+x$ direction, find the form of the electric field everywhere between the plates. If this traveling wave is used as a carrier wave for amplitude modulated signals, with what speed does the signal travel?
+
+::::
+
+::::{exercise}
+:label: prb-12-4
+:enumerator: 12.4
+
+Consider the standing electromagnetic waves in a cubical evacuated box with **perfectly conducting** sides at $x = 0$, $x = L$, $y = 0$, $y = L$, $z = 0$ and $z = L$. There exist modes in which the electric and magnetic fields vanish outside the box, and inside take the following form:
+
 $$
 \begin{gathered}
 E_{z}(x, y, z, t)=A \omega \sin k_{x} x \sin k_{y} y \cos \omega t \\
@@ -1207,14 +1231,34 @@ There are no charges or currents inside the box, but there will be charges and c
 
 Explain the physics of the boundary conditions for the $\vec{E}$ field on the sides $x = L$ and $y = L$ and find the allowed values of $k_{x}$ and $k_{y}$. Then explain the physics of the boundary conditions for the $\vec{E}$ field on the sides $x = L$ and $y = L$ and draw a diagram to explain what is going on for the lowest possible values of $k_{x}$ and $k_{y}$. **Hint:** Remember that the magnetic field vanishes outside the box.
 
-**12.5.** A plane wave of light traveling in the $+z$ direction is polarized at an angle $\theta$ from the $x$ axis in the $x$ − $y$ plane. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only light polarized and an angle $\theta+\frac{\pi}{2}$, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” along $x$ axis, some of the light gets through. Suppose that the cellophane introduces a phase difference of $\phi$ between the component of the light wave polarized along the fast $(x)$ axis and the component polarized along the slow $(y)$ axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$. **Hint:** Does your answer go to zero as $\phi \rightarrow 0$? What happens as $\theta \rightarrow 0$?
+::::
 
-**12.6.** A plane wave of light traveling in the $+z$ direction is polarized in the $x$ direction. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only $y$ polarized light, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” at an angle $\theta$ with the $x$ axis, some of the light get through. Suppose that the cellophane introduces a phase difference of $\phi$ between a wave polarized along the fast axis and one polarized along the slow axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$.
+::::{exercise}
+:label: prb-12-5
+:enumerator: 12.5
+
+A plane wave of light traveling in the $+z$ direction is polarized at an angle $\theta$ from the $x$ axis in the $x$ − $y$ plane. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only light polarized and an angle $\theta+\frac{\pi}{2}$, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” along $x$ axis, some of the light gets through. Suppose that the cellophane introduces a phase difference of $\phi$ between the component of the light wave polarized along the fast $(x)$ axis and the component polarized along the slow $(y)$ axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$. **Hint:** Does your answer go to zero as $\phi \rightarrow 0$? What happens as $\theta \rightarrow 0$?
+
+::::
+
+::::{exercise}
+:label: prb-12-6
+:enumerator: 12.6
+
+A plane wave of light traveling in the $+z$ direction is polarized in the $x$ direction. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only $y$ polarized light, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” at an angle $\theta$ with the $x$ axis, some of the light get through. Suppose that the cellophane introduces a phase difference of $\phi$ between a wave polarized along the fast axis and one polarized along the slow axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$.
 
 Compare the result with the previous problem and explain what is going on.
 
-**12.7.** Suppose that a charge $Q$ is stationary at the origin until $t = 0$. From time $t = 0$ to $t=\Delta t$, the charge experiences uniform acceleration $a \hat{x}$.
+::::
+
+::::{exercise}
+:label: prb-12-7
+:enumerator: 12.7
+
+Suppose that a charge $Q$ is stationary at the origin until $t = 0$. From time $t = 0$ to $t=\Delta t$, the charge experiences uniform acceleration $a \hat{x}$.
 
 1. Use [12.102](#eq-12-102) to find an approximate expression for the electric field at a large distance $r \gg a \Delta t^{2}$ from the origin.
 
 2. How does this compare with what you see in the animation PURCELL?
+
+::::

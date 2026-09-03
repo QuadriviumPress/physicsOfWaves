@@ -156,7 +156,7 @@ $$
 
 For definiteness, we will take $w = 0.75$, so the function $\psi(x)$ has the form shown in [Figure 6.2](#fig-6-2).
 
-We compute the Fourier coefficients using [6.10](#eq-6-10). Because $\ell = 1$, this has the following form (see problem (6.2)):
+We compute the Fourier coefficients using [6.10](#eq-6-10). Because $\ell = 1$, this has the following form (see [problem 6.2](#prb-6-2)):
 
 $$
 \begin{align*}
@@ -253,7 +253,11 @@ You should now be able to:
 
 ### Problems
 
-**6.1.** Consider the continuous string of [6.7](#eq-6-7)-[6.10](#eq-6-10) as the continuum limit of a beaded string with $W$ beads as $W \rightarrow \infty$. Write the analog of [6.8](#eq-6-8) and [6.10](#eq-6-10) for finite $W$. Show that the limit as $W \rightarrow \infty$ yields [6.10](#eq-6-10). **Hint:** This is an exercise in the definition of an integral as the limit of a sum. But to do the first part, you will either need to use normal coordinates, X or prove the identity
+::::{exercise}
+:label: prb-6-1
+:enumerator: 6.1
+
+Consider the continuous string of [6.7](#eq-6-7)-[6.10](#eq-6-10) as the continuum limit of a beaded string with $W$ beads as $W \rightarrow \infty$. Write the analog of [6.8](#eq-6-8) and [6.10](#eq-6-10) for finite $W$. Show that the limit as $W \rightarrow \infty$ yields [6.10](#eq-6-10). **Hint:** This is an exercise in the definition of an integral as the limit of a sum. But to do the first part, you will either need to use normal coordinates, X or prove the identity
 
 $$
 \begin{aligned}
@@ -263,11 +267,27 @@ $$
 
 for a constant $b$ and find $b$.
 
-**6.2.** Do the integrals in [6.20](#eq-6-20). **Hint:** Use integration by parts and watch for miraculous cancellations.
+::::
 
-**6.3.** Find the normal modes of the string with two free ends, shown in [Figure 6.7](#fig-6-7).
+::::{exercise}
+:label: prb-6-2
+:enumerator: 6.2
 
-**6.4.** **Fun with Fourier Series and Fractals**
+Do the integrals in [6.20](#eq-6-20). **Hint:** Use integration by parts and watch for miraculous cancellations.
+
+::::
+
+::::{exercise}
+:label: prb-6-3
+:enumerator: 6.3
+
+Find the normal modes of the string with two free ends, shown in [Figure 6.7](#fig-6-7).
+
+::::
+
+::::{exercise} Fun with Fourier Series and Fractals
+:label: prb-6-4
+:enumerator: 6.4
 
 In this problem you will explore the Fourier series for an interesting set of functions. Consider a function of the following form, defined on the interval [0,1]: 
 $$
@@ -339,3 +359,5 @@ f_{m}(t)=\sum_{k=0}^{m-1} b_{k} \cos 2 \pi k t
 $$
 
 with m terms, for $m = 5$, $10$, and $20$ (or more if you have a fast computer).
+
+::::
