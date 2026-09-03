@@ -39,11 +39,8 @@ $$
 where $g$ and $h$ are arbitrary functions. You can check, using the chain rule, that (10.3) satisfies (10.2), 
 $$
 \begin{gathered}
-
 \frac{\partial^{2}}{\partial t^{2}}(g(x-v t)+h(x+v t))=v^{2} \frac{\partial^{2}}{\partial x^{2}}(g(x-v t)+h(x+v t)) \\
-
 =v^{2}\left(g^{\prime \prime}(x-v t)+h^{\prime \prime}(x+v t)\right) .
-
 \end{gathered}
 $$
 
@@ -67,11 +64,8 @@ This describes the signal, $f(t)$, propagating down the string at the phase velo
 For the simple function 
 $$
 f(t)=\left\{\begin{array}{cc}
-
 1-|t| & \text { for }|t| \leq 1 \\
-
 0 & \text { for }|t|>1
-
 \end{array}\right.
 $$
 
@@ -97,11 +91,8 @@ The physics of (10.9) is just linearity and time translation invariance. We know
 Note that if $f(t)$ is real in (10.9), then 
 $$
 \begin{gathered}
-
 f(t)=\int_{-\infty}^{\infty} d \omega C(\omega) e^{-i \omega t} \\
-
 =f(t)^{*}=\int_{-\infty}^{\infty} d \omega C(\omega)^{*} e^{i \omega t}=\int_{-\infty}^{\infty} d \omega C(-\omega)^{*} e^{-i \omega t}
-
 \end{gathered}
 $$
 
@@ -257,15 +248,10 @@ $$
 but then (10.29) gives 
 $$
 \begin{aligned}
-
 \psi(x, t) &=\int_{-\infty}^{\infty} d \omega C\left(\omega-\omega_{0}\right) e^{-i \omega t+i(\omega / v+b) x} \\
-
 =& \int_{-\infty}^{\infty} d \omega C\left(\omega-\omega_{0}\right) e^{-i \omega(t-x / v)+i b x} \\
-
 =& \int_{=\infty}^{\infty} d \omega C(\omega) e^{-i\left(\omega+\omega_{0}\right)(t-x / v)+i b x} \\
-
 &=f(t-x / v) e^{-i \omega_{0}(t-x / v)+i b x} .
-
 \end{aligned}
 $$
 
@@ -309,11 +295,8 @@ $$
 which can, in turn, be put back in (10.9) to give (10.39). For $t = 0$, the integral can be done by the trigonometric substitution $\omega \rightarrow \Gamma \tan \theta$: 
 $$
 \begin{aligned}
-
 &1=f(0)=e^{-\Gamma \cdot 0}=\int_{-\infty}^{\infty} d \omega C(\omega) e^{-i \omega \cdot 0} \\
-
 &=\frac{1}{\pi} \int_{-\infty}^{\infty} d \omega \frac{\Gamma}{\Gamma^{2}+\omega^{2}} \rightarrow \frac{1}{\pi} \int_{-\pi / 2}^{\pi / 2} d \theta=1 .
-
 \end{aligned}
 $$
 
@@ -347,11 +330,8 @@ $$
 where we have used the identity 
 $$
 \frac{1}{2 \pi T} \int_{-\pi T}^{\pi T} d t e^{i m t / T} e^{-i n t / T}=\left\{\begin{array}{l}
-
 1 \text { for } m=n , \\
-
 0 \text { for } m \neq n .
-
 \end{array}\right.
 $$
 
@@ -360,13 +340,9 @@ Now suppose that $f(t)$ goes to 0 for large $|t|$ (note that this is consistent 
 Thus the relation, (10.45), is an analog of the Fourier integral, (10.9) where the correspondence is 
 $$
 \begin{aligned}
-
 T & \rightarrow \infty \\
-
 \frac{n}{T} & \rightarrow \omega \\
-
 c_{n} T & \rightarrow C(\omega) .
-
 \end{aligned}
 $$
 
@@ -413,11 +389,8 @@ $$
 This function of $\omega$ is called a “pole.” While the function is perfectly well behaved for real $\omega$, it blows up for $\omega=-i \Gamma$, which is called the position of the pole in the complex plane. Now we just have to add the complex conjugate to get 
 $$
 \begin{gathered}
-
 C(\omega)=\frac{1}{2 \pi}\left(\frac{1}{\Gamma-i \omega}+\frac{1}{\Gamma+i \omega}\right) \\
-
 =\frac{1}{2 \pi}\left(\frac{\Gamma+i \omega}{\Gamma^{2}+\omega^{2}}+\frac{\Gamma-i \omega}{\Gamma^{2}+\omega^{2}}\right)=\frac{1}{2 \pi} \frac{2 \Gamma}{\Gamma^{2}+\omega^{2}}
-
 \end{gathered}
 $$
 
@@ -562,11 +535,8 @@ In a real scattering experiment, we are interested not in an incoming harmonic w
 We begin with the easier of the two examples. Consider the scattering of a wave packet from the boundary between two semi-infinite dispersionless strings both with tension $T$ and different densities, $\rho_{I}$ and $\rho_{II}$, as shown in Figure $9.1$. The dispersion relations are: 
 $$
 \omega^{2}=\left\{\begin{array}{l}
-
 v_{I}^{2} k^{2}=\frac{T}{\rho_{I}} k^{2}=\quad \text { in region } I \\
-
 v_{I I}^{2} k^{2}=\frac{T}{\rho_{I I}} k^{2} \quad \text { in region } I I
-
 \end{array}\right.
 $$
 
@@ -678,17 +648,7 @@ $$
 
 Now the situation is more interesting. We expect a solution of the form 
 $$
-\begin{aligned}
-
-&\begin{aligned}
-
-&\hline
-
-\end{aligned}\\
-
-&8
-
-\end{aligned}
+\psi(x, t)=\psi_{\mathrm{in}}(x-v t)+\psi_{R}(x+v t) \text { for } x \leq 0
 $$
 
 $$
@@ -703,11 +663,8 @@ $$
 We know from our discussion of signals that 
 $$
 \begin{gathered}
-
 C_{\text {in }}(\omega)=\frac{1}{2 \pi} \int d t e^{i \omega t} \psi_{\text {in }}(0, t) \\
-
 =\frac{1}{2 \pi} \int_{0}^{\infty} d t A e^{i \omega t} e^{-\Gamma t}+\text { h.c. }=\frac{1}{2 \pi}\left(\frac{1}{\Gamma-i \omega}+\frac{1}{\Gamma+i \omega}\right) .
-
 \end{gathered}
 $$
 
@@ -723,54 +680,39 @@ $$
 Now we have to reverse the process and find the Fourier transforms of these to get the reflected and transmitted pulses. This is straightforward, because we can rewrite (10.98) and (10.99) in terms of single poles in $\omega$: 
 $$
 \begin{aligned}
-
 C_{\tau}(\omega) &=A \frac{1}{2 \pi} \frac{2 \Omega}{2 \Omega-\Gamma} \cdot\left(\frac{1}{\Gamma-i \omega}-\frac{1}{2 \Omega-i \omega}\right) \\
-
 +& \frac{1}{2 \pi} \frac{2 \Omega}{2 \Omega+\Gamma} \cdot\left(\frac{1}{\Gamma+i \omega}+\frac{1}{2 \Omega-i \omega}\right)
-
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-
 &C_{R}(\omega)=A \frac{1}{2 \pi} \frac{1}{2 \Omega-\Gamma} \cdot\left(\frac{\Gamma}{\Gamma-i \omega}-\frac{2 \Omega}{2 \Omega-i \omega}\right) \\
-
 &+\frac{1}{2 \pi} \frac{1}{2 \Omega+\Gamma} \cdot\left(-\frac{\Gamma}{\Gamma+i \omega}+\frac{2 \Omega}{2 \Omega-i \omega}\right) .
-
 \end{aligned}
 $$
 
 Now we can work backwards in (10.100) and (10.101) to get the Fourier transforms. We know from (10.55) that each term is the Fourier transform of an exponential. It is straight-forward, but tedious, to put them back together. The result is reproduced below (note that we have combined the two terms in each expression proportional to $1 /(2 \Omega-i \omega)$). 
 $$
 \begin{gathered}
-
 \psi_{\tau}(x, t)=\frac{2 \Omega}{2 \Omega-\Gamma} \theta(t-x / v) A e^{-\Gamma(t-x / v)} \\
-
 -\frac{4 \Omega \Gamma}{4 \Omega^{2}-\Gamma^{2}} \theta(l-x / v) A e^{-2 \Omega(t-x / v)}+\frac{2 \Omega}{2 \Omega+\Gamma} \theta(-l+x / v) A e^{\Gamma(t-x / v)}
-
 \end{gathered}
 $$
 
 and 
 $$
 \begin{gathered}
-
 \psi_{r}(x, t)=\frac{2 \Gamma}{2 \Omega-\Gamma} \theta(t+x / v) A e^{-\Gamma(t+x / v)} \\
-
 -\frac{4 \Omega \Gamma}{4 \Omega^{2}-\Gamma^{2}} \theta(t+x / v) A e^{-2 \Omega(t+x / v)}-\frac{2 \Gamma}{2 \Omega+\Gamma} \theta(-t-x / v) A e^{\Gamma(t+x / v)}
-
 \end{gathered}
 $$
 
 where 
 $$
 \theta(t)=\left\{\begin{array}{l}
-
 1 \text { for } t \geq 0 , \\
-
 0 \text { for } t<0 .
-
 \end{array}\right.
 $$
 

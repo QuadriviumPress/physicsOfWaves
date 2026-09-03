@@ -96,11 +96,8 @@ $$
 Then we can take the solutions to be a product of sines, 
 $$
 \begin{gathered}
-
 \psi(x, y)=A \sin \left(n \pi x / L_{H}\right) \sin \left(n^{\prime} \pi y / L_{V}\right) \\
-
 \text { for } n=1 \text { to } 4 \text { and } n^{\prime}=1 \text { to } 3 .
-
 \end{gathered}
 $$
 
@@ -235,11 +232,8 @@ $$
 We would like to know what waves are produced by this incoming wave because of reflection and transmission at the boundary, $x = 0$. On general grounds of space translation invariance, we expect the solution to have the form 
 $$
 \begin{aligned}
-
 \psi(r, t)=A e^{i(\vec{k} \cdot \vec{r}-\omega t)}+\sum_{\alpha} R_{\alpha} A e^{i\left(\vec{k}_{\alpha} \cdot \vec{r}-\omega t\right)} & & \text { for } x \leq 0 \\
-
 \psi(r, t)=\sum_{\beta} \tau_{\beta} A e^{i\left(\vec{k}_{\beta} \cdot \vec{r}-\omega t\right)} & & \text { for } x \geq 0
-
 \end{aligned}
 $$
 
@@ -271,11 +265,8 @@ $$
 But (11.34), together with (11.31) and (11.32), completely determines the wave vectors $\vec{k}_{\alpha}$ and $\vec{k}_{\beta}$. Then (11.30) becomes<sup>2 </sup>
 $$
 \begin{aligned}
-
 \psi(r, t)=A e^{i \vec{k} \cdot \vec{r}-i \omega t}+R A e^{i \vec{k} \cdot \vec{r}-i \omega t} \equiv \psi_{-}(r, t) & & \text { for } x \leq 0 \\
-
 \psi(r, t)=\tau A e^{i \vec{k}^{\prime} \cdot \vec{r}-i \omega t} \equiv \psi_{+}(r, t) & & \text { for } x \geq 0
-
 \end{aligned}
 $$
 
@@ -414,15 +405,10 @@ $$
 where $\omega_{\alpha}$ are the resonant frequencies of the system and the $C_{\alpha}$ are constants depending on the details of how the force acts on the degrees of freedom. We can estimate the order of magnitude of these resonant frequencies with dimensional analysis, if we remember that any material consists of electrons and nuclei held together by electrical forces (and quantum mechanics, of course, but $\hbar$ will not enter into our estimate except implicitly, in the typical atomic distance). The relevant quantities are<sup>3 </sup>
 $$
 \begin{aligned}
-
 &\text { The charge of the proton } e \approx 1.6 \times 10^{-19} \mathrm{C}\\
-
 &\text { The mass of the electron } m_{e} \approx 9.11 \times 10^{-31} \mathrm{~kg}\\
-
 &\text { Typical atomic distance } \quad a \approx 10^{-10} \mathrm{~m}=1\,\text{Å}\\
-
 &\text { The speed of light } \quad c=299,792,458 \mathrm{~m} / \mathrm{s}
-
 \end{aligned}
 $$
 
@@ -480,13 +466,9 @@ The sign is important. If $\operatorname{Im} k_{x}$ were negative, the amplitude
 We actually have three different boundary conditions at infinity for this situation: 
 $$
 \begin{gathered}
-
 \operatorname{Re} k_{x}>0 \text { for } \theta<\theta_{c} , \\
-
 k_{x}=0 \text { for } \theta=\theta_{c} , \\
-
 \operatorname{Im} k_{x}>0 \text { for } \theta>\theta_{c} .
-
 \end{gathered}
 $$
 
@@ -528,13 +510,9 @@ have surface mass density $\rho_{s}$ and surface tension $T_{s}$. The unshaded r
 We can now ask what are the coefficients, $R$ and $\tau$, for reflection and transmission. We have done this problem for a single boundary earlier in this chapter in (11.42)-(11.49). We could solve this one by putting two of these solutions together using the transfer matrix techniques of chapter 9. In fact, we do not even have to do that, because we can read off the result from (9.97) and (9.98) in the discussion of thin films in chapter 9. The point is that all the terms in our solution must have the same irreducible $y$ dependence, $e^{i k_{y} y}$, because of the space translation invariance of the whole system including the boundary in the $y$ direction. This common factor plays no role in the boundary conditions. If we factor it out, what is left looks like a one-dimensional scattering problem. Comparing (11.47) for $T_{s}=T_{s}^{\prime}$ (9.10), you can see that the analyses become the same if we make the replacements 
 $$
 \begin{aligned}
-
 k_{1} & \rightarrow k_{x} \\
-
 k_{2} & \rightarrow k_{x}^{\prime} \\
-
 L & \rightarrow d
-
 \end{aligned}
 $$
 
@@ -578,11 +556,8 @@ $$
 where I have called the coefficients $T_{I I}$ and $R_{I I}$ by analogy with transmitted and reflected waves, even though these are not traveling waves. The boundary conditions at $x = d$ are 
 $$
 \begin{gathered}
-
 \tau e^{i k_{x} d}=T_{I I} e^{-\kappa d}+R_{I I} e^{\kappa d} , \\
-
 i k_{x} \tau e^{i k_{x} d}=\kappa\left(-T_{I I} e^{-\kappa d}+R_{I I} e^{\kappa d}\right) .
-
 \end{gathered}
 $$
 
@@ -725,11 +700,8 @@ $$
 This vanishes for 
 $$
 \begin{gathered}
-
 c_{x}\left(2 c_{y}^{2}-1\right)+c_{y}\left(2 c_{x}^{2}-1\right)=0 \\
-
 =\left(c_{x}+c_{y}\right)\left(2 c_{x} c_{y}-1\right)=0
-
 \end{gathered}
 $$
 
@@ -755,11 +727,8 @@ Figure $11.18$: The Chladni pattern for the mode (2,1).
 vanishing for 
 $$
 \begin{gathered}
-
 c_{x}\left(4 c_{y}^{3}-3 c_{y}\right)+c_{y}\left(4 c_{x}^{3}-c_{x}\right)=0 \\
-
 -c_{x} c_{y}\left(4 c_{x}^{2}+4 c_{y}^{2}-6\right)-0
-
 \end{gathered}
 $$
 
@@ -887,32 +856,21 @@ $$
 This will be the case if the determinant of the Jacobian matrix equals 1: 
 $$
 \operatorname{det}\left(\begin{array}{ccc}
-
 \frac{\partial R_{x}}{\partial x} & \frac{\partial R_{x}}{\partial y} & \frac{\partial R_{x}}{\partial z} \\
-
 \frac{\partial R_{y}}{\partial x} & \frac{\partial R_{y}}{\partial y} & \frac{\partial R_{y}}{\partial z} \\
-
 \frac{\partial R_{z}}{\partial x} & \frac{\partial R_{z}}{\partial y} & \frac{\partial R_{z}}{\partial z}
-
 \end{array}\right)=1 .
 $$
 
 Because $\epsilon$ is small, we can expand (11.111) to lowest order in $\epsilon$, 
 $$
 \begin{gathered}
-
 =\operatorname{det}\left(\begin{array}{ccc}
-
 1+\epsilon \frac{\partial \psi_{x}}{\partial x} & \epsilon \frac{\partial \psi_{x}}{\partial y} & \epsilon \frac{\partial \psi_{x}}{\partial z} \\
-
 \epsilon \frac{\partial \psi_{y}}{\partial x} & 1+\epsilon \frac{\partial \psi_{y}}{\partial y} & \epsilon \frac{\partial \psi_{y}}{\partial z} \\
-
 \epsilon \frac{\partial \psi_{z}}{\partial x} & \epsilon \frac{\partial \psi_{z}}{\partial y} & 1+\epsilon \frac{\partial \psi_{z}}{\partial z}
-
 \end{array}\right) \\
-
 =1+\epsilon \vec{\nabla} \cdot \vec{\psi}+\mathcal{O}\left(\epsilon^{2}\right) .
-
 \end{gathered}
 $$
 
@@ -972,11 +930,8 @@ $$
 Then from (11.115), we get 
 $$
 \begin{gathered}
-
 \psi_{x}(x, y, t)=\frac{\partial}{\partial x} \chi(x, y, t)=\pm i e^{\pm i k x-i \omega t} \cosh k y . \\
-
 \psi_{y}(x, y, t)=\frac{\partial}{\partial y} \chi(x, y, t)=e^{\pm i k x-i \omega t} \sinh k y .
-
 \end{gathered}
 $$
 
@@ -995,11 +950,8 @@ These are the two-dimensional wave modes of the infinite ocean of depth $L$. The
 Now, let us return to the rectangular ocean, and the $z$-independent modes, (11.122). If our ocean has sides at $x = 0$ and $x = X$, we must choose linear combinations of the modes, (11.122), such that the $x$ displacement vanishes at the sides. We can do this for $x = 0$ by forming the combinations 
 $$
 \begin{aligned}
-
 &\psi_{x}(x, y, t)=-\sin k x \cosh k y \cos \omega t , \\
-
 &\psi_{y}(x, y, t)=\cos k x \sinh k y \cos \omega t .
-
 \end{aligned}
 $$
 
@@ -1027,13 +979,9 @@ Figure $11.24$: Water is removed from the rectangle in $X$ − $x$ and raised to
 In the diagram in Figure $11.24$, you can see that the overall effect of the displacements in the mode (11.125) is to take a chunk of the water from $X$ − $x$, raise it by $\epsilon \psi_{y}(x, L, t)$ (the vertical displacement of the surface), and move it over to $x$. The volume of this chunk is $W d x \in \psi_{y}(x, L, t)$ where $dx$ is the length of chunk and $W$ is the width in the $z$ direction (into the paper). Thus the total gravitational potential is 
 $$
 \begin{aligned}
-
 V_{\text {grav }}=\rho g & \int d V \Delta h=\rho g W \int_{0}^{\frac{\pi}{2 k}} d x\left|\epsilon \psi_{y}(x, L, t)\right|^{2}+\mathcal{O}\left(\epsilon^{3}\right) \\
-
 =\rho g W \int_{0}^{\frac{\pi}{2 k}} d x \epsilon^{2} \cos ^{2} k x \sinh ^{2} k L \cos ^{2} \omega t+\cdots \\
-
 \quad=\frac{\pi}{4 k} \rho g W \epsilon^{2} \sinh ^{2} k L \cos ^{2} \omega t+\cdots .
-
 \end{aligned}
 $$
 
@@ -1057,24 +1005,17 @@ $$
 Thus 
 $$
 \begin{aligned}
-
 & V_{\text {surface }}=T \times\left(\text { Area }-\text { Area }_{0}\right) \\
-
 =& T W \int_{0}^{\frac{\pi}{k}} d x\left(\sqrt{\left(1+\epsilon \partial \psi_{x} / \partial x\right)^{2}+\left(\epsilon \partial \psi_{y} / \partial x\right)^{2}}-1\right) \\
-
 =& T W \int_{0}^{\frac{\pi}{k}} d x\left(\epsilon \partial \psi_{x} / \partial x+\frac{1}{2}\left(\epsilon \partial \psi_{y} / \partial x\right)^{2}+\mathcal{O}\left(\epsilon^{3}\right)\right) .
-
 \end{aligned}
 $$
 
 The order $\epsilon$ term in (11.131) cancels when integrated of $x$, so 
 $$
 \begin{gathered}
-
 =T W \epsilon^{2} \int_{0}^{\frac{\pi}{k}} d x \frac{1}{2} k^{2} \sin ^{2} k x \sinh ^{2} k L \cos ^{2} \omega t+\cdots \\
-
 \quad=\frac{\pi}{4 k} T W \epsilon^{2} k^{2} \sinh ^{2} k L \cos ^{2} \omega t+\cdots .
-
 \end{gathered}
 $$
 
@@ -1083,33 +1024,23 @@ $$
 The kinetic energy is obtained by integrating $\frac{1}{2} m v^{2}$ over the whole volume of the liquid: 
 $$
 \begin{gathered}
-
 K E=\frac{1}{2} \rho \int d V \vec{v}^{2} \\
-
 =\frac{1}{2} \rho W \int_{0}^{\frac{\pi}{k}} d x \int_{0}^{L} d y\left(\left(\epsilon \partial \psi_{x} / \partial t\right)^{2}+\left(\epsilon \partial \psi_{y} / \partial t\right)^{2}\right)
-
 \end{gathered}
 $$
 
 $$
 \begin{aligned}
-
 &=\frac{1}{2} \rho W \epsilon^{2} \int_{0}^{\frac{\pi}{k}} d x \int_{0}^{L} d y \omega^{2} \sin ^{2} \omega t \\
-
 &\cdot\left(\cos ^{2} k x \sinh ^{2} k y+\sin ^{2} k x \cosh ^{2} k y\right)
-
 \end{aligned}
 $$
 
 $$
 \begin{gathered}
-
 =\frac{\pi}{4 k} \rho W \epsilon^{2} \int_{0}^{L} d y \omega^{2} \sin ^{2} \omega t\left(\sinh ^{2} k y+\cosh ^{2} k y\right) \\
-
 =\frac{\pi}{4 k} \rho W \epsilon^{2} \int_{0}^{L} d y \omega^{2} \sin ^{2} \omega t \cosh 2 k y \\
-
 =\frac{\pi}{8 k^{2}} \rho W \epsilon^{2} \omega^{2} \sinh 2 k L \sin ^{2} \omega t .
-
 \end{gathered}
 $$
 
@@ -1118,22 +1049,16 @@ Dispersion Relation
 The total of (11.127)-(11.135) is 
 $$
 \begin{gathered}
-
 V_{\text {grav }}+V_{\text {surface }}+K E=\frac{\pi}{4 k} \rho g W \epsilon^{2} \sinh ^{2} k L \cos ^{2} \omega t \\
-
 +\frac{\pi}{4 k} T W \epsilon^{2} k^{2} \sinh ^{2} k L \cos ^{2} \omega t+\frac{\pi}{8 k^{2}} \rho W \omega^{2} \epsilon^{2} \sinh 2 k L \sin ^{2} \omega t+\cdots .
-
 \end{gathered}
 $$
 
 This must be constant in time, which implies 
 $$
 \begin{aligned}
-
 \omega^{2} &=\frac{2 \sinh ^{2} k L\left(g k+\frac{T}{\rho} k^{3}\right)}{\sinh 2 k L} \\
-
 &=\left(g k+\frac{T}{\rho} k^{3}\right) \tanh k L
-
 \end{aligned}
 $$
 
@@ -1206,11 +1131,8 @@ Figure $11.26$:
 shown in Figure $11.26$ and gives 
 $$
 \begin{gathered}
-
 \delta=\theta_{\text {in }}+\theta_{\text {out }}-\theta_{1}-\theta_{2} \\
-
 \approx n\left(\theta_{1}+\theta_{2}\right)-\phi \approx(n-1) \phi
-
 \end{gathered}
 $$
 
@@ -1249,11 +1171,8 @@ $h$ can be ignored just like other corrections to small angle relations (like $\
 Putting together the geometry from Figure $11.28$ with the formula for $\delta$ in a prism, we get the constant $f$ for a thin spherical lens: 
 $$
 \begin{gathered}
-
 \delta=(n-1)\left(\theta_{1}+\theta_{2}\right) \\
-
 \approx(n-1)\left(\frac{h}{r_{1}}+\frac{h}{r_{2}}\right)=\frac{h}{f}
-
 \end{gathered}
 $$
 
@@ -1549,25 +1468,17 @@ You can also see from the graph in Figure $11.54$ that the colors are spread out
 Mathematically, why does the light pile up at the edge? The energy from sunlight falling on a small part of the surface of the water drop between $\theta$ and $\theta+d \theta$ is proportional to $I d \theta$ (there are other factors, like $\cos \theta$, but they vary slowly, so let’s forget them). The angle of the outgoing ray, $\theta_{out}$ is a function of $\theta$, and the energy $\propto I_{i} d \theta$ is spread over an angular region between $\theta_{out}$ and $\theta_{\text {out }}+d \theta_{\text {out }}$. Thus the outgoing intensity is proportional to 
 $$
 \begin{aligned}
-
 &\text { incoming }\\
-
 &\text { energy between } \propto I_{i} d \theta\\
-
 &\theta \text { and } \theta+d \theta
-
 \end{aligned}
 $$
 
 $$
 \begin{gathered}
-
 \text { outgoing } \\
-
 =\quad \text { energy between } \quad \propto I_{o} d \theta_{\text {out }} \\
-
 \theta_{\text {out }} \text { and } \theta_{\text {out }}+d \theta_{\text {out }}
-
 \end{gathered}
 $$
 
@@ -1619,23 +1530,16 @@ Figure $11.58$: Both rainbows.
 spherical loudspeaker, a sphere that produces an oscillating pressure at its surface (at radius $R$) of the form $p_{0} \cos \omega t$. What sort of sound waves are produced? It seems rather silly to use our plane wave solutions with space translation invariance for this problem, because this system has a symmetry under rotations about the origin. Instead, let us look directly at the wave equation and make use of the spherical nature of the problem. That is, assume that the solution has the form $\psi(\vec{r}, t)=\chi(|\vec{r}|, t)$. Putting this into the wave equation gives (with $r \equiv|\vec{r}|$)<sup>8 </sup>
 $$
 \begin{aligned}
-
 &\frac{1}{v^{2}} \frac{\partial^{2}}{\partial t^{2}} \chi(r, t)=\vec{\nabla}^{2} \chi(r, t)=\vec{\nabla} \cdot \vec{\nabla} \chi(r, t) \\
-
 &=\vec{\nabla} \cdot(\vec{\nabla} r) \frac{\partial}{\partial r} \chi(r, t)=\vec{\nabla} \cdot(\vec{r} / r) \frac{\partial}{\partial r} \chi(r, t)
-
 \end{aligned}
 $$
 
 $$
 \begin{gathered}
-
 =(\vec{\nabla} \cdot \vec{r} / r) \frac{\partial}{\partial r} \chi(r, t)+(\vec{\nabla} r) \cdot(\vec{r} / r) \frac{\partial^{2}}{\partial r^{2}} \chi(r, t) \\
-
 =[(\vec{\nabla} \cdot \vec{r}) / r+\vec{r} \cdot \vec{\nabla}(1 / r)] \frac{\partial}{\partial r} \chi(r, t)+(\vec{r} / r) \cdot(\vec{r} / r) \frac{\partial^{2}}{\partial r^{2}} \chi(r, t) \\
-
 =\frac{2}{r} \frac{\partial}{\partial r} \chi(r, t)+\frac{\partial^{2}}{\partial r^{2}} \chi(r, t) .
-
 \end{gathered}
 $$
 
@@ -1767,11 +1671,8 @@ In what direction is the reflected wave (for $x < 0$) traveling? **Easy!**
 Newton’s law for a small element of the string of length $d_{y}$ with equilibrium position $(0, y, 0)$ is 
 $$
 \begin{gathered}
-
 \tau_{S} d y\left[\frac{\partial}{\partial x} \psi_{+}(0, y, t)-\frac{\partial}{\partial x} \psi_{-}(0, y, t)\right]+\tau_{L} d y \frac{\partial^{2}}{\partial y^{2}} \psi_{\pm}(0, y, t) \\
-
 =\rho_{L} d y \frac{\partial^{2}}{\partial t^{2}} \psi_{\pm}(0, y, t) .
-
 \end{gathered}
 $$
 
@@ -1782,11 +1683,8 @@ Explain the physical significance of the term above, proportional to $\tau_{S}$.
 Consider a wave of the form: 
 $$
 \begin{array}{cl}
-
 A e^{i(k x \cos \theta+k y \sin \theta-\omega t)}+R A e^{i(-k x \cos \theta+k y \sin \theta-\omega t)} & \text { for } x<0 \\
-
 T A e^{i\left(k^{\prime} x \cos \theta^{\prime}+k^{\prime} y \sin \theta^{\prime}-\omega t\right)} & \text { for } x>0
-
 \end{array}
 $$
 
@@ -1801,11 +1699,8 @@ Hint: Consider $F = ma$ for an infinitesimal piece of the weighted string, remem
 **11.6.** Two semi-infinite flexible membranes are stretched in the $z = 0$ plane. The first has surface tension $1 \text { dyne/cm }$ and mass density $169 \mathrm{gr} / \mathrm{cm}^{2}$. It is fixed along the $z = 0$, $y = 0$ axis and the $z = 0$, $y = a$ axis and extends from $x = 0$ to $\infty$ in the $+ x$ direction. The second has the same surface tension but mass density $180 \mathrm{gr} / \mathrm{cm}^{2}$. It is also fixed along the $z = 0$, $y = 0$ axis and the $z = 0$, $y = a$ axis and extends from $x = 0$ to $- \infty$ in the $− x$ direction. The two membranes are joined together with massless tape at $x = 0$. Consider the transverse oscillations of this system of the following form: 
 $$
 \begin{aligned}
-
 \psi(x, y, t)=A \sin \left(k_{y} y\right)\left(e^{-i\left(\omega t-k_{x} x\right)}+R e^{-i\left(\omega t+k_{x} x\right)}\right) & & \text { for } x \leq 0 \\
-
 \psi(x, y, t)=A \sin \left(k_{y} y\right) T e^{-i\left(\omega t-k_{x}^{\prime} x\right)} & & \text { for } x \geq 0
-
 \end{aligned}
 $$
 
@@ -1892,11 +1787,8 @@ Find $\gamma$. You should find $\gamma \rightarrow 0$ for $\rho_{s} \rightarrow 
 Show that waves in this system have the form of (11.122) for $y \leq L$ (in the water) and 
 $$
 \begin{gathered}
-
 \psi_{x}(x, y, t)=\mp i e^{\pm i k x-i \omega t} \cosh [k(2 L-y)] , \\
-
 \psi_{y}(x, y, t)=e^{\pm i k x-i \omega t} \sinh [k(2 L-y)] ,
-
 \end{gathered}
 $$
 
@@ -1934,13 +1826,9 @@ in region 2, for $x > 0$, where $P(r,t) + p_{0}$ is the pressure of the gas whos
 The $k$ vectors are 
 $$
 \begin{gathered}
-
 \vec{k}_{1}=(k \cos \theta, k \sin \theta, 0) \\
-
 \vec{k}_{R}=\left(-k_{R} \cos \theta_{R}, k_{R} \sin \theta_{R}, 0\right) \\
-
 \vec{k}_{2}=\left(k_{2} \cos \theta_{2}, k_{2} \sin \theta_{2}, 0\right)
-
 \end{gathered}
 $$
 
@@ -1992,22 +1880,16 @@ $$
 for $\vec{k}^{2}$ and $\omega$ related by some dispersion relation. In particular, consider propagation in the $+z$ direction with the electric field in the $x$ direction and the magnetic field in the y directions: 
 $$
 \begin{array}{ll}
-
 E_{x}(\vec{r}, t)=E e^{i(k z-\omega t)}, & E_{y}(\vec{r}, t)=E_{z}(\vec{r}, t)=0 . \\
-
 B_{y}(\vec{r}, t)=B e^{i(k z-\omega t)}, & B_{x}(\vec{r}, t)=B_{z}(\vec{r}, t)=0 .
-
 \end{array}
 $$
 
 1. Show from the relevant Maxwell’s equations,
 $$
 \begin{gathered}
-
     \frac{\partial}{\partial z} E_{x}-\frac{\partial}{\partial x} E_{z}=-\frac{\partial B_{y}}{\partial t} \\
-
     \frac{\partial}{\partial y} B_{z}-\frac{\partial}{\partial z} B_{y}=\mu_{0} \epsilon_{0} \frac{\partial E_{x}}{\partial t}+\mu_{0} J_{x}
-
     \end{gathered}
 $$
 

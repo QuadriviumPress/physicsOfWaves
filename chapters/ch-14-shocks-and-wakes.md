@@ -91,11 +91,8 @@ $$
 Thus 
 $$
 \begin{gathered}
-
 \omega^{4}=g^{2}\left(\omega^{2} / v^{2}+k_{y}^{2}\right) \\
-
 k_{y}=\left(\omega^{4} / g^{2}-\omega^{2} / v^{2}\right)^{1 / 2}
-
 \end{gathered}
 $$
 
@@ -165,11 +162,8 @@ $$
 This gives a group velocity in the same direction as the phase velocity and just half the magnitude. To understand the difference, we must generalize the the formula for group velocity in section 10.2.1. There we saw that simplest way to understand group velocity is to think about the superposition of two plane waves that are close together in both $\omega$ and $\vec{k}$ 
 $$
 \begin{gathered}
-
 \cos \left(\omega_{1} t-\vec{k}_{1} \cdot \vec{r}\right)+\cos \left(\omega_{2} t-\vec{k}_{2} \cdot \vec{r}\right) \\
-
 =2 \cos \left(\frac{\omega_{1}-\omega_{2}}{2} t-\frac{\vec{k}_{1}-\vec{k}_{2}}{2} \cdot \vec{r}\right) \cos \left(\frac{\omega_{1}+\omega_{2}}{2} t-\frac{\vec{k}_{1}+\vec{k}_{2}}{2} \cdot \vec{r}\right)
-
 \end{gathered}
 $$
 

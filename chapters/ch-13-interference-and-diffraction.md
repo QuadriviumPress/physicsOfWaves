@@ -125,11 +125,8 @@ $$
 where 
 $$
 f(x, y)=\left\{\begin{array}{l}
-
 1 \text { inside the opening } \\
-
 0 \text { outside the opening }
-
 \end{array}\right.
 $$
 
@@ -236,13 +233,9 @@ $$
 for some $L$ much larger than the wavelength. The distance $L$ is determined by the smoothness of $f(x, y)$. Typically, $L$ is the size of the smallest important feature in $f(x, y)$, the smallest distance over which $f(x, y)$ changes appreciably. We saw this in our discussion of Fourier transforms in connection with signals in Chapter 10. We will see more examples below. We can expand $k_{z}z$ in the exponential in a Taylor expansion, 
 $$
 \begin{aligned}
-
 &k_{z} z=z \sqrt{\omega^{2} / v^{2}-k_{x}^{2}-k_{y}^{2}} \\
-
 &=\frac{z \omega}{v} \sqrt{1-\frac{v^{2}\left(k_{x}^{2}+k_{y}^{2}\right)}{\omega^{2}}} \\
-
 &\approx \frac{z \omega}{v}-\frac{z v\left(k_{x}^{2}+k_{y}^{2}\right)}{2 \omega}
-
 \end{aligned}
 $$
 
@@ -259,13 +252,9 @@ $$
 Therefore, if $L$ is finite and $z$ is small $\left(\ll \omega L^{2} / v\right)$, the second term is small and we can keep only the first term, $z \omega / v$. Then putting this back into the integral, (13.19), we have 
 $$
 \begin{gathered}
-
 \psi(\vec{r}, t)=\int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i \vec{k} \cdot \vec{r}-i \omega t} \\
-
 \approx \int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i\left(k_{x} x+k_{y} y+z \omega / v-\omega t\right)} \\
-
 \approx \int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i\left(k_{x} x+k_{y} y\right)} e^{i(z \omega / v-\omega t)} \approx f(x, y) e^{i \omega(z-v t) / v}
-
 \end{gathered}
 $$
 
@@ -382,11 +371,8 @@ Figure $13.4$:
 irrelevant. Thus the contribution comes from $k_{x}$, $k_{y}$ such that 
 $$
 \begin{aligned}
-
 \frac{\partial}{\partial k_{x}}\left(X k_{x}+Y k_{y}+Z \sqrt{\omega^{2} / v^{2}-k_{x}^{2}-k_{y}^{2}}\right) &=X-\frac{Z k_{x}}{\sqrt{\omega^{2} / v^{2}-k_{x}^{2}-k_{y}^{2}}}=0, \\
-
 \frac{\partial}{\partial k_{y}}\left(X k_{x}+Y k_{y}+Z \sqrt{\omega^{2} / v^{2}-k_{x}^{2}-k_{y}^{2}}\right) &=Y-\frac{Z k_{y}}{\sqrt{\omega^{2} / v^{2}-k_{x}^{2}-k_{y}^{2}}}=0,
-
 \end{aligned}
 $$
 
@@ -436,11 +422,8 @@ $$
 where the additional $x$ dependence has simply been inherited from the $x$ dependence of the incoming wave. We can write the Fourier transform of $f_{\theta}$ in terms of that of $f$ as follows: 
 $$
 \begin{aligned}
-
 &f_{\theta}(x, y)=\int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i\left(k_{x} x+k_{y} y\right)} e^{i x k \sin \theta} \\
-
 &=\int d k_{x} d k_{y} C\left(k_{x}-k \sin \theta, k_{y}\right) e^{i\left(k_{x} x+k_{y} y\right)}
-
 \end{aligned},
 $$
 
@@ -462,11 +445,8 @@ __________________________
 Suppose 
 $$
 f(x, y)=\left\{\begin{array}{l}
-
 1 \text { for }-a \leq x \leq a \\
-
 0 \text { for }|x|>a
-
 \end{array}\right.
 $$
 
@@ -478,11 +458,8 @@ $$
 becomes (with the $2\pi$ corrected to make it one-dimensional)[^13-4-7] 
 $$
 \begin{gathered}
-
 C\left(k_{x}\right)=\frac{1}{2 \pi} \int_{-\infty}^{\infty} d x f(x) e^{-i k_{x} x} \\
-
 =\frac{1}{2 \pi} \int_{-a}^{a} d x e^{-i k_{x} x}=\left.\frac{1}{-2 i \pi k_{x}} e^{-i k_{x} x}\right|_{-a} ^{a}=\frac{\sin k_{x} a}{\pi k_{x}} .
-
 \end{gathered}
 $$
 
@@ -566,22 +543,16 @@ Figure $13.11$: The intensity distribution from (13.56) for large $z$.
 Suppose 
 $$
 f(x, y)-\left\{\begin{array}{l}
-
 1 \text { for }-a_{x} \leq x \leq a_{x} \text { and }-a_{y} \leq y \leq a_{y}, \\
-
 0 \text { otherwise }.
-
 \end{array}\right.
 $$
 
 This is the product of a single slit pattern in $x$ with a single slit pattern in $y$. The Fourier transform is the product of the one-dimensional Fourier transforms 
 $$
 \begin{aligned}
-
 C\left(k_{x}, k_{y}\right)=& \frac{1}{4 \pi^{2}} \int_{-a_{x}}^{a_{x}} d x e^{-i k_{x} x} \int_{-a_{y}}^{a_{y}} d y e^{-i k_{y} y} \\
-
 &=\frac{\sin \left(k_{x} a_{x}\right)}{\pi k_{x}} \frac{\sin \left(k_{y} a_{y}\right)}{\pi k_{y}}
-
 \end{aligned}
 $$
 
@@ -597,11 +568,8 @@ Of course, once again, because of the general properties of the Fourier transfor
 As the slit in (13.49) gets narrower, the diffraction pattern spreads out. Of course, the intensity also decreases. The intensity at $k_{x} = 0$ is related to the Fourier transform of $f$ at zero, which is just the integral of $f$ over all $x$. As the slit gets narrower, this integral decreases. But suppose that we increase the intensity of the incoming beam, as $a$ decreases, to keep the intensity of the maximum of the diffraction pattern fixed. Ignoring the $y$ dependence, we require 
 $$
 f_{a}(x)=\left\{\begin{array}{l}
-
 \frac{1}{2 a} \text { for }-a \leq x \leq a, \\
-
 0 \text { for }|x|>a.
-
 \end{array}\right.
 $$
 
@@ -693,11 +661,8 @@ $$
 But the sum is a geometric series that can be done explicitly: 
 $$
 \begin{gathered}
-
 \sum_{j=0}^{n-1} e^{-i j b k_{x}}=\frac{1-e^{-i n b k_{x}}}{1-e^{-i b k_{x}}} \\
-
 =\frac{e^{-i n b k_{x} / 2}\left(e^{i n b k_{x} / 2}-e^{-i n b k_{x} / 2}\right)}{e^{-i b k_{x} / 2}\left(e^{i b k_{x} / 2}-e^{-i b k_{x} / 2}\right)}=e^{-i(n-1) b k_{x} / 2} \frac{\sin n b k_{x} / 2}{\sin b k_{x} / 2} .
-
 \end{gathered}
 $$
 
@@ -740,22 +705,16 @@ $$
 Now the theorem is that the Fourier transform of the convolution is $2\pi$ times the product of the Fourier transforms of the two functions. The proof is immediate (all integrals run from −$\infty$ to $\infty$): 
 $$
 \begin{aligned}
-
 C_{f_{1} \circ f_{2}}(k)=\frac{1}{2 \pi} \int d x e^{i k x} f_{1} \circ f_{2}(x) \\
-
 =& \frac{1}{2 \pi} \int d x e^{i k x} \int d y f_{1}(x-y) f_{2}(y)
-
 \end{aligned}
 $$
 
 Now we substitute $x \rightarrow y+z$ and write the integral over $y$ and $z$, 
 $$
 \begin{gathered}
-
 =\frac{1}{2 \pi} \int d z e^{i k(y+z)} \int d y f_{1}(x-y) f_{2}(y) \\
-
 =\frac{1}{2 \pi} \int d z e^{i k z} f_{1}(z) \int d y e^{i k y} f_{2}(y)=2 \pi C_{f_{1}}(k) C_{f_{2}}(k) .
-
 \end{gathered}
 $$
 
@@ -773,13 +732,9 @@ $$
 The convolution theorem can be used to understand many interesting situations. Consider the following very instructive pattern of two wide slits: 
 $$
 f(x, y)=\left\{\begin{array}{l}
-
 1 \text { for }-a \leq x \leq a \\
-
 1 \text { for }-a \leq x-b \leq a \\
-
 0 \text { otherwise }
-
 \end{array}\right.
 $$
 
@@ -797,11 +752,8 @@ $$
 where 
 $$
 f_{1}(x, y)=\left\{\begin{array}{l}
-
 1 \text { for }-a \leq x \leq a \\
-
 0 \text { otherwise }
-
 \end{array}\right.
 $$
 
@@ -896,11 +848,8 @@ $$
 Thus 
 $$
 \begin{gathered}
-
 C_{\theta_{\text {in }}}\left(k_{x}, k_{y}\right) \neq 0 \quad \text { for } \\
-
 k_{y}=0, k_{x}=k \sin \theta_{\text {in }}+\frac{2 \pi n}{a}
-
 \end{gathered}
 $$
 
@@ -1056,9 +1005,7 @@ $$
 where $g(\vec{r})$ is a periodic function, like $f(\vec{r})$ in (13.106). To find the possible refracted waves, we must write this in the form: 
 $$
 e^{i \vec{k} \cdot \vec{r}-i \omega t} g(\vec{r})=\sum_{\begin{array}{c}
-
 \text { diffracted } \atop \text { waves }, \alpha
-
 \end{array}} C_{\alpha} e^{i \vec{k}_{\alpha} \cdot \vec{r}-i \omega t} .
 $$
 
@@ -1174,13 +1121,9 @@ $$
 where 
 $$
 f(y)=\left\{\begin{array}{cl}
-
 b\left(1-\frac{y}{a}\right) & \text { for } 0 \leq y \leq a \\
-
 b\left(1+\frac{y}{a}\right) & \text { for }-a \leq y \leq 0 \\
-
 0 \quad & \text { for }|y| \geq a.
-
 \end{array}\right.
 $$
 
@@ -1206,13 +1149,9 @@ $$
 for 
 $$
 f(x, y)=\left\{\begin{array}{ccc}
-
 1 & \text { for } & |y|<a \\
-
 1 / \sqrt{2} & \text { for } & a<|y|<3 a \\
-
 0 & \text { for } & 3 a<|y|.
-
 \end{array}\right.
 $$
 

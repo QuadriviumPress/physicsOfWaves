@@ -28,11 +28,8 @@ $$
 It is convenient to arrange these parameters into a complex vector 
 $$
 Z=\left(\begin{array}{l}
-
 \psi_{1} \\
-
 \psi_{2}
-
 \end{array}\right) ,
 $$
 
@@ -47,32 +44,23 @@ which gives a complete description of the motion of the string.
 If $\phi_{1}=\phi_{2}$, or $A_{1}$ or $A_{2}$ is zero, then (12.3) represent a linearly polarized string. Linear polarization is easy to understand. It means that each point on the string is oscillating back and forth in a fixed plane. For example, 
 $$
 u_{1}=\left(\begin{array}{l}
-
 1 \\
-
 0
-
 \end{array}\right)
 $$
 
 $$
 u_{2}=\left(\begin{array}{l}
-
 0 \\
-
 1
-
 \end{array}\right)
 $$
 
 represent strings oscillating in the $x$-$z$ plane and the $y$-$z$ plane respectively. A string oscillating in a plane an angle $\theta$ from the positive $x$ axis (towards the positive $y$ axis) is represented by 
 $$
 u_{\theta}=\left(\begin{array}{l}
-
 \cos \theta \\
-
 \sin \theta
-
 \end{array}\right) .
 $$
 
@@ -85,33 +73,24 @@ Figure $12.1$: $u_{1}$, $u_{2}$ and $u_{\theta}$.
 More interesting is circular polarization. A circularly polarized wave in a string is represented by either 
 $$
 \left(\begin{array}{l}
-
 1 \\
-
 i
-
 \end{array}\right)
 $$
 
 or 
 $$
 \left(\begin{array}{c}
-
 1 \\
-
 -i
-
 \end{array}\right) .
 $$
 
 In (12.7), the $y$ component lags behind the $x$ component by $\pi / 2\left(=\phi_{2}\right)$. Thus, at any fixed point in space, the field rotates from $x$ to $y$, or in the counterclockwise direction viewed from the positive $z$ axis (with the wave coming at you), as shown in Figure $12.2$. This is called “left-circular polarization” because the string resembles a left-handed screw. Likewise, 
 $$
 \left(\begin{array}{c}
-
 1 \\
-
 -i
-
 \end{array}\right) .
 $$
 
@@ -124,11 +103,8 @@ Figure $12.2$: Circular polarization.
 The vector 
 $$
 \left(\begin{array}{c}
-
 A \\
-
 i B
-
 \end{array}\right)
 $$
 
@@ -145,39 +121,27 @@ Figure $12.4$: General elliptical polarization.
 A completely general vector can be written in the following form: 
 $$
 \left(\begin{array}{l}
-
 \psi_{1} \\
-
 \psi_{2}
-
 \end{array}\right)=e^{i \phi}\left(\begin{array}{c}
-
 A \cos \theta-i B \sin \theta \\
-
 A \sin \theta+i B \cos \theta
-
 \end{array}\right)
 $$
 
 with $A \geq|B|$ and $0 \leq \theta<\pi$ and $\phi$ is real phase (which is not very relevant relevant to the physics but can be there to make the math look uglier). This represents elliptical polarization with semi-major axis $A$ at an angle $\theta$ with the 1 axis, as in 
 $$
 u_{\theta}=\left(\begin{array}{c}
-
 \cos \theta \\
-
 \sin \theta
-
 \end{array}\right) .
 $$
 
 and semi-minor axis $B$ as shown in Figure $12.4$. If $B$ is positive (negative), the rotation is counterclockwise (clockwise). The physically interesting parameters $A$, $B$ and $\theta$ can be found from $\psi_{1}$ and $\psi_{2}$ as follows: 
 $$
 \begin{gathered}
-
 A^{2}+B^{2}=\left|\psi_{1}\right|^{2}+\left|\psi_{2}\right|^{2} , \\
-
 A B=-\operatorname{Im}\left(\psi_{1} \psi_{2}^{*}\right) .
-
 \end{gathered}
 $$
 
@@ -189,11 +153,8 @@ $$
 gives $A$ and $B$. Then $\theta$ satisfies 
 $$
 \begin{aligned}
-
 &\left(A^{2}-B^{2}\right) \cos 2 \theta=\left|\psi_{1}\right|^{2}-\left|\psi_{2}\right|^{2} , \\
-
 &\left(A^{2}-B^{2}\right) \sin 2 \theta=2 \operatorname{Re}\left(\psi_{1} \psi_{2}^{*}\right) .
-
 \end{aligned}
 $$
 
@@ -242,11 +203,8 @@ $$
 These two conditions imply that a general real electromagnetic plane wave can be written as 
 $$
 \begin{aligned}
-
 &\vec{E}=\operatorname{Re}\left(\vec{e}(\vec{k}) e^{i \vec{k} \cdot \vec{r}-i \omega t}\right) \\
-
 &\vec{B}=\operatorname{Re}\left(\vec{b}(\vec{k}) e^{i \vec{k} \cdot \vec{r}-i \omega t}\right)
-
 \end{aligned}
 $$
 
@@ -302,11 +260,8 @@ The Poynting vector is useful because it measures the intensity of the wave, the
 To see what these quantities look like in terms of the vector, $Z$, let us compute the electric and magnetic fields explicitly using (12.20) and (12.21): 
 $$
 \begin{aligned}
-
 &\vec{E}=\operatorname{Re}\left(\vec{e}(\vec{k}) e^{i \vec{k} \cdot \vec{r}-i \omega t}\right) \\
-
 &\vec{B}=\operatorname{Re}\left(\vec{b}(\vec{k}) e^{i \vec{k} \cdot \vec{r}-i \omega t}\right)
-
 \end{aligned}
 $$
 
@@ -317,11 +272,8 @@ $$
 The result is 
 $$
 \begin{gathered}
-
 \vec{E}=A_{1} \hat{e}_{1} \cos \left(\vec{k} \cdot \vec{r}-\omega t+\phi_{1}\right)+A_{2} \hat{e}_{2} \cos \left(\vec{k} \cdot \vec{r}-\omega t+\phi_{2}\right) , \\
-
 \vec{B}=\sqrt{\mu \epsilon}\left(A_{1} \hat{e}_{2} \cos \left(\vec{k} \cdot \vec{r}-\omega t+\phi_{1}\right)-A_{2} \hat{e}_{1} \cos \left(\vec{k} \cdot \vec{r}-\omega t+\phi_{2}\right)\right) .
-
 \end{gathered}
 $$
 
@@ -355,57 +307,36 @@ $$
 Although linear polarization is more familiar and perhaps easier to understand, there is a sense in which circular polarization is the more fundamental. The plane electromagnetic wave in the $\hat{k}$ direction can be rotated around the $\hat{k}$ axis without changing anything but its polarization state. The rotation symmetry of the physics suggests that we ought to be able to find states that behave simply under such a rotation, and just get multiplied by a phase factor. These states are, in fact, the circular polarization states. The action of a rotation by an angle $\theta$ about the $\hat{k}$ axis on the polarization vector, $Z$, is represented by the matrix 
 $$
 R_{\theta}=\left(\begin{array}{cc}
-
 \cos \theta & -\sin \theta \\
-
 \sin \theta & \cos \theta
-
 \end{array}\right) .
 $$
 
 For example, $R_{\theta}$ acting on $u_{1}$, (12.4), gives $u_{\theta}$, (12.6): 
 $$
 R_{\theta}\left(\begin{array}{l}
-
 1 \\
-
 0
-
 \end{array}\right)=\left(\begin{array}{l}
-
 \cos \theta \\
-
 \sin \theta
-
 \end{array}\right) .
 $$
 
 But on the left- and right-circularly polarized states, 
 $$
 R_{\theta}\left(\begin{array}{l}
-
 1 \\
-
 i
-
 \end{array}\right)=e^{-i \theta}\left(\begin{array}{l}
-
 1 \\
-
 i
-
 \end{array}\right), \quad R_{\theta}\left(\begin{array}{c}
-
 1 \\
-
 -i
-
 \end{array}\right)=e^{i \theta}\left(\begin{array}{c}
-
 1 \\
-
 -i
-
 \end{array}\right) .
 $$
 
@@ -426,11 +357,8 @@ One reason that polarization is important is that the polarization state of an e
 In any beam of light, at any given point and time, the electric field points in a particular direction. Likewise, because any plane electromagnetic wave with a definite angular frequency can be described by (12.20) and (12.21), 
 $$
 \begin{aligned}
-
 \vec{E} &=\operatorname{Re}\left(\vec{e}(\vec{k}) e^{i \vec{k} \cdot \vec{r}-i \omega t}\right) \\
-
 \vec{B} &=\operatorname{Re}\left(\vec{b}(\vec{k}) e^{i \vec{k} \cdot \vec{r}-i \omega t}\right)
-
 \end{aligned}
 $$
 
@@ -441,11 +369,8 @@ $$
 every plane wave is polarized. However, in an “unpolarized” beam, the light wave consists of a range of angular frequencies with different polarizations. As a result of the interference of the different harmonic components of the wave, the polarization wanders more or less randomly as a function of time and space, and on the average, no particular polarization is picked out. A simple example of what this looks like is animated in program 12-2, where we plot an electric field of the form 
 $$
 \begin{aligned}
-
 &E_{x}(t)=\cos \left(\omega_{1} t+\phi_{1}\right)+\cos \left(\omega_{2} t+\phi_{2}\right), \\
-
 &E_{y}(t)=\cos \left(\omega_{3} t+\phi_{3}\right)+\cos \left(\omega_{4} t+\phi_{4}\right),
-
 \end{aligned}
 $$
 
@@ -470,11 +395,8 @@ The same effect may arise because of the inherent structure of a transparent cry
 However the birefringence is produced, we can make a wave plate by orienting the material so that the $x$ and $y$ directions correspond to different indices of refraction, $n_{x}$ and $n_{y}$, and then making a slice of the material in the form of a plate in the $x$-$y$ plane, with some thickness $\ell$ in the $z$ direction. Now an electromagnetic wave traveling in the $z$ direction through the plate has different $k$ values depending on its polarization: 
 $$
 k=\left\{\begin{array}{l}
-
 \frac{n_{x}}{c} \omega \text { for polarization in the } x \text { direction } \\
-
 \frac{n_{y}}{c} \omega \text { for polarization in the } y \text { direction }
-
 \end{array}\right.
 $$
 
@@ -492,11 +414,8 @@ Figure $12.5$: Initially unpolarized light passing through a pair of crossed pol
 Consider, now, putting such a wave plate between two crossed polarizers, oriented at $\pm 45^{\circ}$, as shown in Figure $12.5$. Without the wave plate, no light would get through because the first polarizer transmits only light polarized at $45^{\circ}$, described by the $Z$ vector 
 $$
 Z=\left(\begin{array}{l}
-
 1 / \sqrt{2} \\
-
 1 / \sqrt{2}
-
 \end{array}\right)
 $$
 
@@ -505,11 +424,8 @@ and the second polarizer absorbs it.
 Coming out of the first polarizer, the vector, $Z$, looks like (12.40) for all the frequency components in the white light. But when the wave plate is inserted in between, a frequency dependent phase difference is added, so that the $Z$ vector coming out of the wave plate (up to an irrelevant overall phase) looks like 
 $$
 Z=\left(\begin{array}{c}
-
 1 / \sqrt{2} \\
-
 e^{-i \Delta \phi} / \sqrt{2}
-
 \end{array}\right) .
 $$
 
@@ -522,11 +438,8 @@ It is this frequency dependence that produces the interesting patterns of color 
 The effects of wave plates and polarizers and the like can be summarized by multiplication of the $Z$ vector by 2×2 matrices. For example, a perfect polarizer with an axis at an angle $\theta$ from the 1 axis can be represented by 
 $$
 P_{\theta}=\left(\begin{array}{cc}
-
 \cos ^{2} \theta & \cos \theta \sin \theta \\
-
 \cos \theta \sin \theta & \sin ^{2} \theta
-
 \end{array}\right) .
 $$
 
@@ -538,17 +451,11 @@ $$
 as it must, since the first polarizer produces polarized light and the second one transmits it perfectly. $P_{\theta}$ acting on a vector transmits the component in the $\theta$ direction. This is easiest to visualize if $\theta = 0$ or $\pi / 2$. The matrices 
 $$
 P_{0}=\left(\begin{array}{ll}
-
 1 & 0 \\
-
 0 & 0
-
 \end{array}\right), \quad P_{\pi / 2}=\left(\begin{array}{ll}
-
 0 & 0 \\
-
 0 & 1
-
 \end{array}\right) ,
 $$
 
@@ -557,11 +464,8 @@ represent polarizers along the 1 and 2 axes respectively.
 A wave plate in which the phase difference is $\pi / 2$ is called a “quarter wave plate.” For a wave plate in which the phase difference is between 0 and $\pi$, it is conventional to call the axis with the smaller phase the “fast axis.” A quarter wave plate with fast axis along the 1 axis is represented by 
 $$
 Q_{0}=\left(\begin{array}{ll}
-
 1 & 0 \\
-
 0 & i
-
 \end{array}\right) .
 $$
 
@@ -596,40 +500,25 @@ Figure $12.6$: Producing circularly polarized light.
 Here are two amusing devices that you can make with these optical elements (or matrices). Consider the combination of first a polarizer at $45^{\circ}$ and then a quarter wave plate, as shown in Figure $12.6$. By forming the matrix product, $Q_{0} P_{\pi / 4}$, you can see that this produces counterclockwise circularly polarized light from anything with a component of polarization in the $\pi / 4$ direction. The argument goes like this. The product is 
 $$
 Q_{0} P_{\pi / 4}=\left(\begin{array}{cc}
-
 1 & 0 \\
-
 0 & i
-
 \end{array}\right)\left(\begin{array}{cc}
-
 1 / 2 & 1 / 2 \\
-
 1 / 2 & 1 / 2
-
 \end{array}\right)=\left(\begin{array}{cc}
-
 1 / 2 & 1 / 2 \\
-
 i / 2 & i / 2
-
 \end{array}\right) .
 $$
 
 When this acts on an arbitrary vector you get circularly polarization unless the vector is annihilated by $P_{\pi / 4}$. 
 $$
 Q_{0} P_{\pi / 4}\left(\begin{array}{l}
-
 \psi_{1} \\
-
 \psi_{2}
-
 \end{array}\right)=\frac{\psi_{1}+\psi_{2}}{2}\left(\begin{array}{l}
-
 1 \\
-
 i
-
 \end{array}\right) .
 $$
 
@@ -657,57 +546,36 @@ $$
 where $P_{\pm}$ are matrices that pick out the left- and right-circularly polarized components, respectively. They satisfy 
 $$
 P_{\pm}\left(\begin{array}{c}
-
 1 \\
-
 \pm i
-
 \end{array}\right)=\left(\begin{array}{c}
-
 1 \\
-
 \pm i
-
 \end{array}\right), \quad P_{\pm}\left(\begin{array}{c}
-
 1 \\
-
 \mp i
-
 \end{array}\right)=0 .
 $$
 
 You can check that the matrices are 
 $$
 P_{\pm}=\frac{1}{2}\left(\begin{array}{cc}
-
 1 & \mp i \\
-
 \pm i & 1
-
 \end{array}\right) .
 $$
 
 Then (12.52) becomes 
 $$
 e^{-i \theta} \frac{1}{2}\left(\begin{array}{cc}
-
 1 & -i \\
-
 i & 1
-
 \end{array}\right)+e^{i \theta} \frac{1}{2}\left(\begin{array}{cc}
-
 1 & i \\
-
 -i & 1
-
 \end{array}\right)=\left(\begin{array}{cc}
-
 \cos \theta & -\sin \theta \\
-
 \sin \theta & \cos \theta
-
 \end{array}\right) .
 $$
 
@@ -744,11 +612,8 @@ Let us return to the infinite plane boundary between two dielectrics that we dis
 On the general grounds of translation invariance and local interactions discussed in the previous chapter, all the components of the electric and magnetic fields will have the general form 
 $$
 \begin{array}{cl}
-
 \psi(r, t) \propto e^{i \vec{k} \cdot \vec{r}}+R e^{i \vec{k} \cdot \vec{r}} & \text { for } z \leq 0 \\
-
 \psi(r, t) \propto \tau e^{i \vec{k}^{\prime} \cdot \vec{r}} & \text { for } z \geq 0
-
 \end{array}
 $$
 
@@ -760,24 +625,17 @@ $$
 and 
 $$
 \begin{gathered}
-
 \tilde{k}_{z}=-\sqrt{\omega^{2} / v^{2}-k_{x}^{2}}=-k_{z} \\
-
 k_{z}^{\prime}=\sqrt{\omega^{2} / v^{\prime 2}-k_{x}^{2}}
-
 \end{gathered} .
 $$
 
 Thus Snell’s law is satisfied, with $\theta$ and $\theta^{\prime}$ defined as shown in Figure $12.10$. 
 $$
 \begin{aligned}
-
 &k \cdot \sin \theta=k^{\prime} \sin \theta^{\prime} . \\
-
 &|\vec{k}|=\sqrt{\mu \epsilon} \frac{\omega}{c}=n \frac{\omega}{c} \\
-
 &n \sin \theta=n^{\prime} \sin \theta^{\prime} .
-
 \end{aligned}
 $$
 
@@ -792,13 +650,9 @@ The details of the scattering will depend on the polarization. It is clear (by s
 Let us first consider perpendicular polarization. This means that the electric field is in the $y$ direction (out of the plane of the paper), while the magnetic field is the $x$-$z$ plane:<sup>4 </sup>
 $$
 \begin{gathered}
-
 E_{y}(r, t)=A e^{i(\vec{k} \vec{r}-\omega t)}+R_{\perp} A e^{i(\tilde{k} \cdot \vec{r}-\omega t)} \quad \text { for } z \leq 0 \\
-
 E_{y}(r, t)=\tau_{\perp} A e^{i\left(\vec{k}^{\prime} \cdot \vec{r}-\omega t\right)} \quad \text { for } z \geq 0 \\
-
 E_{z}=E_{x}=0
-
 \end{gathered}
 $$
 
@@ -810,17 +664,11 @@ $$
 we can write 
 $$
 \begin{array}{rlr}
-
 B_{x}(r, t)=-\frac{n}{c} A \cos \theta e^{i(\vec{k} \cdot \vec{r}-\omega t)}+\frac{n}{c} \cos \theta R_{\perp} A e^{i(\vec{k} \cdot \vec{r}-\omega t)} & \text { for } z \leq 0 \\
-
 B_{x}(r, t)--\frac{n^{\prime}}{c} \cos \theta^{\prime} \tau_{\perp} A e^{i\left(\vec{k}^{\prime} \cdot \vec{r}-\omega t\right)} & & \text { for } z \geq 0 \\
-
 B_{z}(r, t)=\frac{n}{c} \sin \theta A e^{i(\vec{k} \cdot \vec{r}-\omega t)}+\frac{n}{c} \sin \theta R_{\perp} A e^{i(\vec{k} \cdot \vec{r}-\omega t)} & & \text { for } z \leq 0 \\
-
 B_{z}(r, t)=\frac{n^{\prime}}{c} \sin \theta^{\prime} \tau_{\perp} A e^{i\left(\vec{k}^{\prime} \cdot \vec{r}-\omega t\right)} & & \text { for } z \geq 0 \\
-
 B_{y}=0 &
-
 \end{array}
 $$
 
@@ -839,30 +687,20 @@ $$
 Polarization in the $x$-$z$ plane looks like 
 $$
 \begin{array}{cl}
-
 B_{y}(r, t)=A e^{i(\vec{k} \cdot \vec{r}-\omega t)}+R_{\|} A e^{i(\vec{k} \cdot \vec{r}-\omega t)} & \text { for } z \leq 0 \\
-
 B_{y}(r, t)=\tau_{\|} A e^{i\left(\vec{k}^{\prime} \cdot \vec{r}-\omega t\right)} & \text { for } z \geq 0 \\
-
 B_{z}=B_{x}=0, &
-
 \end{array}
 $$
 
 where, for convenience, we have defined the reflection and transmission coefficients in terms of the magnetic fields, and 
 $$
 \begin{array}{rlr}
-
 E_{x}(r, t)=\frac{c}{n} \cos \theta A e^{i(\vec{k} \cdot \vec{r}-\omega t)}-\frac{c}{n} \cos \theta R_{\|} A e^{i(-\overrightarrow{\vec{k}} \cdot \vec{r}-\omega t)} & \text { for } z \leq 0 \\
-
 E_{x}(r, t)=\frac{c}{n^{\prime}} \cos \theta^{\prime} \tau_{\|} A e^{i\left(\vec{k}^{\prime} \cdot \vec{r}-\omega t\right)} & & \text { for } z \geq 0 \\
-
 E_{z}(r, t)=-\frac{c}{n} \sin \theta A e^{i(\vec{k} \cdot \vec{r}-\omega t)}-\frac{c}{n} \sin \theta R_{\|} A e^{i(-\tilde{\vec{k}} \cdot \vec{r}-\omega t)} & & \text { for } z \leq 0 \\
-
 E_{z}(r, t)=-\frac{c}{n^{\prime}} \sin \theta^{\prime} \tau_{\|} A e^{i\left(\vec{k}^{\prime} \cdot \vec{r}-\omega t\right)} & & \text { for } z \geq 0 \\
-
 E_{z}=0 . &
-
 \end{array}
 $$
 
@@ -1207,51 +1045,33 @@ You should now be able to:
 For each of the two polarization states (in the $y$ direction, and in the $x$-$z$ plane), some fraction of the intensity is reflected as a function of $\theta$ and $k$. In this problem, we will use the method of transfer matrices, discussed in Chapter 9 to find it. We will work out the case of polarization perpendicular to the $x$-$z$ scattering plane in detail. Then your job will be to repeat the calculation for polarization in the $x$-$z$ plane. To do it, we must generalize the analysis of (12.62)-(12.63) and (12.70)-(12.71) to a situation with arbitrary incoming and outgoing waves on both sides and to a boundary at arbitrary $z$ (rather than $y$ for this problem). For the perpendicular polarization state, the boundary conditions look like: 
 $$
 \begin{gathered}
-
 e^{i k_{z} z} T_{\perp}^{1}+e^{-i k_{z} z} R_{\perp}^{1}=e^{i k_{z}^{\prime} z} T_{\perp}^{2}+e^{-i k_{z}^{\prime} z} R_{\perp}^{2} \\
-
 n \cos \theta\left(e^{i k_{z} z} T_{\perp}^{1}-e^{-i k_{z} z} R_{\perp}^{1}\right)=n^{\prime} \cos \theta^{\prime}\left(e^{i k_{z}^{\prime} z} T_{\perp}^{2}+e^{-i k_{z}^{\prime} z} R_{\perp}^{2}\right)
-
 \end{gathered}
 $$
 
 which gives 
 $$
 \left(\begin{array}{l}
-
 T_{\perp}^{1} \\
-
 R_{\perp}^{1}
-
 \end{array}\right)=d(z)\left(\begin{array}{l}
-
 T_{\perp}^{2} \\
-
 R_{\perp}^{2}
-
 \end{array}\right)
 $$
 
 where the transfer matrix, $d(z)$ is 
 $$
 \frac{1}{2}\left(\begin{array}{cc}
-
 e^{-i k_{z} z} & 0 \\
-
 0 & e^{i k_{z} z}
-
 \end{array}\right)\left(\begin{array}{cc}
-
 1+h_{\perp} & 1-h_{\perp} \\
-
 1-h_{\perp} & 1+h_{\perp}
-
 \end{array}\right)\left(\begin{array}{cc}
-
 e^{i k_{z}^{\prime} z} & 0 \\
-
 0 & e^{-i k_{z}^{\prime} z}
-
 \end{array}\right)
 $$
 
@@ -1263,28 +1083,19 @@ $$
 Going from index $n^{\prime}$ to index $n$ at $z$ gives a transfer matrix that is the inverse of $d(z)$. Applying this to the present problem, if $R_{\perp}$ and $\tau_{\perp}$ are the reflection and transmission coefficients from the pane of glass, we have 
 $$
 \left(\begin{array}{c}
-
 1 \\
-
 R_{\perp}
-
 \end{array}\right)=d(0) d(\ell)^{-1}\left(\begin{array}{c}
-
 0 \\
-
 \tau_{\perp}
-
 \end{array}\right)
 $$
 
 which implies 
 $$
 \begin{aligned}
-
 \tau_{\perp} &=\frac{2 h_{\perp} e^{i k_{z} \ell}}{2 h_{\perp} \cos k_{z}^{\prime} \ell-i\left(1+h_{\perp}^{2}\right) \sin k_{z}^{\prime} \ell} \\
-
 R_{\perp} &=\frac{-i\left(1-h_{\perp}^{2}\right) \sin k_{z}^{\prime} \ell}{2 h_{\perp} \cos k_{z}^{\prime} \ell-i\left(1+h_{\perp}^{2}\right) \sin k_{z}^{\prime} \ell}
-
 \end{aligned}
 $$
 
@@ -1323,28 +1134,19 @@ Check your result for $R$ by explaining the limit $\sigma \rightarrow \infty$, a
 **12.4.** Consider the standing electromagnetic waves in a cubical evacuated box with **perfectly conducting** sides at $x = 0$, $x = L$, $y = 0$, $y = L$, $z = 0$ and $z = L$. There exist modes in which the electric and magnetic fields vanish outside the box, and inside take the following form: 
 $$
 \begin{gathered}
-
 E_{z}(x, y, z, t)=A \omega \sin k_{x} x \sin k_{y} y \cos \omega t \\
-
 B_{x}(x, y, z, t)=-A k_{y} \sin k_{x} x \cos k_{y} y \sin \omega t \\
-
 B_{y}(x, y, z, t)=A k_{x} \cos k_{x} x \sin k_{y} y \sin \omega t \\
-
 E_{x}=E_{y}=B_{z}=0 .
-
 \end{gathered}
 $$
 
 You can check that inside the box and for properly chosen $\omega$, these satisfy Maxwell’s equations, 
 $$
 \begin{array}{r}
-
 \vec{\nabla} \times \vec{E}=-\frac{\partial \vec{B}}{\partial t} , \\
-
 \vec{\nabla} \times \vec{B}=\mu_{0} \epsilon_{0} \frac{\partial \vec{E}}{\partial t}+\mu_{0} \vec{J} , \\
-
 \vec{\nabla} \cdot \vec{E}=\rho, \quad \vec{\nabla} \cdot \vec{B}=0 .
-
 \end{array}
 $$
 

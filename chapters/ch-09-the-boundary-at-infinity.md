@@ -23,11 +23,8 @@ Then what is $\psi(x,t)$? This is not a well-posed problem, because we only have
 For example, we could take our boundary condition at infinity to be that no incoming traveling waves appear on the string. Physically, this corresponds to the situtation in which the motion of the string at $x = 0$ is producing the waves. In general, we can write a solution with angular frequency $\omega$ as a sum of four real traveling waves 
 $$
 \begin{aligned}
-
 &\psi(x, t)=a \cos (k x-\omega t)+b \sin (k x-\omega t) \\
-
 &+c \cos (k x+\omega t)+d \sin (k x+\omega t) .
-
 \end{aligned}
 $$
 
@@ -173,13 +170,9 @@ $$
 We have left $\left(1+\tan ^{2} k x\right)$ in (9.23) so that we can eliminate it by using (9.22). Thus 
 $$
 \begin{aligned}
-
 & \frac{\partial x}{\partial t}=\frac{1-R}{1+R} \frac{\omega}{k} \frac{1}{\left(1+\tan ^{2} k x\right) \cos ^{2} \omega t} \\
-
 =& \frac{1-R}{1+R} \frac{\omega}{k} \frac{1}{\left(1+\left(\frac{1-R}{1+R}\right)^{2} \tan ^{2} \omega t\right) \cos ^{2} \omega t} \\
-
 =& v \frac{(1+R)(1-R)}{(1+R)^{2} \cos ^{2} \omega t+(1-R)^{2} \sin ^{2} \omega t}
-
 \end{aligned}
 $$
 
@@ -202,11 +195,8 @@ We can draw a more general moral from this discussion. The general case of wave 
 It is instructive to consider the power required to produce a traveling wave that is partially reflected. That is, we consider the power required by a transverse force acting at $x = 0$ to produce a wave in the region $x > 0$ that is a linear combination of an outgoing wave moving in the $+ x$ direction and an incoming wave moving in the $- x$ direction, such as might be produced by a reflection at some large value of $x$. Let us imagine the most general one-dimensional case, in a medium with impedance Z: 
 $$
 \begin{gathered}
-
 \psi(x, t)=\operatorname{Re}\left(A_{+} e^{i(k x-\omega t)}+A_{-} e^{i(-k x-\omega t)}\right) \\
-
 =R_{+} \cos \left(k x-\omega t+\phi_{+}\right)+R_{-} \cos \left(-k x-\omega t+\phi_{-}\right)
-
 \end{gathered}
 $$
 
@@ -228,22 +218,16 @@ $$
 Then the total force required to produce $\psi$ is 
 $$
 \begin{gathered}
-
 F(t)=F_{+}(t)+F_{-}(t) \\
-
 =Z \omega R_{+} \sin \left(-\omega t+\phi_{+}\right)-Z \omega R_{-} \sin \left(-\omega t+\phi_{-}\right) .
-
 \end{gathered}
 $$
 
 Thus the power required is 
 $$
 \begin{gathered}
-
 P(t)=\left.F(t) \frac{\partial}{\partial t} \psi(x, t)\right|_{x=0} \\
-
 =Z \omega^{2} R_{+}^{2} \sin ^{2}\left(-\omega t+\phi_{+}\right)-Z \omega^{2} R_{-}^{2} \sin ^{2}\left(-\omega t+\phi_{-}\right) .
-
 \end{gathered}
 $$
 
@@ -310,11 +294,8 @@ $$
 $F = ma$ **–** The horizontal component of the tension in the string must be equal on the two sides. Both are about equal to $T$, for small displacements. However, if there is a kink in the string, the vertical components do not match, as shown in Figure $9.4$ (see also (8.16)-(8.17)). The force on the mass is then the tension times the slope for $x \geq 0$ minus the tension times the slope for $x \leq 0$, thus $F = ma$ becomes 
 $$
 \begin{gathered}
-
 T\left(\left.\frac{\partial}{\partial x} \psi(x, t)\right|_{x=0^{+}}-\left.\frac{\partial}{\partial x} \psi(x, t)\right|_{x=0^{-}}\right) \\
-
 =m \frac{\partial^{2}}{\partial t^{2}} \psi(0, t)
-
 \end{gathered}
 $$
 
@@ -348,21 +329,15 @@ This scattering is animated in program 9-2. The solution is also decomposed into
 Matter is composed of electric charges. This is something of a miracle. We cannot understand it without quantum mechanics. In a purely classical world, there would be no stable atoms or molecules. Because of quantum mechanics, the world does not collapse and we can build stable chunks of matter composed of equal numbers of positive and negative charges. In a chunk of matter in equilibrium, the charge and current are very close to zero when averaged over any large smooth region. However, in the presence of external electric and magnetic fields, such as those produced by an electromagnetic wave, the charges out of which the matter is built can move. This gives rise to what are called “bound” charges and currents, distinguishable from the “free” charges that are not part of the matter itself. These bound charges and currents affect the relation between electric and magnetic fields. In a homogeneous and isotropic material, which is a fancy way of describing a material that does not have any preferred axis, the effects of the matter (averaged over large regions) can be incorporated by replacing the constants $\epsilon_{0}$ and $\mu_{0}$ by the permittivity and permeability, $\epsilon$ and $\mu$. Then Maxwell’s equations for electromagnetic waves, (8.35)-(8.37), are modified to<sup>1 </sup>
 $$
 \begin{gathered}
-
 \frac{\partial E_{y}}{\partial x}-\frac{\partial E_{x}}{\partial y}=-\frac{\partial B_{z}}{\partial t}, \quad \frac{\partial E_{z}}{\partial y}-\frac{\partial E_{y}}{\partial z}=-\frac{\partial B_{x}}{\partial t}, \\
-
 \frac{\partial E_{x}}{\partial z}-\frac{\partial E_{z}}{\partial x}=-\frac{\partial B_{y}}{\partial t} ,
-
 \end{gathered}
 $$
 
 $$
 \begin{gathered}
-
 \frac{\partial B_{y}}{\partial x}-\frac{\partial B_{x}}{\partial y}=\mu \epsilon \frac{\partial E_{z}}{\partial t}, \quad \frac{\partial B_{z}}{\partial y}-\frac{\partial B_{y}}{\partial z}=\mu \epsilon \frac{\partial E_{x}}{\partial t}, \\
-
 \frac{\partial B_{x}}{\partial z}-\frac{\partial B_{z}}{\partial x}=\mu \epsilon \frac{\partial E_{y}}{\partial t} ,
-
 \end{gathered}
 $$
 
@@ -414,22 +389,16 @@ Let us now consider a plane wave in the $+ z$ direction in a universe that is fi
 Because the electric field in a plane electromagnetic wave is perpendicular to its direction of motion, we know that in this case that it is in the $x$-$y$ plane. It doesn’t matter in what direction the electric field of our incoming plane wave is pointing in the $x$-$y$ plane. That is clear by symmetry. The system looks the same if we rotate it around the $z$ axis, thus we can always rotate until our $\vec{e}_{+}$ vector is pointing in some convenient direction, say the $x$ direction. It is then pretty obvious that the reflected and transmitted waves will also have their electric fields in the $\pm x$ direction. Actually, we can turn this into a symmetry argument too. If we reflect the system in the $x$-$z$ plane, both the incoming wave and the dielectric are unchanged, but any $y$ component of the transmitted or reflected waves would change sign. Thus these components must vanish, by symmetry. Magnetic fields work the other way, because of the cross product of vectors in their definition. Thus we can write 
 $$
 \begin{aligned}
-
 E_{x}(z, t)=A e^{i(k z-\omega t)}+R A e^{i(-k z-\omega t)} & \text { for } z<0, \\
-
 B_{y}(z, t)=\frac{n}{c} A e^{i(k z-\omega t)}-\frac{n}{c} R A e^{i(-k z-\omega t)}
-
 \end{aligned}
 $$
 
 and 
 $$
 \begin{aligned}
-
 E_{x}(z, t)=\tau A e^{i(k z-\omega t)} & \\
-
 B_{y}(z, t) &=\frac{n^{\prime}}{c} \tau A e^{i(k z-\omega t)}
-
 \end{aligned} \quad \text { for } z>0,
 $$
 
@@ -496,140 +465,95 @@ $$
 and $F = ma$ — 
 $$
 \begin{gathered}
-
 T\left(\left.\frac{\partial}{\partial x} \psi(x, t)\right|_{x=\ell^{+}}-\left.\frac{\partial}{\partial x} \psi(x, t)\right|_{x=\ell^{-}}\right) \\
-
 =m \frac{\partial^{2}}{\partial t^{2}} \psi(\ell, t)
-
 \end{gathered}
 $$
 
 or 
 $$
 \begin{aligned}
-
 &i k T\left(\left(T_{I I}-T_{I}\right) e^{i k \ell}+\left(R_{I}-R_{I I}\right) e^{-i k \ell}\right) \\
-
 &=-m \omega^{2}\left(T_{I I} e^{i k \ell}+R_{I I} e^{-i k \ell}\right) .
-
 \end{aligned}
 $$
 
 Solving for $T_{I}$ and $R_{I}$ gives 
 $$
 \begin{aligned}
-
 &T_{I}=\frac{1}{2}\left[(2-i \epsilon) T_{I I}-i \epsilon R_{I I} e^{-2 i k \ell}\right] , \\
-
 &R_{I}=\frac{1}{2}\left[(2+i \epsilon) R_{I I}+i \epsilon T_{I I} e^{2 i k \ell}\right] .
-
 \end{aligned}
 $$
 
 The important point is that because of linearity, the result (9.69) can be written in matrix form: 
 $$
 \left(\begin{array}{l}
-
 T_{I} \\
-
 R_{I}
-
 \end{array}\right)=d(\ell)\left(\begin{array}{l}
-
 T_{I I} \\
-
 R_{I I}
-
 \end{array}\right)
 $$
 
 where the matrix $d(\ell)$ 
 $$
 d(\ell)=\frac{1}{2}\left(\begin{array}{cc}
-
 (2-i \epsilon) & -i \epsilon e^{-2 i k \ell} \\
-
 i \epsilon e^{2 i k \ell} & (2+i \epsilon)
-
 \end{array}\right) .
 $$
 
 The matrix, $d(\ell)$, is a “transfer matrix.” It allows us to get from the amplitudes in one region to those in the next by just doing a matrix multiplication. We can use this to solve the two mass problem without any further calculation except a matrix multiplication. Comparing the general result, (9.70), with the two mass problem, Figure $9.5$, we see immediately that 
 $$
 \left(\begin{array}{l}
-
 1 \\
-
 R
-
 \end{array}\right)=d(0)\left(\begin{array}{l}
-
 T_{I} \\
-
 R_{I}
-
 \end{array}\right) ,
 $$
 
 and 
 $$
 \left(\begin{array}{c}
-
 T_{I} \\
-
 R_{I}
-
 \end{array}\right)=d(L)\left(\begin{array}{l}
-
 \tau \\
-
 0
-
 \end{array}\right) .
 $$
 
 Thus 
 $$
 \left(\begin{array}{l}
-
 1 \\
-
 R
-
 \end{array}\right)=d(0) d(L)\left(\begin{array}{l}
-
 \tau \\
-
 0
-
 \end{array}\right) .
 $$
 
 Doing the matrix multiplication, 
 $$
 \begin{gathered}
-
 d(0) d(L)=\frac{1}{4} \\
-
 \left(\begin{array}{cc}
-
 (2-i \epsilon)^{2}+\epsilon^{2} e^{2 i k L} & -i \epsilon\left((2-i \epsilon) e^{-2 i k L}+(2+i \epsilon)\right) \\
-
 i \epsilon\left((2-i \epsilon)+(2+i \epsilon) e^{2 i k L}\right) & (2+i \epsilon)^{2}+\epsilon^{2} e^{-2 i k L}
-
 \end{array}\right) .
-
 \end{gathered}
 $$
 
 So 
 $$
 \begin{gathered}
-
 \tau=\frac{4}{(2-i \epsilon)^{2}+\epsilon^{2} e^{2 i k L}} , \\
-
 R=i \epsilon\left((2-i \epsilon)+(2+i \epsilon) e^{2 i k L}\right) \frac{\tau}{4} .
-
 \end{gathered}
 $$
 
@@ -672,45 +596,30 @@ $$
 Solving the simultaneous linear equations, (9.80) and (9.81), for $T_{I}$ and $R_{I}$ and expressing the result in matrix form, we find 
 $$
 \left(\begin{array}{c}
-
 T_{I} \\
-
 R_{I}
-
 \end{array}\right)=d\left(k_{1}, k_{2}, \ell\right)\left(\begin{array}{c}
-
 T_{I I} \\
-
 R_{I I}
-
 \end{array}\right) ,
 $$
 
 where 
 $$
-d\left(k_{1}, k_{2}, \ell\right)=\frac{1}{2}\left(\begin{array}{ll}
-
-\left(1+\frac{k_{2}}{k_{1}}\right) & e^{i k_{2} \ell-i k_{1} \ell} & \left(1-\frac{k_{2}}{k_{1}}\right) e^{-i k_{2} \ell-i k_{1} \ell} \\
-
-\left(1-\frac{k_{2}}{k_{1}}\right) & e^{i k_{2} \ell+i k_{1} \ell} & \left(1+\frac{k_{2}}{k_{1}}\right) e^{-i k_{2} \ell+i k_{1} \ell}
-
+d\left(k_{1}, k_{2}, \ell\right)=\frac{1}{2}\left(\begin{array}{cc}
+\left(1+\frac{k_{2}}{k_{1}}\right) e^{i k_{2} \ell-i k_{1} \ell} & \left(1-\frac{k_{2}}{k_{1}}\right) e^{-i k_{2} \ell-i k_{1} \ell} \\
+\left(1-\frac{k_{2}}{k_{1}}\right) e^{i k_{2} \ell+i k_{1} \ell} & \left(1+\frac{k_{2}}{k_{1}}\right) e^{-i k_{2} \ell+i k_{1} \ell}
 \end{array}\right) .
 $$
 
 (9.82) is a very general result because $k_{1}$, $k_{2}$ and $\ell$ can be anything. Note that the relation is symmetrical: 
 $$
 \left(\begin{array}{c}
-
 \bar{T}_{I I} \\
-
 R_{I I}
-
 \end{array}\right)=d\left(k_{2}, k_{1}, \ell\right)\left(\begin{array}{c}
-
 T_{I} \\
-
 R_{I}
-
 \end{array}\right) .
 $$
 
@@ -727,22 +636,16 @@ $$
 where 
 $$
 b(k, \ell)=\left(\begin{array}{cc}
-
 e^{i k \ell} & 0 \\
-
 0 & e^{-i k \ell}
-
 \end{array}\right) ,
 $$
 
 and 
 $$
 \tau\left(k_{1}, k_{2}\right)=d\left(k_{1}, k_{2}, 0\right)=\frac{1}{2}\left(\begin{array}{ll}
-
 \left(1+\frac{k_{2}}{k_{1}}\right) & \left(1-\frac{k_{2}}{k_{1}}\right) \\
-
 \left(1-\frac{k_{2}}{k_{1}}\right) & \left(1+\frac{k_{2}}{k_{1}}\right)
-
 \end{array}\right) .
 $$
 
@@ -755,107 +658,66 @@ Figure $9.9$: Reflection from a thin film.
 Consider the situation shown in Figure $9.9$. where the wave numbers are $k_{1}$ for $x \leq 0$, $k_{2}$ for $0 \leq x \leq L$ and $k_{3}$ for $x \geq L$. As usual, translation invariance plus the boundary condition at infinity (that the incoming wave in $I$ has amplitude, $A$, and that there is only an outgoing wave in $III$) implies 
 $$
 \begin{gathered}
-
 \psi(x, t)=A e^{-i \omega t}\left(e^{i k_{1} x}+R e^{-i k_{1} x}\right) \quad \text { for } x \leq 0 \\
-
 \psi(x, t)=A e^{-i \omega t}\left(T_{I I} e^{i k_{2} x}+R_{I I} e^{-i k_{2} x}\right) \text { for } 0 \leq x \leq L, \\
-
 \psi(x, t)=\tau A e^{-i \omega t} e^{i k_{3} x} \text { for } L \leq x .
-
 \end{gathered}
 $$
 
 Then we know from the results of the previous section that 
 $$
 \left(\begin{array}{l}
-
 1 \\
-
 R
-
 \end{array}\right)=d\left(k_{1}, k_{2}, 0\right)\left(\begin{array}{l}
-
 T_{I I} \\
-
 R_{I I}
-
 \end{array}\right)
 $$
 
 and 
 $$
 \left(\begin{array}{c}
-
 T_{I I} \\
-
 R_{I I}
-
 \end{array}\right)=d\left(k_{2}, k_{3}, L\right)\left(\begin{array}{l}
-
 \tau \\
-
 0
-
 \end{array}\right)
 $$
 
 and therefore 
 $$
 \begin{gathered}
-
 \left(\begin{array}{c}
-
 1 \\
-
 R
-
 \end{array}\right)=d\left(k_{1}, k_{2}, 0\right) d\left(k_{2}, k_{3}, L\right)\left(\begin{array}{c}
-
 \tau \\
-
 0
-
 \end{array}\right) . \\
-
 d\left(k_{1}, k_{2}, 0\right) d\left(k_{2}, k_{3}, L\right) \\
-
 =b\left(k_{1}, 0\right)^{-1} \tau\left(k_{1}, k_{2}\right) b\left(k_{2}, 0\right) b\left(k_{2}, L\right)^{-1} \tau\left(k_{2}, k_{3}\right) b\left(k_{3}, L\right)
-
 \end{gathered}
 $$
 
 Often we are interested in the situation $k_{3} = k_{1}$, that describes a film (in one-dimension, a film is just a region in $x$) in an otherwise homogeneous medium. This is then a one-dimensional analog of the reflection of light from a soap bubble. Then the transfer matrix looks like 
 $$
 \begin{gathered}
-
 \frac{1}{4}\left(\begin{array}{ll}
-
 \left(1+\frac{k_{2}}{k_{1}}\right) & \left(1-\frac{k_{2}}{k_{1}}\right) \\
-
 \left(1-\frac{k_{2}}{k_{1}}\right) & \left(1+\frac{k_{2}}{k_{1}}\right)
-
 \end{array}\right)\left(\begin{array}{cc}
-
 e^{-i k_{2} L} & 0 \\
-
 0 & e^{i k_{2} L}
-
 \end{array}\right) \\
-
 \left(\begin{array}{ll}
-
 \left(1+\frac{k_{1}}{k_{2}}\right) & \left(1-\frac{k_{1}}{k_{2}}\right) \\
-
 \left(1-\frac{k_{1}}{k_{2}}\right) & \left(1+\frac{k_{1}}{k_{2}}\right)
-
 \end{array}\right)\left(\begin{array}{cc}
-
 e^{i k_{1} L} & 0 \\
-
 0 & e^{-i k_{1} L}
-
 \end{array}\right)
-
 \end{gathered}
 $$
 
@@ -895,35 +757,20 @@ $$
 Then the transfer matrix becomes 
 $$
 \begin{aligned}
-
 &\frac{1}{4}\left(\begin{array}{ll}
-
 \left(1+\frac{k_{2}}{k_{1}}\right) & \left(1-\frac{k_{2}}{k_{1}}\right) \\
-
 \left(1-\frac{k_{2}}{k_{1}}\right) & \left(1+\frac{k_{2}}{k_{1}}\right)
-
 \end{array}\right)\left(\begin{array}{cc}
-
 e^{-i k_{2} L} & 0 \\
-
 0 & e^{i k_{2} L}
-
 \end{array}\right) \\
-
 &\left(\begin{array}{cc}
-
 \left(1+\frac{k_{2}}{k_{1}}\right) & \left(1-\frac{k_{2}}{k_{1}}\right) \\
-
 \left(1-\frac{k_{2}}{k_{1}}\right) & \left(1+\frac{k_{2}}{k_{1}}\right)
-
 \end{array}\right)\left(\begin{array}{cc}
-
 e^{i k_{3} L} & 0 \\
-
 0 & e^{-i k_{3} L}
-
 \end{array}\right) .
-
 \end{aligned}
 $$
 
@@ -983,11 +830,8 @@ Consider a string with linear mass density $\rho$, split into two pieces. The tw
 Suppose that a traveling wave comes in from the negative $x$ direction. Then the displacement of the strings in the two regions is 
 $$
 \begin{gathered}
-
 \psi(x, t)=A e^{i k x} e^{-i \omega t}+R A e^{-i k^{\prime} x} e^{-i \omega^{\prime} t} \text { for } x \leq 0 \\
-
 \psi(x, t)=\tau A e^{i k^{\prime \prime} x} e^{-i \omega^{\prime \prime} t} \text { for } x \geq 0 .
-
 \end{gathered}
 $$
 

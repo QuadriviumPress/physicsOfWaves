@@ -57,6 +57,9 @@ def clean_math(tex: str) -> str:
     # The source uses a bare % as a soft line break, but it is a LaTeX comment:
     # everything after it — including the closing delimiter — is swallowed.
     tex = re.sub(r"(?<!\\)%", "", tex)
+    # Blank lines inside $$…$$ break CommonMark/MyST math fencing, so KaTeX
+    # never sees the equation and raw $$ / \begin{array} leak into the HTML.
+    tex = re.sub(r"\n\s*\n+", "\n", tex)
     # LibreTexts often uses \[4pt] spacing in align — keep as-is (valid amsmath)
     return tex.strip()
 

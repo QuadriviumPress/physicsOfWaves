@@ -18,17 +18,11 @@ Figure $5.1$: A finite system of coupled pendulums.
 The typical system of coupled oscillators that supports waves is one like the system of $N$ identical coupled pendulums shown in Figure $5.1$. This system is a generalization of the system of two coupled pendulums that we studied in chapters 3 and 4. Suppose that each pendulum bob has mass $m$, each pendulum has length $\ell$, each spring has spring constant $\kappa$ and the equilibrium separation between bobs is $a$. Suppose further that there is no friction and that the pendulums are constrained to oscillate only in the direction in which the springs are stretched. We are interested in the free oscillation of this system, with no external force. Such an oscillation, when the motion is parallel to the direction in which the system is stretched in space is called a “longitudinal oscillation”. Call the longitudinal displacement of the $j$th bob from equilibrium $\psi_{j}$. We can organize the displacements into a vector, $\Psi$ (for reasons that will become clear below, it would be confusing to use $X$, so we choose a different letter, the Greek letter psi, which looks like $\psi$ in lower case and $\Psi$ when capitalized): 
 $$
 \Psi=\left(\begin{array}{c}
-
 \psi_{1} \\
-
 \psi_{2} \\
-
 \psi_{3} \\
-
 \vdots \\
-
 \psi_{N}
-
 \end{array}\right) .
 $$
 
@@ -40,51 +34,33 @@ $$
 where $M$ is the diagonal matrix with $m$’s along the diagonal, 
 $$
 \left(\begin{array}{ccccc}
-
 m & 0 & 0 & \cdots & 0 \\
-
 0 & m & 0 & \cdots & 0 \\
-
 0 & 0 & m & \cdots & 0 \\
-
 \vdots & \vdots & \vdots & \ddots & \vdots \\
-
 0 & 0 & 0 & \cdots & m
-
 \end{array}\right) ,
 $$
 
 and $K$ has diagonal elements $(m g / \ell+2 \kappa)$, next-to-diagonal elements $-\kappa$, and zeroes elsewhere, 
 $$
 \left(\begin{array}{ccccc}
-
 m g / \ell+2 \kappa & -\kappa & 0 & \cdots & 0 \\
-
 -\kappa & m g / \ell+2 \kappa & -\kappa & \cdots & 0 \\
-
 0 & -\kappa & m g / \ell+2 \kappa & \cdots & 0 \\
-
 \vdots & \vdots & \vdots & \ddots & \vdots \\
-
 0 & 0 & 0 & \cdots & m g / \ell+2 \kappa
-
 \end{array}\right) .
 $$
 
 The $- \kappa$ in the next-to-diagonal elements has exactly the same origin as the $- \kappa$ in the $2 \times 2 \text { } K$ matrix in (3.78). It describes the coupling of two neighboring blocks by the spring. The $(m g / \ell+2 \kappa)$ on the diagonal is analogous to the $(m g / \ell+ \kappa)$ on the diagonal of (3.78). The difference in the factor of 2 in the coefficient of $\kappa$ arises because there are two springs, one on each side, that contribute to the restoring force on each block in the system shown in Figure $5.1$, while there was only one in the system shown in Figure $3.1$. Thus $M^{- 1}K$ has the form 
 $$
 \left(\begin{array}{ccccc}
-
 2 B & -C & 0 & \cdots & 0 \\
-
 -C & 2 B & -C & \cdots & 0 \\
-
 0 & -C & 2 B & \cdots & 0 \\
-
 \vdots & \vdots & \vdots & \ddots & \vdots \\
-
 0 & 0 & 0 & \cdots & 2 B
-
 \end{array}\right)
 $$
 
@@ -112,44 +88,27 @@ Most of the modes that we find using the space translation invariance of the inf
 Let us see how it works for the system shown in Figure $5.1$. First, we use the symmetry under translations to find the normal modes of the infinite system of Figure $5.2$. As in the previous two chapters, we describe the solutions in terms of a vector, $A$. But now $A$ has an infinite number of components, $A_{j}$ where the integer $j$ runs from $- \infty$ to $+ \infty$. It is a little inconvenient to write this infinite vector down, but we can represent a piece of it: 
 $$
 A=\left(\begin{array}{c}
-
 \vdots \\
-
 A_{0} \\
-
 A_{1} \\
-
 A_{2} \\
-
 A_{3} \\
-
 \vdots \\
-
 A_{N} \\
-
 A_{N+1} \\
-
 \vdots
-
 \end{array}\right) .
 $$
 
 Likewise, the $M^{- 1}K$ matrix for the system is an infinite matrix, not easily written down, but any piece of it (along the diagonal) looks like the interior of (5.5): 
 $$
 \left(\begin{array}{cccccc}
-
 \ddots & \vdots & \vdots & \vdots & \vdots & \ddots \\
-
 \cdots & 2 B & -C & 0 & 0 & \cdots \\
-
 \cdots & -C & 2 B & -C & 0 & \cdots \\
-
 \cdots & 0 & -C & 2 B & -C & \cdots \\
-
 \cdots & 0 & 0 & -C & 2 B & \cdots \\
-
 \ddots & \vdots & \vdots & \vdots & \vdots & \ddots
-
 \end{array}\right) .
 $$
 
@@ -663,13 +622,9 @@ Figure $5.23$: A an infinite system of coupled $LC$ circuits.
 Figure $5.24$, with the correspondence between the two systems being: 
 $$
 \begin{aligned}
-
 m & \leftrightarrow \quad L \\
-
 K & \leftrightarrow 1 / C \\
-
 x_{j} & \leftrightarrow \quad Q_{j}
-
 \end{aligned}
 $$
 
@@ -817,15 +772,10 @@ In the picture above, each bob has mass $m$, each pendulum has length $\ell$, ea
 1. Find the $M^{-1}K$ matrix for this system in the basis in which the displacements of the blocks from equilibrium are all measured to the right and arranged into vector in the obvious way, 
 $$
 X(t)=\left(\begin{array}{l}
-
     x_{1}(t) \\
-
     x_{2}(t) \\
-
     x_{3}(t) \\
-
     x_{4}(t)
-
     \end{array}\right) .
 $$
 

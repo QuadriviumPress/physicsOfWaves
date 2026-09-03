@@ -80,11 +80,8 @@ $$
 The constants, $c_{n}$, are called the “Fourier coefficients.” They can be found using the following identity: 
 $$
 \int_{0}^{\ell} d x \sin \frac{n \pi x}{\ell} \sin \frac{n^{\prime} \pi x}{\ell}=\left\{\begin{array}{c}
-
 \ell / 2 \text { if } n=n^{\prime} \\
-
 0 \text { if } n \neq n^{\prime}
-
 \end{array}\right.
 $$
 
@@ -146,11 +143,8 @@ Let us find the Fourier coefficients for the following function, defined in the 
 
 $$
 \psi(x)=\left\{\begin{array}{cc}
-
 x & \text { for } x \leq w, \\
-
 \frac{w(1-x)}{1-w} & \text { for } x>w .
-
 \end{array}\right.
 $$
 
@@ -160,13 +154,9 @@ We compute the Fourier coefficients using (6.10). Because $\ell = 1$, this has t
 
 $$
 \begin{align*}
-
 c_{n} &=\int_{0}^{1} d x \sin n \pi x \psi(x) \\
-
 &=\int_{0}^{w} d x x \sin n \pi x+\frac{w}{1-w} \int_{w}^{1} d x(1-x) \sin n \pi x \\
-
 &=\frac{\sin n \pi w}{(1-w) n^{2} \pi^{2}} .
-
 \end{align*}
 $$
 
@@ -245,9 +235,7 @@ You should now be able to:
 
 $$
 \begin{aligned}
-
 \sum_{k=1}^{W} \sin \frac{n k \pi}{W+1} \sin \frac{n^{\prime} k \pi}{W+1} = \begin{cases}b & \text { if } n=n^{\prime} \neq 0 \\ 0 & \text { if } n \neq n^{\prime} \text { and } n, n^{\prime}>0\end{cases}
-
 \end{aligned}
 $$
 
@@ -269,13 +257,9 @@ Figure $6.7$: A continuous string with both ends free to oscillate in the transv
 where 
 $$
 g(t)=\left\{\begin{array}{c}
-
 1 \text { for } 0 \leq t \leq w \\
-
 0 \text { for } w<t<1-w \\
-
 1 \text { for } 1-w \leq t \leq 1
-
 \end{array}\right.
 $$
 

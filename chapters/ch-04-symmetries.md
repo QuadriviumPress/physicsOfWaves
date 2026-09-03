@@ -29,50 +29,35 @@ Figure $4.2$: The system of coupled pendulums after reflection in the plane thro
 In particular, if 
 $$
 X(t)=\left(\begin{array}{l}
-
 x_{1}(t) \\
-
 x_{2}(t)
-
 \end{array}\right)
 $$
 
 is a solution to the equations of motion for the system, then the reflected vector, 
 $$
 \tilde{X}(t) \equiv\left(\begin{array}{l}
-
 -x_{2}(t) \\
-
 -x_{1}(t)
-
 \end{array}\right) ,
 $$
 
 must also be a solution, because the reflected system is actually identical to the original. While this must be so from the physics, it is useful to understand how the math works. To see mathematically that (4.3) is a solution, define the symmetry matrix, $S$, 
 $$
 S \equiv\left(\begin{array}{cc}
-
 0 & -1 \\
-
 -1 & 0
-
 \end{array}\right) ,
 $$
 
 so that $\tilde{X}(t)$ is related to $X(t)$ by matrix multiplication: 
 $$
 \tilde{X}(t)=\left(\begin{array}{cc}
-
 0 & -1 \\
-
 -1 & 0
-
 \end{array}\right)\left(\begin{array}{l}
-
 x_{1}(t) \\
-
 x_{2}(t)
-
 \end{array}\right)=S X(t) .
 $$
 
@@ -143,22 +128,16 @@ $$
 That is, we expect from the symmetry that the normal modes are also eigenvectors of $S$. This must be true whenever the angular frequencies are distinct. In fact, we can see by checking the solutions that this is true. The proportionality constant is just −1, 
 $$
 S A^{1}=\left(\begin{array}{cc}
-
 0 & -1 \\
-
 -1 & 0
-
 \end{array}\right) A^{1}=-A^{1} ,
 $$
 
 and similarly 
 $$
 S A^{2}=\left(\begin{array}{cc}
-
 0 & -1 \\
-
 -1 & 0
-
 \end{array}\right) A^{2}=A^{2} .
 $$
 
@@ -197,11 +176,8 @@ $$
 In words, this means that applying the matrix $S$ twice gives you back exactly the vector that you started with. Multiplying both sides of the eigenvalue equation, (4.24), by $S$, we get 
 $$
 \begin{aligned}
-
 A^{n}=& I A^{n}=S^{2} A^{n}=S \beta_{n} A^{n} \\
-
 &=\beta_{n} S A^{n}=\beta_{n}^{2} A^{n} ,
-
 \end{aligned}
 $$
 
@@ -228,66 +204,48 @@ $$
 The positions of the blocks at $t = 0$ gives the matrix equation: 
 $$
 X(0)=\left(\begin{array}{l}
-
 d \\
-
 0
-
 \end{array}\right)=A^{1} b_{1}+A^{2} b_{2} ,
 $$
 
 or 
 $$
 \begin{gathered}
-
 d=b_{1}+b_{2} \\
-
 0=-b_{1}+b_{2}
-
 \end{gathered} \Rightarrow b_{1}=b_{2}=\frac{d}{2} .
 $$
 
 Because both blocks are released from rest, we know that $c1 = c2 = 0$. We can see this in the same way by looking at the initial velocities of the blocks: 
 $$
 \dot{X}(0)=\left(\begin{array}{l}
-
 0 \\
-
 0
-
 \end{array}\right)=\omega_{1} A^{1} c_{1}+\omega_{2} A^{2} c_{2} ,
 $$
 
 or 
 $$
 \begin{gathered}
-
 0=c_{1}+c_{2} \\
-
 0=-c_{1}+c_{2}
-
 \end{gathered} \Rightarrow c_{1}=c_{2}=0 .
 $$
 
 Thus 
 $$
 \begin{aligned}
-
 &x_{1}(t)=\frac{d}{2}\left(\cos \omega_{1} t+\cos \omega_{2} t\right) \\
-
 &x_{2}(t)=\frac{d}{2}\left(\cos \omega_{1} t-\cos \omega_{2} t\right) .
-
 \end{aligned}
 $$
 
 The remarkable thing about this solution is the way in which the energy gets completely transferred from block 1 to block 2 and back again. To see this, we can rewrite (4.34) as (using (1.64) and another similar identity) 
 $$
 \begin{aligned}
-
 &x_{1}(t)=d \cos \Omega t \cos \delta \omega t \\
-
 &x_{2}(t)=d \sin \Omega t \sin \delta \omega t
-
 \end{aligned}
 $$
 
@@ -337,19 +295,12 @@ $$
 where the symmetry matrix, $S$, is 
 $$
 S=\left(\begin{array}{llllll}
-
 0 & 1 & 0 & 0 & 0 & 0 \\
-
 0 & 0 & 1 & 0 & 0 & 0 \\
-
 0 & 0 & 0 & 1 & 0 & 0 \\
-
 0 & 0 & 0 & 0 & 1 & 0 \\
-
 0 & 0 & 0 & 0 & 0 & 1 \\
-
 1 & 0 & 0 & 0 & 0 & 0
-
 \end{array}\right) .
 $$
 
@@ -366,19 +317,12 @@ $$
 The symmetry requires that the K matrix for this system has the following form: 
 $$
 K=\left(\begin{array}{cccccc}
-
 E & -B & -C & -D & -C & -B \\
-
 -B & E & -B & -C & -D & -C \\
-
 -C & -B & E & -B & -C & -D \\
-
 -D & -C & -B & E & -B & -C \\
-
 -C & -D & -C & -B & E & -B \\
-
 -B & -C & -D & -C & -B & E
-
 \end{array}\right) .
 $$
 
@@ -412,33 +356,19 @@ $$
 Explicitly, 
 $$
 S A^{k}=\left(\begin{array}{c}
-
 A_{2}^{k} \\
-
 A_{3}^{k} \\
-
 A_{4}^{k} \\
-
 A_{5}^{k} \\
-
 A_{6}^{k} \\
-
 A_{1}^{k}
-
 \end{array}\right)=\beta_{k} \cdot\left(\begin{array}{c}
-
 A_{1}^{k} \\
-
 A_{2}^{k} \\
-
 A_{3}^{k} \\
-
 A_{4}^{k} \\
-
 A_{5}^{k} \\
-
 A_{6}^{k}
-
 \end{array}\right) .
 $$
 
@@ -450,33 +380,19 @@ $$
 Thus 
 $$
 \left(\begin{array}{c}
-
 A_{1}^{k} \\
-
 A_{2}^{k} \\
-
 A_{3}^{k} \\
-
 A_{4}^{k} \\
-
 A_{5}^{k} \\
-
 A_{6}^{k}
-
 \end{array}\right)=\left(\begin{array}{c}
-
 1 \\
-
 e^{2 i k \pi / 6} \\
-
 e^{4 i k \pi / 6} \\
-
 e^{6 i k \pi / 6} \\
-
 e^{8 i k \pi / 6} \\
-
 e^{10 i k \pi / 6}
-
 \end{array}\right) .
 $$
 
@@ -488,11 +404,8 @@ $$
 Since we already know the form of the normal modes, this is straightforward. For example, we can compare the first components of these two vectors: 
 $$
 \begin{gathered}
-
 \omega_{k}^{2}=\left(E-B e^{2 i k \pi / 6}-C e^{4 i k \pi / 6}-D e^{6 i k \pi / 6}-C e^{8 i k \pi / 6}-B e^{10 i k \pi / 6}\right) / m \\
-
 =\frac{E}{m}-2 \frac{B}{m} \cos \frac{k \pi}{3}-2 \frac{C}{m} \cos \frac{2 k \pi}{3}-(-1)^{k} \frac{D}{m} .
-
 \end{gathered}
 $$
 

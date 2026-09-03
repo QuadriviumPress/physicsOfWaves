@@ -343,19 +343,12 @@ $$
 Let’s consider a slightly different problem. What is the lowest frequency mode of a one-liter soda bottle, shown in Figure $7.6$? A typical set of parameters is given below: 
 $$
 \begin{aligned}
-
 &A \approx 2.85 \mathrm{~cm}^{2}: \text { area of neck }\\
-
 &\begin{aligned}
-
 &\ell \approx 5.7 \mathrm{~cm} \quad: \text { length of neck } \\
-
 &L \approx 25 \mathrm{~cm} \quad: \text { length of bottle }
-
 \end{aligned}\\
-
 &V_{0} \approx 1000 \mathrm{~cm}: \text { volume of body }
-
 \end{aligned}
 $$
 

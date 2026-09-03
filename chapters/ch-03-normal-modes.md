@@ -161,45 +161,30 @@ A matrix is a rectangular array of numbers. An $N \times M$ matrix has $N$ rows 
 Call the $N \times M$ matrix $A$ and let $A_{jk}$ be the number in the $j$th row and $k$th column for $1 \leq j \leq N$ and $1 \leq k \leq M$. These individual components of the matrix are called matrix elements. In terms of its matrix elements, the matrix $A$ looks like: 
 $$
 A=\left(\begin{array}{cccc}
-
 A_{11} & A_{12} & \cdots & A_{1 M} \\
-
 A_{21} & A_{22} & \cdots & A_{2 M} \\
-
 \vdots & \vdots & \ddots & \vdots \\
-
 A_{N 1} & A_{N 2} & \cdots & A_{N M}
-
 \end{array}\right) .
 $$
 
 Call the $M \times L$ matrix $B$ with matrix elements $B_{kl}$ for $1 \leq k \leq M$ and $1 \leq l \leq L$: 
 $$
 B=\left(\begin{array}{cccc}
-
 B_{11} & B_{12} & \cdots & B_{1 L} \\
-
 B_{21} & B_{22} & \cdots & B_{2 L} \\
-
 \vdots & \vdots & \ddots & \vdots \\
-
 B_{M 1} & B_{M 2} & \cdots & B_{M L}
-
 \end{array}\right) .
 $$
 
 Call the $N \times L$ matrix $C$ with matrix elements $C_{jl}$ for $1 \leq j \leq N$ and $1 \leq l \leq L$. 
 $$
 C=\left(\begin{array}{cccc}
-
 C_{11} & C_{12} & \cdots & C_{1 L} \\
-
 C_{21} & C_{22} & \cdots & C_{2 L} \\
-
 \vdots & \vdots & \ddots & \vdots \\
-
 C_{N 1} & C_{N 2} & \cdots & C_{N L}
-
 \end{array}\right) .
 $$
 
@@ -211,72 +196,43 @@ $$
 Equation (3.23) is the algebraic statement of the “row-column” rule. To compute the $j \ell$ matrix element of the product matrix, $AB$, take the $j$th row of the matrix $A$ and the $\ell$th column of the matrix $B$ and form their dot-product (corresponding to the sum over $k$ in (3.23)). This rule is illustrated below: 
 $$
 \left(\begin{array}{ccccc}
-
 A_{11} & \cdots & A_{1 k} & \cdots & A_{1 M} \\
-
 \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 \hline A_{j 1} & \cdots & A_{j k} & \cdots & A_{j M} \\
-
 \hline \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 \Lambda_{N 1} & \cdots & \Lambda_{N k} & \cdots & \Lambda_{N M}
-
 \end{array}\right)\left(\begin{array}{cc|c|cc}
-
 B_{11} & \cdots & B_{1 \ell} & \cdots & B_{1 L} \\
-
 \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 B_{k 1} & \cdots & B_{k \ell} & \cdots & B_{k L} \\
-
 \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 B_{M 1} & \cdots & B_{M \ell} & \cdots & B_{M L}
-
 \end{array}\right)
 $$
 
 $$
 =\left(\begin{array}{ccccc}
-
 C_{11} & \cdots & C_{1 \ell} & \cdots & C_{1 L} \\
-
 \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 C_{j 1} & \cdots & C_{j \ell} & \cdots & C_{j L} \\
-
 \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 C_{N 1} & \cdots & C_{N \ell} & \cdots & C_{N L}
-
 \end{array}\right) .
 $$
 
 For example, 
 $$
 \left(\begin{array}{cc}
-
 2 & 3 \\
-
 0 & 1 \\
-
 2 & -1
-
 \end{array}\right) \cdot\left(\begin{array}{lll}
-
 1 & 0 & 2 \\
-
 0 & 1 & 3
-
 \end{array}\right)=\left(\begin{array}{ccc}
-
 2 & 3 & 13 \\
-
 0 & 1 & 3 \\
-
 2 & -1 & 1
-
 \end{array}\right) .
 $$
 
@@ -285,27 +241,19 @@ It is easy to check that the matrix product defined in this way is associative, 
 Except for the fact that it is not commutative, matrix multiplication behaves very much like ordinary multiplication. For example, there are “identity” matrices. The $N \times N$ identity matrix, called $I$, has zeros everywhere except for 1’s down the diagonal. For example, the $3 \times 3$ identity matrix is 
 $$
 I=\left(\begin{array}{lll}
-
 1 & 0 & 0 \\
-
 0 & 1 & 0 \\
-
 0 & 0 & 1
-
 \end{array}\right) .
 $$
 
 The $N \times N$ identity matrix satisfies 
 $$
-\begin{array}
-
-I A=A I=A \text { for any } N \times N \text { matrix } A \\
-
-I B=B \text { for any } N \times M \text { matrix } B \text { ; } \\
-
-C I=C \text { for any } M \times N \text { matrix } C \text { . }
-
-\end{array}
+\begin{aligned}
+I A=A I=A &\text{ for any } N \times N \text{ matrix } A \\
+I B=B &\text{ for any } N \times M \text{ matrix } B \text{ ; } \\
+C I=C &\text{ for any } M \times N \text{ matrix } C \text{ . }
+\end{aligned}
 $$
 
 We will be primarily concerned with “square” (that is $N \times N$) matrices.
@@ -354,11 +302,8 @@ $$
 The determinant of a $3 \times 3$ matrix, $A$ is 
 $$
 \begin{gathered}
-
 \operatorname{det} A=A_{11} A_{22} A_{33}+A_{12} A_{23} A_{31}+A_{13} A_{21} A_{32} \\
-
 -A_{11} A_{23} A_{32}-A_{13} A_{22} A_{31}-A_{12} A_{21} A_{33} .
-
 \end{gathered}
 $$
 
@@ -377,48 +322,31 @@ $$
 with 
 $$
 \begin{aligned}
-
 &A(j k)_{l m}=1 \text { if } m=j \text { and } l=k \\
-
 &A(j k)_{l m}=0 \text { if } m=j \text { and } l \neq k \\
-
 &A(j k)_{l m}=0 \text { if } m \neq j \text { and } l=k \\
-
 &A(j k)_{l m}=A_{l m} \text { if } m \neq j \text { and } l \neq k
-
 \end{aligned}
 $$
 
 In other words, $A(jk)$ is obtained from the matrix $A$ by replacing the $kj$ matrix element by 1 and all other matrix elements in row $k$ or column $j$ by 0. Thus if 
 $$
 A=\left(\begin{array}{cc|ccc}
-
 A_{11} & \cdots & A_{1 j} & \cdots & A_{1 N} \\
-
 \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 \hline A_{k 1} & \cdots & A_{k j} & \cdots & A_{k N} \\
-
 \hline \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 A_{N 1} & \cdots & A_{N j} & \cdots & A_{N N}
-
 \end{array}\right) ,
 $$
 
 $$
 A(j k)=\left(\begin{array}{cc|ccc}
-
 A_{11} & \cdots & 0 & \cdots & A_{1 N} \\
-
 \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 \hline 0 & \cdots & 1 & \cdots & 0 \\
-
 \hline \vdots & \ddots & \vdots & \ddots & \vdots \\
-
 A_{N 1} & \cdots & 0 & \cdots & A_{N N}
-
 \end{array}\right) .
 $$
 
@@ -427,79 +355,52 @@ Note the sneaky interchange of $j \leftrightarrow k$ in this definition, compare
 For example if 
 $$
 A=\left(\begin{array}{ll}
-
 4 & 3 \\
-
 5 & 2
-
 \end{array}\right)
 $$
 
 then 
 $$
 \begin{aligned}
-
 &A(11)=\left(\begin{array}{ll}
-
 1 & 0 \\
-
 0 & 2
-
 \end{array}\right) & A(12)=\left(\begin{array}{ll}
-
 0 & 3 \\
-
 1 & 0
-
 \end{array}\right) \\
-
 &A(21)=\left(\begin{array}{ll}
-
 0 & 1 \\
-
 5 & 0
-
 \end{array}\right) & A(22)=\left(\begin{array}{ll}
-
 4 & 0 \\
-
 0 & 1
-
 \end{array}\right) .
-
 \end{aligned}
 $$
 
 Thus, 
 $$
 \bar{A}=\left(\begin{array}{cc}
-
 2 & -3 \\
-
 -5 & 4
-
 \end{array}\right)
 $$
 
 and since $\operatorname{det} A=4 \cdot 2-5 \cdot 3=-7$, 
 $$
 A^{-1}=\left(\begin{array}{cc}
-
 -2 / 7 & 3 / 7 \\
-
 5 / 7 & -4 / 7
-
 \end{array}\right) .
 $$
 
 $A^{-1}$ satisfies $A A^{-1}=A^{-1} A=I$ where $I$ is the identity matrix: 
 $$
 I=\left(\begin{array}{ll}
-
 1 & 0 \\
-
 0 & 1
-
 \end{array}\right) .
 $$
 
@@ -511,11 +412,8 @@ $$
 Actually this is true for any row, not just $j = 1$. The relation, (3.30) can be rewritten as 
 $$
 \sum_{k=1}^{N} A_{j k} \operatorname{det} A\left(k j^{\prime}\right)=\left\{\begin{array}{c}
-
 \operatorname{det} A \text { for } j=j^{\prime} \\
-
 0 \text { for } j \neq j^{\prime}
-
 \end{array}\right.
 $$
 
@@ -554,32 +452,21 @@ $$
 5. The transpose of an $N \times M$ matrix $A$, denoted by $A^{T}$, is the $M \times N$ matrix obtained by reflecting the matrix about a diagonal line through the upper left-hand corner. Thus if 
 $$
 A=\left(\begin{array}{cccc}
-
     A_{11} & A_{12} & \cdots & A_{1 M} \\
-
     A_{21} & A_{22} & \cdots & A_{2 M} \\
-
     \vdots & \vdots & \ddots & \vdots \\
-
     \vdots & \vdots & \ddots & \vdots \\
-
     A_{N 1} & A_{N 2} & \cdots & A_{N M}
-
     \end{array}\right)
 $$
 
     then 
 $$
 A^{T}=\left(\begin{array}{ccccc}
-
     A_{11} & A_{21} & \cdots & \cdots & A_{N 1} \\
-
     A_{12} & A_{22} & \cdots & \cdots & A_{N 2} \\
-
     \vdots & \vdots & \ddots & \ddots & \vdots \\
-
     A_{1 M} & A_{2 M} & \cdots & \cdots & A_{N M}
-
     \end{array}\right) .
 $$
 
@@ -597,80 +484,50 @@ where $c$ is a **nonzero** $N$-vector,[^3-2-1] and $h$ is a number. The idea is 
 A couple of examples may be in order. Suppose that $R$ is a diagonal matrix, like 
 $$
 R=\left(\begin{array}{ll}
-
 2 & 0 \\
-
 0 & 1
-
 \end{array}\right) .
 $$
 
 Then the eigenvalues are just the diagonal elements, 2 and 1, and the eigenvectors are vectors in the coordinate directions, 
 $$
 R\left(\begin{array}{l}
-
 1 \\
-
 0
-
 \end{array}\right)=2\left(\begin{array}{l}
-
 1 \\
-
 0
-
 \end{array}\right), \quad R\left(\begin{array}{l}
-
 0 \\
-
 1
-
 \end{array}\right)=1\left(\begin{array}{l}
-
 0 \\
-
 1
-
 \end{array}\right) .
 $$
 
 A less obvious example is 
 $$
 R=\left(\begin{array}{ll}
-
 2 & 1 \\
-
 1 & 2
-
 \end{array}\right) .
 $$
 
 This time the eigenvalues are 3 and 1, and the eigenvectors are as shown below: 
 $$
 R\left(\begin{array}{l}
-
 1 \\
-
 1
-
 \end{array}\right)=3\left(\begin{array}{l}
-
 1 \\
-
 1
-
 \end{array}\right), \quad R\left(\begin{array}{c}
-
 1 \\
-
 -1
-
 \end{array}\right)=1\left(\begin{array}{c}
-
 1 \\
-
 -1
-
 \end{array}\right) .
 $$
 
@@ -691,30 +548,20 @@ is an $N$th order equation for $h$. For each $h$ that solves (3.57), we can find
 It is very useful to rewrite the equation of motion, (3.14), in a matrix notation. Define a column vector, $X$, whose $j$th row (from the top) is the coordinate $x_{j}$: 
 $$
 X=\left(\begin{array}{c}
-
 x_{1} \\
-
 x_{2} \\
-
 \vdots \\
-
 x_{n}
-
 \end{array}\right) .
 $$
 
 Define the “$K$ matrix”, an $n \times n$ matrix that has the coefficient $K_{jk}$ in its $j$th row and $k$th column: 
 $$
 K=\left(\begin{array}{cccc}
-
 K_{11} & K_{12} & \cdots & K_{1 n} \\
-
 K_{21} & K_{22} & \cdots & K_{2 n} \\
-
 \vdots & \vdots & \ddots & \vdots \\
-
 K_{n 1} & K_{n 2} & \cdots & K_{n n}
-
 \end{array}\right) .
 $$
 
@@ -723,15 +570,10 @@ $K_{jk}$ is said to be the “$jk$ matrix element” of the $K$ matrix. Because 
 Define the diagonal matrix $M$ with $m_{j}$ in the $j$th row and $j$th column and zeroes elsewhere 
 $$
 M=\left(\begin{array}{cccc}
-
 m_{1} & 0 & \cdots & 0 \\
-
 0 & m_{2} & \cdots & 0 \\
-
 \vdots & \vdots & \ddots & \vdots \\
-
 0 & 0 & \cdots & m_{n}
-
 \end{array}\right) .
 $$
 
@@ -797,13 +639,9 @@ $$
 or in terms of the components of $A$, 
 $$
 A=\left(\begin{array}{c}
-
 a_{1} \\
-
 a_{2} \\
-
 \vdots
-
 \end{array}\right) .
 $$
 
@@ -844,11 +682,8 @@ Once we have found the possible values of $\omega^{2}$, we can put each one back
 **The vector** $A$ **is called the “normal mode” of the system associated with the frequency** $\omega$. Because $A$ is real, in the absence of friction, the complex solutions, (3.66), can be put together into real solutions, like (3.69). The general real solution is of the form 
 $$
 \begin{gathered}
-
 X(t)=\operatorname{Re}[(b+i c) Z(t)]= \\
-
 b A \cos \omega t+c A \sin \omega t=d A \cos (\omega t-\theta)
-
 \end{gathered}
 $$
 
@@ -864,11 +699,8 @@ $$
 or in real form (with $w = b + ic$) 
 $$
 \begin{aligned}
-
 X(t)=& \sum_{\alpha=1}^{n}\left[b_{\alpha} A^{\alpha} \cos \left(\omega_{\alpha} t\right)+c_{\alpha} A^{\alpha} \sin \left(\omega_{\alpha} t\right)\right] \\
-
 &=\sum_{\alpha=1}^{n} d_{\alpha} A^{\alpha} \cos \left(\omega_{\alpha} t-\theta_{\alpha}\right)
-
 \end{aligned}
 $$
 
@@ -887,63 +719,44 @@ On the other hand, it is always straightforward to check whether a given vector 
 Let us return to the example from the beginning of this chapter in the special case where the two pendulum blocks have the same mass, $m_{1} = m_{2} = m$. Simple as it is, this will be a very important system for our understanding of wave phenomena. Let us see how the techniques that we have developed allow us to solve for the allowed frequencies and the corresponding $A$ vectors, the normal modes. From (3.7) and (3.8), the $K$ matrix has the form 
 $$
 K=\left(\begin{array}{cc}
-
 m g / \ell+\kappa & -\kappa \\
-
 -\kappa & m g / \ell+\kappa
-
 \end{array}\right) .
 $$
 
 The $M$ matrix is 
 $$
 M=\left(\begin{array}{cc}
-
 m & 0 \\
-
 0 & m
-
 \end{array}\right) .
 $$
 
 Thus from (3.78) and (3.79), 
 $$
 M^{-1} K=\left(\begin{array}{cc}
-
 g / \ell+\kappa / m & -\kappa / m \\
-
 -\kappa / m & g / \ell+\kappa / m
-
 \end{array}\right) .
 $$
 
 The matrix $M^{-1}K − \omega^{2}I$ is 
 $$
 M^{-1} K-\omega^{2} I=\left(\begin{array}{cc}
-
 g / \ell+\kappa / m-\omega^{2} & -\kappa / m \\
-
 -\kappa / m & g / \ell+\kappa / m-\omega^{2}
-
 \end{array}\right) .
 $$
 
 To find the eigenvalues of $M^{-1}K$, we form the determinant 
 $$
 \begin{gathered}
-
 \operatorname{det}\left[M^{-1} K-\omega^{2} I\right]=\operatorname{det}\left[\left(\begin{array}{cc}
-
 g / \ell+\kappa / m-\omega^{2} & -\kappa / m \\
-
 -\kappa / m & g / \ell+\kappa / m-\omega^{2}
-
 \end{array}\right)\right] \\
-
 =\left(g / \ell+\kappa / m-\omega^{2}\right)^{2}-(\kappa / m)^{2} \\
-
 =\left(\omega^{2}-g / \ell\right)\left(\omega^{2}-g / \ell-2 \kappa / m\right)=0 .
-
 \end{gathered}
 $$
 
@@ -955,11 +768,8 @@ $$
 To find the corresponding normal modes, we substitute these frequencies back into the eigenvalue equation. For $\omega_{1}^{2}$, the normal mode vector, $A^{1}$, 
 $$
 A^{1}=\left(\begin{array}{l}
-
 a_{1}^{1} \\
-
 a_{2}^{1}
-
 \end{array}\right) ,
 $$
 
@@ -971,51 +781,33 @@ $$
 From (3.81) and (3.83), 
 $$
 M^{-1} K-\omega_{1}^{2} I=\left(\begin{array}{cc}
-
 \kappa / m & -\kappa / m \\
-
 -\kappa / m & \kappa / m
-
 \end{array}\right) .
 $$
 
 Thus (3.85) becomes 
 $$
 \begin{aligned}
-
 &\left(\begin{array}{cc}
-
 \kappa / m & -\kappa / m \\
-
 -\kappa / m & \kappa / m
-
 \end{array}\right)\left(\begin{array}{l}
-
 a_{1}^{1} \\
-
 a_{2}^{1}
-
 \end{array}\right)=0 \\
-
 &=\frac{\kappa}{m}\left(\begin{array}{c}
-
 a_{1}^{1}-a_{2}^{1} \\
-
 -a_{1}^{1}+a_{2}^{1}
-
 \end{array}\right) \Rightarrow a_{1}^{1}=a_{2}^{1} .
-
 \end{aligned}
 $$
 
 We can take $a_{1}^{1}=1$ because we can multiply the normal mode vector by any number we like. Only the ratio $a_{1}^{1} / a_{2}^{1}$ matters. So, for example, we can take 
 $$
 A^{1}=\left(\begin{array}{l}
-
 1 \\
-
 1
-
 \end{array}\right) .
 $$
 
@@ -1028,11 +820,8 @@ Figure $3.6$: The displacement in the normal mode, $A^{1}$.
 For $\omega_{2}^{2}$, the normal mode vector, $A^{2}$, 
 $$
 A^{2}=\left(\begin{array}{l}
-
 a_{1}^{2} \\
-
 a_{2}^{2}
-
 \end{array}\right) ,
 $$
 
@@ -1044,51 +833,33 @@ $$
 This time, (3.81) and (3.83) give 
 $$
 M^{-1} K-\omega_{2}^{2}=\left(\begin{array}{cc}
-
 -\kappa / m & -\kappa / m \\
-
 -\kappa / m & -\kappa / m
-
 \end{array}\right) .
 $$
 
 Thus (3.90) becomes 
 $$
 \begin{aligned}
-
 &\left(\begin{array}{ll}
-
 -\kappa / m & -\kappa / m \\
-
 -\kappa / m & -\kappa / m
-
 \end{array}\right)\left(\begin{array}{l}
-
 a_{1}^{2} \\
-
 a_{2}^{2}
-
 \end{array}\right)=0 \\
-
 &=-\frac{\kappa}{m}\left(\begin{array}{l}
-
 a_{1}^{2}+a_{2}^{2} \\
-
 a_{1}^{2}+a_{2}^{2}
-
 \end{array}\right) \Rightarrow a_{1}^{2}=-a_{2}^{2} .
-
 \end{aligned} .
 $$
 
 Again, only the ratio $a_{1}^{2} / a_{2}^{2}$ matters, so we can take 
 $$
 A^{2}=\left(\begin{array}{c}
-
 1 \\
-
 -1
-
 \end{array}\right) .
 $$
 
@@ -1105,11 +876,8 @@ The physics of these modes is easy to understand. In mode 1, the blocks move tog
 Let us work out explicitly the case of $n = 2$ for an arbitrary $K$ matrix, 
 $$
 M^{-1} K=\left(\begin{array}{ll}
-
 K_{11} / m_{1} & K_{12} / m_{1} \\
-
 K_{12} / m_{2} & K_{22} / m_{2}
-
 \end{array}\right) ,
 $$
 
@@ -1167,11 +935,8 @@ $$
 or, using (3.88) and (3.93) 
 $$
 \begin{aligned}
-
 &x_{1}(t)=b \cos \left(\omega_{1} t-\theta_{1}\right)+c \cos \left(\omega_{2} t-\theta_{2}\right), \\
-
 &x_{2}(t)=b \cos \left(\omega_{1} t-\theta_{1}\right)-c \cos \left(\omega_{2} t-\theta_{2}\right) .
-
 \end{aligned}
 $$
 
@@ -1400,166 +1165,108 @@ which is exactly analogous to the factor in (2.21) in the one dimensional case. 
 We will illustrate these considerations with our favorite example, the system of two identical coupled oscillators, with $M^{-1}K$ matrix given by (3.80). We will imagine that the system is sitting in a viscous fluid that gives a uniform damping $\Gamma = \gamma I$, and that there is a periodic force that acts twice as strongly on block 1 as on block 2 (for example, we might give the blocks electric charge $2q$ and $q$ and subject them to a periodic electric field), so that the force is 
 $$
 F(t)=\left(\begin{array}{l}
-
 2 \\
-
 1
-
 \end{array}\right) f_{0} \cos \omega t=\operatorname{Re}\left[\left(\begin{array}{l}
-
 2 \\
-
 1
-
 \end{array}\right) f_{0} e^{-i \omega t}\right] .
 $$
 
 Thus 
 $$
 M^{-1} F_{0}=\left(\begin{array}{l}
-
 2 \\
-
 1
-
 \end{array}\right) \frac{f_{0}}{m} .
 $$
 
 Now to use (3.133), we need only invert the matrix 
 $$
 \left[M^{-1} K-\omega^{2}-i \Gamma \omega\right]=\left(\begin{array}{cc}
-
 \frac{g}{\ell}+\frac{\kappa}{m}-\omega^{2}-i \gamma \omega & -\frac{\kappa}{m} \\
-
 -\frac{\kappa}{m} & \frac{g}{\ell}+\frac{\kappa}{m}-\omega^{2}-i \gamma \omega
-
 \end{array}\right) .
 $$
 
 This is simple enough to do by hand. We will do that first, and then compare the result with (3.137). The determinant is 
 $$
 \begin{gathered}
-
 \left(\frac{g}{\ell}+\frac{\kappa}{m}-\omega^{2}-i \gamma \omega\right)^{2}-\left(\frac{\kappa}{m}\right)^{2} \\
-
 =\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}-i \gamma \omega\right) \cdot\left(\frac{g}{\ell}-\omega^{2}-i \gamma \omega\right) .
-
 \end{gathered}
 $$
 
 Applying (3.34), we find
 $$
 \begin{gathered}
-
 {\left[M^{-1} K-\omega^{2}-i \Gamma \omega\right]^{-1}} \\
-
 =\frac{1}{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}-i \gamma \omega\right)\left(\frac{g}{\ell}-\omega^{2}-i \gamma \omega\right)} \\
-
 \cdot\left(\begin{array}{cc}
-
 \frac{g}{\ell}+\frac{\kappa}{m}-\omega^{2}-i \gamma \omega & \frac{\kappa}{m} \\
-
 \frac{\kappa}{m} & \frac{g}{\ell}+\frac{\kappa}{m}-\omega^{2}-i \gamma \omega
-
 \end{array}\right) .
-
 \end{gathered}
 $$
 
 If we isolate the contribution of the two zeros in the denominator of (3.144), we can write 
 $$
 \begin{gathered}
-
 {\left[M^{-1} K-\omega^{2}-i \Gamma \omega\right]^{-1}} \\
-
 =\frac{1}{2} \frac{1}{\left(\frac{g}{\ell}-\omega^{2}-i \gamma \omega\right)}\left(\begin{array}{ll}
-
 1 & 1 \\
-
 1 & 1
-
 \end{array}\right) \\
-
 +\frac{1}{2} \frac{1}{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}-i \gamma \omega\right)}\left(\begin{array}{cc}
-
 1 & -1 \\
-
 -1 & 1
-
 \end{array}\right)
-
 \end{gathered}
 $$
 
 which is just (3.137), as promised. Now substituting into (3.133), we find
 $$
 \begin{gathered}
-
 W=\frac{1}{2} \frac{1}{\left(\frac{g}{\ell}-\omega^{2}-i \gamma \omega\right)}\left(\begin{array}{l}
-
 3 \\
-
 3
-
 \end{array}\right) \frac{f_{0}}{m} \\
-
 +\frac{1}{2} \frac{1}{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}-i \gamma \omega\right)}\left(\begin{array}{c}
-
 1 \\
-
 -1
-
 \end{array}\right) \frac{f_{0}}{m} \\
-
 =\frac{1}{2} \frac{\left(\frac{g}{\ell}-\omega^{2}+i \gamma \omega\right)}{\left(\frac{g}{\ell}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}}\left(\begin{array}{l}
-
 3 \\
-
 3
-
 \end{array}\right) \frac{f_{0}}{m} \\
-
 +\frac{1}{2} \frac{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}+i \gamma \omega\right)}{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}}\left(\begin{array}{c}
-
 1 \\
-
 -1
-
 \end{array}\right) \frac{f_{0}}{m},
-
 \end{gathered}
 $$
 
 from which we can read off the final result: 
 $$
 X(t)=\operatorname{Re}\left(W e^{-i \omega t}\right)=\left(\begin{array}{l}
-
 \alpha_{1} \cos \omega t+\beta_{1} \sin \omega t \\
-
 \alpha_{2} \cos \omega t+\beta_{2} \sin \omega t
-
 \end{array}\right)
 $$
 
 where 
 $$
 \begin{aligned}
-
 &\alpha_{1(2)}=\frac{3}{2} \frac{\left(\frac{g}{\ell}-\omega^{2}\right)}{\left(\frac{g}{\ell}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}} \frac{f_{0}}{m} \\
-
 &\pm \frac{1}{2} \frac{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}\right)}{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}} \frac{f_{0}}{m}
-
 \end{aligned}
 $$
 
 and 
 $$
 \begin{aligned}
-
 &\beta_{1(2)}=\frac{3}{2} \frac{\gamma \omega}{\left(\frac{g}{\ell}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}} \frac{f_{0}}{m} \\
-
 &\pm \frac{1}{2} \frac{\gamma \omega}{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}} \frac{f_{0}}{m} .
-
 \end{aligned}
 $$
 
@@ -1571,11 +1278,8 @@ $$
 The average power lost to the frictional force comes from the $\cos ^{2} \omega t$ term in (3.150) and is 
 $$
 \begin{aligned}
-
 &=\frac{1}{\left(\frac{g}{\ell}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}} \frac{9 \gamma \omega^{2} f_{0}^{2}}{4 m} \\
-
 &+\frac{1}{\left(\frac{g}{\ell}+2 \frac{\kappa}{m}-\omega^{2}\right)^{2}+(\gamma \omega)^{2}} \frac{\gamma \omega^{2} f_{0}^{2}}{4 m}
-
 \end{aligned}
 $$
 
@@ -1616,25 +1320,15 @@ Problems
 **3.1.** The 3 component column vector $A$, the 3 component row vector $B$ and the $3 \times 3$ matrix $C$ are defined as follows: 
 $$
 A=\left(\begin{array}{l}
-
 0 \\
-
 2 \\
-
 1
-
 \end{array}\right), \quad B=\left(\begin{array}{lll}
-
 3 & -2 & 1
-
 \end{array}\right), \quad C=\left(\begin{array}{ccc}
-
 1 & 1 & 1 \\
-
 0 & -2 & 1 \\
-
 2 & 2 & 0
-
 \end{array}\right) .
 $$
 
@@ -1654,169 +1348,97 @@ with the spring constants in newtons/meter given above the springs and with $m_{
 1. Which of the following are normal modes of the system and what are the corresponding angular frequencies? Note that the $M^{-1}K$ matrix may look a little complicated. 
 $$
 \left(\begin{array}{l}
-
     \psi_{1} \\
-
     \psi_{2} \\
-
     \psi_{3}
-
     \end{array}\right)=\left(\begin{array}{c}
-
     9 \\
-
     0 \\
-
     10
-
     \end{array}\right) \quad\left(\begin{array}{c}
-
     9 \\
-
     60 \\
-
     10
-
     \end{array}\right) \quad\left(\begin{array}{c}
-
     9 \\
-
     -30 \\
-
     10
-
     \end{array}\right) \quad\left(\begin{array}{c}
-
     9 \\
-
     30 \\
-
     10
-
     \end{array}\right) \quad\left(\begin{array}{c}
-
     9 \\
-
     0 \\
-
     -10
-
     \end{array}\right)
 $$
 
 2. If the system is released from rest with an initial displacement as shown below (with the displacements measured in mm), how long does it take before it first returns to its initial configuration? 
 $$
 \left(\begin{array}{l}
-
     \psi_{1} \\
-
     \psi_{2} \\
-
     \psi_{3}
-
     \end{array}\right)=\left(\begin{array}{c}
-
     9 \\
-
     0 \\
-
     10
-
     \end{array}\right)
 $$
 
 **3.4*.** A system of four masses connected by springs is described by a mass matrix, 
 $$
 M=\left(\begin{array}{llll}
-
 1 & 0 & 0 & 0 \\
-
 0 & 2 & 0 & 0 \\
-
 0 & 0 & 1 & 0 \\
-
 0 & 0 & 0 & 2
-
 \end{array}\right)
 $$
 
 and a $K$ matrix 
 $$
 K=\left(\begin{array}{cccc}
-
 29 & -10 & -4 & -2 \\
-
 -10 & 58 & -14 & -2 \\
-
 -4 & -14 & 31 & -26 \\
-
 -2 & -2 & -26 & 74
-
 \end{array}\right)
 $$
 
 1. Which of the following are normal modes? 
 $$
 \left(\begin{array}{l}
-
     1 \\
-
     2 \\
-
     1 \\
-
     1
-
     \end{array}\right)\left(\begin{array}{l}
-
     1 \\
-
     1 \\
-
     2 \\
-
     1
-
     \end{array}\right) \quad\left(\begin{array}{l}
-
     2 \\
-
     1 \\
-
     1 \\
-
     1
-
     \end{array}\right) \quad\left(\begin{array}{c}
-
     2 \\
-
     1 \\
-
     -1 \\
-
     -1
-
     \end{array}\right) \quad\left(\begin{array}{c}
-
     4 \\
-
     -3 \\
-
     0 \\
-
     1
-
     \end{array}\right) \quad\left(\begin{array}{c}
-
     0 \\
-
     1 \\
-
     -4 \\
-
     3
-
     \end{array}\right)
 $$
 
@@ -1825,15 +1447,10 @@ $$
 3. If blocks are released from rest from an initial displacement that is proportional to 
 $$
 \left(\begin{array}{c}
-
     1 \\
-
     1 \\
-
     -1 \\
-
     1
-
     \end{array}\right) ,
 $$
 
@@ -1850,28 +1467,19 @@ The blocks are free to slide horizontally without friction. The displacements of
 1. Show that the $M^{-1}K$ matrix of this system is 
 $$
 M^{-1} K=\left(\begin{array}{cc}
-
     7 & -6 \\
-
     -9 & 10
-
     \end{array}\right) .
 $$
 
 2. Show that the normal modes are 
 $$
 A^{1}=\left(\begin{array}{l}
-
     1 \\
-
     1
-
     \end{array}\right), \quad A^{2}=\left(\begin{array}{c}
-
     2 \\
-
     -3
-
     \end{array}\right) .
 $$
 
@@ -1884,17 +1492,11 @@ $$
 The blocks are free to slide horizontally without friction. The displacements of the blocks from equilibrium are both measured to the right. Block 1 has a mass of 15 grams and block 2 a mass of 10 grams. The spring constants of the springs are $K_{1}$, $K_{2}$ and $K_{3}$, as shown. The normal modes of this system are 
 $$
 A^{1}=\left(\begin{array}{l}
-
 2 \\
-
 3
-
 \end{array}\right), \quad A^{2}=\left(\begin{array}{c}
-
 1 \\
-
 -1
-
 \end{array}\right)
 $$
 
@@ -1906,17 +1508,11 @@ $$
 1. If the system is at rest at time $t = 0$ with displacements $x_{1}(0)=5 \mathrm{~cm}$, $x_{2}(0)=0$, or 
 $$
 X(0)=\left(\begin{array}{l}
-
     x_{1}(0) \\
-
     x_{2}(0)
-
     \end{array}\right)=\left(\begin{array}{l}
-
     5 \\
-
     0
-
     \end{array}\right) \mathrm{cm} .
 $$
 
@@ -1927,22 +1523,16 @@ $$
 **3.7*.** In the system of problem (3.5), suppose we immerse the system in a damping fluid so that 
 $$
 \Gamma=\left(\begin{array}{ll}
-
 \gamma & 0 \\
-
 0 & \gamma
-
 \end{array}\right)
 $$
 
 with $\gamma = 1 s^{-1}$, and that an external force of the following form is applied (in dynes): 
 $$
 F(t)=f \cos \omega t=\left(\begin{array}{l}
-
 1 \\
-
 0
-
 \end{array}\right) \cos \omega t .
 $$
 

@@ -50,11 +50,8 @@ $$
 while a standing wave is 
 $$
 \begin{gathered}
-
 \cos k x \cos \omega t=\frac{1}{2} \operatorname{Re}\left[e^{i k x} e^{-i \omega t}+e^{-i k x} e^{-i \omega t}\right] \\
-
 =\frac{1}{2}[\cos (k x-\omega t)+\cos (k x+\omega t)] .
-
 \end{gathered}
 $$
 
@@ -106,11 +103,8 @@ $$
 Now we can obtain the solution for the boundary condition (8.9) simply by adding these: 
 $$
 \begin{gathered}
-
 \psi(x, t)=\psi_{1}(x, t)+\psi_{2}(x, t) \\
-
 =A \cos k x \cos \omega t+A \sin k x \sin \omega t=A \cos (k x-\omega t) ,
-
 \end{gathered}
 $$
 
@@ -254,11 +248,8 @@ $$
 The impedance, $Z(k)$, defined by (8.29) is, in general, complex, and $k$ dependent. Nevertheless, we can find the average power required to produce the wave. Because the power is a nonlinear function of the displacement, we must first take the real parts of the complex velocity and complex force before computing the power, as in (2.26). For arbitrary complex $A=|A| e^{i \phi}$, 
 $$
 \begin{gathered}
-
 v=\omega|A| \sin (\omega t-k x-\phi) , \\
-
 F=(\operatorname{Im} Z(k)) \omega|A| \cos (\omega t-k x-\phi)+(\operatorname{Re} Z(k)) \omega|A| \sin (\omega t-k x-\phi),
-
 \end{gathered}
 $$
 
@@ -282,35 +273,24 @@ Light waves, like the sound waves that we discussed in the previous chapter, are
 There is a simple way of concentrating on only one dimension. That is to look for solutions in which the other two dimensions do not enter at all. Consider Maxwell’s equations in free space, in terms of the vector fields, $\vec{E}$ and $\vec{B}$ describing the electric and magnetic fields. 
 $$
 \begin{aligned}
-
 &\frac{\partial E_{y}}{\partial x}-\frac{\partial E_{x}}{\partial y}=-\frac{\partial B_{z}}{\partial t} \\
-
 &\frac{\partial E_{z}}{\partial y}-\frac{\partial E_{y}}{\partial z}=-\frac{\partial B_{x}}{\partial t} \\
-
 &\frac{\partial E_{x}}{\partial z}-\frac{\partial E_{z}}{\partial x}=-\frac{\partial B_{y}}{\partial t}
-
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-
 &\frac{\partial B_{y}}{\partial x}-\frac{\partial B_{x}}{\partial y}=\mu_{0} \epsilon_{0} \frac{\partial E_{z}}{\partial t} \\
-
 &\frac{\partial B_{z}}{\partial y}-\frac{\partial B_{y}}{\partial z}=\mu_{0} \epsilon_{0} \frac{\partial E_{x}}{\partial t} \\
-
 &\frac{\partial B_{x}}{\partial z}-\frac{\partial B_{z}}{\partial x}=\mu_{0} \epsilon_{0} \frac{\partial E_{y}}{\partial t}
-
 \end{aligned}
 $$
 
 $$
 \begin{aligned}
-
 &\frac{\partial E_{x}}{\partial x}+\frac{\partial E_{y}}{\partial y}+\frac{\partial E_{z}}{\partial z}=0 \\
-
 &\frac{\partial B_{x}}{\partial x}+\frac{\partial B_{y}}{\partial y}+\frac{\partial B_{z}}{\partial z}=0
-
 \end{aligned}
 $$
 
@@ -410,11 +390,8 @@ $$
 where $L_{a}$ and $C_{a}$ are the inductance and capacitance of the inductors and capacitors for the system with separation $a$ between neighboring parts. To take the continuum limit, we must replace the inductance and capacitance, $L_{a}$ and $C_{a}$, by quantities that we expect to have finite limits as $a \rightarrow 0$. We expect from the analogy, (5.69), between $LC$ circuits and systems of springs and masses, and the discussion at the beginning of chapter 7 about the continuum limit of the system of masses and springs that the relevant quantities will be: 
 $$
 \begin{aligned}
-
 &\rho_{L} \rightarrow \frac{L_{a}}{a} \quad \text { inductance per unit length } \\
-
 &K_{a} a \rightarrow \frac{a}{C_{a}} \quad \text { capacitance per unit length }
-
 \end{aligned}
 $$
 
