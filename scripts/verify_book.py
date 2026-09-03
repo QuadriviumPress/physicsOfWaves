@@ -87,9 +87,18 @@ def check_structure(errors: list[str]) -> None:
         text = path.read_text(encoding="utf-8")
         if len(text) < 200:
             errors.append(f"chapter too short: {path.name}")
+        if "{admonition} Chapter Checklist" not in text:
+            errors.append(f"{path.name}: missing Chapter Checklist admonition")
+        if not re.search(r"^## Problems\s*$", text, re.M):
+            errors.append(f"{path.name}: missing ## Problems heading")
         for sec in ch["sections"]:
-            if f"## {sec['title']}" not in text:
-                errors.append(f"{path.name}: missing section {sec['title']!r}")
+            title = sec["title"]
+            if re.search(r"Checklist|Problems?", title, re.I):
+                continue
+            wanted = f"## {title}"
+            alt = f"## {title.replace('\\(', '$').replace('\\)', '$')}"
+            if wanted not in text and alt not in text:
+                errors.append(f"{path.name}: missing section {title!r}")
 
     myst = ROOT / "myst.yml"
     if not myst.exists():

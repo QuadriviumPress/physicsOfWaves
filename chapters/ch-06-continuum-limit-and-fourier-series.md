@@ -4,10 +4,21 @@ short_title: "Chapter 6"
 label: ch-06-continuum-limit-and-fourier-series
 ---
 
-
 (ch-6)=
 
 # 6. Continuum Limit and Fourier Series
+
+“Continuous” is in the eye of the beholder. Most systems that we think of as continuous are actually made up of discrete pieces. In this chapter, we show that a discrete system can look continuous at distance scales much larger than the separation between the parts. We will also explore the physics and mathematics of Fourier series.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we discuss the wave equation, the starting point for some other treatments of waves. We will get it as natural result of our general principles of space translation invariance and local interactions applied to continuous systems.
+
+1. We will study the discrete space translation invariant systems discussed in the previous chapter in the limit that the separation between parts goes to zero. We will argue that the generic result is a continuous system obeying the wave equation.
+
+2. The continuum limit of the beaded string is a continuous string with transverse oscillations. We will discuss its normal modes for a variety of boundary conditions. We will see that the normal modes of a continuous space translation invariant system are the same as those of a finite system. The only difference is that there are an infinite number of them. The sum over the infinite number of normal modes required to solve the initial value problem for such a continuous system is called a Fourier series.
+::::
 
 ## 6.1: The Continuum Limit
 
@@ -95,7 +106,6 @@ Equation [6.8](#eq-6-8) is called the Fourier series for a function satisfying [
 :label: fig-6-1
 :enumerator: 6.1
 :alt: Figure
-
 
 :::
 
@@ -239,10 +249,8 @@ _____________________
 
 <sup>2</sup>This is why transverse oscillations are easier to visualize than longitudinal oscillations — compare with [7.5](#eq-7-5).
 
-## 6.3: Chapter Checklist
-
-::::{admonition} Learning Objectives
-:class: objectives
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -251,7 +259,7 @@ You should now be able to:
 2. Use the Fourier series to set up and solve the initial value problem for a massive string with various boundary conditions.
 ::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-6-1

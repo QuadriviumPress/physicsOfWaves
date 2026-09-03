@@ -4,10 +4,27 @@ short_title: "Chapter 3"
 label: ch-03-normal-modes
 ---
 
-
 (ch-3)=
 
 # 3. Normal Modes
+
+Systems with several degrees of freedom appear to be much more complicated than the simple harmonic oscillator. What we will see in this chapter is that this is an illusion. When we look at it in the right way, we can see the simple oscillators inside the more complicated system.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we discuss harmonic oscillation in systems with more than one degree of freedom.
+
+1. We will write down the equations of motion for a system of particles moving under general linear restoring forces without damping.
+
+2. Next, we introduce matrices and matrix multiplication and show how they can be used to simplify the description of the equations of motion derived in the previous section.
+
+3. We will then use time translation invariance and find the irreducible solutions to the equations of motion in matrix form. This will lead to the idea of “normal modes.” We then show how to put the normal modes together to construct the general solution to the equations of motion.
+
+4. * We will introduce the idea of “normal coordinates” and show how they can be used to automate the solution to the initial value problem.
+
+5. * We will discuss damped forced oscillation in systems with many degrees of freedom.
+::::
 
 ## 3.1: More than One Degree of Freedom
 
@@ -1329,7 +1346,9 @@ $$
 
 The average power lost to friction in the example of 3.140.
 :::
-## 3.6: Chapter Checklist
+
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -1354,8 +1373,9 @@ You should now be able to:
 10. * Explicitly solve for the free oscillations of system with two degrees of freedom with damping and be able to analyze systems with three or more degrees of freedom if you are given the eigenvectors;
 
 11. * Explicitly solve forced oscillation problems with or without damping for systems with three or fewer degrees of freedom.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-3-1

@@ -4,10 +4,23 @@ short_title: "Chapter 9"
 label: ch-09-the-boundary-at-infinity
 ---
 
-
 (ch-9)=
 
 # 9. The Boundary at Infinity
+
+Although the wave phenomena we can see in the laboratory live in finite regions of space, it is often convenient to analyze them as if the traveling waves come in from and go out to infinity. We have described traveling waves in infinite translation invariant systems. But traveling waves are more complicated and more interesting in systems in which there are boundaries that break the translation symmetry.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we introduce a new kind of “boundary condition” in systems that lack a boundary! It will enable us to discuss reflection and transmission, and in general, the phenomenon of scattering.
+
+1. We discuss forced oscillation problems in semi-infinite systems, that extend to infinity in one direction. We show that we can impose a “boundary condition” even though there is no boundary, by specifying the amplitude of a wave traveling in one direction. We then discuss scattering problems in infinite systems, describing the amplitudes for transmission and reflection. We study the motion of a general wave with definite frequency.
+
+2. We discuss electromagnetic plane waves in a dielectric.
+
+3. We discuss reflection and transmission by a mass on a string and two masses on a string, showing how to use a “transfer matrix” to simplify the solution to the scattering problem. We analyze reflection from a boundary between regions with different wave number and show how to eliminate the reflection with a suitable “nonreflective coating.”
+::::
 
 ## 9.1: Reflection and Transmission
 
@@ -828,7 +841,8 @@ $$
 
 In qualitative terms, the reflection vanishes because of a destructive interference between the reflected waves from the two boundaries. This has practical applications to nonreflective coatings for optical components.
 
-## 9.4: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -841,8 +855,9 @@ You should now be able to:
 4. Analyze electromagnetic plane waves in a dielectric, and the reflection from a dielectric boundary;
 
 5. *Use transfer matrices to simplify the analysis of scattering from more than one boundary.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-9-1

@@ -4,10 +4,29 @@ short_title: "Chapter 8"
 label: ch-08-traveling-waves
 ---
 
-
 (ch-8)=
 
 # 8. Traveling Waves
+
+In this chapter, we show how the same physics that leads to standing wave oscillations also gives rise to waves that move in space as well as time. We then go on to introduce the important physical example of light waves.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In an infinite translation invariant system, traveling waves arise naturally from the complex exponential behavior of the solutions in space and time.
+
+1. We begin by showing the connection between standing waves and traveling waves in infinite systems. A traveling wave in a linear system is a pair of standing waves put together with a special phase relation. We show how traveling waves can be produced in finite systems by appropriate forced oscillations.
+
+2. We then go on to discuss the force and power required to produce a traveling wave on a string, and introduce the useful idea of “impedance.”
+
+3. We introduce and discuss the most important classical example of wave phenomena, electromagnetic waves and light.
+
+4. We reexamine the translation invariant systems of coupled $LC$ circuits discussed in chapter 5 and show how they are related to electromagnetic waves.
+
+5. We discuss the effects of damping in translation invariant systems, giving a simple physical interpretation of the effect of traveling waves.
+
+6. We discuss traveling waves in systems with damping and in systems with high and/or low frequency cut-offs.
+::::
 
 ## 8.1: Standing and Traveling Waves
 
@@ -824,7 +843,8 @@ One of the striking things about program 8-6 is the very rapid switch from a tra
 
 In the infinite system, the solution outside the allowed region is a pure standing wave. In the absence of damping, the work done by the force that produces the wave averages to zero over time. In a finite system, however, it is possible to transfer energy from one end of a system to the other, even if you are below the low frequency cut-off or above the high-frequency cutoff. The reason is that in a finite system, both the $A$ and $B$ terms in [8.100](#eq-8-100) (or [8.106](#eq-8-106)) can be nonzero. If $A$ and $B$ are both real (or relatively real — that is if they have the same phase), then there is no energy transfer. The solution is the product of a real function of $x$ (or $j$) and an oscillating exponential function of $t$. Thus it looks like a standing wave. However if $A$ and $B$ have different phases, then the oscillation looks something like a traveling wave and energy can be transferred. This process becomes exponentially less efficient as the length of the system increases. We will discuss this in more detail in chapter 11.
 
-## 8.7: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -839,8 +859,9 @@ You should now be able to:
 5. Analyze translation invariant systems with damping;
 
 6. Understand the physical origins of high and low frequency cut-offs and be able to analyze the behavior of systems driven above and below the cut-off frequencies.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-8-1

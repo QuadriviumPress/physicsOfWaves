@@ -4,10 +4,29 @@ short_title: "Chapter 11"
 label: ch-11-two-and-three-dimensions
 ---
 
-
 (ch-11)=
 
 # 11. Two and Three Dimensions
+
+The concepts of space translation invariance and local interactions can be extended to systems with more than one space dimension in a straightforward way. But in two and three dimensions, these ideas alone are not enough to determine the normal modes of an arbitrary system. One needs extra tricks, or plain hard work.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+Here, we will only be able to discuss the very simplest sort of tricks, but at least we will be able to understand why the problems are more difficult.
+
+1. We begin by explaining why the angular wave number, $k$, becomes a vector in two or three dimensions. We find the normal modes of systems with simple boundary conditions.
+
+2. We then discuss scattering from planes in two- and three-dimensional space. We derive Snell’s law of refraction and discuss total internal reflection and tunneling.
+
+3. We discuss the example of Chladni plates.
+
+4. We give a two-dimensional example of a waveguide, in which the waves are constrained to propagate only in one direction.
+
+5. We study water waves (in a simplified version of water).
+
+6. We introduce the more advanced topic of spherical waves.
+::::
 
 ## 11.1: The k Vector
 
@@ -1700,7 +1719,8 @@ ____________________
 
 <sup>8</sup>If you have seen spherical coordinates, you may remember that you cannot compute the Laplacian, $\vec{\nabla} \cdot \vec{\nabla}$, simply as $\frac{\partial^{2}}{\partial r^{2}}$. You don’t need to remember the details here because we compute it from scratch for the function, $\chi(|\vec{r}|, t)$.
 
-## 11.9: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -1721,8 +1741,9 @@ You should now be able to:
 8. Be able to analyze water waves, ignoring viscosity and angular momentum.
 
 9. Solve problems involving spherical waves where the displacement involves only $r$ and $t$;
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-11-1

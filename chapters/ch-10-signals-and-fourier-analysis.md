@@ -4,10 +4,25 @@ short_title: "Chapter 10"
 label: ch-10-signals-and-fourier-analysis
 ---
 
-
 (ch-10)=
 
 # 10. Signals and Fourier Analysis
+
+Traveling waves with a definite frequency carry energy but no information. They are just there, always have been and always will be. To send information, we must send a nonharmonic signal.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we will see how this works in the context of a forced oscillation problem. In the process, we will find a subtlety in the notion of the speed with which a traveling wave moves. The phase velocity may not be the same as the velocity of signal propagation.
+
+1. We begin by studying the propagation of a transverse pulse on a stretched string. We solve the problem in two ways: with a trick that works in this special case; and with the more powerful technique of Fourier transformation. We introduce the concept of “group velocity,” the speed at which signals can actually be sent in a real system.
+
+2. We discuss, by example and then in general, the counterpoint between a function and its Fourier transform. We make the connection to the physical concepts of bandwidth and fidelity in signal transmission and to Heisenberg’s uncertainty relation in quantum mechanics.
+
+3. We work out in some detail an example of the scattering of a wave packet.
+
+4. We discuss the dispersion relation for electromagnetic waves in more detail and explore the question of whether light actually travels at the speed of light!
+::::
 
 ## 10.1: Signals in Forced Oscillation
 
@@ -921,7 +936,8 @@ _____________________
 
 <sup>7</sup>Notice that the result is inversely proportional to the electron mass. This why we are concentrating on electrons rather than protons. The protons don’t move as fast!
 
-## 10.6: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -936,8 +952,9 @@ You should now be able to:
 5. Be able to describe the scattering of a wave packet;
 
 6. Understand the effect of free charges on the dispersion relation of electromagnetic waves.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-10-1

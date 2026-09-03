@@ -4,10 +4,25 @@ short_title: "Chapter 2"
 label: ch-02-forced-oscillation-and-resonance
 ---
 
-
 (ch-2)=
 
 # 2. Forced Oscillation and Resonance
+
+The forced oscillation problem will be crucial to our understanding of wave phenomena. Complex exponentials are even more useful for the discussion of damping and forced oscillations. They will help us to discuss forced oscillations without getting lost in algebra.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we apply the tools of complex exponentials and time translation invariance to deal with damped oscillation and the important physical phenomenon of resonance in single oscillators.
+
+1. We set up and solve (using complex exponentials) the equation of motion for a damped harmonic oscillator in the overdamped, underdamped and critically damped regions.
+
+2. We set up the equation of motion for the damped and forced harmonic oscillator.
+
+3. We study the solution, which exhibits a resonance when the forcing frequency equals the free oscillation frequency of the corresponding undamped oscillator.
+
+4. We study in detail a specific system of a mass on a spring in a viscous fluid. We give a physical explanation of the phase relation between the forcing term and the damping.
+::::
 
 ## 2.1: Damped Oscillators
 
@@ -391,7 +406,8 @@ In between, at least two of the three terms on the left-hand side of [2.41](#eq-
 
 Try it! There is no substitute for actually doing this experiment. It will really give you a feel for what resonance is all about. Start by moving your hand at a very low frequency, so that the block stays in phase with the motion of your hand. Then very gradually increase the frequency. If you change the frequency slowly enough, the contributions from the transient free oscillation will be small, and you will stay near the steady state solution. As the frequency increases, you will first see that because of friction, the block starts to lag behind your hand. As you go through resonance, this lag will increase and go through $90^{\circ}$. Finally at very high frequency, the block will be $180^{\circ}$ out of phase with your hand and its displacement (the amplitude of its motion) will be very small.
 
-## 2.5: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -402,8 +418,9 @@ You should now be able to:
 3. Calculate the power lost to frictional forces and the phase lag in the forced harmonic oscillator;
 
 4. Feel it in your bones!
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-2-1

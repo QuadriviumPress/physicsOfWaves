@@ -4,10 +4,29 @@ short_title: "Chapter 5"
 label: ch-05-waves
 ---
 
-
 (ch-5)=
 
 # 5. Waves
+
+The climax of this book comes early. Here we identify the crucial features of a system that supports waves — space translation invariance and local interactions.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+We identify the space translation invariance of the class of infinite systems in which wave phenomena take place.
+
+1. Symmetry arguments cannot be directly applied to finite systems that support waves, such as a series of coupled pendulums. However, we show that if the couplings are only between neighboring blocks, the concept of symmetry can still be used to understand the oscillations. In this case we say that the interactions are “local.” The idea is to take the physics apart into two different components: the physics of the interior; and the physics of the boundaries, which is incorporated in the form of boundary conditions. The interior can be regarded as part of an infinite system with space translation invariance, a symmetry under translations by some distance, a. In this case the normal modes are called standing waves.
+
+2. We then introduce a notation designed to take maximum advantage of the space translation invariance of the infinite system. We introduce the angular wave number, $k$, which plays the role for the spatial dependence of the wave that the angular frequency, $\omega$, plays for its time dependence.
+
+3. We describe the normal modes of transverse oscillation of a beaded string. The modes are “wavy.”
+
+4. We study the normal modes of a finite beaded string with free ends as another example of boundary conditions.
+
+5. We study a type of forced oscillation problem that is particularly important for translation invariant systems with local interactions. If the driving force acts only at the ends of the system, the solution can be found simply using boundary conditions.
+
+6. We apply the idea of space translation invariance to a system of coupled $LC$ circuits.
+::::
 
 ## 5.1: Space Translation Invariance
 
@@ -832,7 +851,8 @@ _____________________
 
 <sup>6</sup>This is not exactly true, however. Relativity imposes constraints. See chapter 11.
 
-## 5.7: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -847,8 +867,9 @@ You should now be able to:
 5. Solve forced oscillation problems using boundary conditions;
 
 6. Analyze space translation invariant systems of coupled $LC$ circuits.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-5-1

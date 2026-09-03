@@ -4,10 +4,11 @@ short_title: "Chapter 14"
 label: ch-14-shocks-and-wakes
 ---
 
-
 (ch-14)=
 
 # 14. Shocks and Wakes
+
+In this chapter, we apply the tools of the previous chapter to analyze some beautiful and interesting phenomena — shock waves and the Kelvin boat wake.
 
 ## 14.1: Boat Wakes
 
@@ -362,10 +363,12 @@ which says that the tangent to the curve described parametrically by $\vec{r}_{j
 
 6 This pile-up at a stationary point is the same phenomenon that picks out the angle at which we see the rainbow.
 
-## 14.2: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
 1. ****
+::::
 
-### Problems
+## Problems

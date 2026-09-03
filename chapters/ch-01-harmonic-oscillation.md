@@ -4,10 +4,33 @@ short_title: "Chapter 1"
 label: ch-01-harmonic-oscillation
 ---
 
-
 (ch-1)=
 
 # 1. Harmonic Oscillation
+
+Oscillators are the basic building blocks of waves. We begin by discussing the harmonic oscillator. We will identify the general principles that make the harmonic oscillator so special and important. To make use of these principles, we must introduce the mathematical device of complex numbers. But the advantage of introducing this mathematics is that we can understand the solution to the harmonic oscillator problem in a new way. We show that the properties of linearity and time translation invariance lead to solutions that are complex exponential functions of time.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we discuss harmonic oscillation in systems with only one degree of freedom.
+
+1. We begin with a review of the simple harmonic oscillator, noting that the equation of motion of a free oscillator is linear and invariant under time translation;
+
+2. We discuss linearity in more detail, arguing that it is the generic situation for small oscillations about a point of stable equilibrium;
+
+3. We discuss time translation invariance of the harmonic oscillator, and the connection between harmonic oscillation and uniform circular motion;
+
+4. We introduce complex numbers, and discuss their arithmetic;
+
+5. Using complex numbers, we find solutions to the equation of motion for the harmonic oscillator that behave as simply as possible under time translations. We call these solutions “irreducible.” We show that they are actually complex exponentials.
+
+6. We discuss an $LC$ circuit and draw an analogy between it and a system of a mass and springs.
+
+7. We discuss units.
+
+8. We give one simple example of a nonlinear oscillator.
+::::
 
 ## 1.1: The Harmonic Oscillator
 
@@ -840,7 +863,6 @@ Note that we could have just as easily taken our complex solution to be $e^{+iwt
 :enumerator: 1.9
 :alt: Figure
 
-
 :::
 
 ## 1.6: LC Circuits
@@ -856,7 +878,6 @@ $$
 :enumerator: 1.10
 :alt: Figure
 
-
 :::
 
 We can describe the configuration of the mechanical system of [figure 1.10](#fig-1-10) in terms of x, the displacement of the block to the right. We can describe the configuration of the LC circuit of [figure 1.10](#fig-1-10) in terms of Q, the charge that has been “displaced” through the inductor from the equilibrium situation with the capacitor uncharged. In this case, the charge displaced through the inductor goes entirely onto the capacitor because there is nowhere else for it to go, as shown in [figure 1.12](#fig-1-12). The current through the inductor is the time derivative of the charge that has gone through,
@@ -869,7 +890,6 @@ To see how the LC circuit works, we can examine the voltages at various points i
 :label: fig-1-11
 :enumerator: 1.11
 :alt: Figure
-
 
 :::
 
@@ -897,7 +917,6 @@ The correspondence between the two systems is the following:
 :label: fig-1-12
 :enumerator: 1.12
 :alt: Figure
-
 
 :::
 
@@ -984,7 +1003,6 @@ One more example may be useful. Let us consider the torsion pendulum, shown in [
 :enumerator: 1.14
 :alt: Figure
 
-
 :::
 
 A torsion pendulum is a simple but very useful oscillator consisting of a dumbbell or rod supported at its center by a wire or fiber, hung from a support above. When the dumbbell is twisted by an angle θ, as shown in the top view in [figure 1.14](#fig-1-14), the wire twists and provides a restoring torque on the dumbbell. For a suitable wire or fiber, this restoring torque is nearly linear even for rather large displacement angles. In this system, the natural variable to use for the displacement is the angle θ. Then the equation of motion is
@@ -1040,7 +1058,6 @@ where $x(t)$ is the function described by [1.121](#eq-1-121), [1.123](#eq-1-123)
 :enumerator: 1.15
 :alt: Figure
 
-
 :::
 
 Like the harmonic oscillator, this system oscillates regularly and indefinitely. However, in this case, the period of the oscillation, the time it takes to repeat, 2τ , depends on the amplitude of the oscillation, or equivalently, on the initial velocity, v. The period is proportional to v, from [1.122](#eq-1-122). The motion of the particle started from the origin at $t = t_0$, for an initial velocity v/2 is shown in [figure 1.17](#fig-1-17). The dotted curve corresponds to an initial velocity, v. While the nonlinear equation of motion, [1.120](#eq-1-120), is time translation invariant, the symmetry is much less useful because the system lacks linearity. From our point of view, the important thing about linearity (apart from the fact that it is a good approximation in so many important physical systems), is that it allows us to choose a convenient basis for the solutions to the equation of motion. We choose them to behave simply under time translations.
@@ -1050,11 +1067,9 @@ Like the harmonic oscillator, this system oscillates regularly and indefinitely.
 :enumerator: 1.16
 :alt: Figure
 
-
 :::
 
 Then, because of linearity, we can build up any solution as a linear combination of the basis solutions. In a situation like [1.120](#eq-1-120), we do not have this option.
-
 
 (fig-1-13)=
 
@@ -1062,7 +1077,8 @@ Then, because of linearity, we can build up any solution as a linear combination
 
 (fig-1-7)=
 
-## 1.9: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -1083,11 +1099,9 @@ You should now be able to:
 8. Compute physical quantities for oscillating systems in SI units
 
 9. Understand time translation invariance in nonlinear systems.
+::::
 
-## 1.10: Problem
-
-
-## 1.11: Problems
+## Problems
 
 ::::{exercise}
 :label: prb-1-1

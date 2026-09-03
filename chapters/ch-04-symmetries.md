@@ -4,10 +4,19 @@ short_title: "Chapter 4"
 label: ch-04-symmetries
 ---
 
-
 (ch-4)=
 
 # 4. Symmetries
+
+Symmetry is an important concept in physics and mathematics (and art!). In this chapter, we show how the mathematics of symmetry can be used to simplify the analysis of the normal modes of symmetrical systems.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we introduce the formal concept of symmetry or invariance.
+
+1. We will work out some examples of the use of symmetry arguments to simplify the analysis of oscillating systems.
+::::
 
 ## 4.1: Symmetries
 
@@ -456,13 +465,15 @@ _____________________
 
 <sup>4</sup>Even this is not the most general possibility. In general, we might have to consider sets of modes that go into one another under matrix multiplication. That is not necessary here because the symmetry transformations all commute with one another.
 
-## 4.2: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
 1. Apply symmetry arguments to find the normal modes of systems of coupled oscillators by finding the eigenvalues and eigenvectors of the symmetry matrix.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-4-1

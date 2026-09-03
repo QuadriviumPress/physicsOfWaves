@@ -68,7 +68,7 @@ EQ_MENTION_RE = re.compile(
 PROBLEM_CONTEXT_RE = re.compile(r"\bproblems?\b[,:]?\s*$", re.I)
 
 CUT_RE = re.compile(
-    r"(?=^##\s+.*\bChecklist\b|^##\s+.*\bProblems\b|^Problems\s*$)",
+    r"(?=^::::\{admonition\} Chapter Checklist|^##\s+.*\bChecklist\b|^##\s+.*\bProblems\b|^Problems\s*$)",
     re.M | re.I,
 )
 

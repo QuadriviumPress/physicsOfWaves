@@ -4,10 +4,37 @@ short_title: "Chapter 13"
 label: ch-13-interference-and-diffraction
 ---
 
-
 (ch-13)=
 
 # 13. Interference and Diffraction
+
+A “beam” of light is very familiar. A laser pointer, for example, produces a pattern of light that is almost like a transverse section of a plane wave. But not quite. The laser beam spreads as it travels. You might think that this is simply due to the imperfections in the laser. But, in fact, no matter how hard you try to perfect your laser, you cannot avoid some spreading. The problem is “diffraction.”
+
+Interference is a crucial part of the physics of diffraction. We have seen it already in one-dimensional situations such as interferometers and reflection from thin films. Here we begin to see what amazing things it does in more than one dimension.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we show how the phenomena of interference and diffraction arise from the physics of the forced oscillation problem and the mathematics of Fourier transformation.
+
+1. We begin by discussing interference from a double slit. This is the classic example of interference. We give a heuristic discussion of the physics, and generalize it to get the fundamental result of Fourier optics.
+
+2. We then continue our quantitative analysis of interference and diffraction by discussing the general problem again as a forced oscillation problem. We show the connection with making a beam. We find the relevant boundary condition at infinity and express the solution in the form of an integral.
+
+3. We show how the integral simplifies in two extreme regions — very close to the source of the beam, where it really looks like a beam — and very far away, where diffraction takes over and the intensity of the wave is related to a Fourier transform of the wave pattern at the source, the same result that we found in our heuristic discussion of interference.
+
+4. We apply these techniques to examples involving beams made with one or more slits and rectangular regions.
+
+5. We prove a useful result, the convolution theorem, for combining Fourier transforms.
+
+6. We show how periodic patterns lead to sharp diffraction patterns, and discuss the example of the diffraction grating in detail.
+
+7. We apply the same ideas to the three-dimensional example of x-ray diffraction from crystals.
+
+8. We describe a hologram as a rather complicated diffraction pattern.
+
+9. We discuss interference fringes and zone plates.
+::::
 
 ## 13.1: Interference
 
@@ -1189,11 +1216,12 @@ Thus the contribution to scattering from all of the planes of lattice points add
 
 This physical interpretation goes with the name “Bragg scattering.” The planes, [13.123](#eq-13-123) (or [13.126](#eq-13-126)) are the Bragg planes of the crystal. Note that as the vector $\vec{d}$ in the dual lattice gets longer, the corresponding Bragg planes get closer together, but they are also less dense, containing fewer scattering centers per unit area. Generally the scattering is weaker for large $|\vec{d}|$.
 
-## 13.8: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
-1. i. Be able to set up a diffraction problem as a forced oscillation problem and write the diffracted wave as a Fourier integral;
+1. Set up a diffraction problem as a forced oscillation problem and write the diffracted wave as a Fourier integral;
 
 2. Interpret the Fourier integral in the far-field region and find the diffraction pattern;
 
@@ -1206,8 +1234,9 @@ You should now be able to:
 6. Interpret a hologram as a diffraction pattern;
 
 7. Understand how a zone plate can focus a plane wave.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-13-1

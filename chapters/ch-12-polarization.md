@@ -4,10 +4,25 @@ short_title: "Chapter 12"
 label: ch-12-polarization
 ---
 
-
 (ch-12)=
 
 # 12. Polarization
+
+In this chapter, we return to (9.46)-(9.48) and examine the consequences of Maxwell’s equations in a homogeneous material for a general traveling electromagnetic plane wave. The extra complication is polarization.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+Polarization is a general feature of transverse waves in three dimensions. The general electromagnetic plane wave has two polarization states, corresponding to the two directions that the electric field can point transverse to the direction of the wave’s motion. This gives rise to much interesting physics.
+
+1. We introduce the idea of polarization in the transverse oscillations of a string.
+
+2. We discuss the general form of electromagnetic waves and describe the polarization state in terms of a complex, two-component vector, $Z$. We compute the energy and momentum density as a function of $Z$ and discuss the Poynting vector. We describe the varieties of possible polarization states of a plane wave: linear, circular and elliptical.
+
+3. We describe “unpolarized light,” and explain how to generate and manipulate polarized light with polarizers and wave plates. We discuss the rotation of the plane of linearly polarized light by optically active substances.
+
+4. We analyze the reflection and transmission of polarized light at an angle on a boundary between dielectrics.
+::::
 
 ## 12.1: The String in Three Dimensions
 
@@ -41,7 +56,6 @@ which gives a complete description of the motion of the string.
 :label: fig-12-11
 :enumerator: 12.11
 :alt: Figure
-
 
 :::12-1
 
@@ -1071,7 +1085,8 @@ __________________
 
 <sup>5</sup> This equation makes use of δ-function notation. To a physicist, a δ-function δ(x) is just a function that has area 1 and is so sharply peaked around x = 0 that we don’t care exactly what it looks like. All that matters is the area and where the peak is. The δ3 ~ ¡ ~r − R(t) ¢ in the equation is actually the product of three delta functions, for the x, y and z components, and just tells you that ~r = (x, y, z) = R~(t) = ¡ X(t), Y (t), Z(t) ¢ — that is that the particle is moving along the trajectory R~(t). For a mathematical discussion of the δ-function you can look at [http://mathworld.wolfram.com/DeltaFunction.html](http://mathworld.wolfram.com/DeltaFunction.html). But don’t be frightened. It is just a simple device for ignoring small details that we don’t care about. If you translate the integral into words or pictures, it may help.
 
-## 12.6: Chapter Checklist
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -1088,8 +1103,9 @@ You should now be able to:
 6. Understand the connection between optical activity and handedness;
 
 7. Calculate the reflection and transmission of a plane electromagnetic wave from a plane boundary between dielectric for any angle and find and explain Brewster's angle.
+::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-12-1

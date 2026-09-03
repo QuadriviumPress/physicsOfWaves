@@ -161,8 +161,8 @@ def problems_span(text: str) -> tuple[int, int, str] | None:
         heading = text[first.start() : first.end()] + "\n\n" + second.group(0)
         return first.start(), body_end, heading
     heading = first.group(0)
-    if heading.strip() == "Problems":
-        heading = "### Problems"
+    if re.match(r"^#{2,3}\s+Problems?\s*$", heading.strip()):
+        heading = "## Problems"
     return first.start(), body_end, heading
 
 
@@ -235,8 +235,23 @@ def link_prose(text: str, labels: set[str]) -> tuple[str, int]:
         n += 1
         return f"[{word} {ch}.{num}](#{label})"
 
-    text = PROSE_PAREN_RE.sub(repl_paren, text)
-    text = PROSE_BARE_RE.sub(repl_bare, text)
+    def sub_outside_alt(pattern: re.Pattern, repl, src: str) -> str:
+        out: list[str] = []
+        in_figure = False
+        for line in src.splitlines(keepends=True):
+            stripped = line.lstrip()
+            if re.match(r"^:{3,}\{figure\}", stripped):
+                in_figure = True
+            if in_figure or stripped.startswith(":alt:"):
+                out.append(line)
+            else:
+                out.append(pattern.sub(repl, line))
+            if in_figure and re.match(r"^:{3,}\s*$", stripped):
+                in_figure = False
+        return "".join(out)
+
+    text = sub_outside_alt(PROSE_PAREN_RE, repl_paren, text)
+    text = sub_outside_alt(PROSE_BARE_RE, repl_bare, text)
     return text, n
 
 

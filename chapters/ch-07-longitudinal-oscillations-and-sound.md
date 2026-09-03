@@ -4,10 +4,23 @@ short_title: "Chapter 7"
 label: ch-07-longitudinal-oscillations-and-sound
 ---
 
-
 (ch-7)=
 
 # 7. Longitudinal Oscillations and Sound
+
+Transverse oscillations of a continuous system are easy to visualize because you can see directly the function that describes the displacement. The mathematics of longitudinal oscillations of a continuous linear space translation invariant system is the same. It must be, because it is completely determined by the space translation invariance. But the physics is different.
+
+::::{admonition} Chapter Preview
+:class: preview
+
+In this chapter, we introduce two physical systems with longitudinal oscillations: massive springs and organ pipes.
+
+1. We describe the massive spring as the continuum limit of a system of masses connected by massless springs and study its normal modes for various boundary conditions.
+
+2. We discuss in some detail the system of a mass at the end of a massive spring. When the spring is “light,” this is an important example of physics with two different “scales.”
+
+3. We discuss the physics of sound waves in a tube, by analogy with the oscillations of the massive spring. We also introduce the “Helmholtz” approximation for the lowest mode of a bottle.
+::::
 
 ## 7.1: Longitudinal Modes in a Massive Spring
 
@@ -472,10 +485,8 @@ ___________________
 
 <sup>3</sup>See, for example, Halliday and Resnick.
 
-## 7.4: Chapter Checklist
-
-::::{admonition} Learning Objectives
-:class: objectives
+::::{admonition} Chapter Checklist
+:class: checklist
 
 You should now be able to:
 
@@ -488,7 +499,7 @@ You should now be able to:
 4. Be able to use the Helmholtz approximation to estimate the frequency of the lowest mode of bottle.
 ::::
 
-### Problems
+## Problems
 
 ::::{exercise}
 :label: prb-7-1
@@ -523,9 +534,9 @@ A massive continuous spring with mass $m$, length $L$ and spring constant $K$ ha
 :::{figure} ../images/lt-33572-clipboard_e760593775f6c83eff19e99c667b975f1.png
 :label: fig-7-8
 :enumerator: 7.8
-:alt: [Problem 7.3](#prb-7-3).
+:alt: Problem 7.3.
 
-[Problem 7.3](#prb-7-3).
+Problem 7.3.
 :::
 
 ::::
@@ -539,9 +550,9 @@ A system analogous to that in [problem 7.3](#prb-7-3) is a tube of air with a pi
 :::{figure} ../images/lt-33573-clipboard_ee0e8e0cf9f3b87ea5cea0a9f4cc417bb.png
 :label: fig-7-9
 :enumerator: 7.9
-:alt: [Problem 7.4](#prb-7-4).
+:alt: Problem 7.4.
 
-[Problem 7.4](#prb-7-4).
+Problem 7.4.
 :::
 
 ::::

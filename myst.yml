@@ -52,6 +52,7 @@ site:
   title: The Physics of Waves
   options:
     favicon: images/favicon.svg
+    style: css/chapter-callouts.css
   actions:
     - title: LibreTexts edition
       url: https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)
