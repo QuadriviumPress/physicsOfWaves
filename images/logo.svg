@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Physics of Waves</title>
+  <desc id="desc">A gold sine wave rising over a green circular field on a soft teal background.</desc>
+  <rect width="512" height="512" rx="96" fill="#e7f6f0"/>
+  <circle cx="256" cy="278" r="128" fill="#2e8b57"/>
+  <path d="M88 300 C140 180 200 180 256 260 C312 340 372 340 424 220" fill="none" stroke="#c9a227" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="256" cy="260" r="14" fill="#0b3d2e"/>
+</svg>
