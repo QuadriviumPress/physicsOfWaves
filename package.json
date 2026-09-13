@@ -4,14 +4,16 @@
   "description": "MyST Markdown edition of The Physics of Waves by Howard Georgi",
   "scripts": {
     "start": "myst start",
-    "build": "myst build --html",
+    "build": "myst build --html && node scripts/setup-pwa.mjs",
     "verify": "python3 scripts/verify_book.py",
     "check": "npm run verify && npm run build",
     "convert": "sh scripts/build.sh",
     "crawl": "python3 scripts/crawl_libretexts.py"
   },
   "devDependencies": {
-    "mystmd": "1.10.1"
+    "mystmd": "1.10.1",
+    "sharp": "0.34.3",
+    "yaml": "2.8.1"
   },
   "engines": {
     "node": ">=22"
