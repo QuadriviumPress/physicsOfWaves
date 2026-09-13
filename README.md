@@ -26,7 +26,9 @@ LibreTexts: [The Physics of Waves (Goergi)](https://phys.libretexts.org/Bookshel
 ```bash
 npm install
 npm run start          # preview
+npm run verify         # structural and conversion checks
 npm run build          # static site in _build/html/
+npm run check          # verify and build
 ```
 
 ## Convert from LibreTexts

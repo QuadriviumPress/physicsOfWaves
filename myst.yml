@@ -56,4 +56,6 @@ site:
   actions:
     - title: LibreTexts edition
       url: https://phys.libretexts.org/Bookshelves/Waves_and_Acoustics/The_Physics_of_Waves_(Goergi)
-  nav: []
+  nav:
+    - title: Sources & Attribution
+      url: https://github.com/QuadriviumPress/physicsOfWaves/blob/main/SOURCES.md
