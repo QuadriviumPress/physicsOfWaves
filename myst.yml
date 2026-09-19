@@ -14,6 +14,13 @@ project:
     content: CC-BY-NC-SA-4.0
   open_access: true
   github: QuadriviumPress/physicsOfWaves
+  error_rules:
+    # External URLs that return 403/404 to automated link checkers.
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - https://ocw.mit.edu/help/faq-fair-use
+        - http://easyweb.easynet.co.uk/
   keywords:
     - waves
     - vibrations
