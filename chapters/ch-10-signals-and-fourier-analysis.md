@@ -103,7 +103,7 @@ Let us think about this problem in a more physical way. In the process, we will 
 
 The idea is to use linearity in a clever way to solve this problem. We can take $f(t)$ apart into its component angular frequencies. We already know how to solve the forced oscillation problem for each angular frequency. We can then take the individual solutions and add them back up again to reconstruct the solution to the full problem. The advantage of this procedure is that it works for any dispersion relation, not just for [10.1](#eq-10-1).
 
-Because there may be a continuous distribution of frequencies in an arbitrary signal, we cannot just write $f(t)$ as a sum over components, we need a Fourier integral, 
+Because there may be a continuous distribution of frequencies in an arbitrary signal, we cannot just write $f(t)$ as a sum over components; we need a Fourier integral, 
 $$
 f(t)=\int_{-\infty}^{\infty} d \omega C(\omega) e^{-i \omega t} . \tag{10.9} \label{eq-10-9}
 $$
@@ -426,7 +426,7 @@ $$
 
 which is [10.40](#eq-10-40). We already checked, in [10.41](#eq-10-41), that the factor of $1 / 2 \pi$ makes sense.
 
-The pair [10.39](#eq-10-39)-[10.40](#eq-10-40) illustrates a very general fact about signals and their associated frequency spectra. In [Figure 10.4](#fig-10-4) we plot $f(t)$ for $\Gamma=0.5$ and $\Gamma=2$ and in [Figure 10.5](#fig-10-5), we plot $C(\omega)$ for the same values of $\Gamma$. Notice that as $\Gamma$ increases, the signal becomes more sharply peaked near $t = 0$ but the frequency spectrum spreads out. And conversely if ¡ is small so that $C(\omega)$ is sharply peaked near $\omega = 0$, then $f(t)$ is spread out in time. This complementary behavior is general. To resolve short times, you need a broad spectrum of frequencies.
+The pair [10.39](#eq-10-39)-[10.40](#eq-10-40) illustrates a very general fact about signals and their associated frequency spectra. In [Figure 10.4](#fig-10-4) we plot $f(t)$ for $\Gamma=0.5$ and $\Gamma=2$ and in [Figure 10.5](#fig-10-5), we plot $C(\omega)$ for the same values of $\Gamma$. Notice that as $\Gamma$ increases, the signal becomes more sharply peaked near $t = 0$ but the frequency spectrum spreads out. And conversely if $\Gamma$ is small so that $C(\omega)$ is sharply peaked near $\omega = 0$, then $f(t)$ is spread out in time. This complementary behavior is general. To resolve short times, you need a broad spectrum of frequencies.
 
 :::{figure} ../images/lt-33396-clipboard_ec92f55715cef3f7a47400819b829905e.png
 :label: fig-10-4
@@ -556,7 +556,7 @@ This is the mathematical statement of the fact that the position and momentum of
 
 ___________________
 
-<sup>2</sup>A example of a physical system with this kind of boundary condition would be a string stretched around a frictionless cylinder with radius $\ell$ and (therefore) circumference $2 \pi \ell$. Then [10.42](#eq-10-42) would be true because $x=-\pi \ell$ describes the same point on the string as $x=\pi \ell$.
+<sup>2</sup>An example of a physical system with this kind of boundary condition would be a string stretched around a frictionless cylinder with radius $\ell$ and (therefore) circumference $2 \pi \ell$. Then [10.42](#eq-10-42) would be true because $x=-\pi \ell$ describes the same point on the string as $x=\pi \ell$.
 
 <sup>3</sup>This is a trick borrowed from a similar analysis that leads to the Heisenberg uncertainty principle in quantum mechanics. Don’t worry if it is not obvious to you where it comes from. The important thing is the result.
 
@@ -637,9 +637,9 @@ $$
 
 The same result emerges if we take the incoming wave packet apart into its harmonic components. For each harmonic component, the reflection and transmission components are the same (from [9.16](#eq-9-16)):
 
-When we now put the harmonic components back together to get the scatter and transmitted wave packets, the coefficients, $\rho$ and $\tau$ appear just as overall constants in front of the original pulse, as in [10.86](#eq-10-86).
+When we now put the harmonic components back together to get the scattered and transmitted wave packets, the coefficients, $\rho$ and $\tau$ appear just as overall constants in front of the original pulse, as in [10.86](#eq-10-86).
 
-This scattering process is animated in program 10-3. Here you can input different values of $v_{I I} / v_{I}$ to see how the reflection and transmission is affected. Notice that $v_{I I} / v_{I}$ very small corresponds to a large impedance ratio, $Z_{I I} / Z_{I}$, which means that the string in region $II$ does not move very much. Then we get a reflected pulse that is just the incoming pulse flipped over below the string. In the extreme limit, $v_{I I} / v_{I} \rightarrow \infty$, the boundary at $x = 0$ acts like a fixed end. $v_{I I} / v_{I}$ very large corresponds to a small impedance ratio, $Z_{I I} / Z_{I}$, in which case the string in region $I$ hardly notices the string in region $II$. In the limit $v_{I I} / v_{I} \rightarrow 0$, the boundary at $x = 0$ acts like a free end.
+This scattering process is animated in program 10-3. Here you can input different values of $v_{I I} / v_{I}$ to see how the reflection and transmission are affected. Notice that $v_{I I} / v_{I}$ very small corresponds to a large impedance ratio, $Z_{I I} / Z_{I}$, which means that the string in region $II$ does not move very much. Then we get a reflected pulse that is just the incoming pulse flipped over below the string. In the extreme limit, $v_{I I} / v_{I} \rightarrow \infty$, the boundary at $x = 0$ acts like a fixed end. $v_{I I} / v_{I}$ very large corresponds to a small impedance ratio, $Z_{I I} / Z_{I}$, in which case the string in region $I$ hardly notices the string in region $II$. In the limit $v_{I I} / v_{I} \rightarrow 0$, the boundary at $x = 0$ acts like a free end.
 
 ### Mass on a String
 
@@ -694,7 +694,7 @@ $$
 \psi(x, t)=\psi_{\tau}(x-v t) \text { for } x \geq 0 \tag{10.94} \label{eq-10-94}
 $$
 
-where $\psi_{\tau}(x+v t)$ is the transmitted wave, traveling in the $+x$ direction, and $\psi_{R}(x+v t)$ is the reflected wave, traveling in the $-x$ direction. To get the reflected and transmitted waves, we will use superposition and take $\psi_{in}$ apart into harmonic components. We can then use to determine the scattering of each of the components, and then can put the pieces back together to get the solution. Thus we start by Fourier transforming $\psi_{in}$: 
+where $\psi_{\tau}(x+v t)$ is the transmitted wave, traveling in the $+x$ direction, and $\psi_{R}(x+v t)$ is the reflected wave, traveling in the $-x$ direction. To get the reflected and transmitted waves, we will use superposition and take $\psi_{in}$ apart into harmonic components. We can then use the reflection and transmission coefficients to determine the scattering of each of the components, and then can put the pieces back together to get the solution. Thus we start by Fourier transforming $\psi_{in}$: 
 $$
 \psi_{\text {in }}(x, t)=\int d \omega e^{-i \omega(t-x / v)} C_{\text {in }}(\omega) . \tag{10.95} \label{eq-10-95}
 $$
@@ -934,7 +934,7 @@ _____________________
 
 [^10-5-6]: Chibisov, Soviet Physics - Uspekhi, 19 (1986) 624.
 
-<sup>7</sup>Notice that the result is inversely proportional to the electron mass. This why we are concentrating on electrons rather than protons. The protons don’t move as fast!
+<sup>7</sup>Notice that the result is inversely proportional to the electron mass. This is why we are concentrating on electrons rather than protons. The protons don’t move as fast!
 
 ::::{admonition} Chapter Checklist
 :class: checklist

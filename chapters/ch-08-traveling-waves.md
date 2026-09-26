@@ -159,7 +159,7 @@ $t = \pi / 2$.
 
 $t = 3 \pi / 4$.
 :::
-This system is animated in program 8-2. This animation is important. It is worth staring at it for a while to get a better feeling for how [8.15](#eq-8-15) works than you can from the still pictures in $Figures \text { } 8.1 \text{-} 8.4$. If you concentrate on a particular point on the string, you will see that the traveling wave gets large either when one of the standing waves is a maximum with the other near zero, or (depending on where you looking) when both standing waves are positive.
+This system is animated in program 8-2. This animation is important. It is worth staring at it for a while to get a better feeling for how [8.15](#eq-8-15) works than you can from the still pictures in $Figures \text { } 8.1 \text{-} 8.4$. If you concentrate on a particular point on the string, you will see that the traveling wave gets large either when one of the standing waves is a maximum with the other near zero, or (depending on where you are looking) when both standing waves are positive.
 
 ## 8.2: Force, Power and Impedance
 
@@ -182,7 +182,7 @@ $$
 F_{L}=\left.T \frac{\partial}{\partial x} \psi(x, t)\right|_{x=L} , \tag{8.17} \label{eq-8-17}
 $$
 
-as illustrated in the [Figure 8.6](#fig-8-6).
+as illustrated in [Figure 8.6](#fig-8-6).
 
 :::{figure} ../images/lt-33471-clipboard_ecd88ceb5df69c8bb926eaccd10ba4935.png
 :label: fig-8-6
@@ -262,12 +262,12 @@ $$
 
 This is approximately proportional to the velocity **only** if $ka$ is very small, so that the right-hand side of [8.27](#eq-8-27) can be expanded in a Taylor series. Thus in this case, and in general for a discrete system, we cannot define the impedance simply as in [8.21](#eq-8-21).
 
-However, suppose that instead of the real traveling waves, [8.26](#eq-8-26), we consider a complex harmonic traveling wave with **irreducible** time and space of the form 
+However, suppose that instead of the real traveling waves, [8.26](#eq-8-26), we consider a complex harmonic traveling wave with **irreducible** time and space dependence of the form 
 $$
 \psi(x, t)=A e^{-i(\omega t-k x)} . \tag{8.28} \label{eq-8-28}
 $$
 
-Then because of the irreducible on $t$ and $x$ (that comes from translation invariance), we know immediately that the both the force and the $t$ derivative of $\psi$ are proportional to $\psi$. For an irreducible solution, everything is proportional to $e^{-i(\omega t-k x)}$. Thus they are also proportional to each other, and we can define the impedance, 
+Then because of the irreducible dependence on $t$ and $x$ (that comes from translation invariance), we know immediately that both the force and the $t$ derivative of $\psi$ are proportional to $\psi$. For an irreducible solution, everything is proportional to $e^{-i(\omega t-k x)}$. Thus they are also proportional to each other, and we can define the impedance, 
 $$
 F=-Z(k) \frac{\partial}{\partial t} \psi(x, t)=i \omega A Z(k) e^{-i(\omega t-k x)} . \tag{8.29} \label{eq-8-29}
 $$
@@ -423,7 +423,7 @@ This is a very useful way of measuring small distance changes. In practice, the 
 
 ### Quantum Interference
 
-There is another wave of thinking about the interferometer that makes it seem much less trivial. As we will discuss several times in this book, and you will learn more about when you study quantum mechanics, light is not only a wave. It is **also** made up of individual particles of light called photons. You don’t notice this unless you turn the intensity of the light wave way down. But in fact, you can turn the intensity down so much that you can detect individual photons hitting the screen. Now it is not so clear what is happening. An individual photon cannot split into two parts at the beam splitter and beam reassembler. As we will see later, the energy of the photon is determined by the frequency of the light. It cannot be divided. You might think, therefore, that the individual photon would have to go one way or the other. But then how can one get an interference between the two paths? There is no answer to this question that makes “sense” in the classical physics of particles. Nevertheless, when the experiment is done, the number of photons reaching the screen depends on the difference in lengths between the two paths in just the way you expect from the wave description! The probability that a photon will hit a given spot on the screen is proportional to the intensity of the corresponding classical wave. If the path lengths produce destructive interference, no photons get through. Not only that, but similar experiments can be done with other particles, such as neutrons! Maybe interference is not so trivial after all.
+There is another way of thinking about the interferometer that makes it seem much less trivial. As we will discuss several times in this book, and you will learn more about when you study quantum mechanics, light is not only a wave. It is **also** made up of individual particles of light called photons. You don’t notice this unless you turn the intensity of the light wave way down. But in fact, you can turn the intensity down so much that you can detect individual photons hitting the screen. Now it is not so clear what is happening. An individual photon cannot split into two parts at the beam splitter and beam reassembler. As we will see later, the energy of the photon is determined by the frequency of the light. It cannot be divided. You might think, therefore, that the individual photon would have to go one way or the other. But then how can one get an interference between the two paths? There is no answer to this question that makes “sense” in the classical physics of particles. Nevertheless, when the experiment is done, the number of photons reaching the screen depends on the difference in lengths between the two paths in just the way you expect from the wave description! The probability that a photon will hit a given spot on the screen is proportional to the intensity of the corresponding classical wave. If the path lengths produce destructive interference, no photons get through. Not only that, but similar experiments can be done with other particles, such as neutrons! Maybe interference is not so trivial after all.
 
 ___________________________
 
@@ -445,7 +445,7 @@ $$
 \end{aligned}
 $$
 
-These two quantities can be computed directly from the inductance and capacitance of a finite length, $\ell$, of the system that contains many individual units. The inductances are connected in series so the individual inductances add to give the total inductance. Thus if the length $\ell$ is $na$ so that if the finite system contains $n$ inductors, the total inductance is $L = n L_{a}$. Then 
+These two quantities can be computed directly from the inductance and capacitance of a finite length, $\ell$, of the system that contains many individual units. The inductances are connected in series so the individual inductances add to give the total inductance. Thus if the length $\ell$ is $na$ so that the finite system contains $n$ inductors, the total inductance is $L = n L_{a}$. Then 
 $$
 \frac{L}{\ell}=\frac{L_{a}}{a} \tag{8.51} \label{eq-8-51}
 $$
@@ -472,7 +472,7 @@ $$
 
 ### Parallel Plate Transmission Line
 
-It is worth working out a particular example of a transmission line. The example we will use is of two long parallel conducting strips. Imagine an infinite system in which the strips are stretched parallel to one another in planes of constant $y$, going to infinity in the $z$ direction. Suppose that the strips are sufficiently thin that we can neglect their thickness. Suppose further that the width of strips, $w$, is much larger than the separation, $s$. A cross section of this transmission line in the $x - y$ plane is shown in [Figure 8.9](#fig-8-9). In the figure, the $z$ direction is out of the plane of the paper, toward you. We will keep track of the motion of the charges in the upper conductor and assume that the lower conductor is grounded (with voltage fixed at $V = 0$).
+It is worth working out a particular example of a transmission line. The example we will use is of two long parallel conducting strips. Imagine an infinite system in which the strips are stretched parallel to one another in planes of constant $y$, going to infinity in the $z$ direction. Suppose that the strips are sufficiently thin that we can neglect their thickness. Suppose further that the width of the strips, $w$, is much larger than the separation, $s$. A cross section of this transmission line in the $x - y$ plane is shown in [Figure 8.9](#fig-8-9). In the figure, the $z$ direction is out of the plane of the paper, toward you. We will keep track of the motion of the charges in the upper conductor and assume that the lower conductor is grounded (with voltage fixed at $V = 0$).
 
 :::{figure} ../images/lt-33474-clipboard_e8ba8be71698e72c503a840beef64282c.png
 :label: fig-8-9
@@ -580,7 +580,7 @@ $$
 q(z, t)=Q(z, t)-Q(z+a, t) , \tag{8.70} \label{eq-8-70}
 $$
 
-where $Q(z,t)$ is the charge displaced through the inductor a position $z$ at time $t$. Combining [8.69](#eq-8-69) and [8.70](#eq-8-70) gives 
+where $Q(z,t)$ is the charge displaced through the inductor at a position $z$ at time $t$. Combining [8.69](#eq-8-69) and [8.70](#eq-8-70) gives 
 $$
 \rho(z, l)=\frac{Q(z, t)-Q(z+a, t)}{a} . \tag{8.71} \label{eq-8-71}
 $$
@@ -600,7 +600,7 @@ $$
 E_{y}=-\frac{\sigma(z, t)}{\epsilon_{0}}=i \frac{k q}{\epsilon_{0} w} e^{i(k z-\omega t)} . \tag{8.74} \label{eq-8-74}
 $$
 
-Comparing [8.68](#eq-8-68) with [8.74](#eq-8-74), you can see that [8.45](#eq-8-45) is satisfied, so that this pair of electric and magnetic fields form a part of a traveling electromagnetic plane wave.
+Comparing [8.68](#eq-8-68) with [8.74](#eq-8-74), you can see that [8.45](#eq-8-45) is satisfied, so that this pair of electric and magnetic fields forms a part of a traveling electromagnetic plane wave.
 
 What is happening here is that the role of the charges and currents in the strips of the transmission line is to **confine** the electromagnetic waves. Without the conductors it would be impossible to produce a **piece** of a plane wave, as we will see in much more detail in chapter 13.
 
@@ -706,7 +706,7 @@ From [8.88](#eq-8-88), it should be obvious what is going on. When the $\pm$ is 
 
 The form, [8.88](#eq-8-88) has some interesting consequences for forced oscillation problems in the presence of damping. In damped, **discrete** systems, even in a normal mode, the parts of the system do not all oscillate in phase. In damped, **continuous** systems, the distinction between traveling and standing waves gets blurred.
 
-Consider a forced oscillation problem for the transverse oscillation of a string with one end, at $x = 0$ fixed, and the other end, $x = L$ driven at frequency $\omega$. It will not matter until the end of our analysis whether the string is continuous, or has beads with separation a such that $n a = L$ for integer $n$. The boundary conditions are 
+Consider a forced oscillation problem for the transverse oscillation of a string with one end fixed at $x = 0$ and the other end driven at $x = L$ at frequency $\omega$. It will not matter until the end of our analysis whether the string is continuous, or has beads with separation a such that $n a = L$ for integer $n$. The boundary conditions are 
 $$
 \psi(L, t)=A \cos \omega t, \quad \psi(0, t)=0 . \tag{8.89} \label{eq-8-89}
 $$
@@ -742,7 +742,7 @@ $$
 \omega^{2}=\omega_{\ell}^{2}+\omega_{c}^{2} \sin ^{2} \frac{k a}{2} . \tag{8.92} \label{eq-8-92}
 $$
 
-Here $a$ is interblock distance, $\omega_{\ell}$ is the frequency of a single uncoupled pendulum, and $\omega_{c}^{2}$ is a frequency associated with the coupling between neighboring blocks. 
+Here $a$ is the interblock distance, $\omega_{\ell}$ is the frequency of a single uncoupled pendulum, and $\omega_{c}^{2}$ is a frequency associated with the coupling between neighboring blocks. 
 $$
 \omega_{c}^{2}=\frac{4 K}{m} \tag{8.93} \label{eq-8-93}
 $$
@@ -774,9 +774,9 @@ $$
 \cos ^{2} \frac{k a}{2}=\frac{\omega_{h}^{2}-\omega^{2}}{\omega_{c}^{2}} . \tag{8.98} \label{eq-8-98}
 $$
 
-The two frequencies, $\omega_{\ell}$ and $\omega_{h}$, are called low and high frequency cut-offs. The system of coupled pendulums supports traveling waves only for frequency $\omega$ between the high and low frequency cut-offs. It is only in this region that the dispersion relation can be satisfied for real $\omega$ and $k$. For $\omega<\omega_{\ell}$ or $\omega > \omega_{h}$, the system oscillates, but there is nothing quite like a traveling wave. You can see this in program 8-6 by changing the frequency up and down with the arrow keys.
+The two frequencies, $\omega_{\ell}$ and $\omega_{h}$, are called low and high frequency cut-offs. The system of coupled pendulums supports traveling waves only for a frequency $\omega$ between the high and low frequency cut-offs. It is only in this region that the dispersion relation can be satisfied for real $\omega$ and $k$. For $\omega<\omega_{\ell}$ or $\omega > \omega_{h}$, the system oscillates, but there is nothing quite like a traveling wave. You can see this in program 8-6 by changing the frequency up and down with the arrow keys.
 
-For any $\omega$, we can always solve the dispersion relation. However, in some regions of frequency, the result will be complex, as in [8.85](#eq-8-85). We expect $k_{i} = 0$ in the allowed region [8.96](#eq-8-96). The solution of [8.92](#eq-8-92) for $k_{r}$ and $k_{i}$ as functions of $\omega$ are shown in the graphs in [Figure 8.12](#fig-8-12). Here, $k_{r}$ and $k_{i}$ are plotted against $\omega$ for the dispersion relation, [8.92](#eq-8-92), with $\omega_{\ell}=5 \omega_{0}$ and $\omega_{h}=7 \omega_{0} . k_{i}$. $k_{i}$ is the dotted line. Note the very rapid dependence of ki near the high and low frequency cut-offs.
+For any $\omega$, we can always solve the dispersion relation. However, in some regions of frequency, the result will be complex, as in [8.85](#eq-8-85). We expect $k_{i} = 0$ in the allowed region [8.96](#eq-8-96). The solution of [8.92](#eq-8-92) for $k_{r}$ and $k_{i}$ as functions of $\omega$ is shown in the graphs in [Figure 8.12](#fig-8-12). Here, $k_{r}$ and $k_{i}$ are plotted against $\omega$ for the dispersion relation, [8.92](#eq-8-92), with $\omega_{\ell}=5 \omega_{0}$ and $\omega_{h}=7 \omega_{0} . k_{i}$. $k_{i}$ is the dotted line. Note the very rapid dependence of ki near the high and low frequency cut-offs.
 
 :::{figure} ../images/lt-33480-clipboard_eac03cc36e29bce24a9ab39ca6827b56b.png
 :label: fig-8-12
@@ -799,9 +799,9 @@ $$
 
 In a finite system of coupled pendulums, both terms may be present. In a semi-infinite system that is driven at $x = 0$ and extends to $x \rightarrow \infty$, the constant $B$ must vanish to avoid exponential growth of the wave at infinity. Thus the wave falls off exponentially at large $x$. Furthermore, the solution is a product of a real function of $x$ and a complex exponential function of $t$. This is a standing wave. There is no traveling wave. You can see this in program 8-6 at low frequencies.
 
-The physics of this oscillation below the low frequency cut-off is particularly clear in the extreme limit, $\omega \rightarrow 0$. At zero frequency, there is no motion. The analog of a forced oscillation problem is just to displace one pendulum from equilibrium and look to see what happens to the rest. Clearly, what happens is that the displacement of the first pendulum causes a force on the next one because of the coupling spring that pulls it away from equilibrium, but not as far as the first. Its displacement is smaller than that of the first by some factor $\epsilon=e^{-k_{i} a}$. Then the second pendulum pulls the third, but again the displacement is smaller by the same factor. And so on! In an infinite system, this gives rise to the exponentially falling displacement in [8.100](#eq-8-100) for $B = 0$. As the frequency is increased, the effect of inertia (more precisely, the $ma$ term in $F = ma$) increases the displacement of second (and each subsequent) block, until above the low frequency cut-off, the effect of inertia is large enough to compete on an equal footing with the effect of the restoring force, and a real traveling wave can be produced.
+The physics of this oscillation below the low frequency cut-off is particularly clear in the extreme limit, $\omega \rightarrow 0$. At zero frequency, there is no motion. The analog of a forced oscillation problem is just to displace one pendulum from equilibrium and look to see what happens to the rest. Clearly, what happens is that the displacement of the first pendulum causes a force on the next one because of the coupling spring that pulls it away from equilibrium, but not as far as the first. Its displacement is smaller than that of the first by some factor $\epsilon=e^{-k_{i} a}$. Then the second pendulum pulls the third, but again the displacement is smaller by the same factor. And so on! In an infinite system, this gives rise to the exponentially falling displacement in [8.100](#eq-8-100) for $B = 0$. As the frequency is increased, the effect of inertia (more precisely, the $ma$ term in $F = ma$) increases the displacement of the second (and each subsequent) block, until above the low frequency cut-off, the effect of inertia is large enough to compete on an equal footing with the effect of the restoring force, and a real traveling wave can be produced.
 
-The low frequency cut-off is not peculiar to the discrete system. It occurs any time there is a restoring force for $k = 0$ in the infinite system. Later, in chapter 11, we will see that a similar phenomena can occur in two- and three-dimensional systems even when there is no restoring force at $k = 0$.
+The low frequency cut-off is not peculiar to the discrete system. It occurs any time there is a restoring force for $k = 0$ in the infinite system. Later, in chapter 11, we will see that a similar phenomenon can occur in two- and three-dimensional systems even when there is no restoring force at $k = 0$.
 
 The high frequency cut-off, on the other hand, depends on the finite separation between blocks. As $\omega$ increases, in the allowed region, [8.96](#eq-8-96), $\sin \frac{k a}{2}$ increases, $k$ increases, and therefore $\cos \frac{k a}{2}$ decreases. At the high frequency cut-off, $\omega=\omega_{h}$, $\sin \frac{k a}{2}=1$ and $\cos \frac{k a}{2}= 0$. But 
 $$
@@ -839,7 +839,7 @@ $$
 
 As for [8.100](#eq-8-100), in a semi-infinite system that extends to $x \rightarrow \infty$, we must have $B = 0$, and there is no travelling wave.
 
-One of the striking things about program 8-6 is the very rapid switch from a traveling wave solution in the allowed region to a standing wave solution with a rapid exponential decay of the amplitude in the high and low frequencies regions. You see this also in [Figure 8.12](#fig-8-12) in the rapid change of $k_{i}$ near the cut-offs. The reason for this is that $k$ has a square-root dependence on the frequency near the cut-offs.
+One of the striking things about program 8-6 is the very rapid switch from a traveling wave solution in the allowed region to a standing wave solution with a rapid exponential decay of the amplitude in the high and low frequency regions. You see this also in [Figure 8.12](#fig-8-12) in the rapid change of $k_{i}$ near the cut-offs. The reason for this is that $k$ has a square-root dependence on the frequency near the cut-offs.
 
 In the infinite system, the solution outside the allowed region is a pure standing wave. In the absence of damping, the work done by the force that produces the wave averages to zero over time. In a finite system, however, it is possible to transfer energy from one end of a system to the other, even if you are below the low frequency cut-off or above the high-frequency cutoff. The reason is that in a finite system, both the $A$ and $B$ terms in [8.100](#eq-8-100) (or [8.106](#eq-8-106)) can be nonzero. If $A$ and $B$ are both real (or relatively real — that is if they have the same phase), then there is no energy transfer. The solution is the product of a real function of $x$ (or $j$) and an oscillating exponential function of $t$. Thus it looks like a standing wave. However if $A$ and $B$ have different phases, then the oscillation looks something like a traveling wave and energy can be transferred. This process becomes exponentially less efficient as the length of the system increases. We will discuss this in more detail in chapter 11.
 
@@ -885,7 +885,7 @@ This produces two traveling waves moving away from $x = 0$ in the $\pm x$ direct
 :label: prb-8-2
 :enumerator: 8.2
 
-For air at standard temperature and pressure, the pressure is $1.01 \times 10^{6} \mathrm{dyne} / \mathrm{cm}^{2}$, the density is $1.29 \times 10^{3} \mathrm{gr} / \mathrm{cm}^{3}$. Use these to find the displacement amplitude for sound waves with a frequency of $440 \mathrm {cycles} / \mathrm{sec}$ (Hertz) carrying a power per unit area of $10^{-3} \mathrm {watts} / \mathrm{cm}^{2}$.
+For air at standard temperature and pressure, the pressure is $1.01 \times 10^{6} \mathrm{dyne} / \mathrm{cm}^{2}$; the density is $1.29 \times 10^{3} \mathrm{gr} / \mathrm{cm}^{3}$. Use these to find the displacement amplitude for sound waves with a frequency of $440 \mathrm {cycles} / \mathrm{sec}$ (Hertz) carrying a power per unit area of $10^{-3} \mathrm {watts} / \mathrm{cm}^{2}$.
 
 ::::
 
@@ -904,7 +904,7 @@ $$
 \omega^{2}+i \omega \frac{R}{L}=\frac{2}{L C}(1-\cos k a) .
 $$
 
-    When you apply a harmonically oscillating signal from a signal generator through a coaxial cable to $V_{6}$, different oscillating voltages will be induced along the line. That is if 
+    When you apply a harmonically oscillating signal from a signal generator through a coaxial cable to $V_{6}$, different oscillating voltages will be induced along the line. That is, if 
 $$
 V_{6}(t)=V \cos \omega t ,
 $$

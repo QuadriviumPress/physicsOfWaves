@@ -40,7 +40,7 @@ We must take the masses of the blocks to zero as $a \rightarrow 0$ in order to k
 
 To understand what happens to $K_{a}$ as $a \rightarrow 0$, consider what happens when you cut a spring in half. When a spring is stretched, each half contributes half the displacement. But the tension is uniform throughout the stretched spring. Thus the spring constant of half a spring is twice as great as that of the full spring, because half the displacement gives the same force. This relation is illustrated in [Figure 7.1](#fig-7-1). The spring in the center is unstretched. The spring on top is stretched by $x$ to the right. The bottom shows the **same** stretched spring, still stretched by $x$, but now symmetrically. Comparing top and bottom, you can see that the return force from stretching the spring by $x$ is the same as from stretching half the spring by $x / 2$.
 
-The diagram in [Figure 7.1](#fig-7-1) is an example of the following result. In general, the spring constant, $K_{a}$, depends not just on what the spring is made of, it depends on how long the spring is. But the quantity $K_{a}a$, where $a$ is the length of the spring, is actually independent of $a$, for a spring made of uniform material. Thus we should take the limit $a \rightarrow 0$ holding $K_{a}a$ fixed.
+The diagram in [Figure 7.1](#fig-7-1) is an example of the following result. In general, the spring constant, $K_{a}$, depends not just on what the spring is made of; it depends on how long the spring is. But the quantity $K_{a}a$, where $a$ is the length of the spring, is actually independent of $a$, for a spring made of uniform material. Thus we should take the limit $a \rightarrow 0$ holding $K_{a}a$ fixed.
 
 This implies that the dispersion relation for the massive spring is 
 $$
@@ -138,7 +138,7 @@ ___________________
 
 Let us return to the system that we studied at the very beginning of the book, the harmonic oscillator constructed by putting a mass at the end of a light spring. We are now in a position to understand precisely what “light” means for this system, because we can now allow the spring to have a nonzero linear mass density, $\rho_{L}$, and find the normal modes of this system. We will then be able to see what happens as $\rho_{L} \rightarrow 0$.
 
-To be specific, consider a spring with equilibrium length $\ell$ and spring constant $K$, fixed at $x = 0$ and constrained to oscillate only in the $x$ direction (that is longitudinally). Now attach a mass, $m$, to the free end (with equilibrium position $x = \ell$). The spring, for $0 < x < \ell$, can be regarded as part of a space translation invariant system. To find the normal modes for this system, we look for linear combination of the modes of the infinite spring (for a given $\omega$) that reproduces the physics at $x = 0$ and $x = \ell$. The fixed end at $x = 0$ is easy. This fixes the form of the modes to be proportional to 
+To be specific, consider a spring with equilibrium length $\ell$ and spring constant $K$, fixed at $x = 0$ and constrained to oscillate only in the $x$ direction (that is longitudinally). Now attach a mass, $m$, to the free end (with equilibrium position $x = \ell$). The spring, for $0 < x < \ell$, can be regarded as part of a space translation invariant system. To find the normal modes for this system, we look for a linear combination of the modes of the infinite spring (for a given $\omega$) that reproduces the physics at $x = 0$ and $x = \ell$. The fixed end at $x = 0$ is easy. This fixes the form of the modes to be proportional to 
 $$
 \sin k_{n} x \tag{7.16} \label{eq-7-16}
 $$
@@ -237,7 +237,7 @@ ____________________
 
 ## 7.3: The Speed of Sound
 
-The physics of sound waves is obviously a three-dimensional problem. However, we can learn a lot about sound by considering motion of air in only one-dimension. Consider, for example, standing waves in the air in a long narrow tube like an organ pipe, shown in cartoon form in [Figure 7.3](#fig-7-3). Here, we will ignore the motion of the air perpendicular to the length of the pipe, and consider only the one-dimensional motion along the pipe. As we will see later, when we can deal with three-dimensional problems, this is a sensible thing to do for low frequencies, at which the transverse modes of oscillation cannot be excited. If we consider only one-dimensional motion, we can draw an analogy between the oscillations of the air in the pipe and the longitudinal waves in a massive spring.
+The physics of sound waves is obviously a three-dimensional problem. However, we can learn a lot about sound by considering motion of air in only one dimension. Consider, for example, standing waves in the air in a long narrow tube like an organ pipe, shown in cartoon form in [Figure 7.3](#fig-7-3). Here, we will ignore the motion of the air perpendicular to the length of the pipe, and consider only the one-dimensional motion along the pipe. As we will see later, when we can deal with three-dimensional problems, this is a sensible thing to do for low frequencies, at which the transverse modes of oscillation cannot be excited. If we consider only one-dimensional motion, we can draw an analogy between the oscillations of the air in the pipe and the longitudinal waves in a massive spring.
 
 :::{figure} ../images/lt-33567-clipboard_eeb4afbe6b3aa72bbb45fcbbd1ffe8ccb.png
 :label: fig-7-3
@@ -254,7 +254,7 @@ $$
 
 where $A$ is the cross-sectional area of the tube. The question then is what is $K \ell$ for a tube of air?
 
-Consider putting a piston at the top of the tube, as shown in [Figure 7.4](#fig-7-4). With the piston at the top of the tube, there is no force on the piston, because the pressure of the air in the tube is the same as the pressure of the air in the room outside. However, if the piston is moved in a distance $dz$, as shown [Figure 7.5](#fig-7-5), the volume of the air in the tube is decreased by 
+Consider putting a piston at the top of the tube, as shown in [Figure 7.4](#fig-7-4). With the piston at the top of the tube, there is no force on the piston, because the pressure of the air in the tube is the same as the pressure of the air in the room outside. However, if the piston is moved in a distance $dz$, as shown in [Figure 7.5](#fig-7-5), the volume of the air in the tube is decreased by 
 $$
 -d V=A d z . \tag{7.33} \label{eq-7-33}
 $$
@@ -332,7 +332,7 @@ As we will see in the next chapter, this is actually the speed at which sound wa
 
 In the pipe shown in [7.3](#eq-7-3), the displacement of the air, which we will call $\psi(z,t)$, must vanish at $z = 0$, because the bottom of the tube is closed and there is nowhere for the gas to go.
 
-The $z$ derivative of $\psi$ must vanish at $z = \ell$, because the excess pressure is proportional to $-\frac{\partial}{\partial z} \psi$. The pressure is proportional to the force in our analogy with longitudinal waves in ∂z the massive spring. Using [7.41](#eq-7-41) and [7.23](#eq-7-23), we expect the longitudinal force to be 
+The $z$ derivative of $\psi$ must vanish at $z = \ell$, because the excess pressure is proportional to $-\frac{\partial}{\partial z} \psi$. The pressure is proportional to the force in our analogy with longitudinal waves in the massive spring. Using [7.41](#eq-7-41) and [7.23](#eq-7-23), we expect the longitudinal force to be 
 $$
 \pm \gamma A p_{0} \frac{\partial}{\partial z} \psi \tag{7.45} \label{eq-7-45}
 $$
@@ -389,7 +389,7 @@ Putting the length, $L$, of the bottle into [7.50](#eq-7-50) gives $\nu \approx 
 
 This is obviously wrong. If you have ever blown into your soda bottle, you know that the frequency of the lowest mode is much lower than that. The problem, of course, is that the soda bottle is not shaped anything like the tube. To determine the modes is a complicated three-dimensional problem. It turns out, however, that we can find the lowest mode to a decent approximation rather easily.
 
-The idea is that in the lowest mode, the air in the neck of the bottle is moving rapidly, but in the body of the bottle, the air quickly spreads out so that it is not moving much at all. The idea of the Helmholtz approximation to try is to treat the air in the neck as a single chunk with mass 
+The idea is that in the lowest mode, the air in the neck of the bottle is moving rapidly, but in the body of the bottle, the air quickly spreads out so that it is not moving much at all. The idea of the Helmholtz approximation is to treat the air in the neck as a single chunk with mass 
 $$
 \rho A \ell , \tag{7.52} \label{eq-7-52}
 $$
@@ -496,7 +496,7 @@ You should now be able to:
 
 3. Be able to derive the dispersion relation for sound waves and find the normal modes for oscillations of air in a tube;
 
-4. Be able to use the Helmholtz approximation to estimate the frequency of the lowest mode of bottle.
+4. Be able to use the Helmholtz approximation to estimate the frequency of the lowest mode of a bottle.
 ::::
 
 ## Problems

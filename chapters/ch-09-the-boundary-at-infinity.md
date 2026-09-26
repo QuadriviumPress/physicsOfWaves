@@ -70,7 +70,7 @@ Two semi-infinite strings tied together at $x = 0$.
 :::
 The key to this problem is to think of it as a forced oscillation problem. The incoming traveling wave in region $I$ is what is “causing” all the oscillations. We have put the word in quotes, because the harmonic form, $e^{-i \omega t}$, for the oscillation implies that it has been going on forever, so that a philosopher might question this use of cause and effect. Nevertheless, it will help us to think of it this way. If the reflected and transmitted waves are produced by the incoming wave, their amplitudes will also be proportional to $e^{-i \omega t}$. As in a conventional forced oscillation problem, we could add on any free oscillations of the system. However, if there is any friction at all, these will die away with time, and we will be left only with the oscillation produced by the incoming traveling wave, proportional to $e^{-i \omega t}$. The important thing is that the frequency is the same in both regions, because as in a forced oscillation problem, the frequency is imposed on the system by an external agency, in this case, whatever produced the incoming traveling wave.
 
-In our complex exponential notation in which everything has the irreducible time dependence, $e^{-i \omega t}$. Right moving waves are $\propto e^{i k x} e^{-i \omega t}$ and left moving waves are $\propto e^{-i k x} e^{-i \omega t}$. In this case, the boundary conditions at $\pm \infty$ require that 
+In our complex exponential notation, in which everything has the irreducible time dependence $e^{-i \omega t}$, right moving waves are $\propto e^{i k x} e^{-i \omega t}$ and left moving waves are $\propto e^{-i k x} e^{-i \omega t}$. In this case, the boundary conditions at $\pm \infty$ require that 
 $$
 \psi(x, t)=e^{i k x} A e^{-i \omega t}+R A e^{-i k x} e^{-i \omega t} \tag{9.6} \label{eq-9-6}
 $$
@@ -202,7 +202,7 @@ $$
 \frac{1-R}{1+R} , \tag{9.25} \label{eq-9-25}
 $$
 
-while when $\cos \omega t$ vanishes, the speed is larger than the $v$ by the inverse factor, 
+while when $\cos \omega t$ vanishes, the speed is larger than $v$ by the inverse factor, 
 $$
 \frac{1+R}{1-R} . \tag{9.26} \label{eq-9-26}
 $$
@@ -287,7 +287,7 @@ A mass on a string.
 :::
 Consider the transmission and reflection of waves from a mass, $m$, at $x = 0$ on a string with linear mass density $\rho$ and tension $T$, stretched from $x=-\infty$ to $x=\infty$, shown in [Figure 9.3](#fig-9-3). Before we calculate the coefficients for reflection and transmission, let us guess the result in two extreme limits.
 
-$m$ **small –** Here we expect that the reflection to be small and the transmission close to one, because in the limit 
+$m$ **small –** Here we expect the reflection to be small and the transmission close to one, because in the limit 
 $$
 m \rightarrow 0 \Rightarrow \tau \rightarrow 1 \text { and } R \rightarrow 0 . \tag{9.36} \label{eq-9-36}
 $$
@@ -351,7 +351,7 @@ Clearly, this is in accord with our guess.
 
 The force on the mass.
 :::
-Note that these amplitudes, unlike those in [9.11](#eq-9-11), are complex numbers. The transmitted and reflected waves do not have the same phase as the incoming wave at the boundary. The phase difference between the transmitted (or reflected) wave is called a “phase shift.” One interesting feature of the solution, [9.45](#eq-9-45), that we did not guess is that for large $\epsilon$, the small transmitted wave is $90^{\circ}$ out of phase with the incoming wave.
+Note that these amplitudes, unlike those in [9.11](#eq-9-11), are complex numbers. The transmitted and reflected waves do not have the same phase as the incoming wave at the boundary. The phase difference between the transmitted (or reflected) wave and the incoming wave is called a “phase shift.” One interesting feature of the solution, [9.45](#eq-9-45), that we did not guess is that for large $\epsilon$, the small transmitted wave is $90^{\circ}$ out of phase with the incoming wave.
 
 This scattering is animated in program 9-2. The solution is also decomposed into incoming, transmitted and reflected waves. Stare at the mass and see if you can understand how the kink in the string is related to its acceleration. You can also make the mass larger and smaller to approach the limits [9.36](#eq-9-36) and [9.37](#eq-9-37).
 
@@ -419,7 +419,7 @@ For fixed frequency, the wave number is proportional to the index of refraction.
 
 Let us now consider a plane wave in the $+ z$ direction in a universe that is filled with a dielectric material with index of refraction $n=\sqrt{\epsilon / \epsilon_{0}}$, for $z < 0$ and filled with another dielectric material with index of refraction $n^{\prime}=\sqrt{\epsilon^{\prime} / \epsilon_{0}}$, for $z > 0$. The boundary between the two dielectrics, the plane $z = 0$, is analogous to the boundary between two regions of the rope in [Figure 9.1](#fig-9-1). We would, therefore, expect some reflection from this surface.
 
-Because the electric field in a plane electromagnetic wave is perpendicular to its direction of motion, we know that in this case that it is in the $x$-$y$ plane. It doesn’t matter in what direction the electric field of our incoming plane wave is pointing in the $x$-$y$ plane. That is clear by symmetry. The system looks the same if we rotate it around the $z$ axis, thus we can always rotate until our $\vec{e}_{+}$ vector is pointing in some convenient direction, say the $x$ direction. It is then pretty obvious that the reflected and transmitted waves will also have their electric fields in the $\pm x$ direction. Actually, we can turn this into a symmetry argument too. If we reflect the system in the $x$-$z$ plane, both the incoming wave and the dielectric are unchanged, but any $y$ component of the transmitted or reflected waves would change sign. Thus these components must vanish, by symmetry. Magnetic fields work the other way, because of the cross product of vectors in their definition. Thus we can write 
+Because the electric field in a plane electromagnetic wave is perpendicular to its direction of motion, we know that in this case it is in the $x$-$y$ plane. It doesn’t matter in what direction the electric field of our incoming plane wave is pointing in the $x$-$y$ plane. That is clear by symmetry. The system looks the same if we rotate it around the $z$ axis, thus we can always rotate until our $\vec{e}_{+}$ vector is pointing in some convenient direction, say the $x$ direction. It is then pretty obvious that the reflected and transmitted waves will also have their electric fields in the $\pm x$ direction. Actually, we can turn this into a symmetry argument too. If we reflect the system in the $x$-$z$ plane, both the incoming wave and the dielectric are unchanged, but any $y$ component of the transmitted or reflected waves would change sign. Thus these components must vanish, by symmetry. Magnetic fields work the other way, because of the cross product of vectors in their definition. Thus we can write 
 $$
 \begin{aligned}
 E_{x}(z, t)=A e^{i(k z-\omega t)}+R A e^{i(-k z-\omega t)} & \text { for } z<0, \\
@@ -541,7 +541,7 @@ R_{I I}
 \end{array}\right) \tag{9.70} \label{eq-9-70}
 $$
 
-where the matrix $d(\ell)$ 
+where the matrix $d(\ell)$ is 
 $$
 d(\ell)=\frac{1}{2}\left(\begin{array}{cc}
 (2-i \epsilon) & -i \epsilon e^{-2 i k \ell} \\
@@ -603,7 +603,7 @@ R=i \epsilon\left((2-i \epsilon)+(2+i \epsilon) e^{2 i k L}\right) \frac{\tau}{4
 \end{gathered}
 $$
 
-Note that the reflection and transmission shows interesting resonance structure. For example, the reflection vanishes for 
+Note that the reflection and transmission show interesting resonance structure. For example, the reflection vanishes for 
 $$
 e^{2 i k L}=-\frac{2-i \epsilon}{2+i \epsilon} . \tag{9.77} \label{eq-9-77}
 $$
@@ -626,7 +626,7 @@ $|\tau|$ and $|R|$ plotted versus $\epsilon$ for two masses on a string.
 
 The general scattering problem for a change of $k$.
 :::
-Let us return to the simple example at the beginning of the chapter of a boundary between two regions of string with different values of $k$. This is a very important example because its general features are characteristic of many important physical systems. For example, when a light-wave encounters a transparent medium, the $k$ value changes. That situation is somewhat more complicated because of the three-dimensional nature of light waves and because of polarization. However the analogy between [9.59](#eq-9-59) and [9.9](#eq-9-9) and [9.10](#eq-9-10) means that we can take over the discussion of the string directly to electromagnetic waves reflecting from a dielectric boundary perpendicular to the direction of the wave. In this section, we apply the general method of transfer matrices discussed in the previous section to this important example. Thus we consider the situation shown in [Figure 9.8](#fig-9-8). where the waves have the form 
+Let us return to the simple example at the beginning of the chapter of a boundary between two regions of string with different values of $k$. This is a very important example because its general features are characteristic of many important physical systems. For example, when a light-wave encounters a transparent medium, the $k$ value changes. That situation is somewhat more complicated because of the three-dimensional nature of light waves and because of polarization. However the analogy between [9.59](#eq-9-59) and [9.9](#eq-9-9) and [9.10](#eq-9-10) means that we can take over the discussion of the string directly to electromagnetic waves reflecting from a dielectric boundary perpendicular to the direction of the wave. In this section, we apply the general method of transfer matrices discussed in the previous section to this important example. Thus we consider the situation shown in [Figure 9.8](#fig-9-8), where the waves have the form 
 $$
 \psi(x, t)=A e^{-i \omega t}\left(T_{I} e^{i k_{1} x}+R_{I} e^{-i k_{1} x}\right) \text { in } I , \tag{9.78} \label{eq-9-78}
 $$
@@ -713,7 +713,7 @@ You will see the utility of this in the computer problem, (9.6).
 Reflection from a thin film.
 :::
 
-Consider the situation shown in [Figure 9.9](#fig-9-9). where the wave numbers are $k_{1}$ for $x \leq 0$, $k_{2}$ for $0 \leq x \leq L$ and $k_{3}$ for $x \geq L$. As usual, translation invariance plus the boundary condition at infinity (that the incoming wave in $I$ has amplitude, $A$, and that there is only an outgoing wave in $III$) implies 
+Consider the situation shown in [Figure 9.9](#fig-9-9), where the wave numbers are $k_{1}$ for $x \leq 0$, $k_{2}$ for $0 \leq x \leq L$ and $k_{3}$ for $x \geq L$. As usual, translation invariance plus the boundary condition at infinity (that the incoming wave in $I$ has amplitude, $A$, and that there is only an outgoing wave in $III$) implies 
 $$
 \begin{gathered}
 \psi(x, t)=A e^{-i \omega t}\left(e^{i k_{1} x}+R e^{-i k_{1} x}\right) \quad \text { for } x \leq 0 \\
@@ -804,7 +804,7 @@ $$
 
 Here we see the phenomenon of **resonant transmission**. The wave does not get reflected at all if the thickness of the film is an integral or half-integral number of wavelengths. Note, also, that when $k_{2} \rightarrow k_{1}$, $\tau \rightarrow 1$ and $R \rightarrow 0$ as they should, because in this limit there is no boundary.
 
-The reflection in [9.98](#eq-9-98) varies rapidly with $k_{2}$, as shown [Figure 9.10](#fig-9-10), where we plot the intensity of the reflected wave versus $k_{2}$ for fixed ratio $k_{1} / k_{2} = 3$. It is this rapid variation of the intensity of reflected light as a function of wavelength that is responsible for the familiar color patterns on thin films like soap bubbles and oil slicks.
+The reflection in [9.98](#eq-9-98) varies rapidly with $k_{2}$, as shown in [Figure 9.10](#fig-9-10), where we plot the intensity of the reflected wave versus $k_{2}$ for fixed ratio $k_{1} / k_{2} = 3$. It is this rapid variation of the intensity of reflected light as a function of wavelength that is responsible for the familiar color patterns on thin films like soap bubbles and oil slicks.
 
 :::{figure} ../images/book-fig-9-10.png
 :label: fig-9-10
@@ -816,7 +816,7 @@ Graph of $|R|^{2}$ versus $k_{2}$ for $k_{1} / k_{2} = 3$.
 
 ### Nonreflective Coating
 
-We will not work out the general case of $k_{1} \neq k_{3}$, simply because the algebra is a mess. However, one important special case is worth noting. Suppose that you have a boundary between media in which the wave number of your traveling wave are $k_{1}$ and $k_{3}$. Normally, you find reflection at the boundary. The question is, can you add an intermediate film layer with wave number $k_{2}$, that eliminates all reflection? The answer is yes. First you must adjust the wave number in the film to be the geometric mean of $k_{1}$ and $k_{3}$, so that 
+We will not work out the general case of $k_{1} \neq k_{3}$, simply because the algebra is a mess. However, one important special case is worth noting. Suppose that you have a boundary between media in which the wave numbers of your traveling wave are $k_{1}$ and $k_{3}$. Normally, you find reflection at the boundary. The question is, can you add an intermediate film layer with wave number $k_{2}$, that eliminates all reflection? The answer is yes. First you must adjust the wave number in the film to be the geometric mean of $k_{1}$ and $k_{3}$, so that 
 $$
 \frac{k_{2}}{k_{1}}=\frac{k_{3}}{k_{2}} . \tag{9.98} \label{eq-9-98}
 $$

@@ -78,7 +78,7 @@ $$
 \psi(x, y, t)=A e^{i \vec{k} \cdot \vec{r}} e^{-i \omega t} . \tag{11.7} \label{eq-11-7}
 $$
 
-The analysis is precisely analogous to that for the one-dimensional beaded string, with the result that $\omega^{2}$ is simply a sum of vertical and horizontal contributions, each of which look like the dispersion relation for the one-dimensional case: 
+The analysis is precisely analogous to that for the one-dimensional beaded string, with the result that $\omega^{2}$ is simply a sum of vertical and horizontal contributions, each of which looks like the dispersion relation for the one-dimensional case: 
 $$
 \omega^{2}=\frac{4 T_{H}}{m a_{H}} \sin ^{2} \frac{k_{x} a_{H}}{2}+\frac{4 T_{V}}{m a_{V}} \sin ^{2} \frac{k_{y} a_{V}}{2} . \tag{11.8} \label{eq-11-8}
 $$
@@ -93,7 +93,7 @@ So far, our analysis has been essentially the same in two dimensions as it was i
 
 Sure enough, in general, the two-dimensional case is infinitely harder. If [Figure 11.1](#fig-11-1) were a system with a more complicated shape, we would not be able to find an analytic solution. But for the special case of a rectangular frame, aligned with the beads, the boundary conditions are not so bad, because both the modes, [11.5](#eq-11-5) and the boundary conditions can be simply expressed in terms of products of one-dimensional normal modes.
 
-The boundary conditions for the system in [Figure 11.1](#fig-11-1) are; 
+The boundary conditions for the system in [Figure 11.1](#fig-11-1) are: 
 $$
 \psi(0, y, t)=\psi\left(L_{H}, y, t\right)=\psi(x, 0, t)=\psi\left(x, L_{V}, t\right)=0 , \tag{11.9} \label{eq-11-9}
 $$
@@ -172,7 +172,7 @@ Now because the system is continuous, the integers $n$ and $n^{\prime}$ run from
 
 ### Three Dimensions
 
-The beaded mesh cannot be extended to three dimensions because there is no transverse direction. But a system of masses connected by elastic rods can be three-dimensional, and indeed, this sort of system is a good model of an elastic solid. This system is rather complicated because each mass can move in all three directions. A two-dimensional version of this is illustrated in [Figure 11.3](#fig-11-3). This system is the same as [Figure 11.1](#fig-11-1) except that the strings have been replaced by light, elastic rods, so that system is in equilibrium even without the frame. Now we are interested in the oscillations of this system **in the plane of the paper.** Compared to [Figure 11.1](#fig-11-1), this system has twice as many degrees of freedom, because each block can move in both the $x$ and $y$ direction, while in [Figure 11.1](#fig-11-1), the blocks moved only
+The beaded mesh cannot be extended to three dimensions because there is no transverse direction. But a system of masses connected by elastic rods can be three-dimensional, and indeed, this sort of system is a good model of an elastic solid. This system is rather complicated because each mass can move in all three directions. A two-dimensional version of this is illustrated in [Figure 11.3](#fig-11-3). This system is the same as [Figure 11.1](#fig-11-1) except that the strings have been replaced by light, elastic rods, so that the system is in equilibrium even without the frame. Now we are interested in the oscillations of this system **in the plane of the paper.** Compared to [Figure 11.1](#fig-11-1), this system has twice as many degrees of freedom, because each block can move in both the $x$ and $y$ directions, while in [Figure 11.1](#fig-11-1), the blocks moved only
 
 :::{figure} ../images/lt-33065-clipboard_ea7446d0106806389f70eed624d34522a.png
 :label: fig-11-3
@@ -288,7 +288,7 @@ The $\alpha$ and $\beta$ in [11.30](#eq-11-30) run over all the transmitted and 
 
 ![Figure](../images/lt-33099-clipboard_efff697574e54189547410113bfaa02ef.png) 11-2
 
-As far as we know from considerations of the physics at $\pm \infty$, the reflected and transmitted waves could be a complicated superposition of an infinite number of plane waves going in various directions away from the boundary. In fact, if the boundary were irregularly shaped, that is exactly what we would expect. It is the fact that the boundary, $x = 0$, is itself invariant under space translations in the $y$ directions that allows us to cut down the infinite number of parameters in [11.30](#eq-11-30) to only two. Because translations in the $y$ direction leave the whole system invariant, **including the boundary**, we can find solutions in which all the components have the same irreducible $y$ dependence. If the incoming wave is proportional to 
+As far as we know from considerations of the physics at $\pm \infty$, the reflected and transmitted waves could be a complicated superposition of an infinite number of plane waves going in various directions away from the boundary. In fact, if the boundary were irregularly shaped, that is exactly what we would expect. It is the fact that the boundary, $x = 0$, is itself invariant under space translations in the $y$ direction that allows us to cut down the infinite number of parameters in [11.30](#eq-11-30) to only two. Because translations in the $y$ direction leave the whole system invariant, **including the boundary**, we can find solutions in which all the components have the same irreducible $y$ dependence. If the incoming wave is proportional to 
 $$
 e^{i k_{y} y} , \tag{11.33} \label{eq-11-33}
 $$
@@ -426,7 +426,7 @@ $$
 \phi=\phi^{\prime} \tag{11.53} \label{eq-11-53}
 $$
 
-— because $\phi$ and $\phi^{\prime}$ are corresponding angles of the two similar right triangles with other acute angle $\gamma$. Thus 
+— because $\phi$ and $\phi^{\prime}$ are corresponding angles of the two similar right triangles with the other acute angle $\gamma$. Thus 
 $$
 \delta=\xi_{1}+\xi_{2}=\theta_{\mathrm{in}}+\theta_{\mathrm{out}}-\theta_{1}-\theta_{2}=\theta_{\mathrm{in}}+\theta_{\mathrm{out}}-\phi \tag{11.54} \label{eq-11-54}
 $$
@@ -443,7 +443,7 @@ $$
 
 The result, [11.56](#eq-11-56), is certainly reasonable. It must vanish when $n \rightarrow 1$, because there is no boundary for $n = 1$. If things are small and the answer is linear, it must be proportional to $\phi$.
 
-One of the most familiar characteristics of a prism results from the dependence of the index of refraction, $n$, on frequency. This causes a beam of white light to break up into colors. For most materials, the index of refraction increases with frequency, so that blue light is deflected more than red light by the prism. The physics of the frequency dependence of $n$ is that of forced oscillation. The index of refraction of a material is related to the dielectric constant (see [9.53](#eq-9-53)), that in turn is related to the distortion of the electronic structure of the material caused by the electric field. For a varying field, this depends on the amplitude of the motion of bound charges within the material in an electric field. Because these charges are bound, they respond to the oscillating fields in an electromagnetic wave like a mass on a spring subject to an oscillating force. We know from our studies of forced oscillation that this amplitude has the form 
+One of the most familiar characteristics of a prism results from the dependence of the index of refraction, $n$, on frequency. This causes a beam of white light to break up into colors. For most materials, the index of refraction increases with frequency, so that blue light is deflected more than red light by the prism. The physics of the frequency dependence of $n$ is that of forced oscillation. The index of refraction of a material is related to the dielectric constant (see [9.53](#eq-9-53)), which in turn is related to the distortion of the electronic structure of the material caused by the electric field. For a varying field, this depends on the amplitude of the motion of bound charges within the material in an electric field. Because these charges are bound, they respond to the oscillating fields in an electromagnetic wave like a mass on a spring subject to an oscillating force. We know from our studies of forced oscillation that this amplitude has the form 
 $$
 \sum_{\underset{\alpha}{ }^{\text {resonances }}} \frac{C_{\alpha}}{\omega_{\alpha}^{2}-\omega^{2}} , \tag{11.57} \label{eq-11-57}
 $$
@@ -459,7 +459,7 @@ $$
 \end{aligned}
 $$
 
-In terms of these parameters, we would guess that the typical force inside the materials is of $\frac{e^{2}}{4 \pi \epsilon 0 a^{2}}$ (from Coulomb’s law), and thus that the spring constant is of order $\frac{e^{2}}{4 \pi \epsilon_{0} a^{3}}$ (the typical force over the typical distance). Thus we expect 
+In terms of these parameters, we would guess that the typical force inside the materials is of order $\frac{e^{2}}{4 \pi \epsilon 0 a^{2}}$ (from Coulomb’s law), and thus that the spring constant is of order $\frac{e^{2}}{4 \pi \epsilon_{0} a^{3}}$ (the typical force over the typical distance). Thus we expect 
 $$
 \omega_{\alpha}^{2} \approx \sqrt{\frac{e^{2}}{4 \pi \epsilon_{0} a^{3} m_{e}}} \tag{11.59} \label{eq-11-59}
 $$
@@ -475,7 +475,7 @@ Incidentally, this is the same reason that the sky is blue. Blue light is scatte
 
 ### Total Internal Reflection
 
-The situation in which the wave comes from a region of large $|\vec{k}|$ into a region of smaller $|\vec{k}|$ has another feature that is surprising and very useful. This situation is depicted in [Figure 11.9](#fig-11-9) for a system with no reflection. For small, $\theta$, as shown in [Figure 11.9](#fig-11-9), this looks rather
+The situation in which the wave comes from a region of large $|\vec{k}|$ into a region of smaller $|\vec{k}|$ has another feature that is surprising and very useful. This situation is depicted in [Figure 11.9](#fig-11-9) for a system with no reflection. For small $\theta$, as shown in [Figure 11.9](#fig-11-9), this looks rather
 
 :::{figure} ../images/lt-33104-clipboard_ef5c3cb7a6613e4021bb299de6ec8cfc5.png
 :label: fig-11-9
@@ -547,7 +547,7 @@ Total internal reflection in glass with index of refraction 2.
 
 Consider the scattering of a plane wave in the system illustrated in [Figure 11.11](#fig-11-11). This is the same setup as in [Figure 11.10](#fig-11-10), except that another block of glass has been added a small distance, $d$, below the boundary from which there was total internal reflection. We have defined the positive $x$ direction to be downwards for consistency with the discussion of Snell’s law, above. Now does any of the light get through to the observer below, or is the light still totally reflected at the boundary, as in [Figure 11.10](#fig-11-10)? The answer is that some light gets through. As we will see in detail in an example below, the presence of the other block of glass means that instead of a boundary condition at infinity, we have a boundary condition at the finite distance, $d$.
 
-The details of this phenomenon for electromagnetic waves are somewhat complicated by polarization, which we will discuss in detail in the next chapter. However, there is a precisely analogous process in the transverse oscillation of membranes that we can analyze easily
+The details of this phenomenon for electromagnetic waves are somewhat complicated by polarization, which we will discuss in detail in the next chapter. However, there is a precisely analogous process in the transverse oscillation of membranes that we can analyze easily.
 
 :::{figure} ../images/lt-33106-clipboard_ec1ff69d9c94bfb7eda1894fe21c7caf2.png
 :label: fig-11-11
@@ -567,7 +567,7 @@ Tunneling in an infinite membrane.
 :::
 have surface mass density $\rho_{s}$ and surface tension $T_{s}$. The unshaded region, which extends from $x = 0$ to $x = d$, has the same surface tension but surface mass density $\rho_{s} / 4$. Thus the ratio of phase velocities in the two regions is two, the same as the ratio from air to glass in [Figure 11.11](#fig-11-11). The dashed lines are massless boundaries between the different membranes.
 
-We can now ask what are the coefficients, $R$ and $\tau$, for reflection and transmission. We have done this problem for a single boundary earlier in this chapter in [11.42](#eq-11-42)-[11.49](#eq-11-49). We could solve this one by putting two of these solutions together using the transfer matrix techniques of chapter 9. In fact, we do not even have to do that, because we can read off the result from [9.97](#eq-9-97) and [9.98](#eq-9-98) in the discussion of thin films in chapter 9. The point is that all the terms in our solution must have the same irreducible $y$ dependence, $e^{i k_{y} y}$, because of the space translation invariance of the whole system including the boundary in the $y$ direction. This common factor plays no role in the boundary conditions. If we factor it out, what is left looks like a one-dimensional scattering problem. Comparing [11.47](#eq-11-47) for $T_{s}=T_{s}^{\prime}$ [9.10](#eq-9-10), you can see that the analyses become the same if we make the replacements 
+We can now ask what the coefficients, $R$ and $\tau$, for reflection and transmission are. We have done this problem for a single boundary earlier in this chapter in [11.42](#eq-11-42)-[11.49](#eq-11-49). We could solve this one by putting two of these solutions together using the transfer matrix techniques of chapter 9. In fact, we do not even have to do that, because we can read off the result from [9.97](#eq-9-97) and [9.98](#eq-9-98) in the discussion of thin films in chapter 9. The point is that all the terms in our solution must have the same irreducible $y$ dependence, $e^{i k_{y} y}$, because of the space translation invariance of the whole system including the boundary in the $y$ direction. This common factor plays no role in the boundary conditions. If we factor it out, what is left looks like a one-dimensional scattering problem. Comparing [11.47](#eq-11-47) for $T_{s}=T_{s}^{\prime}$ with [9.10](#eq-9-10), you can see that the analyses become the same if we make the replacements 
 $$
 \begin{aligned}
 k_{1} & \rightarrow k_{x} \\
@@ -632,7 +632,7 @@ The important point is that the values of the two components of the wave, [11.75
 
 Thus the coefficient, $R_{I I}$ of the “reflected” wave (in quotes because it is a real exponential wave, not a traveling wave) must be smaller than the “transmitted” wave by a factor of roughly $e^{2 \kappa d}$. Notice that this justifies the statement, [11.67](#eq-11-67), of the boundary condition at infinity. As $d \rightarrow \infty$, for any reasonable physics at $d$, the wave becomes a pure negative exponential.
 
-At $x = 0$, for large $\kappa d$, the $R_{I I}$ term in wave will be completely negligible, and $T_{I I}$ term will be produced with some coefficient of order 1, just as in the limit of total internal reflection.
+At $x = 0$, for large $\kappa d$, the $R_{I I}$ term in the wave will be completely negligible, and the $T_{I I}$ term will be produced with some coefficient of order 1, just as in the limit of total internal reflection.
 
 Thus what is happening in the boundary conditions for tunneling can be described qualitatively as follows. The incoming wave for $x < 0$ produces the $e^{-\kappa x}$ term in the region $0 \leq x \leq d$, with an exponentially small admixture of $e^{\kappa x}$. But at $x = d$, the two parts of the exponential wave are of the same size (both exponentially small), and they can produce the transmitted wave.
 
@@ -814,7 +814,7 @@ c_{x}\left(4 c_{y}^{3}-3 c_{y}\right)+c_{y}\left(4 c_{x}^{3}-c_{x}\right)=0 \\
 \end{gathered}
 $$
 
-with pattern shown in [figure 11.19](#fig-11-19).
+with the pattern shown in [figure 11.19](#fig-11-19).
 
 :::{figure} ../images/lt-33114-clipboard_efe9c8dedc7cf206e1507264a13e037af.png
 :label: fig-11-19
@@ -1014,7 +1014,7 @@ $$
 \chi(x, y, t) \propto e^{\pm i k x-i \omega t} \cosh k y . \tag{11.120} \label{eq-11-120}
 $$
 
-where $\cosh$ is the “hyperbolic cosine.” defined by 
+where $\cosh$ is the “hyperbolic cosine,” defined by 
 $$
 \cosh x \equiv \frac{e^{x}+e^{-x}}{2} . \tag{11.121} \label{eq-11-121}
 $$
@@ -1088,7 +1088,7 @@ Water is removed from the rectangle in $X$ − $x$ and raised to the rectangle a
 
 #### Gravitational Potential
 
-In the diagram in [Figure 11.24](#fig-11-24), you can see that the overall effect of the displacements in the mode [11.125](#eq-11-125) is to take a chunk of the water from $X$ − $x$, raise it by $\epsilon \psi_{y}(x, L, t)$ (the vertical displacement of the surface), and move it over to $x$. The volume of this chunk is $W d x \epsilon \psi_{y}(x, L, t)$ where $dx$ is the length of chunk and $W$ is the width in the $z$ direction (into the paper). Thus the total gravitational potential is 
+In the diagram in [Figure 11.24](#fig-11-24), you can see that the overall effect of the displacements in the mode [11.125](#eq-11-125) is to take a chunk of the water from $X$ − $x$, raise it by $\epsilon \psi_{y}(x, L, t)$ (the vertical displacement of the surface), and move it over to $x$. The volume of this chunk is $W d x \epsilon \psi_{y}(x, L, t)$ where $dx$ is the length of the chunk and $W$ is the width in the $z$ direction (into the paper). Thus the total gravitational potential is 
 $$
 \begin{aligned}
 V_{\text {grav }}=\rho g & \int d V \Delta h=\rho g W \int_{0}^{\frac{\pi}{2 k}} d x\left|\epsilon \psi_{y}(x, L, t)\right|^{2}+\mathcal{O}\left(\epsilon^{3}\right) \\
@@ -1125,7 +1125,7 @@ $$
 \end{aligned}
 $$
 
-The order $\epsilon$ term in [11.131](#eq-11-131) cancels when integrated of $x$, so 
+The order $\epsilon$ term in [11.131](#eq-11-131) cancels when integrated over $x$, so 
 $$
 \begin{gathered}
 =T W \epsilon^{2} \int_{0}^{\frac{\pi}{k}} d x \frac{1}{2} k^{2} \sin ^{2} k x \sinh ^{2} k L \cos ^{2} \omega t+\cdots \\
@@ -1248,7 +1248,7 @@ Technically, what “thin” means in this context is that if a narrow beam of l
 
 Thin Spherical Lenses
 
-In Chapter 11, we derive the formula for the angular change in a narrow (we are ignoring diffraction) beam of light due to a prism. The analysis is uses the geometrical construction
+In Chapter 11, we derive the formula for the angular change in a narrow (we are ignoring diffraction) beam of light due to a prism. The analysis uses the geometrical construction
 
 :::{figure} ../images/lt-33305-clipboard_eabc4c24b82f53375bbd14f06d2492528.png
 :label: fig-11-26
@@ -1274,7 +1274,7 @@ $$
 \delta \approx h / f \tag{11.147} \label{eq-11-147}
 $$
 
-where $f$ is length. This is approximately true for a piece of glass with surfaces that are parts of spheres. In [Figure 11.27](#fig-11-27) is a diagram showing how this works for a lens which is flat on one side and a partial sphere with radius $r_{1}$ on the other. In the diagram, $\theta_{1}$ is the angle of the “effective prism” seen by the part of a beam at distance $h$ from the axis. It should be clear from the figure that if $\theta_{1}$ is small, it is proportional to $h$. 
+where $f$ is a length. This is approximately true for a piece of glass with surfaces that are parts of spheres. In [Figure 11.27](#fig-11-27) is a diagram showing how this works for a lens which is flat on one side and a partial sphere with radius $r_{1}$ on the other. In the diagram, $\theta_{1}$ is the angle of the “effective prism” seen by the part of a beam at distance $h$ from the axis. It should be clear from the figure that if $\theta_{1}$ is small, it is proportional to $h$. 
 $$
 \theta_{1} \approx \sin \theta_{1}=\frac{h}{r_{1}} \tag{11.148} \label{eq-11-148}
 $$
@@ -1291,7 +1291,7 @@ More often, the lens is curved on both sides. If the radii are $r_{1}$ and $r_{2
 :enumerator: 11.28
 :alt: the previous diagram should make clear, \theta_{1}+\theta_{2} is the “effective prism” angle for any h. The figure also exaggerates the curvature of the two sides, so that the lens pictured is not really “thin.” A thin lens looks more like [Figure 11.29](#fig-11-29). This is important because if the lens is fa…
 
-the previous diagram should make clear, $\theta_{1}+\theta_{2}$ is the “effective prism” angle for any $h$. The figure also exaggerates the curvature of the two sides, so that the lens pictured is not really “thin.” A thin lens looks more like [Figure 11.29](#fig-11-29). This is important because if the lens is fat, the height $h$ is not very well-defined because if the light inside the lens is not horizontal, we might have one $h$ where the light enters the lens and a very different $h$ where it come out. But if the lens is thin and if the light rays are not too far from the perpendicular, this ambiguity in
+the previous diagram should make clear, $\theta_{1}+\theta_{2}$ is the “effective prism” angle for any $h$. The figure also exaggerates the curvature of the two sides, so that the lens pictured is not really “thin.” A thin lens looks more like [Figure 11.29](#fig-11-29). This is important because if the lens is fat, the height $h$ is not very well-defined because if the light inside the lens is not horizontal, we might have one $h$ where the light enters the lens and a very different $h$ where it comes out. But if the lens is thin and if the light rays are not too far from the perpendicular, this ambiguity in
 :::
 :::{figure} ../images/lt-33308-clipboard_e116ff60a41ad5eaccd25f5a5e512a4f2.png
 :label: fig-11-29
@@ -1333,9 +1333,9 @@ A lens of this kind focuses parallel rays of light, as shown in [Figure 11.30](#
 :::{figure} ../images/book-fig-11-32.png
 :label: fig-11-32
 :enumerator: 11.32
-:alt: sides of the lens is proportional to the height. Thus the in this case, because the slopes on one side are the same, the difference in slopes on the other side is proportional to the difference in height, and that means that they all come together at the same x.
+:alt: sides of the lens is proportional to the height. Thus in this case, because the slopes on one side are the same, the difference in slopes on the other side is proportional to the difference in height, and that means that they all come together at the same x.
 
-sides of the lens is proportional to the height. Thus the in this case, because the slopes on one side are the same, the difference in slopes on the other side is proportional to the difference in height, and that means that they all come together at the same $x$.
+sides of the lens is proportional to the height. Thus in this case, because the slopes on one side are the same, the difference in slopes on the other side is proportional to the difference in height, and that means that they all come together at the same $x$.
 :::
 
 Another way to see that this focusing must work is illustrated in $Figures \text { } 11.33$ and $11.34$. Note that if the parallel rays are coming in at an angle $\delta_{i}$, the ray a distance $h_{i}=\delta f$ above the center of the lens is bent to the horizontal, as shown in [Figure 11.33](#fig-11-33) with the solid line. Then for the rays on either side of that ray (shown as dashed lines), because the dependence of the bending on the height in the lens is linear, the total angular bend, $\delta_{i}+\delta_{o}$ is $f$ multiplied by the total distance from the center, $h_{i}+h_{o}$, but then $h_{o}=\delta_{o} f$, which is the condition for focusing. This is illustrated in [Figure 11.34](#fig-11-34).
@@ -1392,7 +1392,7 @@ $$
 
 This is called the “thin lens formula.”
 
-So far, we have discussed “converging” or “convex” lenses for which $f$ is positive, but there are also “diverging” or “concave” lenses, for which $f$ is negative. In this case, parallel rays are not focuses, but defocused, and appear to diverge from a plane a distance −$f$ (which is a positive number) beyond the lens, as shown in Figure $11.38$: The point from which the
+So far, we have discussed “converging” or “convex” lenses for which $f$ is positive, but there are also “diverging” or “concave” lenses, for which $f$ is negative. In this case, parallel rays are not focused, but defocused, and appear to diverge from a plane a distance −$f$ (which is a positive number) beyond the lens, as shown in Figure $11.38$: The point from which the
 
 :::{figure} ../images/lt-33317-clipboard_ebf219d6f2a48bb787418ab3d9fb5ccc6.png
 :label: fig-11-38
@@ -1421,7 +1421,7 @@ $$
 \frac{1}{d_{1}}+\frac{1}{d_{2}}=\frac{1}{f} \tag{11.154} \label{eq-11-154}
 $$
 
-This tell you where to put the screen. Note also that it is easy to see where on the screen the image of a particular point on the object appears because a ray of light that goes right through the center of the lens is not deflected at all (we also used this for parallel rays above [Figure 11.35](#fig-11-35)). This plus simple geometry then implies that the ratio of the size of the image to the size of the object is $d_{2} / d_{1}$. 
+This tells you where to put the screen. Note also that it is easy to see where on the screen the image of a particular point on the object appears because a ray of light that goes right through the center of the lens is not deflected at all (we also used this for parallel rays above [Figure 11.35](#fig-11-35)). This plus simple geometry then implies that the ratio of the size of the image to the size of the object is $d_{2} / d_{1}$. 
 $$
 \frac{\text { size of image }}{\text { size of object }}=\frac{d_{2}}{d_{1}} \tag{11.155} \label{eq-11-155}
 $$
@@ -1444,9 +1444,9 @@ The formation of an image on your retina is illustrated in the diagram in [Figur
 :::{figure} ../images/lt-33328-clipboard_e60c4c06e78a58fa92ed83244628acdbd.png
 :label: fig-11-42
 :enumerator: 11.42
-:alt: close to your eye lens because the amount of accommodation you can do is limited. If you bring the object too closer than the smallest focal length your eye lens can produce, the real image is beyond your retina, the object will look fuzzy, as shown in [Figure 11.43](#fig-11-43).
+:alt: close to your eye lens because the amount of accommodation you can do is limited. If you bring the object closer than the smallest focal length your eye lens can produce, the real image is beyond your retina, and the object will look fuzzy, as shown in [Figure 11.43](#fig-11-43).
 
-close to your eye lens because the amount of accommodation you can do is limited. If you bring the object too closer than the smallest focal length your eye lens can produce, the real image is beyond your retina, the object will look fuzzy, as shown in [Figure 11.43](#fig-11-43).
+close to your eye lens because the amount of accommodation you can do is limited. If you bring the object closer than the smallest focal length your eye lens can produce, the real image is beyond your retina, and the object will look fuzzy, as shown in [Figure 11.43](#fig-11-43).
 :::
 :::{figure} ../images/lt-33327-clipboard_e2d691372d720aba944ebf5272090f20d.png
 :label: fig-11-43
@@ -1477,16 +1477,16 @@ One disadvantage to a pinhole camera is that you need a very bright object. You 
 :::
 the size of your pinhole so that the spreading at the screen due to diffraction just matches the size of the pinhole.
 
-While we are on the subject, note that diffraction and the finite size of your pupil limits the angular resolution of your eye. As we will understand in detail in chapter 13, the finite size, $s$ of your pupil introduces an angular spread of order $d / \lambda$ for light of wavelength $\lambda$. Unless you have huge eyes, $s$ is less than .25 cm, so for green light with wavelength 500 nanometers (550 is about the middle of the visible spectrum), the angular resolution is greater than about 2 × 10−4. At a distance of 10 meters, for example, even if your eyes are perfect, you will not be able to resolve two objects less than a few millimeters apart.
+While we are on the subject, note that diffraction and the finite size of your pupil limit the angular resolution of your eye. As we will understand in detail in chapter 13, the finite size, $s$ of your pupil introduces an angular spread of order $d / \lambda$ for light of wavelength $\lambda$. Unless you have huge eyes, $s$ is less than .25 cm, so for green light with wavelength 500 nanometers (550 is about the middle of the visible spectrum), the angular resolution is greater than about 2 × 10−4. At a distance of 10 meters, for example, even if your eyes are perfect, you will not be able to resolve two objects less than a few millimeters apart.
 
 You can use a pinhole to study your eyes in rather interesting ways. Put the pinhole close to your eye and look at a bright diffuse source of light. We will do this in lecture, but you can make your own pinhole by punching a small hole in a piece of aluminum foil with a pin and try this out. If you wear glasses, take them off. You won’t need them. You should see a circular spot of light. This is the image of your pupil on your retina, as shown below:
 
 :::{figure} ../images/lt-33323-clipboard_e8f6d01c3d76142698b69937f46afc4a9.png
 :label: fig-11-46
 :enumerator: 11.46
-:alt: You can watch the size of your pupil change with this arrangement. Just cover or close your other eye. Because you are now getting less light, both pupils will expand. Uncover the other eye and look at the bright light again and the pupils will contracts. Can you notice a short time-lag?
+:alt: You can watch the size of your pupil change with this arrangement. Just cover or close your other eye. Because you are now getting less light, both pupils will expand. Uncover the other eye and look at the bright light again and the pupils will contract. Can you notice a short time-lag?
 
-You can watch the size of your pupil change with this arrangement. Just cover or close your other eye. Because you are now getting less light, both pupils will expand. Uncover the other eye and look at the bright light again and the pupils will contracts. Can you notice a short time-lag?
+You can watch the size of your pupil change with this arrangement. Just cover or close your other eye. Because you are now getting less light, both pupils will expand. Uncover the other eye and look at the bright light again and the pupils will contract. Can you notice a short time-lag?
 :::
 Now carefully bring a pen or pencil point up from below in between the pinhole and your eye, until it just begins to obscure your view. What do you see? This should convince you, if you were not sure before, that the image on your retina is upside down, as shown in [Figure 11.47](#fig-11-47). The bottom half of the image on your retina is missing. Your brain, being used
 
@@ -1537,7 +1537,7 @@ $$
 
 Note that the telescope image appears upside down because what you are actually seeing is the real image.
 
-A microscope looks something like what is shown in [Figure 11.49](#fig-11-49) (with even fewer light rays drawn because you should be getting used to them by this time.
+A microscope looks something like what is shown in [Figure 11.49](#fig-11-49) (with even fewer light rays drawn because you should be getting used to them by this time).
 
 :::{figure} ../images/lt-33330-clipboard_eb4c4c4a28c6996ad1635866439dfb8da.png
 :label: fig-11-49
@@ -1569,7 +1569,7 @@ $$
 
 Most elementary physics books either do not explain the rainbow at all, or explain it incorrectly (sometimes embarrassingly so). Obviously, it has something to do with the refraction of light by raindrops. We ought to be able to explain it just using Snell’s law and geometrical optics — ray tracing. But it is a little subtle, as you will see.
 
-To begin with, consider the refraction of a narrow ray of light from a spherical drop of water, illustrated in [Figure 11.50](#fig-11-50). The index of refraction of water, $n$, varies from about 1.332 for red light to about 1.343 for violet light. The ray enters somewhere on the drop, which can parameterize by the angle $\theta$ between the direction of the incoming light and the radius from the center of the drop to the point where the light enters. The angle $\theta$ is also the angle between the light ray and the perpendicular to the surface of the drop, so it is the appropriate to use in Snell’s law. Thus the angle $\phi$ of the refracted ray inside the drop is given by 
+To begin with, consider the refraction of a narrow ray of light from a spherical drop of water, illustrated in [Figure 11.50](#fig-11-50). The index of refraction of water, $n$, varies from about 1.332 for red light to about 1.343 for violet light. The ray enters somewhere on the drop, which we can parameterize by the angle $\theta$ between the direction of the incoming light and the radius from the center of the drop to the point where the light enters. The angle $\theta$ is also the angle between the light ray and the perpendicular to the surface of the drop, so it is appropriate to use in Snell’s law. Thus the angle $\phi$ of the refracted ray inside the drop is given by 
 $$
 \sin \phi=\frac{1}{n} \sin \theta \tag{11.165} \label{eq-11-165}
 $$
@@ -1591,9 +1591,9 @@ The important geometrical fact that makes the problem fairly simple is that the 
 :::{figure} ../images/lt-33349-clipboard_efc75f161c9bfd3a70594e79951094d9f.png
 :label: fig-11-51
 :enumerator: 11.51
-:alt: that the refracted ray coming out of the drop This is just a version of the reflected ray in [Figure 11.50](#fig-11-50) rotated by \pi-2 \phi. This means that is it rotated by
+:alt: that the refracted ray coming out of the drop is just a version of the reflected ray in [Figure 11.50](#fig-11-50) rotated by \pi-2 \phi. This means that it is rotated by
 
-that the refracted ray coming out of the drop This is just a version of the reflected ray in [Figure 11.50](#fig-11-50) rotated by $\pi-2 \phi$. This means that is it rotated by
+that the refracted ray coming out of the drop is just a version of the reflected ray in [Figure 11.50](#fig-11-50) rotated by $\pi-2 \phi$. This means that it is rotated by
 :::
 $$
 \theta_{1}=(\pi-2 \phi)-(\pi-2 \theta)=2 \theta-2 \phi \tag{11.167} \label{eq-11-167}
@@ -1687,7 +1687,7 @@ $$
 
 This is shown, along with $\theta_{2}$, in the plot in [Figure 11.57](#fig-11-57). The minimum of $\theta_{3}$ is the position of the second rainbow. But now because the angle is greater than $\pi$, the light is reaching your eye from the side of the drop that is closer to you, and it is bending completely around.
 
-This is why the colors are reversed. Again the blue is refracted more, but this time that means that the blue is on the outside, while the red in on the inside.
+This is why the colors are reversed. Again the blue is refracted more, but this time that means that the blue is on the outside, while the red is on the inside.
 
 By accident, the minima for $\theta_{2}$ and $\theta_{3}$ are almost equally (within about .13 radians) displaced from $\pi$, though on opposite sides. This is why the two rainbows are fairly close together in the sky.
 
@@ -1698,7 +1698,7 @@ By accident, the minima for $\theta_{2}$ and $\theta_{3}$ are almost equally (wi
 
 Plot of $\theta_{2}$ and $\theta_{3}$ versus $\theta$ for red light and blue light.
 :::
-Another prediction of this picture that can often be seen is “Alexander’s dark band” that appears between the rainbows. The light that is not concentrated at the minimum value of $\theta$ is spread inside the first rainbow but outside the second rainbow, thus the region between the two rainbows (or outside the first if the second cannot be seen) is darker. If we plot the angular distance away from $\pi$ as a function of the angle at which the incoming sunlight enters the water drop, the first and second rainbows look like [Figure 11.58](#fig-11-58) (as usual, I have exaggerated the difference in index of refraction between red and blue. Here you clearly see that the angle of first rainbow is smaller, and the dark band between the two.
+Another prediction of this picture that can often be seen is “Alexander’s dark band” that appears between the rainbows. The light that is not concentrated at the minimum value of $\theta$ is spread inside the first rainbow but outside the second rainbow; thus the region between the two rainbows (or outside the first if the second cannot be seen) is darker. If we plot the angular distance away from $\pi$ as a function of the angle at which the incoming sunlight enters the water drop, the first and second rainbows look like [Figure 11.58](#fig-11-58) (as usual, I have exaggerated the difference in index of refraction between red and blue). Here you clearly see that the angle of the first rainbow is smaller and that there is a dark band between the two.
 
 ## 11.8: Spherical Waves
 
@@ -1804,7 +1804,7 @@ Do the rest and **get the order right**. You should be able to do this even if y
 :label: prb-11-2
 :enumerator: 11.2
 
-Consider the forced transverse oscillations of the two-dimensional beaded string shown in [Figure 11.60](#fig-11-60). All the strings have tension $T$, all the solid circles are beads with mass $m$. The frame is held fixed in the $z = 0$ plane. The open circles are moved up and down out of the plane of the paper with the same transverse displacement,
+Consider the forced transverse oscillations of the two-dimensional beaded string shown in [Figure 11.60](#fig-11-60). All the strings have tension $T$; all the solid circles are beads with mass $m$. The frame is held fixed in the $z = 0$ plane. The open circles are moved up and down out of the plane of the paper with the same transverse displacement,
 
 $$
 z_{1}(t)=z_{2}(t)=z_{3}(t)=d \cos \omega t
@@ -1837,7 +1837,7 @@ for all relevant $j$ and $k$. All displacements will be proportional to $d \cos 
 :label: prb-11-3
 :enumerator: 11.3
 
-Consider the forced transverse oscillations of the semi-infinite two-dimensional beaded string shown in [Figure 11.61](#fig-11-61). All the strings have tension $T$, all the solid circles are beads with mass $m$. The equilibrium separations of the blocks are all $a$. The frame at $y = 0$ and $y = 4a$ is held fixed in the $z = 0$ plane. The open circles at $x = 0$ are moved up and
+Consider the forced transverse oscillations of the semi-infinite two-dimensional beaded string shown in [Figure 11.61](#fig-11-61). All the strings have tension $T$; all the solid circles are beads with mass $m$. The equilibrium separations of the beads are all $a$. The frame at $y = 0$ and $y = 4a$ is held fixed in the $z = 0$ plane. The open circles at $x = 0$ are moved up and
 
 :::{figure} ../images/lt-33381-clipboard_e61c105316a05286a3d66b66fffdc84f0.png
 :label: fig-11-61
@@ -1998,7 +1998,7 @@ Explain the physics of the boundary condition at $r = L$.
 
 Write down the mathematical statement of the boundary condition at $r = L$, the solutions of which give the allowed values of $k$ for the normal modes.
 
-**Hints:**. Remember that it is $\chi$ and not $\xi$ that is the physical pressure difference. The lowest nontrivial mode has a $k$ value which satisfies $k L \approx 4.4934$. The amplitude of the pressure oscillations in this mode as a function of $r$ is shown in the graph in [Figure 11.63](#fig-11-63).
+**Hints:** Remember that it is $\chi$ and not $\xi$ that is the physical pressure difference. The lowest nontrivial mode has a $k$ value which satisfies $k L \approx 4.4934$. The amplitude of the pressure oscillations in this mode as a function of $r$ is shown in the graph in [Figure 11.63](#fig-11-63).
 
 :::{figure} ../images/lt-33383-clipboard_eb667314a6d8ad1c6dd5bafa9472e826d.png
 :label: fig-11-63
@@ -2163,7 +2163,7 @@ $$
 e^{i(\vec{k} \cdot \vec{r}-\omega t)}
 $$
 
-for $\vec{k}^{2}$ and $\omega$ related by some dispersion relation. In particular, consider propagation in the $+z$ direction with the electric field in the $x$ direction and the magnetic field in the y directions: 
+for $\vec{k}^{2}$ and $\omega$ related by some dispersion relation. In particular, consider propagation in the $+z$ direction with the electric field in the $x$ direction and the magnetic field in the y direction: 
 $$
 \begin{array}{ll}
 E_{x}(\vec{r}, t)=E e^{i(k z-\omega t)}, & E_{y}(\vec{r}, t)=E_{z}(\vec{r}, t)=0 . \\
@@ -2199,7 +2199,7 @@ A spherical sound damper.
 :label: prb-11-13
 :enumerator: 11.13
 
-Consider a spherical sound wave coming in from far away and being completely absorbed by a spherical sound damper at a radius $r = \ell$, as shown in [Figure 11.65](#fig-11-65). The pressure in is this system is described by the real part of the complex traveling wave below, depending only on the radius and time:
+Consider a spherical sound wave coming in from far away and being completely absorbed by a spherical sound damper at a radius $r = \ell$, as shown in [Figure 11.65](#fig-11-65). The pressure in this system is described by the real part of the complex traveling wave below, depending only on the radius and time:
 
 $$
 p(r, t)-p_{0}=\frac{\epsilon}{r} e^{-i(k r+\omega t)}
@@ -2253,7 +2253,7 @@ in which you can drop terms proportional to $1 / r_{b}$ compared to $k$ or $k^{\
 :label: prb-11-14
 :enumerator: 11.14
 
-One of the problems with glass lenses is that the index of refraction of glass depends on frequency. Thus, according to the lens maker’s formula, the focal length of a glass lens will depend of frequency, and that is not good, because if one color is focused sharply, the others will be fuzzy. This is called “chromatic aberration.” Fortunately, different kinds of glass have different behavior in this respect, and this makes it possible to eliminate chromatic aberration. Suppose that you make a lens that looks like this by gluing together lenses made of two different types of glass.
+One of the problems with glass lenses is that the index of refraction of glass depends on frequency. Thus, according to the lens maker’s formula, the focal length of a glass lens will depend on frequency, and that is not good, because if one color is focused sharply, the others will be fuzzy. This is called “chromatic aberration.” Fortunately, different kinds of glass have different behavior in this respect, and this makes it possible to eliminate chromatic aberration. Suppose that you make a lens that looks like this by gluing together lenses made of two different types of glass.
 
 ![Figure](../images/lt-33389-clipboard_e876c92ef47c0e36dd5b37c565854149d.png)
 
@@ -2278,7 +2278,7 @@ The focal length of the convex lens is $f_{1}$ and the focal length of the conca
 
 1. If the ray tracing works as shown, that is that parallel rays entering the objective are focused down to parallel rays leaving the eyepiece, find the distance, $d$, between the two lenses.
 
-2. Compute the magnification by assuming that you are looking at a distance object which subtends an angular size $\theta$. Then consider a ray at angle $\angle$ that passes through the center of the convex lens. By calculating where it passes through the concave lens, you should be able to determine its angle, $\theta_{o}$, when it reaches the observers eye. The magnification is then $\theta_{o} / \theta$. What is it in terms of the focal lengths?
+2. Compute the magnification by assuming that you are looking at a distant object which subtends an angular size $\theta$. Then consider a ray at angle $\angle$ that passes through the center of the convex lens. By calculating where it passes through the concave lens, you should be able to determine its angle, $\theta_{o}$, when it reaches the observer’s eye. The magnification is then $\theta_{o} / \theta$. What is it in terms of the focal lengths?
 
 3. The image in this case is right-side-up. Draw a careful diagram to explain why.
 

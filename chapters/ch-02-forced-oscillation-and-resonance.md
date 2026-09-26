@@ -51,7 +51,7 @@ $$
 \left(\alpha^{2}+\Gamma \alpha+\omega_{0}^{2}\right) e^{\alpha t}=0 . \tag{2.5} \label{eq-2-5}
 $$
 
-Because the exponential never vanishes, the quantity in parentheses must be zero, thus 
+Because the exponential never vanishes, the quantity in parentheses must be zero; thus 
 $$
 \alpha=-\frac{\Gamma}{2} \pm \sqrt{\frac{\Gamma^{2}}{4}-\omega_{0}^{2}} . \tag{2.6} \label{eq-2-6}
 $$
@@ -115,7 +115,7 @@ A damped complex exponential.
 :::
 ### Critically Damped Oscillators
 
-If $\Gamma / 2=\omega_{0}$, then [2.4](#eq-2-4), gives only one solution, $e^{-\Gamma t / 2}$. We know that there will be two solutions to the second order differential equation, [2.2](#eq-2-2). One way to find the other solution is to approach this situation from the underdamped case as a limit. If we write the solutions to the underdamped case in real form, they are $e^{-\Gamma t / 2} \cos \omega t$ and $e^{-\Gamma t / 2} \sin \omega t$. Taking the limit of the first as $\omega \rightarrow 0$ gives $e^{-\Gamma t / 2}$, the solution we already know. Taking the limit of the second gives 0. However, if we first divide the second solution by $\omega$, it is still a solution because $\omega$ does not depend on $t$. Now we can get a nonzero limit: 
+If $\Gamma / 2=\omega_{0}$, then [2.4](#eq-2-4) gives only one solution, $e^{-\Gamma t / 2}$. We know that there will be two solutions to the second order differential equation, [2.2](#eq-2-2). One way to find the other solution is to approach this situation from the underdamped case as a limit. If we write the solutions to the underdamped case in real form, they are $e^{-\Gamma t / 2} \cos \omega t$ and $e^{-\Gamma t / 2} \sin \omega t$. Taking the limit of the first as $\omega \rightarrow 0$ gives $e^{-\Gamma t / 2}$, the solution we already know. Taking the limit of the second gives 0. However, if we first divide the second solution by $\omega$, it is still a solution because $\omega$ does not depend on $t$. Now we can get a nonzero limit: 
 $$
 \lim _{\omega \rightarrow 0} \frac{1}{\omega} e^{-\Gamma t / 2} \sin \omega t=t e^{-\Gamma t / 2} . \tag{2.12} \label{eq-2-12}
 $$
@@ -142,7 +142,7 @@ As in the overdamped situation, there is no real oscillation for critical dampin
 
 ## 2.2: Forced Oscillations
 
-The damped oscillator with a harmonic driving force, has the equation of motion 
+The damped oscillator with a harmonic driving force has the equation of motion 
 $$
 \frac{d^{2}}{d t^{2}} x(t)+\Gamma \frac{d}{d t} x(t)+\omega_{0}^{2} x(t)=F(t) / m , \tag{2.14} \label{eq-2-14}
 $$
@@ -171,9 +171,9 @@ $$
 \operatorname{Re} \mathcal{F}(t)=F(t) . \tag{2.18} \label{eq-2-18}
 $$
 
-If $z(t)$ is a solution to [2.16](#eq-2-16), then you can prove that $x(t)=\operatorname{Re} z(t)$ is a solution [2.14](#eq-2-14) by taking the real part of both sides of [2.16](#eq-2-16).
+If $z(t)$ is a solution to [2.16](#eq-2-16), then you can prove that $x(t)=\operatorname{Re} z(t)$ is a solution to [2.14](#eq-2-14) by taking the real part of both sides of [2.16](#eq-2-16).
 
-The advantage to the complex exponential force, in [2.16](#eq-2-16), is that it is irreducible, it behaves simply under time translations. In particular, we can find a steady state solution proportional to the driving force, $e^{-i \omega_{d} t}$, whereas for the real driving force, the $\cos \omega_{d} t$ and $\sin \omega_{d} t$ forms get mixed up. That is, we look for a steady state solution of the form 
+The advantage to the complex exponential force, in [2.16](#eq-2-16), is that it is irreducible; it behaves simply under time translations. In particular, we can find a steady state solution proportional to the driving force, $e^{-i \omega_{d} t}$, whereas for the real driving force, the $\cos \omega_{d} t$ and $\sin \omega_{d} t$ forms get mixed up. That is, we look for a steady state solution of the form 
 $$
 z(t)-\mathcal{A} e^{-i \omega_{d} t} \tag{2.19} \label{eq-2-19}
 $$
@@ -228,7 +228,7 @@ The $\left(\omega_{0}^{2}-\omega_{d}^{2}\right)^{2}$ term in the denominator of 
 
 The phenomenon of resonance is both familiar and spectacularly important. It is familiar in situations as simple as building up a large amplitude in a child’s swing by supplying a small force at the same time in each cycle. Yet simple as it is, it is crucial in many devices and many delicate experiments in physics. Resonance phenomena are used ubiquitously to build up a large, measurable response to a very small disturbance.
 
-Very often, we will ignore damping in forced oscillations. Near a resonance, this is not a good idea, because the amplitude, [2.22](#eq-2-22), goes to infinity as $\Gamma \rightarrow 0$ for $\omega_{d} = \omega_{0}$. **Infinities are not physical.** This infinity never occurs in practice. One of two things happen before the amplitude blows up. Either the damping eventually cannot be ignored, so the response looks like [2.22](#eq-2-22) for nonzero $\Gamma$, or the amplitude gets so large that the nonlinearities in the system cannot be ignored, so the equation of motion no longer looks like [2.16](#eq-2-16).
+Very often, we will ignore damping in forced oscillations. Near a resonance, this is not a good idea, because the amplitude, [2.22](#eq-2-22), goes to infinity as $\Gamma \rightarrow 0$ for $\omega_{d} = \omega_{0}$. **Infinities are not physical.** This infinity never occurs in practice. One of two things happens before the amplitude blows up. Either the damping eventually cannot be ignored, so the response looks like [2.22](#eq-2-22) for nonzero $\Gamma$, or the amplitude gets so large that the nonlinearities in the system cannot be ignored, so the equation of motion no longer looks like [2.16](#eq-2-16).
 
 ### Work
 
@@ -333,7 +333,7 @@ $$
 d_{0} \cos \omega_{d} t . \tag{2.35} \label{eq-2-35}
 $$
 
-d0 cos ωdt . [2.35](#eq-2-35) In this arrangement, you don’t have to be in the viscous fluid with the block — this makes it a lot easier to breathe.
+In this arrangement, you don’t have to be in the viscous fluid with the block — this makes it a lot easier to breathe.
 
 :::{figure} ../images/lt-34047-clipboard_ebc447cff32f89ffb10a538e3e1de2132.png
 :label: fig-2-9
@@ -347,7 +347,7 @@ $$
 x(t)-d_{0} \cos \omega_{d} t . \tag{2.36} \label{eq-2-36}
 $$
 
-Thus the equation motion looks like this: 
+Thus the equation of motion looks like this: 
 $$
 m \frac{d^{2}}{d t^{2}} x(t)+m \Gamma \frac{d}{d t} x(t)=-K\left[x(t)-d_{0} \cos \omega_{d} t\right] . \tag{2.37} \label{eq-2-37}
 $$
@@ -475,7 +475,7 @@ $$
 d_{0} \sin \omega_{d} t \quad \text { for } \quad t \geq 0 .
 $$
 
-1. Find the displacement of the block for $t > 0$. Write the solution as the real part of complex solution, by using a complex force and exponential solutions. Do not try to simplify the complex numbers. **Hint:** Use [2.23](#eq-2-23), [2.24](#eq-2-24) and [2.6](#eq-2-6). If you get confused, go on to part **b.**
+1. Find the displacement of the block for $t > 0$. Write the solution as the real part of a complex solution, by using a complex force and exponential solutions. Do not try to simplify the complex numbers. **Hint:** Use [2.23](#eq-2-23), [2.24](#eq-2-24) and [2.6](#eq-2-6). If you get confused, go on to part **b.**
 
 2. Find the solution when $\Gamma \rightarrow 0$ and simplify the result. Even if you got confused by the complex numbers in **a.**, you should be able to find the solution in this limit. When there is no damping, the “transient” solutions do not die away with time!
 
@@ -485,6 +485,6 @@ $$
 :label: prb-2-5
 :enumerator: 2.5
 
-For the $LC$ circuit shown in [Figure 1.10](#fig-1-10), suppose that the inductor has nonzero resistance, $R$. Write down the equation of motion for this system and find the relation between friction term, $m \Gamma$, in the damped harmonic oscillator and the resistance, $R$, that completes the correspondence of [1.105](#eq-1-105). Suppose that the capacitors have capacitance, $C \approx 0.00667 \mu F$, the inductor has inductance, $L \approx 150 \mu H$ and the resistance, $R \approx 15 \Omega$. Solve the equation of motion and evaluate the constants that appear in your solution in units of seconds.
+For the $LC$ circuit shown in [Figure 1.10](#fig-1-10), suppose that the inductor has nonzero resistance, $R$. Write down the equation of motion for this system and find the relation between the friction term, $m \Gamma$, in the damped harmonic oscillator and the resistance, $R$, that completes the correspondence of [1.105](#eq-1-105). Suppose that the capacitors have capacitance, $C \approx 0.00667 \mu F$, the inductor has inductance, $L \approx 150 \mu H$ and the resistance, $R \approx 15 \Omega$. Solve the equation of motion and evaluate the constants that appear in your solution in units of seconds.
 
 ::::

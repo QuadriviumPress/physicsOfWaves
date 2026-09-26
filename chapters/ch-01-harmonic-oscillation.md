@@ -78,7 +78,7 @@ $$
 
 is a constant with units of $T^{-1}$ called the “angular frequency.” The angular frequency will be a very important quantity in our study of wave phenomena. We will almost always denote it by the lower case Greek letter, ω (omega).
 
-Because the equation involves a second time derivative but no higher derivatives, the most general solution involves two constants. This is just what we expect from the physics, because we can get a different solution for each value of the position and velocity of the block at the starting time. Generally, we will think about determining the solution in terms of the position and velocity of the block when we first get the motion started, at a time that we conventionally take to be t=0 For this reason, the process of determining the solution in terms of the position and velocity at a given time is called the “initial value problem.” The values of position and velocity at t = 0 are called initial conditions. For example, we can write the **most general solution**, (1.1.4), in terms of x(0) and x'(0), the displacement and velocity of the block at time t = 0. Setting t = 0 in (1.1.4) gives a = x(0). Differentiating and then setting t = 0 gives $b = ω x'(0)$. Thus
+Because the equation involves a second time derivative but no higher derivatives, the most general solution involves two constants. This is just what we expect from the physics, because we can get a different solution for each value of the position and velocity of the block at the starting time. Generally, we will think about determining the solution in terms of the position and velocity of the block when we first get the motion started, at a time that we conventionally take to be t=0. For this reason, the process of determining the solution in terms of the position and velocity at a given time is called the “initial value problem.” The values of position and velocity at t = 0 are called initial conditions. For example, we can write the **most general solution**, (1.1.4), in terms of x(0) and x'(0), the displacement and velocity of the block at time t = 0. Setting t = 0 in (1.1.4) gives a = x(0). Differentiating and then setting t = 0 gives $b = ω x'(0)$. Thus
 
 $$
 x(t) = x(0)\cosωt +\frac{1}{w}x'(0)\sinωt \tag{1.6} \label{eq-1-6}
@@ -92,7 +92,7 @@ $$
 mg ≈ 9.8 newtons \tag{1.7} \label{eq-1-7}
 $$
 
-In equilibrium, the gravitational force cancels the force from the spring, thus the spring is stretched by
+In equilibrium, the gravitational force cancels the force from the spring; thus the spring is stretched by
 
 $$
 \frac{mg}{K} ≈ 0.098 meters = 9.8 centimeters \tag{1.8} \label{eq-1-8}
@@ -264,7 +264,7 @@ $$
 
 which is small if X<<L.
 
-In other words, the closer you are to the equilibrium point, the closer the actual potential energy is to the parabola that we would expect from the potential energy for a linear, Hooke’s law force. You can see this graphically by blowing up a small region around the equilibrium point. In [figure 1.3](#fig-1-3), the dotted rectangle in [figure 1.2](#fig-1-2) has been blown up into a square. Note that it looks much more like a parabola than [figure 1.3](#fig-1-3). If we repeated the procedure and again expanded a small region about the equilibrium point, you would not be able to detect the cubic term by eye.
+In other words, the closer you are to the equilibrium point, the closer the actual potential energy is to the parabola that we would expect from the potential energy for a linear, Hooke’s law force. You can see this graphically by blowing up a small region around the equilibrium point. In [figure 1.3](#fig-1-3), the dotted rectangle in [figure 1.2](#fig-1-2) has been blown up into a square. Note that it looks much more like a parabola than [figure 1.2](#fig-1-2). If we repeated the procedure and again expanded a small region about the equilibrium point, you would not be able to detect the cubic term by eye.
 
 :::{figure} ../images/lt-23882-screen_shot_2021-03-24_at_9.17.43_pm.png
 :label: fig-1-3
@@ -467,7 +467,7 @@ $$
 
 It is worth playing with complex multiplication and getting to know the complex plane. At this point, you should check out program 1-2.
 
-Division is more complicated. To divide a complex number $z$ by a real number $r$ is easy, just divide both the real and the imaginary parts by $r$ to get $z/r = a/r + ib/r.$ To divide by a complex number, $z'$, we can use the fact that $z'^* z' = |z'|^2$ is real. If we multiply the numerator and the denominator of $z/z' by z'^*$, we can write:
+Division is more complicated. To divide a complex number $z$ by a real number $r$ is easy; just divide both the real and the imaginary parts by $r$ to get $z/r = a/r + ib/r.$ To divide by a complex number, $z'$, we can use the fact that $z'^* z' = |z'|^2$ is real. If we multiply the numerator and the denominator of $z/z' by z'^*$, we can write:
 
 $$
 z/z' = z'^*z/|z'|^2 = (aa' + bb' )/(a'^2 + b'^2) + i(ba' − ab' )/(a'^2 + b'^2). \tag{1.51} \label{eq-1-51}
@@ -636,9 +636,9 @@ We are now ready to translate the conditions of linearity and time translation i
 :::{figure} ../images/book-fig-1-8.png
 :label: fig-1-8
 :enumerator: 1.8
-:alt: Some special complex exponential in the complex plane.
+:alt: Some special complex exponentials in the complex plane.
 
-Some special complex exponential in the complex plane.
+Some special complex exponentials in the complex plane.
 :::
 
 these irreducible solutions are just exponential. We do not need to use any other details about the equation of motion to get this result. Therefore our arguments will apply to much more complicated situations, in which there is damping or more degrees of freedom or both. **So long as the system has time translation invariance and linearity, the solutions will be sums of irreducible exponential solutions.**
@@ -743,7 +743,7 @@ ___________________________
 
 [^1-5-5]: We will discuss the determinant in detail in chapter 3, so if you have forgotten this result from algebra, don’t worry about it for now.
 
-[1.81](#eq-1-81) is an $n$th order equation in the variable $h(a)$. It may have no real solution, but it always has $n$ complex solutions for $h(a)$ (although some of the $h(a)$ values may appear more than once). For each solution for $h(a)$, we can find a set of $c_j$s satisfying [1.78](#eq-1-78). The different linear combinations, $z(t)$, constructed in this way will be a linearly independent set of irreducible solutions, each satisfying [1.74](#eq-1-74), for some $h(a)$. If there are $n$ different $h(a)$s, the usual situation, they will be a complete set of irreducible solutions to the equations of motions. Then we may as well take our solutions to be irreducible, satisfying [1.74](#eq-1-74). We will see later what happens when some of the $h(a)$s appear more than once so that there are fewer than $n$ different ones.
+[1.81](#eq-1-81) is an $n$th order equation in the variable $h(a)$. It may have no real solution, but it always has $n$ complex solutions for $h(a)$ (although some of the $h(a)$ values may appear more than once). For each solution for $h(a)$, we can find a set of $c_j$s satisfying [1.78](#eq-1-78). The different linear combinations, $z(t)$, constructed in this way will be a linearly independent set of irreducible solutions, each satisfying [1.74](#eq-1-74), for some $h(a)$. If there are $n$ different $h(a)$s, the usual situation, they will be a complete set of irreducible solutions to the equations of motion. Then we may as well take our solutions to be irreducible, satisfying [1.74](#eq-1-74). We will see later what happens when some of the $h(a)$s appear more than once so that there are fewer than $n$ different ones.
 
 Now for each such irreducible solution, we can see what the functions $h(a)$ and $z(a)$ must be. If we differentiate both sides of [1.74](#eq-1-74) with respect to $a$, we obtain
 
@@ -769,7 +769,7 @@ $$
 z(t) ∝ e^{Ht} . \tag{1.93} \label{eq-1-93}
 $$
 
-Thus the irreducible solution is an exponential! **We have shown that [1.71](#eq-1-71) leads to irreducible, exponential solutions, without using any of details of the dynamics!**
+Thus the irreducible solution is an exponential! **We have shown that [1.71](#eq-1-71) leads to irreducible, exponential solutions, without using any of the details of the dynamics!**
 
 ### Building Up The Exponential
 
@@ -868,7 +868,7 @@ $$
 
 and θ is an angle called the phase,
 
-These relations are another example of the equivalence of Cartesian coordinates and polar coordinates, discussed after [1.65](#eq-1-65). The pair, c and d, are the Cartesian coordinates in the complex plane of the complex number, c + id. The amplitude, A, and phase, θ, are the polar coordinate representation of the same complex [1.96](#eq-1-96) shows that c and d are also the coefficients of cos ωt and sin ωt in the real part of the product of this complex number with −iωt e . This relation is illustrated in [figure 1.9](#fig-1-9) (note the relation to [figure 1.4](#fig-1-4)). As z moves clockwise with constant angular velocity, ω, around the circle, |z| = A, in the complex plane, the real part of z undergoes simple harmonic motion, A cos(ωt − θ). Now that you know about complex numbers and complex exponentials, you should go back to the relation between simple harmonic motion and uniform circular motion illustrated in [figure 1.4](#fig-1-4) and in supplementary program 1-1. The uniform circular motion can interpreted as a motion in the complex plane of the
+These relations are another example of the equivalence of Cartesian coordinates and polar coordinates, discussed after [1.65](#eq-1-65). The pair, c and d, are the Cartesian coordinates in the complex plane of the complex number, c + id. The amplitude, A, and phase, θ, are the polar coordinate representation of the same complex number. [1.96](#eq-1-96) shows that c and d are also the coefficients of cos ωt and sin ωt in the real part of the product of this complex number with −iωt e . This relation is illustrated in [figure 1.9](#fig-1-9) (note the relation to [figure 1.4](#fig-1-4)). As z moves clockwise with constant angular velocity, ω, around the circle, |z| = A, in the complex plane, the real part of z undergoes simple harmonic motion, A cos(ωt − θ). Now that you know about complex numbers and complex exponentials, you should go back to the relation between simple harmonic motion and uniform circular motion illustrated in [figure 1.4](#fig-1-4) and in supplementary program 1-1. The uniform circular motion can be interpreted as the motion in the complex plane of
 
 $$
 z(t) = e^{-i\omega t} \tag{1.110} \label{eq-1-110}
@@ -887,7 +887,7 @@ Note that we could have just as easily taken our complex solution to be $e^{+i\o
 
 ## 1.6: LC Circuits
 
-One of the most important examples of an oscillating system is an LC circuit. You probably studied these in your course on electricity and magnetism. Like a Hooke’s law spring, this system is linear, because the relations between charge, current, voltage, and the like for ideal inductors, capacitors and resistors are linear. Here we want to make explicit the analogy between a particular LC circuit and a system of a mass on a spring. The LC circuit with a resistance less inductor with an inductance L and a capacitor of capacitance C is shown in [figure 1.10](#fig-1-10). We might not ordinarily think of this as a circuit at all, because there is no battery or other source of electrical power. However, we could imagine, for example, that the capacitor was charged initially when the circuit was put together. Then current would flow when the circuit was completed. In fact, in the absence of resistance, the current would continue to oscillate forever. We shall see that this circuit is analogous to the combination of springs and a mass shown in [figure 1.11](#fig-1-11). The oscillation frequency of the mechanical system is
+One of the most important examples of an oscillating system is an LC circuit. You probably studied these in your course on electricity and magnetism. Like a Hooke’s law spring, this system is linear, because the relations between charge, current, voltage, and the like for ideal inductors, capacitors and resistors are linear. Here we want to make explicit the analogy between a particular LC circuit and a system of a mass on a spring. The LC circuit with an inductor with no resistance with an inductance L and a capacitor of capacitance C is shown in [figure 1.10](#fig-1-10). We might not ordinarily think of this as a circuit at all, because there is no battery or other source of electrical power. However, we could imagine, for example, that the capacitor was charged initially when the circuit was put together. Then current would flow when the circuit was completed. In fact, in the absence of resistance, the current would continue to oscillate forever. We shall see that this circuit is analogous to the combination of springs and a mass shown in [figure 1.11](#fig-1-11). The oscillation frequency of the mechanical system is
 
 $$
 \omega=\sqrt{\frac{K}{M}} \tag{1.111} \label{eq-1-111}
@@ -957,7 +957,7 @@ $$
 
 ## 1.7: Units - Displacement and energy
 
-We have now seen two very different kinds of physical systems that exhibit simple harmonic oscillation. Others are possible as well, and we will give another example below. This is a good time to discuss the units of the equations of motions. The “generic” equation of motion for simple harmonic motion without damping looks like this
+We have now seen two very different kinds of physical systems that exhibit simple harmonic oscillation. Others are possible as well, and we will give another example below. This is a good time to discuss the units of the equations of motion. The “generic” equation of motion for simple harmonic motion without damping looks like this
 
 $$
 M\frac{d^2X}{dt^2} = −K X \tag{1.117} \label{eq-1-117}
@@ -1005,7 +1005,7 @@ $$
 X(t) = A\sin(\omega t) \tag{1.123} \label{eq-1-123}
 $$
 
-where A is an amplitude with the units of X . Then the generalized velocity, is
+where A is an amplitude with the units of X . Then the generalized velocity is
 
 $$
 \frac{d}{dt}X(t) = A\omega\cos(\omega t) \tag{1.124} \label{eq-1-124}
@@ -1060,7 +1060,7 @@ $$
 x(t) = vt - \frac{F_0}{2m}t^2 \tag{1.126} \label{eq-1-126}
 $$
 
-for $t ≤ τ$.
+for $t ≤ τ$,
 
 where
 
@@ -1068,7 +1068,7 @@ $$
 \tau=\frac{2mv}{F_0} \tag{1.127} \label{eq-1-127}
 $$
 
-is the time required for the particle to turn around and get back to the origin. At time, $t = τ$, the particle moves to the left of the origin. At this point it is moving with velocity, $−v$, the process is repeated for negative $x$ and positive acceleration $\frac{F_0}{m}$ Then the solution continues in the form
+is the time required for the particle to turn around and get back to the origin. At time, $t = τ$, the particle moves to the left of the origin. At this point it is moving with velocity $−v$; the process is repeated for negative $x$ and positive acceleration $\frac{F_0}{m}$. Then the solution continues in the form
 
 $$
 x(t) = -v(t - \tau) + \frac{F_0}{2m}(t - \tau)^2 \quad\text{for }\tau \leq t \leq 2\tau \tag{1.128} \label{eq-1-128}
@@ -1080,7 +1080,7 @@ $$
 x_{t_0}(t) = x(t-t_0) \tag{1.129} \label{eq-1-129}
 $$
 
-where $x(t)$ is the function described by [1.126](#eq-1-126), [1.128](#eq-1-128), etc. This shown in [figure 1.16](#fig-1-16) for $t = t_0 = \frac{3τ}{4}$. The dotted curve corresponds to $t_0 = 0$
+where $x(t)$ is the function described by [1.126](#eq-1-126), [1.128](#eq-1-128), etc. This is shown in [figure 1.16](#fig-1-16) for $t = t_0 = \frac{3τ}{4}$. The dotted curve corresponds to $t_0 = 0$
 
 :::{figure} ../images/lt-24248-screen_shot_2021-04-28_at_12.18.41_am.png
 :label: fig-1-15
@@ -1138,7 +1138,7 @@ You should now be able to:
 :label: prb-1-1
 :enumerator: 1.1
 
-For the mass and spring discussed [1.1](#eq-1-1)-[1.8](#eq-1-8), suppose that the system is hung vertically in the earth’s gravitational field, with the top of the spring held fixed. Show that the frequency for vertical oscillations is given by [1.5](#eq-1-5). Explain why gravity has no effect on the angular frequency.
+For the mass and spring discussed in [1.1](#eq-1-1)-[1.8](#eq-1-8), suppose that the system is hung vertically in the earth’s gravitational field, with the top of the spring held fixed. Show that the frequency for vertical oscillations is given by [1.5](#eq-1-5). Explain why gravity has no effect on the angular frequency.
 
 ::::
 
@@ -1177,9 +1177,9 @@ $$
 :label: prb-1-3
 :enumerator: 1.3
 
-a. Write $i+\sqrt{3}$ in the form $Re^{iθ}$. Write θ as a rational number times π
+a. Write $i+\sqrt{3}$ in the form $Re^{iθ}$. Write θ as a rational number times π.
 
-Do the same for $i-\sqrt{3}$
+Do the same for $i-\sqrt{3}$.
 
 c. Show that the two square roots of $Re^{iθ} are ±\sqrt{Re^{\frac{iθ}{2}}}$. Hint: This is easy! Don’t work too hard.
 
@@ -1239,6 +1239,6 @@ Find the positions at which the particle is in stable equilibrium. Find the angu
 :label: prb-1-8
 :enumerator: 1.8
 
-For the torsion pendulum of [figure 1.14](#fig-1-14), suppose that the pendulum consists of two 0.01 kg masses on a light rod of total length 0.1 m. If the generalized spring constant, α, is $5 × 10^{−7}$ N m. Find the angular frequency of the oscillator.
+For the torsion pendulum of [figure 1.14](#fig-1-14), suppose that the pendulum consists of two 0.01 kg masses on a light rod of total length 0.1 m. If the generalized spring constant, α, is $5 × 10^{−7}$ N m, find the angular frequency of the oscillator.
 
 ::::

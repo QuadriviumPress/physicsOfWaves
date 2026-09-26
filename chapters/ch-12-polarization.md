@@ -61,7 +61,7 @@ which gives a complete description of the motion of the string.
 
 “Polarization” refers to the nature of the motion of a point on the string (or other transverse oscillation). This motion is animated in program 12-1. You may want to read the discussion below with this program running.
 
-If $\phi_{1}=\phi_{2}$, or $A_{1}$ or $A_{2}$ is zero, then [12.3](#eq-12-3) represent a linearly polarized string. Linear polarization is easy to understand. It means that each point on the string is oscillating back and forth in a fixed plane. For example, 
+If $\phi_{1}=\phi_{2}$, or $A_{1}$ or $A_{2}$ is zero, then [12.3](#eq-12-3) represents a linearly polarized string. Linear polarization is easy to understand. It means that each point on the string is oscillating back and forth in a fixed plane. For example, 
 $$
 u_{1}=\left(\begin{array}{l}
 1 \\
@@ -134,7 +134,7 @@ i B
 \end{array}\right) \tag{12.10} \label{eq-12-10}
 $$
 
-with $A > B > 0$ represents elliptical polarization. A point on the string traces out an ellipse with semi-major axis $A$ along the 1 axis and semi-minor axis $B$ along the 2 axis, with counterclockwise rotation, as shown in [Figure 12.3](#fig-12-3)
+with $A > B > 0$ represents elliptical polarization. A point on the string traces out an ellipse with semi-major axis $A$ along the 1 axis and semi-minor axis $B$ along the 2 axis, with counterclockwise rotation, as shown in [Figure 12.3](#fig-12-3).
 
 :::{figure} ../images/lt-32889-clipboard_e93d7f3eadef47dda249e0efa0263a893.png
 :label: fig-12-3
@@ -161,7 +161,7 @@ A \sin \theta+i B \cos \theta
 \end{array}\right) \tag{12.11} \label{eq-12-11}
 $$
 
-with $A \geq|B|$ and $0 \leq \theta<\pi$ and $\phi$ is real phase (which is not very relevant to the physics but can be there to make the math look uglier). This represents elliptical polarization with semi-major axis $A$ at an angle $\theta$ with the 1 axis, as in 
+with $A \geq|B|$ and $0 \leq \theta<\pi$ and $\phi$ is a real phase (which is not very relevant to the physics but can be there to make the math look uglier). This represents elliptical polarization with semi-major axis $A$ at an angle $\theta$ with the 1 axis, as in 
 $$
 u_{\theta}=\left(\begin{array}{c}
 \cos \theta \\
@@ -417,7 +417,7 @@ where the phases are random and the frequencies are chosen at random in a small 
 
 ### Polarizers
 
-A **“polarizer”** is a device that allows light polarized in a particular direction (the “easy transmission axis” of the polarizer) to pass through with very little absorption, but absorbs most of the light polarized in the perpendicular direction. Thus an unpolarized light beam, passing though the polarizer, emerges polarized along the easy axis.
+A **“polarizer”** is a device that allows light polarized in a particular direction (the “easy transmission axis” of the polarizer) to pass through with very little absorption, but absorbs most of the light polarized in the perpendicular direction. Thus an unpolarized light beam, passing through the polarizer, emerges polarized along the easy axis.
 
 For the transverse oscillations of a string, a polarizer is simply a slit that allows the string to oscillate in one transverse direction but not in the perpendicular direction.
 
@@ -471,7 +471,7 @@ e^{-i \Delta \phi} / \sqrt{2}
 \end{array}\right) . \tag{12.47} \label{eq-12-47}
 $$
 
-For frequencies such that $e^{-i \Delta \phi}$ is −1, the light is polarized in the −$45^{\circ}$ direction, and gets $e^{-i \Delta \phi}$ through the second polarizer without further attenuation. But for frequencies such that e is 1, the light is still absorbed by the second polarizer. Intermediate frequencies are partially absorbed.
+For frequencies such that $e^{-i \Delta \phi}$ is −1, the light is polarized in the −$45^{\circ}$ direction, and gets through the second polarizer without further attenuation. But for frequencies such that $e^{-i \Delta \phi}$ is 1, the light is still absorbed by the second polarizer. Intermediate frequencies are partially absorbed.
 
 It is this frequency dependence that produces the interesting patterns of color that you see when you put cellophane or a stressed piece of plastic between polarizers.
 
@@ -556,7 +556,7 @@ i / 2 & i / 2
 \end{array}\right) . \tag{12.56} \label{eq-12-56}
 $$
 
-When this acts on an arbitrary vector you get circularly polarization unless the vector is annihilated by $P_{\pi / 4}$. 
+When this acts on an arbitrary vector you get circular polarization unless the vector is annihilated by $P_{\pi / 4}$. 
 $$
 Q_{0} P_{\pi / 4}\left(\begin{array}{l}
 \psi_{1} \\
@@ -571,7 +571,7 @@ In the opposite order, $P_{\pi / 4} Q_{0}$ is an analyzer for circularly polariz
 
 ### Optical Activity
 
-**“Optical activity”** is a property of many organic and some inorganic compounds. An optically active material rotates the polarization of light without absorbing either component of the polarization. A familiar example of such a material is corn syrup, a thick aqueous solution of sugar that you probably have in your kitchen. If you put a rectangular container of corn syrup between polarizers, as shown in [Figure 12.7](#fig-12-7), and rotate the second polarizer until the intensity of the light getting through is a maximum, you will find that direction of the second polarizer is not the same as that of the first. The plane of the polarization has been rotated by some angle $\theta$. The rotation angle, $\theta$, is proportional to the thickness of the container, the length of the region of syrup that the light goes through.
+**“Optical activity”** is a property of many organic and some inorganic compounds. An optically active material rotates the polarization of light without absorbing either component of the polarization. A familiar example of such a material is corn syrup, a thick aqueous solution of sugar that you probably have in your kitchen. If you put a rectangular container of corn syrup between polarizers, as shown in [Figure 12.7](#fig-12-7), and rotate the second polarizer until the intensity of the light getting through is a maximum, you will find that the direction of the second polarizer is not the same as that of the first. The plane of the polarization has been rotated by some angle $\theta$. The rotation angle, $\theta$, is proportional to the thickness of the container, the length of the region of syrup that the light goes through.
 
 :::{figure} ../images/lt-32916-clipboard_ea84e5904663a7c05e42f10b19dc2b6e2.png
 :label: fig-12-7
@@ -642,14 +642,14 @@ Initially unpolarized light passing through a pair of crossed polarizers.
 
 Polarization offers many opportunities to get confused when you think of the light wave in terms of photons. Let us imagine turning down the intensity of the light to the point where one photon at a time is going through the polarizers and consider first the deceptively simple situation of light moving in the $z$ direction through crossed polarizers in the $x$-$y$ plane. Suppose that the first polarizer transmits light polarized in the $x$ direction, and the second transmits light polarized in the $y$ direction. This is deceptively simple because it seems that we can interpret what is going on simply in terms of photons. The situation is depicted in [Figure 12.8](#fig-12-8). This seems simple enough to interpret in terms of photons. The unpolarized light in region $I$ is composed equally of photons polarized in the $x$ direction and in the $y$ direction (goes the wrong “classical” argument). Those polarized in the $x$ direction get through the first polarizer, so half the photons are still around in region $II$, where the intensity is reduced by half. Then none of these get through the second polarizer, so that the intensity in region $III$ is zero.
 
-But compare this with the apparently similar situation in which the second polarizer transmits light polarized at $45^{\circ}$ in the $x$-$y$ plane, as shown in [Figure 12.9](#fig-12-9). Now the wave description tells us that the intensity in region $III$ is reduced by another factor of 2 from that in region $II$. This is impossible to interpret in terms of classical particles. To see this, it is only necessary to turn down the intensity so that only one photon comes through at a time. Then the first polarizer is OK. As before, if the photon is polarized in the $x$ direction, it get through. But now what happens at the second polarizer. The photon cannot split up. Either it gets through or it doesn’t. To be consistent with the wave description, in which the intensity is reduced by another factor of two, the transmission at the second polarizer must be a probabilistic event. Half the time the photon gets through. Half the time it is absorbed. There is no way for the
+But compare this with the apparently similar situation in which the second polarizer transmits light polarized at $45^{\circ}$ in the $x$-$y$ plane, as shown in [Figure 12.9](#fig-12-9). Now the wave description tells us that the intensity in region $III$ is reduced by another factor of 2 from that in region $II$. This is impossible to interpret in terms of classical particles. To see this, it is only necessary to turn down the intensity so that only one photon comes through at a time. Then the first polarizer is OK. As before, if the photon is polarized in the $x$ direction, it gets through. But now what happens at the second polarizer? The photon cannot split up. Either it gets through or it doesn’t. To be consistent with the wave description, in which the intensity is reduced by another factor of two, the transmission at the second polarizer must be a probabilistic event. Half the time the photon gets through. Half the time it is absorbed. There is no way for the
 
 :::{figure} ../images/lt-32933-clipboard_e063bd818d6043f115d59603beacd8dfb.png
 :label: fig-12-9
 :enumerator: 12.9
-:alt: Initially unpolarized light passing through a pair of polarizers at with axes at 45^{\circ}.
+:alt: Initially unpolarized light passing through a pair of polarizers with axes at 45^{\circ}.
 
-Initially unpolarized light passing through a pair of polarizers at with axes at $45^{\circ}$.
+Initially unpolarized light passing through a pair of polarizers with axes at $45^{\circ}$.
 :::
 photon in region $II$ to tell whether it is going to make it! It is random. God plays dice.
 
@@ -706,7 +706,7 @@ The details of the scattering will depend on the polarization. It is clear (by s
 
 ### Polarization Perpendicular to the Scattering Plane
 
-Let us first consider perpendicular polarization. This means that the electric field is in the $y$ direction (out of the plane of the paper), while the magnetic field is the $x$-$z$ plane:<sup>4 </sup>
+Let us first consider perpendicular polarization. This means that the electric field is in the $y$ direction (out of the plane of the paper), while the magnetic field is in the $x$-$z$ plane:<sup>4 </sup>
 $$
 \begin{gathered}
 E_{y}(r, t)=A e^{i(\vec{k} \vec{r}-\omega t)}+R_{\perp} A e^{i(\tilde{k} \cdot \vec{r}-\omega t)} \quad \text { for } z \leq 0 \\
@@ -815,9 +815,9 @@ In other words, Brewster’s angle is defined by the condition that the reflecte
 :::{figure} ../images/lt-32978-clipboard_ec4edb728c7d10c58c3ae72eda8973464.png
 :label: fig-12-12
 :enumerator: 12.12
-:alt: Brewster's angel.
+:alt: Brewster's angle.
 
-Brewster's angel.
+Brewster's angle.
 :::
 _____________________
 
@@ -847,12 +847,12 @@ $$
 \vec{A}(\vec{r}, t)=\frac{1}{c} \int d^{3} r^{\prime} \frac{\overrightarrow{\mathcal{J}}\left(\overrightarrow{r^{\prime}}, t-|\vec{r}-\vec{r}| / c\right)}{\left|\vec{r}-\overrightarrow{r^{\prime}}\right|} \tag{12.86} \label{eq-12-86}
 $$
 
-It is a straightforward, but tedious, exercise in vector calculus to show these satisfy Maxwell’s equations. I am not going to talk about this (I’ll write down the derivation in an appendix for those of you who are interested), but it is worth trying to understand what these relations mean physically. The important physical point that these relations imply is that if the charge and current distributions depend on time, and if they are producing the fields, then what determines what the field is at some point $\vec{r}$ is the values of the charge and current distributions at earlier times. The farther away the charge is, the earlier the time has to be. That is what the factor of $t-\left|\vec{r}-\vec{r}^{\prime}\right| / c$ is telling us. The appearance of this factor is a kind of boundary condition at infinity. It is consistent with the relativistic version of the principle of causality. Because information cannot be transferred faster than light, a charge distribution at a space-time point $\left(\vec{r}^{\prime}, t^{\prime}\right)$ can effect the fields at the space-time point $(\vec{r}, t)$, only if $t \geq t^{\prime}$ and 
+It is a straightforward, but tedious, exercise in vector calculus to show these satisfy Maxwell’s equations. I am not going to talk about this (I’ll write down the derivation in an appendix for those of you who are interested), but it is worth trying to understand what these relations mean physically. The important physical point that these relations imply is that if the charge and current distributions depend on time, and if they are producing the fields, then what determines what the field is at some point $\vec{r}$ is the values of the charge and current distributions at earlier times. The farther away the charge is, the earlier the time has to be. That is what the factor of $t-\left|\vec{r}-\vec{r}^{\prime}\right| / c$ is telling us. The appearance of this factor is a kind of boundary condition at infinity. It is consistent with the relativistic version of the principle of causality. Because information cannot be transferred faster than light, a charge distribution at a space-time point $\left(\vec{r}^{\prime}, t^{\prime}\right)$ can affect the fields at the space-time point $(\vec{r}, t)$, only if $t \geq t^{\prime}$ and 
 $$
 \frac{\left|\vec{r}-\vec{r}^{\prime}\right|}{t-t^{\prime}} \leq c \tag{12.87} \label{eq-12-87}
 $$
 
-In these relations, [12.82](#eq-12-82) and [12.83](#eq-12-83), however, the condition is even stronger — a charge distribution at a space time point $\left(\vec{r}^{\prime}, t^{\prime}\right)$ can effect the fields at the space time point $(\vec{r}, t)$ only if light can travel directly from $\left(\vec{r}^{\prime}, t^{\prime}\right)$ to $(\vec{r}, t)$ — that is if$t \geq t^{\prime}$ and 
+In these relations, [12.82](#eq-12-82) and [12.83](#eq-12-83), however, the condition is even stronger — a charge distribution at a space time point $\left(\vec{r}^{\prime}, t^{\prime}\right)$ can affect the fields at the space time point $(\vec{r}, t)$ only if light can travel directly from $\left(\vec{r}^{\prime}, t^{\prime}\right)$ to $(\vec{r}, t)$ — that is if$t \geq t^{\prime}$ and 
 $$
 \text { ck } \tag{12.88} \label{eq-12-88}
 $$
@@ -867,9 +867,9 @@ $$
 t^{\prime}=t-\left|\vec{r}-\vec{r}^{\prime}\right| / c \tag{12.90} \label{eq-12-90}
 $$
 
-These are just words. We have not derived this! The real justification of this discussion comes when you check that the relations actually satisfy Maxwell’s equations. That can wait for Physics 153 or 232 (or the appendix if you are in a hurry). However, I hope that this discussion at least makes the result reasonable. In fact you have already seen the result in action in 15b in Purcell’s discussion of the electric field from a charge that starts and stops. Look at the ANIMATIONS - PURCELL - the field from a charge that suddenly accelerates. This is an animation of a famous figure in Purcell’s book. The interesting thing about the animation is the kink in the electric field that propagates out from the acceleration event at the velocity of light — because it is light. Inside the kink, the fields are those of the moving charge. Outside the kind, the fields are those of the stationary charge. The kink — the electromagnetic way — is what connects the two asymptotic regions together. It is also fun to compare with PURCELL2 which illustrates what happens if an initially moving charge stops suddenly.
+These are just words. We have not derived this! The real justification of this discussion comes when you check that the relations actually satisfy Maxwell’s equations. That can wait for Physics 153 or 232 (or the appendix if you are in a hurry). However, I hope that this discussion at least makes the result reasonable. In fact you have already seen the result in action in 15b in Purcell’s discussion of the electric field from a charge that starts and stops. Look at the ANIMATIONS - PURCELL - the field from a charge that suddenly accelerates. This is an animation of a famous figure in Purcell’s book. The interesting thing about the animation is the kink in the electric field that propagates out from the acceleration event at the velocity of light — because it is light. Inside the kink, the fields are those of the moving charge. Outside the kink, the fields are those of the stationary charge. The kink — the electromagnetic wave — is what connects the two asymptotic regions together. It is also fun to compare with PURCELL2 which illustrates what happens if an initially moving charge stops suddenly.
 
-Now let’s see at what the electric and magnetic fields look like in an important limit. The connection between the potentials and the fields is the following: 
+Now let’s see what the electric and magnetic fields look like in an important limit. The connection between the potentials and the fields is the following: 
 $$
 \vec{E}=-\vec{\nabla} \phi-\frac{1}{c} \frac{\partial}{\partial t} \vec{A} \tag{12.91} \label{eq-12-91}
 $$
@@ -883,7 +883,7 @@ $$
 \vec{B}=\vec{\nabla} \times \vec{A}=\vec{\nabla} \times \frac{1}{c} \int d^{3} r^{\prime} \frac{\overrightarrow{\mathcal{J}}\left(\overrightarrow{r^{\prime}}, t-\left|\vec{r}-\vec{r}^{\prime}\right| / c\right)}{\left|\vec{r}-\vec{r}^{\prime}\right|} \tag{12.93} \label{eq-12-93}
 $$
 
-The point is that the curl $(\vec{\nabla} \times)$ can operate in two different places, either on the $1 /\left|\vec{r}-\overrightarrow{r^{\prime}}\right|$ or on the $-\left|\vec{r}-\overrightarrow{r^{\prime}}\right| / c$ in the time dependence of $\mathcal{J}$. The first gives a contribution that drops of like $1 / r^{2}$ for large $r$, just like the magnetic field from a time-independent distribution of currents. But the second gives a contribution that only falls off like $1/r$. Thus this contribution dominates for large $r$. Explicitly (using the chain rule), it is 
+The point is that the curl $(\vec{\nabla} \times)$ can operate in two different places, either on the $1 /\left|\vec{r}-\overrightarrow{r^{\prime}}\right|$ or on the $-\left|\vec{r}-\overrightarrow{r^{\prime}}\right| / c$ in the time dependence of $\mathcal{J}$. The first gives a contribution that drops off like $1 / r^{2}$ for large $r$, just like the magnetic field from a time-independent distribution of currents. But the second gives a contribution that only falls off like $1/r$. Thus this contribution dominates for large $r$. Explicitly (using the chain rule), it is 
 $$
 \vec{B}=-\frac{1}{c^{2}} \int d^{3} r^{\prime} \frac{\vec{r}-\vec{r}^{\prime}}{\left|\vec{r}-\vec{r}^{\prime}\right|^{2}} \times \frac{d}{d t} \overrightarrow{\mathcal{J}}\left(\vec{r}^{\prime}, t-\left|\vec{r}-\vec{r}^{\prime}\right| / c\right) \tag{12.94} \label{eq-12-94}
 $$
@@ -901,7 +901,7 @@ $$
 \frac{\partial}{\partial t} \rho+\vec{\nabla} \cdot \overrightarrow{\mathcal{J}}=0 \tag{12.96} \label{eq-12-96}
 $$
 
-As you would expect, the result is that the electric field has the same magnitude as the magnetic field and is perpendicular to both direction of motion and to the magnetic field. The piece that corresponds to a traveling electromagnetic wave can be written as 
+As you would expect, the result is that the electric field has the same magnitude as the magnetic field and is perpendicular to both the direction of motion and the magnetic field. The piece that corresponds to a traveling electromagnetic wave can be written as 
 $$
 \vec{E} \rightarrow-\frac{1}{c^{2}} \int d^{3} r^{\prime} \frac{\vec{r}-\overrightarrow{r^{\prime}}}{\left|\vec{r}-\overrightarrow{r^{\prime}}\right|} \times\left(\frac{\vec{r}-\overrightarrow{r^{\prime}}}{\left|\vec{r}-\overrightarrow{r^{\prime}}\right|^{2}} \times \frac{d}{d t} \overrightarrow{\mathcal{J}}\left(\overrightarrow{r^{\prime}}, t-\left|\vec{r}-\vec{r}^{\prime}\right| / c\right)\right) \tag{12.97} \label{eq-12-97}
 $$
@@ -1051,7 +1051,7 @@ $$
 \left.\dot{\rho}\left(\overrightarrow{r^{\prime}}, t-\left|\vec{r}-\vec{r}^{\prime}\right| / c\right) \equiv \frac{\partial}{\partial t^{\prime}} \rho\left(\overrightarrow{r^{\prime}}, t^{\prime}\right)\right|_{t^{\prime}=t-\left|\vec{r}-\vec{r}^{\prime}\right| / c} \tag{12.123} \label{eq-12-123}
 $$
 
-$i$ and $ii$ come from $a$ (from the $\frac{\partial^{2}}{\partial t^{2}}$ and $−\nabla^{2}$ terms respectively) and $iii$ comes from $b$. Now the $\vec{\nabla}$ in $ii$ gives two terms — acting on $\dot{\rho}$ cancels $i$ and acting on cancels $iii$. Thus 
+$i$ and $ii$ come from $a$ (from the $\frac{\partial^{2}}{\partial t^{2}}$ and $−\nabla^{2}$ terms respectively) and $iii$ comes from $b$. Now the $\vec{\nabla}$ in $ii$ gives two terms — acting on $\dot{\rho}$ cancels $i$ and acting on the unit vector cancels $iii$. Thus 
 $$
 \vec{\nabla} \cdot \vec{E}=4 \pi \rho . \tag{12.124} \label{eq-12-124}
 $$
@@ -1074,7 +1074,7 @@ $$
 =\left(-\nabla^{2}+\frac{1}{c^{2}} \frac{\partial^{2}}{\partial t^{2}}\right) \vec{A}
 $$
 
-Form here on, the derivation is the same as for $\vec{\nabla} \cdot \vec{E}$, and we find 
+From here on, the derivation is the same as for $\vec{\nabla} \cdot \vec{E}$, and we find 
 $$
 \vec{\nabla} \times \vec{B}-\frac{1}{c} \frac{\partial}{\partial t} \vec{E}=\frac{4 \pi}{c} \overrightarrow{\mathcal{J}}
 $$
@@ -1102,7 +1102,7 @@ You should now be able to:
 
 6. Understand the connection between optical activity and handedness;
 
-7. Calculate the reflection and transmission of a plane electromagnetic wave from a plane boundary between dielectric for any angle and find and explain Brewster's angle.
+7. Calculate the reflection and transmission of a plane electromagnetic wave from a plane boundary between dielectrics for any angle and find and explain Brewster's angle.
 ::::
 
 ## Problems
@@ -1132,7 +1132,7 @@ R_{\perp}^{2}
 \end{array}\right)
 $$
 
-where the transfer matrix, $d(z)$ is 
+where the transfer matrix $d(z)$ is 
 $$
 \frac{1}{2}\left(\begin{array}{cc}
 e^{-i k_{z} z} & 0 \\
@@ -1245,7 +1245,7 @@ Find $\omega$ as a function of $k_{x}$ and $k_{y}$.
 
 There are no charges or currents inside the box, but there will be charges and currents built up on the boundary to confine the electric and magnetic fields inside the box. For example, a nonzero surface charge density appears on the top ($z = L$) and bottom ($z = 0$). The charges oscillate back and forth from top to bottom while nonzero surface current densities appear on all sides. The form above is constructed to satisfy appropriate boundary conditions on the four sides $x = 0$, $y = 0$, $z = 0$ and $z = L$.
 
-Explain the physics of the boundary conditions for the $\vec{E}$ field on the sides $x = L$ and $y = L$ and find the allowed values of $k_{x}$ and $k_{y}$. Then explain the physics of the boundary conditions for the $\vec{E}$ field on the sides $x = L$ and $y = L$ and draw a diagram to explain what is going on for the lowest possible values of $k_{x}$ and $k_{y}$. **Hint:** Remember that the magnetic field vanishes outside the box.
+Explain the physics of the boundary conditions for the $\vec{E}$ field on the sides $x = L$ and $y = L$ and find the allowed values of $k_{x}$ and $k_{y}$. Then explain the physics of the boundary conditions for the $\vec{B}$ field on the sides $x = L$ and $y = L$ and draw a diagram to explain what is going on for the lowest possible values of $k_{x}$ and $k_{y}$. **Hint:** Remember that the magnetic field vanishes outside the box.
 
 ::::
 
@@ -1253,7 +1253,7 @@ Explain the physics of the boundary conditions for the $\vec{E}$ field on the si
 :label: prb-12-5
 :enumerator: 12.5
 
-A plane wave of light traveling in the $+z$ direction is polarized at an angle $\theta$ from the $x$ axis in the $x$ − $y$ plane. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only light polarized and an angle $\theta+\frac{\pi}{2}$, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” along $x$ axis, some of the light gets through. Suppose that the cellophane introduces a phase difference of $\phi$ between the component of the light wave polarized along the fast $(x)$ axis and the component polarized along the slow $(y)$ axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$. **Hint:** Does your answer go to zero as $\phi \rightarrow 0$? What happens as $\theta \rightarrow 0$?
+A plane wave of light traveling in the $+z$ direction is polarized at an angle $\theta$ from the $x$ axis in the $x$ − $y$ plane. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only light polarized at an angle $\theta+\frac{\pi}{2}$, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” along the $x$ axis, some of the light gets through. Suppose that the cellophane introduces a phase difference of $\phi$ between the component of the light wave polarized along the fast $(x)$ axis and the component polarized along the slow $(y)$ axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$. **Hint:** Does your answer go to zero as $\phi \rightarrow 0$? What happens as $\theta \rightarrow 0$?
 
 ::::
 

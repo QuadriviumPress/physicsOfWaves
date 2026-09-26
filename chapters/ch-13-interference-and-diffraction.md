@@ -169,7 +169,7 @@ We can think of this problem as a forced oscillation problem. It is much easier 
 
 ### Caveats
 
-It is worth noting that there are other approaches to the diffraction problem besides the ones we discuss here. The physical setup we are considering is slightly different from the standard setup of Huygens-Fresnel-Kirchhoff diffraction, because we are studying a different problem. In Huygens-Fresnel-Kirchhoff diffraction,[^13-2-2] you consider the diffraction of a plane wave from a finite object, whereas, our opaque screen is infinite in the $x$-$y$ plane. In the Huygens-Fresnel case, the appropriate boundary condition is that there are no incoming **spherical waves** coming back in from infinity toward the object that is doing the diffracting. The diffraction produces outgoing spherical waves only. We will not discuss this alternative physical setup in detail because it leads deeper into Bessel functions[^13-2-3] than we (and probably the reader as well) are eager to go. The advantage of our formulation is that we can set it up entirely with the plane wave solutions that we have already discussed. We will simply indicate the differences between our treatment and Huygens-Fresnel diffraction. For diffraction in the forward region, at large z and not very far from the z axis, the diffraction is the same in the two cases.
+It is worth noting that there are other approaches to the diffraction problem besides the ones we discuss here. The physical setup we are considering is slightly different from the standard setup of Huygens-Fresnel-Kirchhoff diffraction, because we are studying a different problem. In Huygens-Fresnel-Kirchhoff diffraction,[^13-2-2] you consider the diffraction of a plane wave from a finite object, whereas our opaque screen is infinite in the $x$-$y$ plane. In the Huygens-Fresnel case, the appropriate boundary condition is that there are no incoming **spherical waves** coming back in from infinity toward the object that is doing the diffracting. The diffraction produces outgoing spherical waves only. We will not discuss this alternative physical setup in detail because it leads deeper into Bessel functions[^13-2-3] than we (and probably the reader as well) are eager to go. The advantage of our formulation is that we can set it up entirely with the plane wave solutions that we have already discussed. We will simply indicate the differences between our treatment and Huygens-Fresnel diffraction. For diffraction in the forward region, at large z and not very far from the z axis, the diffraction is the same in the two cases.
 
 The reader should also notice that we have not explained exactly how the oscillation, [13.15](#eq-13-15), 
 $$
@@ -753,7 +753,7 @@ $$
 
 This is the problem with which we started the chapter. When $b k_{x}=2 m \pi$ for integer $m$, then the wave from one slit travels farther than the wave from the other by $m \lambda$, where $\lambda=2 \pi / k$ is the wavelength. Thus for $b k_{x}=2 m \pi$ the interference is constructive, as illustrated in [figure 13.12](#fig-13-12).
 
-For larger $n$, we still get constructive interference for $b k_{x}=2 m \pi$, but the maxima are sharper, because with more slits, there are more possibilities for destructive interference at other angles. In [Figure 13.13](#fig-13-13) and [Figure 13.14](#fig-13-14), we plot [13.74](#eq-13-74) versus $bk_{x}$ from (−$\pi$ to $3\pi$ so that you can see two full periods) for $n = 3$ and $6$. Notice the appearance of $n − 2$ secondary maxima between the primary maxima of the intensity. We will return to these relations when we discuss diffraction gratings.
+For larger $n$, we still get constructive interference for $b k_{x}=2 m \pi$, but the maxima are sharper, because with more slits, there are more possibilities for destructive interference at other angles. In [Figure 13.13](#fig-13-13) and [Figure 13.14](#fig-13-14), we plot [13.74](#eq-13-74) versus $bk_{x}$ from −$\pi$ to $3\pi$ so that you can see two full periods) for $n = 3$ and $6$. Notice the appearance of $n − 2$ secondary maxima between the primary maxima of the intensity. We will return to these relations when we discuss diffraction gratings.
 
 ____________________________________
 
@@ -761,13 +761,13 @@ ____________________________________
 
 [^13-4-7]: Note that $\sin k a / k$ is well-defined ($= a$) at $k = 0$.
 
-[^13-4-8]: Here we are assuming small angles, so that $\sin \theta \approx \tan \theta$. In our discussion of diffraction gratings below, we will see what happens when the difference in important.
+[^13-4-8]: Here we are assuming small angles, so that $\sin \theta \approx \tan \theta$. In our discussion of diffraction gratings below, we will see what happens when the difference is important.
 
 [^13-4-9]: “Narrow” here means narrow compared to the wavelength of the light — see the moral above.
 
 ## 13.5: Convolution
 
-There is a rather simple theorem, know as the convolution theorem, that is extremely useful in dealing with Fourier transforms. Suppose that we have two functions, $f_{1}(x)$ and $f_{2}(x)$. Define the function $f_{1} \circ f_{2}$ as follows: 
+There is a rather simple theorem, known as the convolution theorem, that is extremely useful in dealing with Fourier transforms. Suppose that we have two functions, $f_{1}(x)$ and $f_{2}(x)$. Define the function $f_{1} \circ f_{2}$ as follows: 
 $$
 f_{1} \circ f_{2}(x)=\int_{-\infty}^{\infty} d y f_{1}(x-y) f_{2}(y) \tag{13.88} \label{eq-13-88}
 $$
@@ -900,7 +900,7 @@ $$
 
 There is a maximum value of $n$, above which no propagating wave is produced (because it corresponds to $\sin \theta>1$ and thus imaginary $k_{z}$).
 
-Note also the dependence of [13.94](#eq-13-94) on wavelength. The larger the wavelength of the light, the larger the angles in the pattern from the diffraction grating. This, of course, is why the diffraction grating is useful. It can separate light of different frequencies. The different colors of the rainbow are spread out along a line, for each value of $n$. This is illustrated in the [Figure 13.18](#fig-13-18), for three frequencies, blue light with wavelength 4300 $\text{Å}$, green light with wavelength 5200 $\text{Å}$ and red light with wavelength 6300 $\text{Å}$, incident on a diffraction grating with 10,000 lines per inch. We have shown [13.95](#eq-13-95) for $n$ = −3 to 3 and labeled the colors for the $n = 1$ secondary maximum. As you see, in a realistic grating, the angles of diffraction can be large, and it is a very bad idea to use a small angle approximation.
+Note also the dependence of [13.94](#eq-13-94) on wavelength. The larger the wavelength of the light, the larger the angles in the pattern from the diffraction grating. This, of course, is why the diffraction grating is useful. It can separate light of different frequencies. The different colors of the rainbow are spread out along a line, for each value of $n$. This is illustrated in [Figure 13.18](#fig-13-18), for three frequencies, blue light with wavelength 4300 $\text{Å}$, green light with wavelength 5200 $\text{Å}$ and red light with wavelength 6300 $\text{Å}$, incident on a diffraction grating with 10,000 lines per inch. We have shown [13.95](#eq-13-95) for $n$ = −3 to 3 and labeled the colors for the $n = 1$ secondary maximum. As you see, in a realistic grating, the angles of diffraction can be large, and it is a very bad idea to use a small angle approximation.
 
 13.6.1 Twisting the Grating
 
@@ -929,7 +929,7 @@ $$
 C_{\theta_{\mathrm{in}}}\left(k_{x}, k_{y}\right)=C\left(k_{x}-k \sin \theta_{\mathrm{in}}, k_{y}\right) \tag{13.105} \label{eq-13-105}
 $$
 
-where $C$ is Fourier transform for the perpendicular grating, 
+where $C$ is the Fourier transform for the perpendicular grating, 
 $$
 C\left(k_{x}, k_{y}\right) \neq 0 \quad \text { for } \quad k_{y}=0, k_{x}=\frac{2 \pi n}{a}. \tag{13.106} \label{eq-13-106}
 $$
@@ -952,7 +952,7 @@ In other words, $\sin \theta$ is simply displaced by $\sin \theta_{\mathrm{in}}$
 
 #### Twisting Around the $x$ Axis
 
-Suppose that the light comes in at an angle $\theta$ from the perpendicular in the $y$-$z$ plane. Then from [13.48](#eq-13-48). 
+Suppose that the light comes in at an angle $\theta$ from the perpendicular in the $y$-$z$ plane. Then from [13.48](#eq-13-48), 
 $$
 C_{\theta_{\text {in }}}\left(k_{x}, k_{y}\right)=C\left(k_{x}, k_{y}-k \sin \theta_{\text {in }}\right) . \tag{13.109} \label{eq-13-109}
 $$
@@ -1097,7 +1097,7 @@ $$
 \vec{d}_{m}=\left(\frac{m_{x}}{a_{x}} \hat{x}+\frac{m_{y}}{a_{y}} \hat{y}\right) \tag{13.120} \label{eq-13-120}
 $$
 
-as shown in [Figure 13.27](#fig-13-27).Note that the long and short axes are interchanged, as usual in a diffraction process.
+as shown in [Figure 13.27](#fig-13-27). Note that the long and short axes are interchanged, as usual in a diffraction process.
 
 :::{figure} ../images/lt-32800-clipboard_e40208aab267211222c2409823bd6ca2c.png
 :label: fig-13-27
@@ -1310,7 +1310,7 @@ Find the smallest positive value of $\xi$ for which the intensity vanishes.
 
 Find the ratio of the intensity at $\xi=\pi / 2$ to that at $\xi = 0$.
 
-So far we have not mentioned the polarization of the light, assuming that it is irrelevant. In fact, we get the pattern shown above for any polarization, so long as the shading doesn’t effect the polarization (and $\xi$ is small). However, if the light is initially polarized in the direction $45^{\circ}$ from the $x$ axis, we could reduce the intensity by two by passing it through a perfect polarizer aligned with the $y$ axis. Suppose that our slit between $-a$ and $a$ is completely empty, but between $-3a$ and $-a$ and between $a$ and $3a$, we put such a polarizer. Now, as before, the beam close to the slit just has the intensity on the edges reduced by a factor of 2. Now, however, the diffraction pattern is quite different. As a function of $\xi$, the intensity at large fixed $R$ is 
+So far we have not mentioned the polarization of the light, assuming that it is irrelevant. In fact, we get the pattern shown above for any polarization, so long as the shading doesn’t affect the polarization (and $\xi$ is small). However, if the light is initially polarized in the direction $45^{\circ}$ from the $x$ axis, we could reduce the intensity by two by passing it through a perfect polarizer aligned with the $y$ axis. Suppose that our slit between $-a$ and $a$ is completely empty, but between $-3a$ and $-a$ and between $a$ and $3a$, we put such a polarizer. Now, as before, the beam close to the slit just has the intensity on the edges reduced by a factor of 2. Now, however, the diffraction pattern is quite different. As a function of $\xi$, the intensity at large fixed $R$ is 
 $$
 \propto \frac{1}{10}\left[\left(\frac{\sin 3 \xi}{\xi}\right)^{2}+\left(\frac{\sin \xi}{\xi}\right)^{2}\right]
 $$
@@ -1498,7 +1498,7 @@ If the plate is developed and illuminated by a plane wave, the original spherica
 
 ### Zone Plates
 
-The hologram of [Figure 13.34](#fig-13-34) can be used to bring part of plane wave to a focus. The converging spherical wave shown in [Figure 13.36](#fig-13-36) is much stronger than the rest of the wave disturbance at the focus, $z=2 z_{0}$, $x=y=0$, because the amplitude of this part of the wave
+The hologram of [Figure 13.34](#fig-13-34) can be used to bring part of a plane wave to a focus. The converging spherical wave shown in [Figure 13.36](#fig-13-36) is much stronger than the rest of the wave disturbance at the focus, $z=2 z_{0}$, $x=y=0$, because the amplitude of this part of the wave
 
 :::{figure} ../images/lt-32809-clipboard_ece5518fdd156d190a1417c5ca5e5b0d9.png
 :label: fig-13-36
@@ -1561,7 +1561,7 @@ $$
 1+2 \operatorname{Re} \int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i\left(k_{x} x+k_{y} y\right)}+\mathcal{O}\left(C^{2}\right)
 $$
 
-We will drop the terms of order $C^{2}$, assuming that $C$ is small, although we will be able to see later that they will not actually not make any difference even if $C$ is large. If we now make a positive slide from the plate and shine through it a laser beam with the same frequency, $\omega$, the wave “gets through” where the light intensity on the plate was large and is absorbed where the intensity was small. Thus we have a forced oscillation problem of exactly the sort that we discussed above, with [13.129](#eq-13-129) playing the role of $f(x, y)$. The solution for $z > 0$ (from [13.19](#eq-13-19)-[13.24](#eq-13-24)) is
+We will drop the terms of order $C^{2}$, assuming that $C$ is small, although we will be able to see later that they will not actually make any difference even if $C$ is large. If we now make a positive slide from the plate and shine through it a laser beam with the same frequency, $\omega$, the wave “gets through” where the light intensity on the plate was large and is absorbed where the intensity was small. Thus we have a forced oscillation problem of exactly the sort that we discussed above, with [13.129](#eq-13-129) playing the role of $f(x, y)$. The solution for $z > 0$ (from [13.19](#eq-13-19)-[13.24](#eq-13-24)) is
 $$
 e^{-i \omega t}\left(e^{i k z}+\int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i \vec{k} \cdot \vec{r}}+\text{c.c.}\right)
 $$
@@ -1584,4 +1584,4 @@ $$
 
 where $\lambda$ is the wavelength of the light. Since $\lambda$ is a very small distance, it pays to pick $\theta$ small to spread out the pattern on the photographic plate.
 
-Note, also, that the order $C^{2}$ terms that we dropped really don’t do any harm even if $C$ is not small. Because their $x$ and $y$ dependence is proportional to that of the signal times its complex conjugate, the typical $k_{x}$ and $k_{y}$ for these terms is zero and they travel roughly in the direction of the reference beam. They don’t reach your eye in [13.33](#eq-13-33).
+Note, also, that the order $C^{2}$ terms that we dropped really don’t do any harm even if $C$ is not small. Because their $x$ and $y$ dependence is proportional to that of the signal times its complex conjugate, the typical $k_{x}$ and $k_{y}$ for these terms are zero and they travel roughly in the direction of the reference beam. They don’t reach your eye in [13.33](#eq-13-33).

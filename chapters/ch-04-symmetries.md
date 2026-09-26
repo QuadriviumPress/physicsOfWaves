@@ -37,9 +37,9 @@ A system of coupled pendulums. Displacements are measured to the right, as shown
 :::{figure} ../images/lt-33703-clipboard_e16c5d92a506e8a45cc4cd2fe04a38ef0.png
 :label: fig-4-2
 :enumerator: 4.2
-:alt: The system of coupled pendulums after reflection in the plane through between the two.
+:alt: The system of coupled pendulums after reflection in the plane between the two.
 
-The system of coupled pendulums after reflection in the plane through between the two.
+The system of coupled pendulums after reflection in the plane between the two.
 :::
 In particular, if 
 $$
@@ -101,7 +101,7 @@ $$
 M S \frac{d^{2}}{d t^{2}} X(t)=-K S X(t) . \tag{4.10} \label{eq-4-10}
 $$
 
-The matrix $S$ is a constant, independent of time, thus we can move it through the time derivatives in [4.10](#eq-4-10) to get 
+The matrix $S$ is a constant, independent of time; thus, we can move it through the time derivatives in [4.10](#eq-4-10) to get 
 $$
 M \frac{d^{2}}{d t^{2}} S X(t)=-K S X(t) . \tag{4.11} \label{eq-4-11}
 $$
@@ -217,7 +217,7 @@ $$
 X(t)=A^{1}\left(b_{1} \cos \omega_{1} t+c_{1} \sin \omega_{1} t\right)+A^{2}\left(b_{2} \cos \omega_{2} t+c_{2} \sin \omega_{2} t\right) . \tag{4.28} \label{eq-4-28}
 $$
 
-The positions of the blocks at $t = 0$ gives the matrix equation: 
+The positions of the blocks at $t = 0$ give the matrix equation: 
 $$
 X(0)=\left(\begin{array}{l}
 d \\
@@ -274,7 +274,7 @@ $$
 \Omega=\frac{\omega_{1}+\omega_{2}}{2}, \quad \delta \omega=\frac{\omega_{2}-\omega_{1}}{2} . \tag{4.35} \label{eq-4-35}
 $$
 
-Each of the blocks exhibits “beats.” They oscillate with the average angular frequency, $\Omega$, but the amplitude of the oscillation changes with angular frequency $\delta \omega$. After a time , the $\frac{\pi}{2 \delta \omega}$ energy has been almost entirely transferred from block 1 to block 2. This behavior is shown in program 4-1 on your program disk. Note how the beats are produced by the interplay between the two normal modes. When the two modes are in phase for one of the blocks so that the block is moving with maximum amplitude, the modes are $180^{\circ}$ out of phase for the other block, so the other block is almost still.
+Each of the blocks exhibits “beats.” They oscillate with the average angular frequency, $\Omega$, but the amplitude of the oscillation changes with angular frequency $\delta \omega$. After a time $\frac{\pi}{2 \delta \omega}$, the energy has been almost entirely transferred from block 1 to block 2. This behavior is shown in program 4-1 on your program disk. Note how the beats are produced by the interplay between the two normal modes. When the two modes are in phase for one of the blocks so that the block is moving with maximum amplitude, the modes are $180^{\circ}$ out of phase for the other block, so the other block is almost still.
 
 The complete transfer of energy back and forth from block 1 to block 2 is a feature both of our special initial condition, with block 2 at rest and in its equilibrium position, and of the special form of the normal modes that follows from the reflection symmetry. As we will see in more detail later, this is the same kind of energy transfer that takes place in wave phenomena.
 
@@ -479,7 +479,7 @@ You should now be able to:
 :label: prb-4-1
 :enumerator: 4.1
 
-Show explicitly that [4.7](#eq-4-7) is true for the $K$ matrix, [4.43](#eq-4-43), of system of [Figure 4.3](#fig-4-3) by finding $SK$ and $KS$.
+Show explicitly that [4.7](#eq-4-7) is true for the $K$ matrix, [4.43](#eq-4-43), of the system of [Figure 4.3](#fig-4-3) by finding $SK$ and $KS$.
 
 ::::
 

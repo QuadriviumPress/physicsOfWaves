@@ -37,7 +37,7 @@ We identify the space translation invariance of the class of infinite systems in
 
 A finite system of coupled pendulums.
 :::
-The typical system of coupled oscillators that supports waves is one like the system of $N$ identical coupled pendulums shown in [Figure 5.1](#fig-5-1). This system is a generalization of the system of two coupled pendulums that we studied in chapters 3 and 4. Suppose that each pendulum bob has mass $m$, each pendulum has length $\ell$, each spring has spring constant $\kappa$ and the equilibrium separation between bobs is $a$. Suppose further that there is no friction and that the pendulums are constrained to oscillate only in the direction in which the springs are stretched. We are interested in the free oscillation of this system, with no external force. Such an oscillation, when the motion is parallel to the direction in which the system is stretched in space is called a “longitudinal oscillation”. Call the longitudinal displacement of the $j$th bob from equilibrium $\psi_{j}$. We can organize the displacements into a vector, $\Psi$ (for reasons that will become clear below, it would be confusing to use $X$, so we choose a different letter, the Greek letter psi, which looks like $\psi$ in lower case and $\Psi$ when capitalized): 
+The typical system of coupled oscillators that supports waves is one like the system of $N$ identical coupled pendulums shown in [Figure 5.1](#fig-5-1). This system is a generalization of the system of two coupled pendulums that we studied in chapters 3 and 4. Suppose that each pendulum bob has mass $m$, each pendulum has length $\ell$, each spring has spring constant $\kappa$ and the equilibrium separation between bobs is $a$. Suppose further that there is no friction and that the pendulums are constrained to oscillate only in the direction in which the springs are stretched. We are interested in the free oscillation of this system, with no external force. Such an oscillation, when the motion is parallel to the direction in which the system is stretched in space, is called a “longitudinal oscillation”. Call the longitudinal displacement of the $j$th bob from equilibrium $\psi_{j}$. We can organize the displacements into a vector, $\Psi$ (for reasons that will become clear below, it would be confusing to use $X$, so we choose a different letter, the Greek letter psi, which looks like $\psi$ in lower case and $\Psi$ when capitalized): 
 $$
 \Psi=\left(\begin{array}{c}
 \psi_{1} \\
@@ -104,7 +104,7 @@ A piece of an infinite system of coupled pendulums.
 :::
 Notice that in [Figure 5.2](#fig-5-2), we have not changed the interior of the system shown in [Figure 5.1](#fig-5-1) at all. We have just replaced the walls by a continuation of the interior.
 
-Now we can find all the modes of the infinite system of [Figure 5.2](#fig-5-2) very easily, making use of a symmetry argument. **The infinite system of** [Figure 5.2](#fig-5-2) **looks the same if it is translated, moved to the left or the right by a multiple of the equilibrium separation,** $a$**. It has the property of “space translation invariance.”** Space translation invariance is the symmetry of the infinite system under translations by multiples of $a$. In this example, because of the discrete blocks and finite length of the springs, the space translation invariance is “discrete.” Only translation by integral multiples of $a$ give the same physics. Later, we will discuss continuous systems that have continuous space translation invariance. However, we will see that such systems can be analyzed using the same techniques that we introduce in this chapter.
+Now we can find all the modes of the infinite system of [Figure 5.2](#fig-5-2) very easily, making use of a symmetry argument. **The infinite system of** [Figure 5.2](#fig-5-2) **looks the same if it is translated, moved to the left or the right by a multiple of the equilibrium separation,** $a$**. It has the property of “space translation invariance.”** Space translation invariance is the symmetry of the infinite system under translations by multiples of $a$. In this example, because of the discrete blocks and finite length of the springs, the space translation invariance is “discrete.” Only translation by integral multiples of $a$ gives the same physics. Later, we will discuss continuous systems that have continuous space translation invariance. However, we will see that such systems can be analyzed using the same techniques that we introduce in this chapter.
 
 We can use the symmetry of space translation invariance, just as we used the reflection and rotation symmetries discussed in the previous chapter, to find the normal modes of the infinite system. **The discrete space translation invariance of the infinite system (the symmetry under translations by multiples of** $a$**) allows us to find the normal modes of the infinite system in a simple way.**
 
@@ -185,7 +185,7 @@ corresponding to $\beta=\pm 1$. The fact that there are at most two normal modes
 
 ![Figure](../images/lt-33665-clipboard_ead07373d1448987617825d88c5561d5b.png)5-1
 
-We have now solved the problem of the oscillation of the infinite system. Armed with this result, we can put back in the physics of the walls. Any $\beta$ (except $\beta=\pm 1$) gives a pair of normal modes for the infinite system of [Figure 5.2](#fig-5-2). But only special values of $\beta$ will work for the finite system shown in [Figure 5.1](#fig-5-1). To find the normal modes of the system shown in [Figure 5.1](#fig-5-1), we use (4.56), the fact that **any linear combination of the two normal modes with the same angular frequency,** $\omega$**, is also a normal mode.** If we can find a linear combination that vanishes for $j = 0$ and for $j = N + 1$, it will be a normal mode of the system shown in [Figure 5.1](#fig-5-1). It is the vanishing of the normal mode at $j = 0$ and $j = N + 1$ that are the “boundary conditions” for this particular finite system.
+We have now solved the problem of the oscillation of the infinite system. Armed with this result, we can put back in the physics of the walls. Any $\beta$ (except $\beta=\pm 1$) gives a pair of normal modes for the infinite system of [Figure 5.2](#fig-5-2). But only special values of $\beta$ will work for the finite system shown in [Figure 5.1](#fig-5-1). To find the normal modes of the system shown in [Figure 5.1](#fig-5-1), we use (4.56), the fact that **any linear combination of the two normal modes with the same angular frequency,** $\omega$**, is also a normal mode.** If we can find a linear combination that vanishes for $j = 0$ and for $j = N + 1$, it will be a normal mode of the system shown in [Figure 5.1](#fig-5-1). It is the vanishing of the normal mode at $j = 0$ and $j = N + 1$ that is the “boundary conditions” for this particular finite system.
 
 Let us begin by trying to satisfy the boundary condition at $j = 0$. For each possible value of $\omega^{2}$, we have to worry about only two normal modes, the two solutions of [5.16](#eq-5-16) for $\beta$. So long as $\beta \neq \pm 1$, we can find a combination that vanishes at $j = 0$; just subtract the two modes $A^{\beta}$ and $A^{\beta^{-1}}$ to get a vector 
 $$
@@ -254,7 +254,7 @@ $$
 \beta=e^{i k a} . \tag{5.26} \label{eq-5-26}
 $$
 
-Any nonzero complex number can be written as a exponential in this way. In fact, we can change $k$ by a multiple of $2 \pi / a$ without changing $\beta$, thus we can choose the real part of $k$ to be between $- \pi / a$ and $\pi / a$ 
+Any nonzero complex number can be written as an exponential in this way. In fact, we can change $k$ by a multiple of $2 \pi / a$ without changing $\beta$, thus we can choose the real part of $k$ to be between $- \pi / a$ and $\pi / a$ 
 $$
 -\frac{\pi}{a}<\operatorname{Re} k \leq \frac{\pi}{a} . \tag{5.27} \label{eq-5-27}
 $$
@@ -308,7 +308,7 @@ $$
 
 **The dispersion relation depends only on the physics of the infinite system.**
 
-Indeed, it is only through the dispersion relation that the details of the physics of the infinite system enters the problem. The form of the modes, $e^{\pm i k x}$, is already determined by the general properties of linearity and space translation invariance.
+Indeed, it is only through the dispersion relation that the details of the physics of the infinite system enter the problem. The form of the modes, $e^{\pm i k x}$, is already determined by the general properties of linearity and space translation invariance.
 
 **We will call [5.35](#eq-5-35) the dispersion relation for coupled pendulums.** We have given it a special name because we will return to it many times in what follows. The essential physics is that there are two sources of restoring force: gravity, that tends to keep all the masses in equilibrium; and the coupling springs, that tend to keep the separations between the masses fixed, but are unaffected if all the masses are displaced by the same distance. In [5.35](#eq-5-35), the constants always satisfy $B \geq C$, as you see from [5.6](#eq-5-6).
 
@@ -334,7 +334,7 @@ _______________________
 
 The beaded string in equilibrium.
 :::
-Another instructive system is the beaded string, undergoing transverse oscillations. The oscillations are called “transverse” if the motion is perpendicular to the direction in which the system is stretched. Consider a massless string with tension $T$, to which identical beads of mass $m$ are attached at regular intervals, $a$. A portion of such a system in its equilibrium configuration is depicted in [Figure 5.4](#fig-5-4). The beads cannot oscillate longitudinally, because the string would break.[^5-3-3] However, for small transverse oscillations, the stretching of the string is negligible, and the tension and the horizontal component of the force from the string are approximately constant. The horizontal component of the force on each block from the string on its right is canceled by the horizontal component from the string on the left. The total horizontal force on each block is zero (this must be, because the blocks do not move horizontally). But the strings produces a transverse restoring force when neighboring beads do not have the same transverse displacement, as illustrated in [Figure 5.5](#fig-5-5). The force of the string on bead 1 is shown, along with the transverse component. The dotted lines complete similar triangles, so that $F / T=\left(\psi_{2}-\psi_{1}\right) / a$. You can see from [Figure 5.5](#fig-5-5) that the restoring force, $F$ in the figure, for small transverse oscillations is linear, and corresponds to a spring constant $T / a$.
+Another instructive system is the beaded string, undergoing transverse oscillations. The oscillations are called “transverse” if the motion is perpendicular to the direction in which the system is stretched. Consider a massless string with tension $T$, to which identical beads of mass $m$ are attached at regular intervals, $a$. A portion of such a system in its equilibrium configuration is depicted in [Figure 5.4](#fig-5-4). The beads cannot oscillate longitudinally, because the string would break.[^5-3-3] However, for small transverse oscillations, the stretching of the string is negligible, and the tension and the horizontal component of the force from the string are approximately constant. The horizontal component of the force on each block from the string on its right is canceled by the horizontal component from the string on the left. The total horizontal force on each block is zero (this must be, because the blocks do not move horizontally). But the strings produce a transverse restoring force when neighboring beads do not have the same transverse displacement, as illustrated in [Figure 5.5](#fig-5-5). The force of the string on bead 1 is shown, along with the transverse component. The dotted lines complete similar triangles, so that $F / T=\left(\psi_{2}-\psi_{1}\right) / a$. You can see from [Figure 5.5](#fig-5-5) that the restoring force, $F$ in the figure, for small transverse oscillations is linear, and corresponds to a spring constant $T / a$.
 
 :::{figure} ../images/lt-33668-clipboard_eb559867acba95a419497f14a80dd64ed.png
 :label: fig-5-5
@@ -475,7 +475,7 @@ where $x_{j}$ is the position of the $j$th block, then either
 
 2. $k x_{1}-k x_{0}$ is a multiple of $2 \pi$.
 
-Let us consider case 1. We will see that case 2 does not give any additional modes. We will $\frac{x_{0}+x_{1}}{2}$ choose our coordinates so that the point , midway between $x_{0}$ and $x_{1}$, is $x = 0$. We don’t care about the overall normalization, so if the function has a minimum there, we will multiply it by −1, to make it a maximum. Thus in case 1, the function $\cos (k x-\theta)$ has a maximum at $x = 0$, which implies that we can take $\theta = 0$. Thus the function is simply $\cos kx$. The system with this labeling is shown in [Figure 5.13](#fig-5-13). The displacement of the $j$th bead is then 
+Let us consider case 1. We will see that case 2 does not give any additional modes. We will choose our coordinates so that the point $\frac{x_{0}+x_{1}}{2}$, midway between $x_{0}$ and $x_{1}$, is $x = 0$. We don’t care about the overall normalization, so if the function has a minimum there, we will multiply it by −1, to make it a maximum. Thus in case 1, the function $\cos (k x-\theta)$ has a maximum at $x = 0$, which implies that we can take $\theta = 0$. Thus the function is simply $\cos kx$. The system with this labeling is shown in [Figure 5.13](#fig-5-13). The displacement of the $j$th bead is then 
 $$
 A_{j}=\cos [k a(j-1 / 2)] . \tag{5.44} \label{eq-5-44}
 $$
@@ -717,7 +717,7 @@ x_{j} & \leftrightarrow \quad Q_{j}
 \end{aligned}
 $$
 
-where $x_{j}$ is the displacement of the $j$th block to the right and $Q_{j}$ is the charge that has been “displaced” through the $j$th inductor from the equilibrium situation with the capacitors uncharged. In fact, this is right, and we could use [5.69](#eq-5-69) to write down the dispersion relation for the [Figure 5.23](#fig-5-23). However, with our powerful tools of linearity and space translation invariance, we can solve the problem from scratch without too much effort. The strategy will be to write down what we know the solution has to look like, from space translation invariance, and then work backwards to find the dispersion relation.
+where $x_{j}$ is the displacement of the $j$th block to the right and $Q_{j}$ is the charge that has been “displaced” through the $j$th inductor from the equilibrium situation with the capacitors uncharged. In fact, this is right, and we could use [5.69](#eq-5-69) to write down the dispersion relation for the circuit in [Figure 5.23](#fig-5-23). However, with our powerful tools of linearity and space translation invariance, we can solve the problem from scratch without too much effort. The strategy will be to write down what we know the solution has to look like, from space translation invariance, and then work backwards to find the dispersion relation.
 
 :::{figure} ../images/lt-33690-clipboard_e4e343c6c9829c7620ba1d57e3952fb24.png
 :label: fig-5-24
@@ -885,7 +885,7 @@ Consider the small longitudinal oscillations of the system shown below:
 
 In the picture above, each bob has mass $m$, each pendulum has length $\ell$, each spring has spring constant $\kappa$, and the equilibrium separation between bobs is $a$.
 
-1. Find the $M^{-1}K$ matrix for this system in the basis in which the displacements of the blocks from equilibrium are all measured to the right and arranged into vector in the obvious way, 
+1. Find the $M^{-1}K$ matrix for this system in the basis in which the displacements of the blocks from equilibrium are all measured to the right and arranged into a vector in the obvious way, 
 $$
 X(t)=\left(\begin{array}{l}
     x_{1}(t) \\
@@ -895,7 +895,7 @@ X(t)=\left(\begin{array}{l}
     \end{array}\right) .
 $$
 
-2. Classify as TRUE or FALSE each of the following questions about the normal modes of this system. If possible, explain your answers qualitatively, that is, in words, rather than by plugging into a formula, and discuss the generality of your results.
+2. Classify as TRUE or FALSE each of the following statements about the normal modes of this system. If possible, explain your answers qualitatively, that is, in words, rather than by plugging into a formula, and discuss the generality of your results.
 
    1. In the normal mode with the lowest frequency, all the blocks move in the same direction when they are moving at all.
 

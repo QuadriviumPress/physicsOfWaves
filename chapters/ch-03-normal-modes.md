@@ -55,7 +55,7 @@ $$
 m_{j} \frac{d^{2}}{d t^{2}} x_{j}=F_{j} , \tag{3.1} \label{eq-3-1}
 $$
 
-for $j$ = 1 to 2, where $F_{1}$ is the horizontal force on block 1 and $F_{2}$ is the horizontal force on block 2. Because there are two values of $j$, [3.1](#eq-3-1) is **two equations**; one for $j$ = 1 and another for $j$ = 2. These are the two equations of motion for the system with two degrees of freedom. We will often refer to all the masses, displacements or forces at once as $m_{j}$, $x_{j}$ or $F_{j}$, respectively. For example, we will say that $F_{j}$ is the horizontal force on the $j$th block. This is an example of the use of “indices” ($j$ is an index) to simplify the description of a system with more than one degree of freedom.
+for $j$ = 1 to 2, where $F_{1}$ is the horizontal force on block 1 and $F_{2}$ is the horizontal force on block 2. Because there are two values of $j$, [3.1](#eq-3-1) is **two equations**: one for $j$ = 1 and another for $j$ = 2. These are the two equations of motion for the system with two degrees of freedom. We will often refer to all the masses, displacements or forces at once as $m_{j}$, $x_{j}$ or $F_{j}$, respectively. For example, we will say that $F_{j}$ is the horizontal force on the $j$th block. This is an example of the use of “indices” ($j$ is an index) to simplify the description of a system with more than one degree of freedom.
 
 When the blocks move horizontally, they will move vertically as well, because the length of the pendulums remains fixed. Because the vertical displacement is second order in the $x_{j}$s, 
 $$
@@ -133,14 +133,14 @@ The sum of these two simple motions gives the much more complicated motion shown
 
 ### $n$ Coupled Oscillators
 
-Before we try to solve the equations of motion, [3.5](#eq-3-5), let us generalize the discussion to systems with more degrees of freedom. Consider the oscillation of a system of $n$ particles connected by various springs with no damping. Our analysis will be completely general, but for simplicity, we will talk about the particles as if they are constrained to move in the $x$ direction, so that we can measure the displacement of the $j$th particle from equilibrium with the coordinate $x_{j}$. Then the equilibrium configuration is the one in which all the $x_{j}$s are all zero.
+Before we try to solve the equations of motion, [3.5](#eq-3-5), let us generalize the discussion to systems with more degrees of freedom. Consider the oscillation of a system of $n$ particles connected by various springs with no damping. Our analysis will be completely general, but for simplicity, we will talk about the particles as if they are constrained to move in the $x$ direction, so that we can measure the displacement of the $j$th particle from equilibrium with the coordinate $x_{j}$. Then the equilibrium configuration is the one in which all the $x_{j}$s are zero.
 
 Newton’s law, $F = ma$, for the motion of the system gives 
 $$
 m_{j} \frac{d^{2} x_{j}}{d t^{2}}=F_{j} \tag{3.12} \label{eq-3-12}
 $$
 
-where $m_{j}$ is the mass of the $j$th particle, $F_{j}$ is the force on it. Because the system is linear, we expect that we can write the force as follows (as in [3.4](#eq-3-4)): 
+where $m_{j}$ is the mass of the $j$th particle and $F_{j}$ is the force on it. Because the system is linear, we expect that we can write the force as follows (as in [3.4](#eq-3-4)): 
 $$
 F_{j}=-\sum_{k=1}^{n} K_{j k} x_{k} \tag{3.13} \label{eq-3-13}
 $$
@@ -174,7 +174,7 @@ $$
 K_{j k}=\frac{\partial^{2} V}{\partial x_{j} \partial x_{k}} . \tag{3.18} \label{eq-3-18}
 $$
 
-The partial differentiations commute with one another, thus equation [3.18](#eq-3-18) implies 
+The partial differentiations commute with one another; thus equation [3.18](#eq-3-18) implies 
 $$
 K_{j k}=K_{k j} . \tag{3.19} \label{eq-3-19}
 $$
@@ -185,7 +185,7 @@ In words, the force on particle $j$ due to a displacement of particle $k$ is equ
 
 It is very useful to rewrite equation [3.14](#eq-3-14) in a matrix notation. Because of the linearity of the equations of motion for harmonic motion, it will be very useful to have the tools of linear algebra at hand for our study of wave phenomena. If you haven’t studied linear algebra (or didn’t understand much of it) in math courses, **DON’T PANIC**. We will start from scratch by describing the properties of matrices and matrix multiplication. The important thing to keep in mind is that matrices are nothing very deep or magical. They are just bookkeeping devices designed to make your life easier when you deal with more than one equation at a time.
 
-A matrix is a rectangular array of numbers. An $N \times M$ matrix has $N$ rows and $M$ columns. Matrices can be added and subtracted simply by adding and subtracting each of the components. The difference comes in multiplication. It is very convenient to define a multiplication law that defines the product of an $N \times M$ matrix on the left with a $M \times L$ matrix on the right (the order is important!) to be an $N \times L$ matrix as follows:
+A matrix is a rectangular array of numbers. An $N \times M$ matrix has $N$ rows and $M$ columns. Matrices can be added and subtracted simply by adding and subtracting each of the components. The difference comes in multiplication. It is very convenient to define a multiplication law that defines the product of an $N \times M$ matrix on the left with an $M \times L$ matrix on the right (the order is important!) to be an $N \times L$ matrix as follows:
 
 Call the $N \times M$ matrix $A$ and let $A_{jk}$ be the number in the $j$th row and $k$th column for $1 \leq j \leq N$ and $1 \leq k \leq M$. These individual components of the matrix are called matrix elements. In terms of its matrix elements, the matrix $A$ looks like: 
 $$
@@ -290,7 +290,7 @@ We will be primarily concerned with “square” (that is $N \times N$) matrices
 
 **Matrices allow us to deal with many linear equations at the same time.**
 
-An $N$ dimensional column vector can be regarded as an $N \times 1$ matrix. We will call this object an “$N$-vector.” It should not be confused with a coordinate vector in three-dimensional space. Likewise, we can think of an $N$ dimensional row vector as a $1 \times N$0 matrix. Matrix multiplication can also describe the product of a matrix with a vector to give a vector. The particularly important case that we will need in order to analyze wave phenomena involves square matrices. Consider an $N \times N$ matrix $A$ multiplying an $N$-vector, $X$, to give another $N$-vector, $F$. The square matrix $A$ has $N^{2}$ matrix elements, $A_{jk}$ for $j$ and $k = 1$ to $N$. The vectors $X$ and $F$ each have $N$ matrix elements, just their components $X_{j}$ and $F_{j}$ for $j = 1$ to $N$. Then the matrix equation: 
+An $N$ dimensional column vector can be regarded as an $N \times 1$ matrix. We will call this object an “$N$-vector.” It should not be confused with a coordinate vector in three-dimensional space. Likewise, we can think of an $N$ dimensional row vector as a $1 \times N$ matrix. Matrix multiplication can also describe the product of a matrix with a vector to give a vector. The particularly important case that we will need in order to analyze wave phenomena involves square matrices. Consider an $N \times N$ matrix $A$ multiplying an $N$-vector, $X$, to give another $N$-vector, $F$. The square matrix $A$ has $N^{2}$ matrix elements, $A_{jk}$ for $j$ and $k = 1$ to $N$. The vectors $X$ and $F$ each have $N$ matrix elements, just their components $X_{j}$ and $F_{j}$ for $j = 1$ to $N$. Then the matrix equation: 
 $$
 A X-F \tag{3.29} \label{eq-3-29}
 $$
@@ -943,7 +943,7 @@ $$
 a_{2}=\frac{m_{1} \omega^{2}-K_{11}}{K_{12}} . \tag{3.97} \label{eq-3-97}
 $$
 
-As we anticipated, the eigenvectors turned out to be real. This a general consequence of the reality of $M^{-1}K$ and $\omega^{2}$. The argument is worth repeating. When all the elements of the matrix $M^{-1}K − \omega^{2}I$ are real, the ratios, $a_{j} / a_{k}$ are real (because they are obtained by solving a set of simultaneous linear equations with real coefficients). Thus if we choose one component of the vector $A$ to be real (multiplying, if necessary, by a complex number), then all the components will be real. Physically, this means that for the solution, [3.66](#eq-3-66), all the different parts of the system are oscillating not only with the same frequency, but with the same phase up to a sign. This is true only because we have ignored damping. We will return to the question in the last section (an optional section that is not for the fainthearted).
+As we anticipated, the eigenvectors turned out to be real. This is a general consequence of the reality of $M^{-1}K$ and $\omega^{2}$. The argument is worth repeating. When all the elements of the matrix $M^{-1}K − \omega^{2}I$ are real, the ratios, $a_{j} / a_{k}$ are real (because they are obtained by solving a set of simultaneous linear equations with real coefficients). Thus if we choose one component of the vector $A$ to be real (multiplying, if necessary, by a complex number), then all the components will be real. Physically, this means that for the solution, [3.66](#eq-3-66), all the different parts of the system are oscillating not only with the same frequency, but with the same phase up to a sign. This is true only because we have ignored damping. We will return to the question in the last section (an optional section that is not for the fainthearted).
 
 ### Initial Value Problem
 
@@ -1029,7 +1029,7 @@ $$
 A^{\alpha T} K M^{-1}=\omega_{\alpha}^{2} A^{\alpha T} \tag{3.109} \label{eq-3-109}
 $$
 
-because $M^{-1}$ and $K$ are both symmetric (see [3.18](#eq-3-18) and notice that the order of $M^{-1}$ and $K$ are reversed by the transposition). Then 
+because $M^{-1}$ and $K$ are both symmetric (see [3.18](#eq-3-18) and notice that the order of $M^{-1}$ and $K$ is reversed by the transposition). Then 
 $$
 B^{\alpha} M^{-1} K=A^{\alpha T} M M^{-1} K=A^{\alpha T} K M^{-1} M \tag{3.110} \label{eq-3-110}
 $$
@@ -1133,7 +1133,7 @@ In mathematical language, what is going on in [3.124](#eq-3-124) and [3.126](#eq
 
 ### $\omega^{2}$ is Real
 
-We can use [3.120](#eq-3-120) to show that all the eigenvalues of the $M^{-1}K$ are real. This is a particular example of an important general mathematical theorem. You will use it frequently when you study quantum mechanics. To prove it, let us assume the contrary and derive a contradiction. If $\omega^{2}$ is a complex eigenvalue with eigenvector, $A$, then the complex conjugate, $\omega^{2^{*}}$, is also an eigenvalue with eigenvector, $A^{*}$. This must be so because the $M^{-1}K$ matrix is real, which implies that we can take the complex conjugate of the eigenvalue equation, 
+We can use [3.120](#eq-3-120) to show that all the eigenvalues of $M^{-1}K$ are real. This is a particular example of an important general mathematical theorem. You will use it frequently when you study quantum mechanics. To prove it, let us assume the contrary and derive a contradiction. If $\omega^{2}$ is a complex eigenvalue with eigenvector, $A$, then the complex conjugate, $\omega^{2^{*}}$, is also an eigenvalue with eigenvector, $A^{*}$. This must be so because the $M^{-1}K$ matrix is real, which implies that we can take the complex conjugate of the eigenvalue equation, 
 $$
 M^{-1} K A=\omega^{2} A , \tag{3.128} \label{eq-3-128}
 $$
@@ -1159,7 +1159,7 @@ Thus there are only three possibilities. $\omega^{2} > 0$ corresponds to stable 
 
 ## 3.5: * Forced Oscillations and Resonance
 
-One of the advantages of the matrix formalism that we have introduced is that in matrix language we can take over the above discussion of forced oscillation and resonance in chapter 2 almost unchanged to systems with more than one degree of freedom. **We simply have to replace numbers by appropriate vectors and matrices.** In particular, the force $F(t)$ in the equation of motion, [2.2](#eq-2-2), becomes a vector that describes the force on each of the degrees of freedom in the system. The only restriction here is that the frequency of oscillation is the same for each component of the force. The $\omega_{0}^{2}$ in the equation of motion, [2.2](#eq-2-2), becomes the matrix $M^{-1}K$. The frictional term $\Gamma$ becomes a matrix. In terms of the matrix $\Gamma$, the frictional force vector is $M \Gamma d Z / d t$ (compare [2.1](#eq-2-1)). Then we can look for an irreducible, steady state solution to the equation of motion of the form 
+One of the advantages of the matrix formalism that we have introduced is that in matrix language we can apply the above discussion of forced oscillation and resonance in chapter 2 almost unchanged to systems with more than one degree of freedom. **We simply have to replace numbers by appropriate vectors and matrices.** In particular, the force $F(t)$ in the equation of motion, [2.2](#eq-2-2), becomes a vector that describes the force on each of the degrees of freedom in the system. The only restriction here is that the frequency of oscillation is the same for each component of the force. The $\omega_{0}^{2}$ in the equation of motion, [2.2](#eq-2-2), becomes the matrix $M^{-1}K$. The frictional term $\Gamma$ becomes a matrix. In terms of the matrix $\Gamma$, the frictional force vector is $M \Gamma d Z / d t$ (compare [2.1](#eq-2-1)). Then we can look for an irreducible, steady state solution to the equation of motion of the form 
 $$
 Z(t)=W e^{-i \omega t} \tag{3.132} \label{eq-3-132}
 $$
@@ -1337,7 +1337,7 @@ $$
 \end{aligned}
 $$
 
-[Figure 3.8](#fig-3-8) shows a graph of this (for $\kappa / m=3 g / 2 \ell$ and $\gamma^{2}=g / 4 \ell$). There are two things to observe about [Figure 3.8](#fig-3-8). First note the two resonance peaks, at $\omega^{2} = g / \ell$ and $\omega^{2}=g / \ell+2 \kappa / m=4 g / \ell$. Secondly, note that the first peak is much more pronounced that the second. That is because the force is more in the direction of the normal mode with the lower frequency, thus it is more efficient in exciting this mode.
+[Figure 3.8](#fig-3-8) shows a graph of this (for $\kappa / m=3 g / 2 \ell$ and $\gamma^{2}=g / 4 \ell$). There are two things to observe about [Figure 3.8](#fig-3-8). First note the two resonance peaks, at $\omega^{2} = g / \ell$ and $\omega^{2}=g / \ell+2 \kappa / m=4 g / \ell$. Secondly, note that the first peak is much more pronounced than the second. That is because the force is more in the direction of the normal mode with the lower frequency; thus it is more efficient in exciting this mode.
 
 :::{figure} ../images/lt-33797-clipboard_e76fa192ca328062f106e953071352727.png
 :label: fig-3-8
@@ -1370,7 +1370,7 @@ You should now be able to:
 
 9. * Reconstruct the $M^{-1}K$ matrix from the normal modes and normal coordinates;
 
-10. * Explicitly solve for the free oscillations of system with two degrees of freedom with damping and be able to analyze systems with three or more degrees of freedom if you are given the eigenvectors;
+10. * Explicitly solve for the free oscillations of a system with two degrees of freedom with damping and be able to analyze systems with three or more degrees of freedom if you are given the eigenvectors;
 
 11. * Explicitly solve forced oscillation problems with or without damping for systems with three or fewer degrees of freedom.
 ::::
@@ -1420,7 +1420,7 @@ Consider the vertical oscillation of the system of springs and masses shown belo
 
 Consider the system of springs and masses shown below:
 
-with the spring constants in newtons/meter given above the springs and with $m_{1} = 100$ kg, $m_{2} = 9$ kg and $m_{3} = 81$ kg.
+The spring constants in newtons/meter are given above the springs, and $m_{1} = 100$ kg, $m_{2} = 9$ kg and $m_{3} = 81$ kg.
 
 1. Which of the following are normal modes of the system and what are the corresponding angular frequencies? Note that the $M^{-1}K$ matrix may look a little complicated. 
 $$
