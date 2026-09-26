@@ -246,7 +246,7 @@ $$
 \psi(r, t)=A e^{i(\vec{k} \cdot \vec{r}-\omega t)} . \tag{11.28} \label{eq-11-28}
 $$
 
-This describes a wave traveling the direction of the wave-number vector, $\vec{k}$, with the phase velocity in the medium. The displacement (or whatever) is constant on planes of constant $\vec{k} \cdot \vec{r}$, which are perpendicular to the direction of motion, $\vec{k}$. We will study more complicated traveling waves soon, when we discuss diffraction. Then we will learn how to describe “beams” of light or sound or other waves that are the traveling waves with which we usually work. We will see how to describe them as superpositions of plane waves. For now, you can think of a plane wave as being something like the traveling wave you would encounter inside a wide, coherent beam, or very far from a small source of nearly monochromatic light, light with a definite frequency. That should be enough to give you a physical picture of the phenomena we discuss in this section.
+This describes a wave traveling in the direction of the wave-number vector, $\vec{k}$, with the phase velocity in the medium. The displacement (or whatever) is constant on planes of constant $\vec{k} \cdot \vec{r}$, which are perpendicular to the direction of motion, $\vec{k}$. We will study more complicated traveling waves soon, when we discuss diffraction. Then we will learn how to describe “beams” of light or sound or other waves that are the traveling waves with which we usually work. We will see how to describe them as superpositions of plane waves. For now, you can think of a plane wave as being something like the traveling wave you would encounter inside a wide, coherent beam, or very far from a small source of nearly monochromatic light, light with a definite frequency. That should be enough to give you a physical picture of the phenomena we discuss in this section.
 
 We are most interested in waves such as light and sound. However, it is much easier to discuss the transverse oscillations of a two-dimensional membrane, and many of our examples will be in that system. There are two reasons. One is that a two-dimensional membrane is easier to picture on two-dimensional paper. The other reason is that the physics is very simple, so we can concentrate on the wave properties. We will try to point out where things get more complicated for other sorts of wave phenomena.
 
@@ -869,7 +869,7 @@ $$
 \psi_{n-}(x, y, t)=A \sin \frac{n \pi y}{\ell} e^{i\left(-k_{x} x-\omega t\right)} . \tag{11.100} \label{eq-11-100}
 $$
 
-For each value of $n$, these look like waves traveling in the $\text { 土x }$ direction!
+For each value of $n$, these look like waves traveling in the $\pm x$ direction!
 
 The dispersion relation for the membrane is given by [11.18](#eq-11-18). But the modes, $\psi_{n \pm}$, have $\left|k_{y}\right|=\frac{n \pi}{\ell}$. Thus the dispersion relation for the traveling waves, [11.99](#eq-11-99) and [11.100](#eq-11-100) is 
 $$
@@ -1088,7 +1088,7 @@ Water is removed from the rectangle in $X$ − $x$ and raised to the rectangle a
 
 #### Gravitational Potential
 
-In the diagram in [Figure 11.24](#fig-11-24), you can see that the overall effect of the displacements in the mode [11.125](#eq-11-125) is to take a chunk of the water from $X$ − $x$, raise it by $\epsilon \psi_{y}(x, L, t)$ (the vertical displacement of the surface), and move it over to $x$. The volume of this chunk is $W d x \in \psi_{y}(x, L, t)$ where $dx$ is the length of chunk and $W$ is the width in the $z$ direction (into the paper). Thus the total gravitational potential is 
+In the diagram in [Figure 11.24](#fig-11-24), you can see that the overall effect of the displacements in the mode [11.125](#eq-11-125) is to take a chunk of the water from $X$ − $x$, raise it by $\epsilon \psi_{y}(x, L, t)$ (the vertical displacement of the surface), and move it over to $x$. The volume of this chunk is $W d x \epsilon \psi_{y}(x, L, t)$ where $dx$ is the length of chunk and $W$ is the width in the $z$ direction (into the paper). Thus the total gravitational potential is 
 $$
 \begin{aligned}
 V_{\text {grav }}=\rho g & \int d V \Delta h=\rho g W \int_{0}^{\frac{\pi}{2 k}} d x\left|\epsilon \psi_{y}(x, L, t)\right|^{2}+\mathcal{O}\left(\epsilon^{3}\right) \\
@@ -1428,7 +1428,7 @@ $$
 
 If the screen in [Figure 11.40](#fig-11-40) is removed, you can see that the light to the right of where the screen was is a copy of the light coming from the object, but upside down, and changed in size by $d_{2} / d_{1}$. If you have played with lenses, you know this.
 
-Notice that [11.153](#eq-11-153) implies that neither $d_{1}$ nor $d_{2}$ can be less that $f$. If you bring the object too close to the lens, you do not get a real image on the other side. Instead, $d_{2}$ becomes negative and you get a “virtual image” on the same side of the lens as the object, and the light to the right of the lens is diverging as if it came from the virtual image. This situation is illustrated in [Figure 11.41](#fig-11-41). As we will discuss further below, this is how a magnifying glass works.
+Notice that [11.153](#eq-11-153) implies that neither $d_{1}$ nor $d_{2}$ can be less than $f$. If you bring the object too close to the lens, you do not get a real image on the other side. Instead, $d_{2}$ becomes negative and you get a “virtual image” on the same side of the lens as the object, and the light to the right of the lens is diverging as if it came from the virtual image. This situation is illustrated in [Figure 11.41](#fig-11-41). As we will discuss further below, this is how a magnifying glass works.
 
 :::{figure} ../images/lt-33320-clipboard_e530b0dec21b172fdba53f6b2a55d8b97.png
 :label: fig-11-41
@@ -1460,11 +1460,11 @@ A magnifying glass works by allowing you to produce a larger image of the object
 :enumerator: 11.44
 :alt: Obviously, the image is larger. But note also that the magnifying glass changes the amount of accommodation required by your eye lens. Your eye is actually focusing on the virtual image which is much farther away, and that is easier. Thus when you look at an object in a magnifying glass, you can …
 
-Obviously, the image is larger. But note also that the magnifying glass changes the amount of accommodation required by your eye lens. Your eye is actually focusing on the virtual image which is much farther away, and that is easier. Thus when you look at an object in a magnifying glass, you can bring it much closer to your eye then you could without the glass. This further increases the magnifying effect, because closer objects look bigger. In this diagram you can also see a third salutary effect of the magnifying glass — more of the light from the object reaches your eye.
+Obviously, the image is larger. But note also that the magnifying glass changes the amount of accommodation required by your eye lens. Your eye is actually focusing on the virtual image which is much farther away, and that is easier. Thus when you look at an object in a magnifying glass, you can bring it much closer to your eye than you could without the glass. This further increases the magnifying effect, because closer objects look bigger. In this diagram you can also see a third salutary effect of the magnifying glass — more of the light from the object reaches your eye.
 :::
 One of the magnifying effects of a lens can be obtained without a lens in a very simple way — with a pinhole. If you look at a nearby object through a pinhole, you can bring it
 
-much closer to your eye. The reason is that only a narrow beam of light get through the pinhole from each point on the object you are looking at, so not much focusing is required. The size of the image on your retina is not increased when you look at the object through a pinhole at the same same distance as without the pinhole, but with the pinhole, you can bring it much closer to your eye without fuzziness, and therefore you make it appear bigger.
+much closer to your eye. The reason is that only a narrow beam of light gets through the pinhole from each point on the object you are looking at, so not much focusing is required. The size of the image on your retina is not increased when you look at the object through a pinhole at the same distance as without the pinhole, but with the pinhole, you can bring it much closer to your eye without fuzziness, and therefore you make it appear bigger.
 
 You may also have played with pinhole cameras, in which you form an image on a screen in a dark box without a lens, as shown in [Figure 11.45](#fig-11-45).
 
@@ -1501,7 +1501,7 @@ to seeing images on the retina upside down, interprets this as an object coming 
 
 By combining lenses in various ways, you can construct all sorts of interesting optical instruments. The simplest way to think about magnification is just to consider the angular size of the observed image, compared to the angular size you would see without the instrument.
 
-A simple telescope is illustrated in [Figure 11.48](#fig-11-48). The distances are somwhat distorted. In a real telescope the object would be much farther way and the sizes of the lenses much smaller. When you look at a distant object (large $L$) with your telescope, the light arrives at the first (“objective”) lens as a nearly parallel bundle of rays. We know from the thin lens formula 
+A simple telescope is illustrated in [Figure 11.48](#fig-11-48). The distances are somewhat distorted. In a real telescope the object would be much farther away and the sizes of the lenses much smaller. When you look at a distant object (large $L$) with your telescope, the light arrives at the first (“objective”) lens as a nearly parallel bundle of rays. We know from the thin lens formula 
 $$
 \frac{1}{d_{1}}+\frac{1}{d_{2}}=\frac{1}{f} \tag{11.156} \label{eq-11-156}
 $$
@@ -1698,7 +1698,7 @@ By accident, the minima for $\theta_{2}$ and $\theta_{3}$ are almost equally (wi
 
 Plot of $\theta_{2}$ and $\theta_{3}$ versus $\theta$ for red light and blue light.
 :::
-Another prediction of this picture that can often be seen is “Alexander’s dark band” that appears between the rainbows. The light that is not concentrated at the minimum value of $\theta$ is spread inside the first rainbow but outside the second rainbow, thus the region between the two rainbows (or outside the first if the second cannot be seen) is darker. If we plot the angular distance away from $\pi$ as a function of the angle at the which the incoming sunlight enters the water drop, the first and second rainbows look like [Figure 11.58](#fig-11-58) (as usual, I have exagerated the difference in index of refraction between red and blue. Here you clearly see that the angle of first rainbow is smaller, and the dark band between the two.
+Another prediction of this picture that can often be seen is “Alexander’s dark band” that appears between the rainbows. The light that is not concentrated at the minimum value of $\theta$ is spread inside the first rainbow but outside the second rainbow, thus the region between the two rainbows (or outside the first if the second cannot be seen) is darker. If we plot the angular distance away from $\pi$ as a function of the angle at which the incoming sunlight enters the water drop, the first and second rainbows look like [Figure 11.58](#fig-11-58) (as usual, I have exaggerated the difference in index of refraction between red and blue. Here you clearly see that the angle of first rainbow is smaller, and the dark band between the two.
 
 ## 11.8: Spherical Waves
 

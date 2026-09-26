@@ -340,7 +340,7 @@ $$
 z(t + a) = h(a) z(t). \tag{1.37} \label{eq-1-37}
 $$
 
-That is, we would like find a solution that reproduces itself up to an overall constant, $h(a)$ when we reset our clocks by $a$. Because we are always free to multiply a solution of a homogeneous linear equation of motion by a constant, the change from $z(t)$ to $h(a) z(t)$ doesn’t amount to much. We will call a solution satisfying [1.37](#eq-1-37) an “irreducible<sup>3</sup> solution” with respect to time translations, because its behavior under time translations (resettings of the clock) is as simple as it can possibly be.
+That is, we would like to find a solution that reproduces itself up to an overall constant, $h(a)$ when we reset our clocks by $a$. Because we are always free to multiply a solution of a homogeneous linear equation of motion by a constant, the change from $z(t)$ to $h(a) z(t)$ doesn’t amount to much. We will call a solution satisfying [1.37](#eq-1-37) an “irreducible<sup>3</sup> solution” with respect to time translations, because its behavior under time translations (resettings of the clock) is as simple as it can possibly be.
 
 It turns out that for systems whose equations of motion are linear and time translation invariant, as we will see in more detail below, we can always find irreducible solutions that
 
@@ -488,10 +488,10 @@ $$
 Division works the same way so long as you don’t divide by zero:
 
 $$
-|z/z' | = |z|/|z' | **if z'=0** . \tag{1.54} \label{eq-1-54}
+|z/z' | = |z|/|z' | \quad \text{if } z' \neq 0 . \tag{1.54} \label{eq-1-54}
 $$
 
-Mathematicians call a set of objects on which addition and multiplication are defined and for which there is an absolute value satisfying [1.51](#eq-1-51) and [1.52](#eq-1-52) a division algebra. It is a peculiar (although irrelevant, for us) mathematical fact that the complex numbers are one of only four division algebras, the others being the real numbers and more bizarre things called quaternions and octonians obtained by relaxing the requirements of commutativity and associativity (respectively) of the multiplication laws.
+Mathematicians call a set of objects on which addition and multiplication are defined and for which there is an absolute value satisfying [1.51](#eq-1-51) and [1.52](#eq-1-52) a division algebra. It is a peculiar (although irrelevant, for us) mathematical fact that the complex numbers are one of only four division algebras, the others being the real numbers and more bizarre things called quaternions and octonions obtained by relaxing the requirements of commutativity and associativity (respectively) of the multiplication laws.
 
 The wonderful thing about the complex numbers from the point of view of algebra is that all polynomial equations have solutions. For example, the equation $x^2 − 2x + 5 = 0$ has no solutions in the real numbers, but has two complex solutions, $x = 1 ± 2i.$ In general, an equation of the form $p(x) = 0$, where $p(x)$ is a polynomial of degree $n$ with complex (or real) coefficients has $n$ solutions if complex numbers are allowed, but it may not have any if $x$ is restricted to be real.
 
@@ -989,7 +989,7 @@ $$
 \dfrac{\text{Joules} \times \text{seconds}^2}{\text{Coulombs}^2} = \dfrac{\text{Volts} \times \text{seconds}^2}{\text{Amperes}} \tag{1.121} \label{eq-1-121}
 $$
 
-which is a unit of inductance (Henrys). This is what we used in our correspondence between the LC circuit and the mechanical oscillator, [figure 1.12](#fig-1-12). We can also add a generalized force to the right-hand side of [1.117](#eq-1-117). The generalized force has units of energy over generalized displacement. This is right because when the equation of motion is multiplied by the displacement, [1.118](#eq-1-118) and [1.119](#eq-1-119) imply that each of the terms has units of energy. Thus for example, in the LC circuit example, the generalized force is a voltage.
+which is a unit of inductance (henries). This is what we used in our correspondence between the LC circuit and the mechanical oscillator, [figure 1.12](#fig-1-12). We can also add a generalized force to the right-hand side of [1.117](#eq-1-117). The generalized force has units of energy over generalized displacement. This is right because when the equation of motion is multiplied by the displacement, [1.118](#eq-1-118) and [1.119](#eq-1-119) imply that each of the terms has units of energy. Thus for example, in the LC circuit example, the generalized force is a voltage.
 
 ### Constant Energy
 

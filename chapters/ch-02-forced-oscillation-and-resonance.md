@@ -41,7 +41,7 @@ $$
 \frac{d^{2}}{d t^{2}} z(t)+\Gamma \frac{d}{d t} z(t)+\omega_{0}^{2} z(t)=0 . \tag{2.3} \label{eq-2-3}
 $$
 
-Because [1.71](#eq-1-71) is satisfied, we know from the arguments of of chapter 1 that we can find irreducible solutions of the form 
+Because [1.71](#eq-1-71) is satisfied, we know from the arguments of chapter 1 that we can find irreducible solutions of the form 
 $$
 z(t)=e^{\alpha t} , \tag{2.4} \label{eq-2-4}
 $$

@@ -1133,7 +1133,7 @@ In mathematical language, what is going on in [3.124](#eq-3-124) and [3.126](#eq
 
 ### $\omega^{2}$ is Real
 
-We can use [3.120](#eq-3-120) to show that all the eigenvalues of the $M^{-1}K$ are real. This is a particular example of an important general mathematical theorem. You will use it frequently when you study quantum mechanics. To prove it, let us assume the contrary and derive a contradiction. If $\omega^{2}$ is a complex eigenvalue with eigenvector, $A$, then then the complex conjugate, $\omega^{2^{*}}$, is also an eigenvalue with eigenvector, $A^{*}$. This must be so because the $M^{-1}K$ matrix is real, which implies that we can take the complex conjugate of the eigenvalue equation, 
+We can use [3.120](#eq-3-120) to show that all the eigenvalues of the $M^{-1}K$ are real. This is a particular example of an important general mathematical theorem. You will use it frequently when you study quantum mechanics. To prove it, let us assume the contrary and derive a contradiction. If $\omega^{2}$ is a complex eigenvalue with eigenvector, $A$, then the complex conjugate, $\omega^{2^{*}}$, is also an eigenvalue with eigenvector, $A^{*}$. This must be so because the $M^{-1}K$ matrix is real, which implies that we can take the complex conjugate of the eigenvalue equation, 
 $$
 M^{-1} K A=\omega^{2} A , \tag{3.128} \label{eq-3-128}
 $$

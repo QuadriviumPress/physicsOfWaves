@@ -39,7 +39,7 @@ like the approach to diffraction in chapter 13), and I think it gives a useful s
 
 ### Linear analysis of the Kelvin wake
 
-Consider an infinite ocean in the $x$-$y$ plane with a boat (duck, whatever) moving with constant velocity $v > 0$ along the $x$ axis. The path of the boat divides the surface of the ocean into two regions, related to one another by reflection in the path. We can therefore without loss of generality focus on the half-plane $y > 0$. We will not try to describe in detail what goes on near the $y = 0$ line. In many situations, this involves turbulance, and is well beyond the scope of a beginning waves course. But away from $y = 0$, it is possible to apply a linear analysis, and think of the waves for $y > 0$ as linear combinations of plane waves with appropriate boundary conditions along the $y = 0$ line.<sup>3</sup> We will assume that whatever happens near $y = 0$ produces a localized disurbance on the $y$ axis that moves along with the boat. This is necessarily a wave packet involving a range of frequencies. The integration over all these frequencies gives rise to the wake. That is the plan. We will do this for some simple illustrative boundary conditions, and we will argue that much can be understood about the system that is independent of the details of the boundary condition. The idea is to make use of the fact that the disturbance is a wave packet, and understand the appropriate analog in this two dimensional situation of the group velocity by which wave packets move.
+Consider an infinite ocean in the $x$-$y$ plane with a boat (duck, whatever) moving with constant velocity $v > 0$ along the $x$ axis. The path of the boat divides the surface of the ocean into two regions, related to one another by reflection in the path. We can therefore without loss of generality focus on the half-plane $y > 0$. We will not try to describe in detail what goes on near the $y = 0$ line. In many situations, this involves turbulence, and is well beyond the scope of a beginning waves course. But away from $y = 0$, it is possible to apply a linear analysis, and think of the waves for $y > 0$ as linear combinations of plane waves with appropriate boundary conditions along the $y = 0$ line.<sup>3</sup> We will assume that whatever happens near $y = 0$ produces a localized disturbance on the $y$ axis that moves along with the boat. This is necessarily a wave packet involving a range of frequencies. The integration over all these frequencies gives rise to the wake. That is the plan. We will do this for some simple illustrative boundary conditions, and we will argue that much can be understood about the system that is independent of the details of the boundary condition. The idea is to make use of the fact that the disturbance is a wave packet, and understand the appropriate analog in this two dimensional situation of the group velocity by which wave packets move.
 
 This system is invariant under simultaneous translations in space and time. 
 $$
@@ -170,7 +170,7 @@ $$
 V_{g}=\frac{g}{2 \omega}=\frac{v_{\phi}}{2} \tag{14.19} \label{eq-14-19}
 $$
 
-This gives a group velocity in the same direction as the phase velocity and just half the magnitude. To understand the difference, we must generalize the the formula for group velocity in section 10.2.1. There we saw that simplest way to understand group velocity is to think about the superposition of two plane waves that are close together in both $\omega$ and $\vec{k}$ 
+This gives a group velocity in the same direction as the phase velocity and just half the magnitude. To understand the difference, we must generalize the formula for group velocity in section 10.2.1. There we saw that the simplest way to understand group velocity is to think about the superposition of two plane waves that are close together in both $\omega$ and $\vec{k}$ 
 $$
 \begin{gathered}
 \cos \left(\omega_{1} t-\vec{k}_{1} \cdot \vec{r}\right)+\cos \left(\omega_{2} t-\vec{k}_{2} \cdot \vec{r}\right) \\
@@ -263,7 +263,7 @@ $$
 v_{\phi}=\sqrt{\frac{2}{3}} v \tag{14.31} \label{eq-14-31}
 $$
 
-The direction of the phase velocity is is 
+The direction of the phase velocity is 
 $$
 \hat{v}_{\phi}=\left(\sqrt{\frac{2}{3}}, \sqrt{\frac{1}{3}}\right) \tag{14.32} \label{eq-14-32}
 $$
@@ -353,7 +353,7 @@ Compare $Figures \text { } 14.3 \text {, } 14.11 \text {, } 14.12$ and $14.14$ w
 :::
 which says that the tangent to the curve described parametrically by $\vec{r}_{j}(\omega)$ is perpendicular to $\vec{k}$ and thus parallel to the phase waves.<sup>7</sup>
 
-2 This is one of many beautiful photographs by Ian Alexander - [http://easyweb.easynet.co.uk/](http://easyweb.easynet.co.uk/) iany/patterns/wake.htm.
+2 This is one of many beautiful photographs by Ian Alexander - [http://easyweb.easynet.co.uk/~iany/patterns/wake.htm](http://easyweb.easynet.co.uk/~iany/patterns/wake.htm).
 
 3 One could, if necessary, look only at y > a > 0 for some fixed a. This would not change the analysis in any essential way.
 

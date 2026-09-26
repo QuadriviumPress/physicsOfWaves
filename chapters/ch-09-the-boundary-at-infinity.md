@@ -33,7 +33,7 @@ $$
 
 Then what is $\psi(x,t)$? This is not a well-posed problem, because we only have a boundary condition on one side. Furthermore, $\psi(\infty, t)$ does not have a definite value. We can only talk about the value of a function at infinity if the function goes to a constant value. Here, we expect $\psi(x,t)$ to continue to oscillate as $x \rightarrow \infty$, so we cannot specify it. Instead, we can specify either the incoming (traveling toward the boundary at $x = 0$ in the $- x$ direction) or the outgoing (traveling away from $x = 0$ in the $+ x$ direction) traveling waves in the system. This is called a “boundary condition at $\infty$.”
 
-For example, we could take our boundary condition at infinity to be that no incoming traveling waves appear on the string. Physically, this corresponds to the situtation in which the motion of the string at $x = 0$ is producing the waves. In general, we can write a solution with angular frequency $\omega$ as a sum of four real traveling waves 
+For example, we could take our boundary condition at infinity to be that no incoming traveling waves appear on the string. Physically, this corresponds to the situation in which the motion of the string at $x = 0$ is producing the waves. In general, we can write a solution with angular frequency $\omega$ as a sum of four real traveling waves 
 $$
 \begin{aligned}
 &\psi(x, t)=a \cos (k x-\omega t)+b \sin (k x-\omega t) \\
@@ -143,7 +143,7 @@ $$
 \lim _{Z_{I I} \rightarrow \infty} R=-1 . \tag{9.17} \label{eq-9-17}
 $$
 
-This is situation in which it takes an infinite force to produce a wave in region $II$. Thus the string in region $II$ does not move at all, and in particular, the point $x = 0$ might as well be a fixed end. The solution, [9.17](#eq-9-17) ensures that the string does not move at $x = 0$, and therefore that the solution in region $I$ is $\psi(x, t) \propto \sin k x$. This solution is an infinite standing wave with a fixed end boundary condition.
+This is a situation in which it takes an infinite force to produce a wave in region $II$. Thus the string in region $II$ does not move at all, and in particular, the point $x = 0$ might as well be a fixed end. The solution, [9.17](#eq-9-17) ensures that the string does not move at $x = 0$, and therefore that the solution in region $I$ is $\psi(x, t) \propto \sin k x$. This solution is an infinite standing wave with a fixed end boundary condition.
 
 In the opposite limit, in which the impedance in region $II$ is zero, we get 
 $$
@@ -626,7 +626,7 @@ $|\tau|$ and $|R|$ plotted versus $\epsilon$ for two masses on a string.
 
 The general scattering problem for a change of $k$.
 :::
-Let us return to the simple example at the beginning of the chapter of a boundary between two regions of string with different values of $k$. This is a very important example because its general features are characteristic of many important physical systems. For example, when a light-wave encounters a transparent medium, the $k$ value changes. That situation is somewhat more complicated because of the three-dimensional nature of light waves and because of polarization. However the analogy between [9.59](#eq-9-59) and [9.9](#eq-9-9) and [9.10](#eq-9-10) means that we can take over the discussion of of the string directly to electromagnetic waves reflecting from a dielectric boundary perpendicular to the direction of the wave. In this section, we apply the general method of transfer matrices discussed in the previous section to this important example. Thus we consider the situation shown in [Figure 9.8](#fig-9-8). where the waves have the form 
+Let us return to the simple example at the beginning of the chapter of a boundary between two regions of string with different values of $k$. This is a very important example because its general features are characteristic of many important physical systems. For example, when a light-wave encounters a transparent medium, the $k$ value changes. That situation is somewhat more complicated because of the three-dimensional nature of light waves and because of polarization. However the analogy between [9.59](#eq-9-59) and [9.9](#eq-9-9) and [9.10](#eq-9-10) means that we can take over the discussion of the string directly to electromagnetic waves reflecting from a dielectric boundary perpendicular to the direction of the wave. In this section, we apply the general method of transfer matrices discussed in the previous section to this important example. Thus we consider the situation shown in [Figure 9.8](#fig-9-8). where the waves have the form 
 $$
 \psi(x, t)=A e^{-i \omega t}\left(T_{I} e^{i k_{1} x}+R_{I} e^{-i k_{1} x}\right) \text { in } I , \tag{9.78} \label{eq-9-78}
 $$

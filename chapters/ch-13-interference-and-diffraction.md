@@ -163,7 +163,7 @@ f(x, y)=\left\{\begin{array}{l}
 \end{array}\right. \tag{13.16} \label{eq-13-16}
 $$
 
-In fact, it will be useful to think about the more general problem, because the the function, [13.16](#eq-13-16), is discontinuous. As we will see later, this leads to more complicated diffraction phenomena than we see with a smooth function. In particular, we will assume that $f(x, y)$ is signifigantly different from zero only for small x and y and goes to zero for large $x$ and $y$. Then we can talk about the position of the “opening” that produces the beam, near $x = y = 0$.
+In fact, it will be useful to think about the more general problem, because the function, [13.16](#eq-13-16), is discontinuous. As we will see later, this leads to more complicated diffraction phenomena than we see with a smooth function. In particular, we will assume that $f(x, y)$ is significantly different from zero only for small x and y and goes to zero for large $x$ and $y$. Then we can talk about the position of the “opening” that produces the beam, near $x = y = 0$.
 
 We can think of this problem as a forced oscillation problem. It is much easier to analyze the physics if we ignore polarization, so we will discuss scalar waves. For example, we could consider the transverse waves on a flexible membrane or pressure waves in a gas. Equivalently, we could consider light waves that depend only on two dimensions, $x$ and $z$, and polarized in the $y$ direction. We will not worry about these niceties too much, because as usual, the basic properties of the wave phenomena will be determined by translation invariance properties that are independent of what it is that is waving!
 
@@ -180,7 +180,7 @@ in the $z = 0$ plane is produced. This is by no means a trivial problem, but we 
 
 #### Boundary at $\infty$
 
-To determine the form of the waves in the region $z > 0$ (beyond the barrier), we need boundary conditions both at $z = 0$ and at $z=\infty$. At $z = 0$, there is an oscillating amplitude given by [13.15](#eq-13-15).[^13-2-4] At $z=\infty$, we must impose the condition that there are no waves traveling in the −$z$ direction (back toward the barrier) and that the sodwlutions are well behaved at $\infty$.
+To determine the form of the waves in the region $z > 0$ (beyond the barrier), we need boundary conditions both at $z = 0$ and at $z=\infty$. At $z = 0$, there is an oscillating amplitude given by [13.15](#eq-13-15).[^13-2-4] At $z=\infty$, we must impose the condition that there are no waves traveling in the −$z$ direction (back toward the barrier) and that the solutions are well behaved at $\infty$.
 
 The normal modes have the form 
 $$
@@ -207,7 +207,7 @@ $$
 \text { if } \operatorname{Im} k_{z}=0, \text { then } \operatorname{Re} k_{z}>0 \text { ; otherwise } \operatorname{Im} k_{z}>0 \text { . } \tag{13.22} \label{eq-13-22}
 $$
 
-We discussed the physical signifigance of the boundary condition, [13.21](#eq-13-21), in our discussion of tunneling starting on page 274. There is real physics in the boundary condition at infinity. For example, consider the relation between this analysis and the discussion of path lengths in the previous section. In the language of the last chapter, we cannot describe the effects of the waves with imaginary $k_{z}$. However, the boundary condition, [13.21](#eq-13-21), ensures that these components of the wave will go to zero rapidly for large $z$.
+We discussed the physical significance of the boundary condition, [13.21](#eq-13-21), in our discussion of tunneling starting on page 274. There is real physics in the boundary condition at infinity. For example, consider the relation between this analysis and the discussion of path lengths in the previous section. In the language of the last chapter, we cannot describe the effects of the waves with imaginary $k_{z}$. However, the boundary condition, [13.21](#eq-13-21), ensures that these components of the wave will go to zero rapidly for large $z$.
 
 ### Boundary at $z=0$
 
@@ -307,7 +307,7 @@ $$
 
 marks the transition from a simple beam to the onset of important diffraction effects.
 
-If $L = 0$, which is the situtation in the example of a single slit of width $2a$, that we will analyze in detail later, important diffraction effects start immediately because the slit has sharp edges. However, the beam maintains some semblance of its original size until $z \approx a^{2} / \lambda$.
+If $L = 0$, which is the situation in the example of a single slit of width $2a$, that we will analyze in detail later, important diffraction effects start immediately because the slit has sharp edges. However, the beam maintains some semblance of its original size until $z \approx a^{2} / \lambda$.
 
 For z larger than $\omega L^{2} / v$, the $k_{x}$ and $k_{y}$ dependence from the $e^{i k_{z} z}$ factor cannot be ignored. In general, the evaluation of the integral, [13.19](#eq-13-19), is very hard. However, for very large $z, z \gg L$, we can use a physical argument to find the result of the integral, [13.19](#eq-13-19).
 
@@ -395,7 +395,7 @@ $$
 \left(k_{x}, k_{y}, k_{z}\right)=\left(k_{x}, k_{y}, \sqrt{\omega^{2} / v^{2}-k^{2}}\right) \propto(X, Y, Z) \tag{13.48} \label{eq-13-48}
 $$
 
-arises for large $Z$ becasue the phase of the exponential in [13.19](#eq-13-19) 
+arises for large $Z$ because the phase of the exponential in [13.19](#eq-13-19) 
 $$
 \psi(\vec{r}, t)=\int d k_{x} d k_{y} C\left(k_{x}, k_{y}\right) e^{i \vec{k} \cdot \vec{r}-i \omega t} \text { for } z>0 \tag{13.49} \label{eq-13-49}
 $$
@@ -993,7 +993,7 @@ Thus the diffraction pattern appears curved. What one sees on a screen or a reti
 
 ### Resolving Power
 
-The discussion so far has assumed that the diffraction grating is truely periodic. But this is only possible if the grating is infinite! In a finite grating, only the middle is periodic. The edges break the periodicity. In a grating consisting of only a finite number of grooves, $n$, the diffraction peaks are not infinitely sharp. They are not delta functions. However, as discussed at the beginning of this section, we actually already know what they look like in the finite
+The discussion so far has assumed that the diffraction grating is truly periodic. But this is only possible if the grating is infinite! In a finite grating, only the middle is periodic. The edges break the periodicity. In a grating consisting of only a finite number of grooves, $n$, the diffraction peaks are not infinitely sharp. They are not delta functions. However, as discussed at the beginning of this section, we actually already know what they look like in the finite
 
 :::{figure} ../images/lt-32791-clipboard_ed5e9440ef94715a05772719e88bfa3f8.png
 :label: fig-13-20

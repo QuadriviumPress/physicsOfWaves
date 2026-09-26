@@ -161,7 +161,7 @@ A \sin \theta+i B \cos \theta
 \end{array}\right) \tag{12.11} \label{eq-12-11}
 $$
 
-with $A \geq|B|$ and $0 \leq \theta<\pi$ and $\phi$ is real phase (which is not very relevant relevant to the physics but can be there to make the math look uglier). This represents elliptical polarization with semi-major axis $A$ at an angle $\theta$ with the 1 axis, as in 
+with $A \geq|B|$ and $0 \leq \theta<\pi$ and $\phi$ is real phase (which is not very relevant to the physics but can be there to make the math look uglier). This represents elliptical polarization with semi-major axis $A$ at an angle $\theta$ with the 1 axis, as in 
 $$
 u_{\theta}=\left(\begin{array}{c}
 \cos \theta \\
@@ -264,7 +264,7 @@ $$
 \vec{e}(\vec{k})=\psi_{1} \hat{e}_{1}+\psi_{2} \hat{e}_{2}. \tag{12.25} \label{eq-12-25}
 $$
 
-The components, $\psi_{1}$ and $\psi_{2}$ go into the the two-dimensional vector, [12.3](#eq-12-3), that describes the polarization state of the electromagnetic wave, just as it describes the polarization state of the string.[^12-2-1] We can always go back to the components of the electric field using [12.23](#eq-12-23) and [12.20](#eq-12-20) and then find the magnetic field using [12.21](#eq-12-21).
+The components, $\psi_{1}$ and $\psi_{2}$ go into the two-dimensional vector, [12.3](#eq-12-3), that describes the polarization state of the electromagnetic wave, just as it describes the polarization state of the string.[^12-2-1] We can always go back to the components of the electric field using [12.23](#eq-12-23) and [12.20](#eq-12-20) and then find the magnetic field using [12.21](#eq-12-21).
 
 Now the entire discussion of transverse waves on a string from [12.4](#eq-12-4) to [12.13](#eq-12-13) can be taken over to describe polarized light. The direction of displacement of the string goes over directly into the direction of the electric field. Thus the animation in program 12-1 applies just as well to the electric field in a polarized wave as to polarization in a string.
 
@@ -1261,7 +1261,7 @@ A plane wave of light traveling in the $+z$ direction is polarized at an angle $
 :label: prb-12-6
 :enumerator: 12.6
 
-A plane wave of light traveling in the $+z$ direction is polarized in the $x$ direction. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only $y$ polarized light, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” at an angle $\theta$ with the $x$ axis, some of the light get through. Suppose that the cellophane introduces a phase difference of $\phi$ between a wave polarized along the fast axis and one polarized along the slow axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$.
+A plane wave of light traveling in the $+z$ direction is polarized in the $x$ direction. When it encounters a sheet of polaroid in the $z = L$ plane that transmits only $y$ polarized light, the wave is completely absorbed. However, if the plane wave first passes through a sheet of cellophane in the $z = 0$ plane with the “fast axis” at an angle $\theta$ with the $x$ axis, some of the light gets through. Suppose that the cellophane introduces a phase difference of $\phi$ between a wave polarized along the fast axis and one polarized along the slow axis. Find the ratio of the intensity of the transmitted wave beyond the polaroid to the incoming wave intensity as a function of $\theta$ and $\phi$.
 
 Compare the result with the previous problem and explain what is going on.
 

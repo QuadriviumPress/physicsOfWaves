@@ -600,7 +600,7 @@ $$
 \left.\frac{\partial}{\partial x}\left[f\left(t-x / v_{I}\right)+g\left(t+x / v_{I}\right)\right]\right|_{x=0}=\left.\frac{\partial}{\partial x} h\left(t-x / v_{I I}\right)\right|_{x=0} . \tag{10.79} \label{eq-10-79}
 $$
 
-Using the chain rule in [10.79](#eq-10-79), we can relate the partial derivatives with respect to $x$ to deriviatives of the functions, 
+Using the chain rule in [10.79](#eq-10-79), we can relate the partial derivatives with respect to $x$ to derivatives of the functions, 
 $$
 \left.\frac{1}{v_{I}}\left[-f^{\prime}\left(t-x / v_{I}\right)+g^{\prime}\left(t+x / v_{I}\right)\right]\right|_{x=0}=-\left.\frac{1}{v_{I I}} h^{\prime}\left(t-x / v_{I I}\right)\right|_{x=0} , \tag{10.80} \label{eq-10-80}
 $$

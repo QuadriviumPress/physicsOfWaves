@@ -602,13 +602,13 @@ $$
 
 Comparing [8.68](#eq-8-68) with [8.74](#eq-8-74), you can see that [8.45](#eq-8-45) is satisfied, so that this pair of electric and magnetic fields form a part of a traveling electromagnetic plane wave.
 
-What is happening here is that the role of the charges and currents in the strips of the transmission line is to **confine** the electromagnetic waves. Without the conductors it would impossible to produce a **piece** of a plane wave, as we will see in much more detail in chapter 13.
+What is happening here is that the role of the charges and currents in the strips of the transmission line is to **confine** the electromagnetic waves. Without the conductors it would be impossible to produce a **piece** of a plane wave, as we will see in much more detail in chapter 13.
 
 Meanwhile, note that the mode with $\omega = 0$ and $k = 0$ must be treated with care, as with the $\omega = k = 0$ mode of the beaded string discussed in chapter 5. The mode in which the displaced charge is proportional to $z$ (see [5.41](#eq-5-41)) describes a situation in which the entire infinite transmission line is charged. This is not very interesting in the finite case. However, the mode that is independent of $z$, but increasing with time, proportional to $t$ is important. This describes the situation in which a constant current is flowing through the conductors. Inside the transmission line, in this case, is a constant magnetic field.
 
 ____________________
 
-[^8-4-4]: See Haliday and Resnick, part 2.
+[^8-4-4]: See Halliday and Resnick, part 2.
 
 ## 8.5: Damping
 
@@ -925,6 +925,6 @@ $$
 
 ___________________
 
-[^8-7-6]: This hint dates from the days before Mathematica was generally available. You may choose to to the problem differently, and that is OK as long as you explain clearly what you are doing and understand it!
+[^8-7-6]: This hint dates from the days before Mathematica was generally available. You may choose to do the problem differently, and that is OK as long as you explain clearly what you are doing and understand it!
 
 ::::

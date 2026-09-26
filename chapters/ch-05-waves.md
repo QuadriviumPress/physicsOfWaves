@@ -703,9 +703,9 @@ For example, consider an infinite space translation invariant circuit, a piece o
 :::{figure} ../images/lt-33689-clipboard_eb8b66dbf5e19014aaf968e4ca73bfe2b.png
 :label: fig-5-23
 :enumerator: 5.23
-:alt: A an infinite system of coupled LC circuits.
+:alt: An infinite system of coupled LC circuits.
 
-A an infinite system of coupled $LC$ circuits.
+An infinite system of coupled $LC$ circuits.
 :::
 [Figure 5.24](#fig-5-24), with the correspondence between the two systems being: 
 $$
