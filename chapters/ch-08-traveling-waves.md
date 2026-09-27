@@ -837,7 +837,7 @@ $$
 \psi_{j}=\psi(j a, t)=A(-1)^{j} e^{-k_{i} x} e^{-i \omega t}+B(-1)^{j} e^{k_{i} x} e^{-i \omega t} . \tag{8.106} \label{eq-8-106}
 $$
 
-As for [8.100](#eq-8-100), in a semi-infinite system that extends to $x \rightarrow \infty$, we must have $B = 0$, and there is no travelling wave.
+As for [8.100](#eq-8-100), in a semi-infinite system that extends to $x \rightarrow \infty$, we must have $B = 0$, and there is no traveling wave.
 
 One of the striking things about program 8-6 is the very rapid switch from a traveling wave solution in the allowed region to a standing wave solution with a rapid exponential decay of the amplitude in the high and low frequency regions. You see this also in [Figure 8.12](#fig-8-12) in the rapid change of $k_{i}$ near the cut-offs. The reason for this is that $k$ has a square-root dependence on the frequency near the cut-offs.
 

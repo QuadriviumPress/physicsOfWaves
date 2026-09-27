@@ -1289,7 +1289,7 @@ More often, the lens is curved on both sides. If the radii are $r_{1}$ and $r_{2
 :::{figure} ../images/lt-33307-clipboard_eb1e965bf2cbc037fd422251897e5e31e.png
 :label: fig-11-28
 :enumerator: 11.28
-:alt: the previous diagram should make clear, \theta_{1}+\theta_{2} is the “effective prism” angle for any h. The figure also exaggerates the curvature of the two sides, so that the lens pictured is not really “thin.” A thin lens looks more like [Figure 11.29](#fig-11-29). This is important because if the lens is fa…
+:alt: the previous diagram should make clear, $\theta_{1}+\theta_{2}$ is the “effective prism” angle for any $h$. The figure also exaggerates the curvature of the two sides, so that the lens pictured is not really “thin.” A thin lens looks more like [Figure 11.29](#fig-11-29). This is important because if the lens is fat, the height $h$ is not very well-defined because if the light inside the lens is not horizontal, we might have one $h$ where the light enters the lens and a very different $h$ where it comes out. But if the lens is thin and if the light rays are not too far from the perpendicular, this ambiguity in
 
 the previous diagram should make clear, $\theta_{1}+\theta_{2}$ is the “effective prism” angle for any $h$. The figure also exaggerates the curvature of the two sides, so that the lens pictured is not really “thin.” A thin lens looks more like [Figure 11.29](#fig-11-29). This is important because if the lens is fat, the height $h$ is not very well-defined because if the light inside the lens is not horizontal, we might have one $h$ where the light enters the lens and a very different $h$ where it comes out. But if the lens is thin and if the light rays are not too far from the perpendicular, this ambiguity in
 :::
@@ -1319,7 +1319,7 @@ This is called the “lens-maker’s formula”
 :::{figure} ../images/lt-33309-clipboard_eff2fd4d5c922892cab3aca929af49136.png
 :label: fig-11-30
 :enumerator: 11.30
-:alt: A lens of this kind focuses parallel rays of light, as shown in [Figure 11.30](#fig-11-30). This works because \delta \approx h / f as shown in [Figure 11.31](#fig-11-31). Parallel rays at any angle are focused onto a “focal plane” a distance f from the lens as shown in [Figure 11.32](#fig-11-32). The analytical way of explaining how thi…
+:alt: A lens of this kind focuses parallel rays of light, as shown in [Figure 11.30](#fig-11-30). This works because $\delta \approx h / f$ as shown in [Figure 11.31](#fig-11-31). Parallel rays at any angle are focused onto a “focal plane” a distance $f$ from the lens as shown in [Figure 11.32](#fig-11-32). The analytical way of explaining how this works is to note that the difference in the slopes of the rays on the two
 
 A lens of this kind focuses parallel rays of light, as shown in [Figure 11.30](#fig-11-30). This works because $\delta \approx h / f$ as shown in [Figure 11.31](#fig-11-31). Parallel rays at any angle are focused onto a “focal plane” a distance $f$ from the lens as shown in [Figure 11.32](#fig-11-32). The analytical way of explaining how this works is to note that the difference in the slopes of the rays on the two
 :::
@@ -1433,7 +1433,7 @@ Notice that [11.153](#eq-11-153) implies that neither $d_{1}$ nor $d_{2}$ can be
 :::{figure} ../images/lt-33320-clipboard_e530b0dec21b172fdba53f6b2a55d8b97.png
 :label: fig-11-41
 :enumerator: 11.41
-:alt: The image formation illustrated in [Figure 11.40](#fig-11-40) is what happens in a camera, and in your own eyeball. The lens focuses light from outside points onto points on the film, or your retina. Of course, the retina is not actually a plane. For the same reason, your eye lens is not a spherical lens, but …
+:alt: The image formation illustrated in [Figure 11.40](#fig-11-40) is what happens in a camera, and in your own eyeball. The lens focuses light from outside points onto points on the film, or your retina. Of course, the retina is not actually a plane. For the same reason, your eye lens is not a spherical lens, but some more complicated shape instead. The ray tracing has been done by evolution, however, so that objects in a plane get focused properly onto the retina.
 
 The image formation illustrated in [Figure 11.40](#fig-11-40) is what happens in a camera, and in your own eyeball. The lens focuses light from outside points onto points on the film, or your retina. Of course, the retina is not actually a plane. For the same reason, your eye lens is not a spherical lens, but some more complicated shape instead. The ray tracing has been done by evolution, however, so that objects in a plane get focused properly onto the retina.
 :::
@@ -1458,7 +1458,7 @@ A magnifying glass works by allowing you to produce a larger image of the object
 :::{figure} ../images/lt-33326-clipboard_ed78ac76e2e4c7372405557578d8c178e.png
 :label: fig-11-44
 :enumerator: 11.44
-:alt: Obviously, the image is larger. But note also that the magnifying glass changes the amount of accommodation required by your eye lens. Your eye is actually focusing on the virtual image which is much farther away, and that is easier. Thus when you look at an object in a magnifying glass, you can …
+:alt: Obviously, the image is larger. But note also that the magnifying glass changes the amount of accommodation required by your eye lens. Your eye is actually focusing on the virtual image which is much farther away, and that is easier. Thus when you look at an object in a magnifying glass, you can bring it much closer to your eye than you could without the glass. This further increases the magnifying effect, because closer objects look bigger. In this diagram you can also see a third salutary effect of the magnifying glass — more of the light from the object reaches your eye.
 
 Obviously, the image is larger. But note also that the magnifying glass changes the amount of accommodation required by your eye lens. Your eye is actually focusing on the virtual image which is much farther away, and that is easier. Thus when you look at an object in a magnifying glass, you can bring it much closer to your eye than you could without the glass. This further increases the magnifying effect, because closer objects look bigger. In this diagram you can also see a third salutary effect of the magnifying glass — more of the light from the object reaches your eye.
 :::
@@ -1471,7 +1471,7 @@ You may also have played with pinhole cameras, in which you form an image on a s
 :::{figure} ../images/lt-33324-clipboard_e9c68caafb2ba137339eb1207ed832bda.png
 :label: fig-11-45
 :enumerator: 11.45
-:alt: One disadvantage to a pinhole camera is that you need a very bright object. You throw away most of the light coming from the object. You can get more light by making the pinhole larger, but that makes the image fuzzier. Actually, however, you cannot make the pinhole too small anyway. Ultimately, …
+:alt: One disadvantage to a pinhole camera is that you need a very bright object. You throw away most of the light coming from the object. You can get more light by making the pinhole larger, but that makes the image fuzzier. Actually, however, you cannot make the pinhole too small anyway. Ultimately, as we will see in chapter 13, diffraction limits the resolution of a pinhole camera. If you try to make the image very sharp by making the pinhole very tiny, the beam you get inside the camera will be spread by diffraction. The best you can do is choose
 
 One disadvantage to a pinhole camera is that you need a very bright object. You throw away most of the light coming from the object. You can get more light by making the pinhole larger, but that makes the image fuzzier. Actually, however, you cannot make the pinhole too small anyway. Ultimately, as we will see in chapter 13, diffraction limits the resolution of a pinhole camera. If you try to make the image very sharp by making the pinhole very tiny, the beam you get inside the camera will be spread by diffraction. The best you can do is choose
 :::
@@ -1542,7 +1542,7 @@ A microscope looks something like what is shown in [Figure 11.49](#fig-11-49) (w
 :::{figure} ../images/lt-33330-clipboard_eb4c4c4a28c6996ad1635866439dfb8da.png
 :label: fig-11-49
 :enumerator: 11.49
-:alt: The sample is placed just a little more than the focal length, f_{1}, away from the objective so that a real image forms that is much bigger than the sample. Then you look at the real image with the eyepiece as a magnifying glass, again positioned a little more than its focal length, f_{2}, away,…
+:alt: The sample is placed just a little more than the focal length, $f_{1}$, away from the objective so that a real image forms that is much bigger than the sample. Then you look at the real image with the eyepiece as a magnifying glass, again positioned a little more than its focal length, $f_{2}$, away, to be able to view the image comfortably with your eyes relaxed. If the sample has size $h_{o}$, the size of the real image is
 
 The sample is placed just a little more than the focal length, $f_{1}$, away from the objective so that a real image forms that is much bigger than the sample. Then you look at the real image with the eyepiece as a magnifying glass, again positioned a little more than its focal length, $f_{2}$, away, to be able to view the image comfortably with your eyes relaxed. If the sample has size $h_{o}$, the size of the real image is
 :::
@@ -1582,7 +1582,7 @@ $$
 :::{figure} ../images/lt-33345-clipboard_e0a476ac492e822963c14bded29ed2028.png
 :label: fig-11-50
 :enumerator: 11.50
-:alt: Some of the light is also reflected from the drop. Note that the reflected light is reflected specularly. For \theta = 0, the light is reflected directly backwards. As \theta increases from 0 the reflected ray is rotated counter-clockwise with respect to the incoming ray by an angle \pi-2 \theta …
+:alt: Some of the light is also reflected from the drop. Note that the reflected light is reflected specularly. For $\theta = 0$, the light is reflected directly backwards. As $\theta$ increases from 0 the reflected ray is rotated counter-clockwise with respect to the incoming ray by an angle $\pi-2 \theta$ until at $\theta=\pi / 2$ it just kisses the sphere and is not rotated at all.
 
 Some of the light is also reflected from the drop. Note that the reflected light is reflected specularly. For $\theta = 0$, the light is reflected directly backwards. As $\theta$ increases from 0 the reflected ray is rotated counter-clockwise with respect to the incoming ray by an angle $\pi-2 \theta$ until at $\theta=\pi / 2$ it just kisses the sphere and is not rotated at all.
 :::

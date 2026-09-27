@@ -180,7 +180,7 @@ $$
 
 The steady state solution, [2.19](#eq-2-19), is a particular solution, not the most general solution to [2.16](#eq-2-16). As discussed in chapter 1, the most general solution of [2.16](#eq-2-16) is obtained by adding to the particular solution the most general solution for the free motion of the same oscillator (solutions of [2.3](#eq-2-3)). In general we will have to include these more general contributions to satisfy the initial conditions. However, as we have seen above, all of these solutions die away exponentially with time. They are what are called “transient” solutions. It is only the steady state solution that survives for a long time in the presence of damping. Unlike the solutions to the free equation of motion, the steady state solution has nothing to do with the initial values of the displacement and velocity. It is determined entirely by the driving force, [2.17](#eq-2-17). You will explore the transient solutions in [problem 2.4](#prb-2-4).
 
-Putting [2.19](#eq-2-19) and [2.17](#eq-2-17) into [2.16](#eq-2-16) and cancelling a factor of $e^{-i \omega_{d} t}$ from each side of the resulting equation, we get 
+Putting [2.19](#eq-2-19) and [2.17](#eq-2-17) into [2.16](#eq-2-16) and canceling a factor of $e^{-i \omega_{d} t}$ from each side of the resulting equation, we get 
 $$
 \left(-\omega_{d}^{2}-i \Gamma \omega_{d}+\omega_{0}^{2}\right) \mathcal{A}=\frac{F_{0}}{m} , \tag{2.20} \label{eq-2-20}
 $$
