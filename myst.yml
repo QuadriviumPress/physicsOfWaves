@@ -20,7 +20,6 @@ project:
       severity: ignore
       keys:
         - https://ocw.mit.edu/help/faq-fair-use
-        - http://easyweb.easynet.co.uk/
   keywords:
     - waves
     - vibrations

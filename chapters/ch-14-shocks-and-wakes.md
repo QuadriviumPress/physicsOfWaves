@@ -353,7 +353,7 @@ Compare $Figures \text { } 14.3 \text {, } 14.11 \text {, } 14.12$ and $14.14$ w
 :::
 which says that the tangent to the curve described parametrically by $\vec{r}_{j}(\omega)$ is perpendicular to $\vec{k}$ and thus parallel to the phase waves.<sup>7</sup>
 
-2 This is one of many beautiful photographs by Ian Alexander - [http://easyweb.easynet.co.uk/~iany/patterns/wake.htm](http://easyweb.easynet.co.uk/~iany/patterns/wake.htm).
+2 This is one of many beautiful photographs by Ian Alexander. His wake-pattern page is no longer online; an [archived copy](https://web.archive.org/web/20101124233623/http://easyweb.easynet.co.uk/~iany/patterns/wake.htm) is preserved at the Internet Archive.
 
 3 One could, if necessary, look only at y > a > 0 for some fixed a. This would not change the analysis in any essential way.
 
