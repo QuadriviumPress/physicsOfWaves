@@ -18,7 +18,7 @@
     "crawl": "python3 scripts/crawl_libretexts.py"
   },
   "devDependencies": {
-    "mystmd": "1.12.0",
+    "mystmd": "1.13.0",
     "sharp": "0.35.5",
     "yaml": "2.9.1"
   }
